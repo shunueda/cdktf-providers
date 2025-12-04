@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface SystemUserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#___path___ SystemUserGroup#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#___path___ SystemUserGroup#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#___unset___ SystemUserGroup#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#___unset___ SystemUserGroup#___unset___}
   */
   readonly unset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#comment SystemUserGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#comment SystemUserGroup#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#id SystemUserGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#id SystemUserGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,25 +33,25 @@ export interface SystemUserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the user group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#name SystemUserGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#name SystemUserGroup#name}
   */
   readonly name: string;
   /**
   * A set of allowed policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#policy SystemUserGroup#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#policy SystemUserGroup#policy}
   */
   readonly policy?: string[];
   /**
   * The name of the skin that will be used for WebFig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#skin SystemUserGroup#skin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#skin SystemUserGroup#skin}
   */
   readonly skin?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group routeros_system_user_group}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group routeros_system_user_group}
 */
 export class SystemUserGroup extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class SystemUserGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemUserGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemUserGroup to import
-  * @param importFromId The id of the existing SystemUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemUserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class SystemUserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/system_user_group routeros_system_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/system_user_group routeros_system_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class SystemUserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_user_group',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

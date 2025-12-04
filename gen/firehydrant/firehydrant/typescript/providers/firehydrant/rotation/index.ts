@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,214 @@ import * as cdktf from 'cdktf';
 
 export interface RotationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#color Rotation#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#color Rotation#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#coverage_gap_notification_interval Rotation#coverage_gap_notification_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#coverage_gap_notification_interval Rotation#coverage_gap_notification_interval}
   */
   readonly coverageGapNotificationInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#description Rotation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#description Rotation#description}
   */
   readonly description?: string;
   /**
   * RFC3339 timestamp for when the schedule update should take effect. If not provided or if the time is in the past, the update will take effect immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#effective_at Rotation#effective_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#effective_at Rotation#effective_at}
   */
   readonly effectiveAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#enable_slack_channel_notifications Rotation#enable_slack_channel_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#enable_slack_channel_notifications Rotation#enable_slack_channel_notifications}
   */
   readonly enableSlackChannelNotifications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#id Rotation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#id Rotation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#members Rotation#members}
-  */
-  readonly members?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#name Rotation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#name Rotation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#prevent_shift_deletion Rotation#prevent_shift_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#prevent_shift_deletion Rotation#prevent_shift_deletion}
   */
   readonly preventShiftDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#schedule_id Rotation#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#schedule_id Rotation#schedule_id}
   */
   readonly scheduleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#slack_user_group_id Rotation#slack_user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#slack_user_group_id Rotation#slack_user_group_id}
   */
   readonly slackUserGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_time Rotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#start_time Rotation#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#team_id Rotation#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#team_id Rotation#team_id}
   */
   readonly teamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#time_zone Rotation#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#time_zone Rotation#time_zone}
   */
   readonly timeZone: string;
   /**
+  * members block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#members Rotation#members}
+  */
+  readonly members?: RotationMembers[] | cdktf.IResolvable;
+  /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#restrictions Rotation#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#restrictions Rotation#restrictions}
   */
   readonly restrictions?: RotationRestrictions[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#strategy Rotation#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#strategy Rotation#strategy}
   */
   readonly strategy: RotationStrategy;
 }
+export interface RotationMembers {
+  /**
+  * The ID of the user to add to the rotation. You can use the firehydrant_user data source to look up a user by email/name. Leave empty to create an unassigned slot in the rotation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#user_id Rotation#user_id}
+  */
+  readonly userId?: string;
+}
+
+export function rotationMembersToTerraform(struct?: RotationMembers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    user_id: cdktf.stringToTerraform(struct!.userId),
+  }
+}
+
+
+export function rotationMembersToHclTerraform(struct?: RotationMembers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    user_id: {
+      value: cdktf.stringToHclTerraform(struct!.userId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RotationMembersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): RotationMembers | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._userId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userId = this._userId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RotationMembers | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._userId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._userId = value.userId;
+    }
+  }
+
+  // user_id - computed: false, optional: true, required: false
+  private _userId?: string; 
+  public get userId() {
+    return this.getStringAttribute('user_id');
+  }
+  public set userId(value: string) {
+    this._userId = value;
+  }
+  public resetUserId() {
+    this._userId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userIdInput() {
+    return this._userId;
+  }
+}
+
+export class RotationMembersList extends cdktf.ComplexList {
+  public internalValue? : RotationMembers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): RotationMembersOutputReference {
+    return new RotationMembersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface RotationRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#end_day Rotation#end_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#end_day Rotation#end_day}
   */
   readonly endDay: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#end_time Rotation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#end_time Rotation#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_day Rotation#start_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#start_day Rotation#start_day}
   */
   readonly startDay: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_time Rotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#start_time Rotation#start_time}
   */
   readonly startTime: string;
 }
@@ -286,19 +406,19 @@ export class RotationRestrictionsList extends cdktf.ComplexList {
 }
 export interface RotationStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#handoff_day Rotation#handoff_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#handoff_day Rotation#handoff_day}
   */
   readonly handoffDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#handoff_time Rotation#handoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#handoff_time Rotation#handoff_time}
   */
   readonly handoffTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#shift_duration Rotation#shift_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#shift_duration Rotation#shift_duration}
   */
   readonly shiftDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#type Rotation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#type Rotation#type}
   */
   readonly type: string;
 }
@@ -466,7 +586,7 @@ export class RotationStrategyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation firehydrant_rotation}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation firehydrant_rotation}
 */
 export class Rotation extends cdktf.TerraformResource {
 
@@ -482,7 +602,7 @@ export class Rotation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rotation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rotation to import
-  * @param importFromId The id of the existing Rotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +614,7 @@ export class Rotation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation firehydrant_rotation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/rotation firehydrant_rotation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +625,8 @@ export class Rotation extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_rotation',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.12',
-        providerVersionConstraint: '0.14.12'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -522,7 +642,6 @@ export class Rotation extends cdktf.TerraformResource {
     this._effectiveAt = config.effectiveAt;
     this._enableSlackChannelNotifications = config.enableSlackChannelNotifications;
     this._id = config.id;
-    this._members = config.members;
     this._name = config.name;
     this._preventShiftDeletion = config.preventShiftDeletion;
     this._scheduleId = config.scheduleId;
@@ -530,6 +649,7 @@ export class Rotation extends cdktf.TerraformResource {
     this._startTime = config.startTime;
     this._teamId = config.teamId;
     this._timeZone = config.timeZone;
+    this._members.internalValue = config.members;
     this._restrictions.internalValue = config.restrictions;
     this._strategy.internalValue = config.strategy;
   }
@@ -634,22 +754,6 @@ export class Rotation extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // members - computed: false, optional: true, required: false
-  private _members?: string[]; 
-  public get members() {
-    return this.getListAttribute('members');
-  }
-  public set members(value: string[]) {
-    this._members = value;
-  }
-  public resetMembers() {
-    this._members = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get membersInput() {
-    return this._members;
-  }
-
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -750,6 +854,22 @@ export class Rotation extends cdktf.TerraformResource {
     return this._timeZone;
   }
 
+  // members - computed: false, optional: true, required: false
+  private _members = new RotationMembersList(this, "members", false);
+  public get members() {
+    return this._members;
+  }
+  public putMembers(value: RotationMembers[] | cdktf.IResolvable) {
+    this._members.internalValue = value;
+  }
+  public resetMembers() {
+    this._members.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get membersInput() {
+    return this._members.internalValue;
+  }
+
   // restrictions - computed: false, optional: true, required: false
   private _restrictions = new RotationRestrictionsList(this, "restrictions", false);
   public get restrictions() {
@@ -791,7 +911,6 @@ export class Rotation extends cdktf.TerraformResource {
       effective_at: cdktf.stringToTerraform(this._effectiveAt),
       enable_slack_channel_notifications: cdktf.booleanToTerraform(this._enableSlackChannelNotifications),
       id: cdktf.stringToTerraform(this._id),
-      members: cdktf.listMapper(cdktf.stringToTerraform, false)(this._members),
       name: cdktf.stringToTerraform(this._name),
       prevent_shift_deletion: cdktf.booleanToTerraform(this._preventShiftDeletion),
       schedule_id: cdktf.stringToTerraform(this._scheduleId),
@@ -799,6 +918,7 @@ export class Rotation extends cdktf.TerraformResource {
       start_time: cdktf.stringToTerraform(this._startTime),
       team_id: cdktf.stringToTerraform(this._teamId),
       time_zone: cdktf.stringToTerraform(this._timeZone),
+      members: cdktf.listMapper(rotationMembersToTerraform, true)(this._members.internalValue),
       restrictions: cdktf.listMapper(rotationRestrictionsToTerraform, true)(this._restrictions.internalValue),
       strategy: rotationStrategyToTerraform(this._strategy.internalValue),
     };
@@ -842,12 +962,6 @@ export class Rotation extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      members: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._members),
-        isBlock: false,
-        type: "list",
-        storageClassType: "stringList",
-      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
@@ -889,6 +1003,12 @@ export class Rotation extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      members: {
+        value: cdktf.listMapperHcl(rotationMembersToHclTerraform, true)(this._members.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RotationMembersList",
       },
       restrictions: {
         value: cdktf.listMapperHcl(rotationRestrictionsToHclTerraform, true)(this._restrictions.internalValue),

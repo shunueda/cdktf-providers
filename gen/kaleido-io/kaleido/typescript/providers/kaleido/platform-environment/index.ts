@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_environment
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PlatformEnvironmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Environment Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_environment#name PlatformEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_environment#name PlatformEnvironment#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_environment kaleido_platform_environment}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_environment kaleido_platform_environment}
 */
 export class PlatformEnvironment extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class PlatformEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformEnvironment to import
-  * @param importFromId The id of the existing PlatformEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class PlatformEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_environment kaleido_platform_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_environment kaleido_platform_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class PlatformEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_environment',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

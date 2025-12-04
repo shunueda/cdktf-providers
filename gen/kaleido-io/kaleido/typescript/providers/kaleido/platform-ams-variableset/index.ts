@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformAmsVariablesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#classification PlatformAmsVariableset#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#classification PlatformAmsVariableset#classification}
   */
   readonly classification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#description PlatformAmsVariableset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#description PlatformAmsVariableset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#environment PlatformAmsVariableset#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#environment PlatformAmsVariableset#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#name PlatformAmsVariableset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#name PlatformAmsVariableset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#service PlatformAmsVariableset#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#service PlatformAmsVariableset#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#variables_json PlatformAmsVariableset#variables_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#variables_json PlatformAmsVariableset#variables_json}
   */
   readonly variablesJson: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset kaleido_platform_ams_variableset}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset kaleido_platform_ams_variableset}
 */
 export class PlatformAmsVariableset extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PlatformAmsVariableset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformAmsVariableset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformAmsVariableset to import
-  * @param importFromId The id of the existing PlatformAmsVariableset that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformAmsVariableset that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformAmsVariableset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PlatformAmsVariableset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_variableset kaleido_platform_ams_variableset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_variableset kaleido_platform_ams_variableset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PlatformAmsVariableset extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_ams_variableset',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

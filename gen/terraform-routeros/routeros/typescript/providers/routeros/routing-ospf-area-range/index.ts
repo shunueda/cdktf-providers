@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RoutingOspfAreaRangeConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#___path___ RoutingOspfAreaRange#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#___path___ RoutingOspfAreaRange#___path___}
   */
   readonly path?: string;
   /**
   * Whether to create a summary LSA and advertise it to the adjacent areas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#advertise RoutingOspfAreaRange#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#advertise RoutingOspfAreaRange#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
   * The OSPF area associated with this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#area RoutingOspfAreaRange#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#area RoutingOspfAreaRange#area}
   */
   readonly area: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#comment RoutingOspfAreaRange#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#comment RoutingOspfAreaRange#comment}
   */
   readonly comment?: string;
   /**
   * The cost of the summary LSA this range will createdefault - use the largest cost of all routes used (i.e. routes that fall within this range).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#cost RoutingOspfAreaRange#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#cost RoutingOspfAreaRange#cost}
   */
   readonly cost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#disabled RoutingOspfAreaRange#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#disabled RoutingOspfAreaRange#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#id RoutingOspfAreaRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#id RoutingOspfAreaRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,13 +49,13 @@ export interface RoutingOspfAreaRangeConfig extends cdktf.TerraformMetaArguments
   /**
   * The network prefix of this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#prefix RoutingOspfAreaRange#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#prefix RoutingOspfAreaRange#prefix}
   */
   readonly prefix?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range routeros_routing_ospf_area_range}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range routeros_routing_ospf_area_range}
 */
 export class RoutingOspfAreaRange extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class RoutingOspfAreaRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingOspfAreaRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingOspfAreaRange to import
-  * @param importFromId The id of the existing RoutingOspfAreaRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingOspfAreaRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingOspfAreaRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class RoutingOspfAreaRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_ospf_area_range routeros_routing_ospf_area_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_ospf_area_range routeros_routing_ospf_area_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class RoutingOspfAreaRange extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_ospf_area_range',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

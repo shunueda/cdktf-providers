@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DataMistOrgInventoryConfig extends cdktf.TerraformMetaArguments
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#mac DataMistOrgInventory#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#mac DataMistOrgInventory#mac}
   */
   readonly mac?: string;
   /**
   * Device model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#model DataMistOrgInventory#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#model DataMistOrgInventory#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#org_id DataMistOrgInventory#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#org_id DataMistOrgInventory#org_id}
   */
   readonly orgId: string;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#serial DataMistOrgInventory#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#serial DataMistOrgInventory#serial}
   */
   readonly serial?: string;
   /**
   * Site id if assigned, null if not assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#site_id DataMistOrgInventory#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#site_id DataMistOrgInventory#site_id}
   */
   readonly siteId?: string;
   /**
   * enum: `ap`, `gateway`, `switch`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#type DataMistOrgInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#type DataMistOrgInventory#type}
   */
   readonly type?: string;
   /**
   * To display Unassigned devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#unassigned DataMistOrgInventory#unassigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#unassigned DataMistOrgInventory#unassigned}
   */
   readonly unassigned?: boolean | cdktf.IResolvable;
   /**
   * To display Virtual Chassis members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#vc DataMistOrgInventory#vc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#vc DataMistOrgInventory#vc}
   */
   readonly vc?: boolean | cdktf.IResolvable;
   /**
   * Virtual Chassis MAC Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#vc_mac DataMistOrgInventory#vc_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#vc_mac DataMistOrgInventory#vc_mac}
   */
   readonly vcMac?: string;
 }
@@ -217,7 +217,7 @@ export class DataMistOrgInventoryOrgInventoryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory mist_org_inventory}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory mist_org_inventory}
 */
 export class DataMistOrgInventory extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataMistOrgInventory extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistOrgInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistOrgInventory to import
-  * @param importFromId The id of the existing DataMistOrgInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistOrgInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistOrgInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataMistOrgInventory extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/data-sources/org_inventory mist_org_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_inventory mist_org_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataMistOrgInventory extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_org_inventory',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

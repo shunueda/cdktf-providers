@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GatewayInterceptorV2Config extends cdktf.TerraformMetaArguments
   /**
   * The name of the interceptor, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#name GatewayInterceptorV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#name GatewayInterceptorV2#name}
   */
   readonly name: string;
   /**
   * The targeting scope of the interceptor. See [documentation](https://docs.conduktor.io/gateway/reference/resources-reference/#interceptor-targeting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#scope GatewayInterceptorV2#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#scope GatewayInterceptorV2#scope}
   */
   readonly scope?: GatewayInterceptorV2Scope;
   /**
   * The interceptor specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#spec GatewayInterceptorV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#spec GatewayInterceptorV2#spec}
   */
   readonly spec: GatewayInterceptorV2Spec;
 }
@@ -30,19 +30,19 @@ export interface GatewayInterceptorV2Scope {
   /**
   * The name of the group the interceptor will be applied to. Optional parameter for defining the scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#group GatewayInterceptorV2#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#group GatewayInterceptorV2#group}
   */
   readonly group?: string;
   /**
   * The username the interceptor will be applied to. Optional parameter for defining the scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#username GatewayInterceptorV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#username GatewayInterceptorV2#username}
   */
   readonly username?: string;
   /**
   * The name of the virtual cluster the interceptor will be applied to. Optional parameter for defining the scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#vcluster GatewayInterceptorV2#vcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#vcluster GatewayInterceptorV2#vcluster}
   */
   readonly vcluster?: string;
 }
@@ -196,25 +196,25 @@ export interface GatewayInterceptorV2Spec {
   /**
   * An optional comment for the interceptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#comment GatewayInterceptorV2#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#comment GatewayInterceptorV2#comment}
   */
   readonly comment?: string;
   /**
   * Plugin configuration in JSON format. Check the [interceptor catalog](https://docs.conduktor.io/gateway/category/interceptor-catalog/) for details on the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#config GatewayInterceptorV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#config GatewayInterceptorV2#config}
   */
   readonly config: string;
   /**
   * The class of the plugin. Check the [interceptor catalog](https://docs.conduktor.io/gateway/category/interceptor-catalog/) for available plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#plugin_class GatewayInterceptorV2#plugin_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#plugin_class GatewayInterceptorV2#plugin_class}
   */
   readonly pluginClass: string;
   /**
   * The priority of the interceptor. Must be greater than 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#priority GatewayInterceptorV2#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#priority GatewayInterceptorV2#priority}
   */
   readonly priority: number;
 }
@@ -386,7 +386,7 @@ export class GatewayInterceptorV2SpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2 conduktor_gateway_interceptor_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2 conduktor_gateway_interceptor_v2}
 */
 export class GatewayInterceptorV2 extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class GatewayInterceptorV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayInterceptorV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayInterceptorV2 to import
-  * @param importFromId The id of the existing GatewayInterceptorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayInterceptorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayInterceptorV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class GatewayInterceptorV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_interceptor_v2 conduktor_gateway_interceptor_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_interceptor_v2 conduktor_gateway_interceptor_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class GatewayInterceptorV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_gateway_interceptor_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

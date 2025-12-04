@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CorefuncProviderConfig {
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs#alias CorefuncProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs#alias CorefuncProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs corefunc}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs corefunc}
 */
 export class CorefuncProvider extends cdktf.TerraformProvider {
 
@@ -32,7 +32,7 @@ export class CorefuncProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CorefuncProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CorefuncProvider to import
-  * @param importFromId The id of the existing CorefuncProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CorefuncProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CorefuncProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class CorefuncProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs corefunc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs corefunc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class CorefuncProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'corefunc',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       terraformProviderSource: 'northwood-labs/corefunc'
     });

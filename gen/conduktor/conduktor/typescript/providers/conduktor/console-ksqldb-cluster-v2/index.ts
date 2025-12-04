@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsoleKsqldbClusterV2Config extends cdktf.TerraformMetaArgumen
   /**
   * Kafka cluster name linked with the current KsqlDB cluster. Must already exist in Conduktor Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#cluster ConsoleKsqldbClusterV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#cluster ConsoleKsqldbClusterV2#cluster}
   */
   readonly cluster: string;
   /**
   * KsqlDB cluster name, must be unique, acts as an ID for import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#name ConsoleKsqldbClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#name ConsoleKsqldbClusterV2#name}
   */
   readonly name: string;
   /**
   * KsqlDB cluster specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#spec ConsoleKsqldbClusterV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#spec ConsoleKsqldbClusterV2#spec}
   */
   readonly spec: ConsoleKsqldbClusterV2Spec;
 }
@@ -30,13 +30,13 @@ export interface ConsoleKsqldbClusterV2SpecSecurityBasicAuth {
   /**
   * KsqlDB cluster basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#password ConsoleKsqldbClusterV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#password ConsoleKsqldbClusterV2#password}
   */
   readonly password: string;
   /**
   * KsqlDB cluster basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#username ConsoleKsqldbClusterV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#username ConsoleKsqldbClusterV2#username}
   */
   readonly username: string;
 }
@@ -155,7 +155,7 @@ export interface ConsoleKsqldbClusterV2SpecSecurityBearerToken {
   /**
   * KsqlDB cluster bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#token ConsoleKsqldbClusterV2#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#token ConsoleKsqldbClusterV2#token}
   */
   readonly token: string;
 }
@@ -248,13 +248,13 @@ export interface ConsoleKsqldbClusterV2SpecSecuritySslAuth {
   /**
   * KsqlDB cluster mTLS auth certificate chain PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#certificate_chain ConsoleKsqldbClusterV2#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#certificate_chain ConsoleKsqldbClusterV2#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * KsqlDB cluster mTLS auth private key PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#key ConsoleKsqldbClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#key ConsoleKsqldbClusterV2#key}
   */
   readonly key: string;
 }
@@ -373,19 +373,19 @@ export interface ConsoleKsqldbClusterV2SpecSecurity {
   /**
   * Basic auth for KsqlDB cluster security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#basic_auth ConsoleKsqldbClusterV2#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#basic_auth ConsoleKsqldbClusterV2#basic_auth}
   */
   readonly basicAuth?: ConsoleKsqldbClusterV2SpecSecurityBasicAuth;
   /**
   * Bearer token for KsqlDB cluster security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#bearer_token ConsoleKsqldbClusterV2#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#bearer_token ConsoleKsqldbClusterV2#bearer_token}
   */
   readonly bearerToken?: ConsoleKsqldbClusterV2SpecSecurityBearerToken;
   /**
   * SSL auth (mTLS) for KsqlDB cluster security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#ssl_auth ConsoleKsqldbClusterV2#ssl_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#ssl_auth ConsoleKsqldbClusterV2#ssl_auth}
   */
   readonly sslAuth?: ConsoleKsqldbClusterV2SpecSecuritySslAuth;
 }
@@ -539,31 +539,31 @@ export interface ConsoleKsqldbClusterV2Spec {
   /**
   * KsqlDB cluster display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#display_name ConsoleKsqldbClusterV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#display_name ConsoleKsqldbClusterV2#display_name}
   */
   readonly displayName: string;
   /**
   * Key-Value HTTP headers to add to requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#headers ConsoleKsqldbClusterV2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#headers ConsoleKsqldbClusterV2#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Ignore untrusted certificate for KsqlDB cluster requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#ignore_untrusted_certificate ConsoleKsqldbClusterV2#ignore_untrusted_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#ignore_untrusted_certificate ConsoleKsqldbClusterV2#ignore_untrusted_certificate}
   */
   readonly ignoreUntrustedCertificate?: boolean | cdktf.IResolvable;
   /**
   * KsqlDB cluster security configuration. One of `basic_auth`, `bearer_token`, `ssl_auth`. If not set, the cluster will be considered as unsecured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#security ConsoleKsqldbClusterV2#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#security ConsoleKsqldbClusterV2#security}
   */
   readonly security?: ConsoleKsqldbClusterV2SpecSecurity;
   /**
   * URL of a KsqlDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#url ConsoleKsqldbClusterV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#url ConsoleKsqldbClusterV2#url}
   */
   readonly url: string;
 }
@@ -767,7 +767,7 @@ export class ConsoleKsqldbClusterV2SpecOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2 conduktor_console_ksqldb_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2 conduktor_console_ksqldb_cluster_v2}
 */
 export class ConsoleKsqldbClusterV2 extends cdktf.TerraformResource {
 
@@ -783,7 +783,7 @@ export class ConsoleKsqldbClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleKsqldbClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleKsqldbClusterV2 to import
-  * @param importFromId The id of the existing ConsoleKsqldbClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleKsqldbClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleKsqldbClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class ConsoleKsqldbClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_ksqldb_cluster_v2 conduktor_console_ksqldb_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_ksqldb_cluster_v2 conduktor_console_ksqldb_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class ConsoleKsqldbClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_ksqldb_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformCmsActionDeployConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#build PlatformCmsActionDeploy#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#build PlatformCmsActionDeploy#build}
   */
   readonly buildAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#description PlatformCmsActionDeploy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#description PlatformCmsActionDeploy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#environment PlatformCmsActionDeploy#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#environment PlatformCmsActionDeploy#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#firefly_namespace PlatformCmsActionDeploy#firefly_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#firefly_namespace PlatformCmsActionDeploy#firefly_namespace}
   */
   readonly fireflyNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#name PlatformCmsActionDeploy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#ignore_destroy PlatformCmsActionDeploy#ignore_destroy}
+  */
+  readonly ignoreDestroy?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#name PlatformCmsActionDeploy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#params_json PlatformCmsActionDeploy#params_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#params_json PlatformCmsActionDeploy#params_json}
   */
   readonly paramsJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#service PlatformCmsActionDeploy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#service PlatformCmsActionDeploy#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#signing_key PlatformCmsActionDeploy#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#signing_key PlatformCmsActionDeploy#signing_key}
   */
   readonly signingKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#transaction_manager PlatformCmsActionDeploy#transaction_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#transaction_manager PlatformCmsActionDeploy#transaction_manager}
   */
   readonly transactionManager?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy kaleido_platform_cms_action_deploy}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy kaleido_platform_cms_action_deploy}
 */
 export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
 
@@ -62,7 +66,7 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformCmsActionDeploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformCmsActionDeploy to import
-  * @param importFromId The id of the existing PlatformCmsActionDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformCmsActionDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformCmsActionDeploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +78,7 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_deploy kaleido_platform_cms_action_deploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_deploy kaleido_platform_cms_action_deploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +89,8 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_cms_action_deploy',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -100,6 +104,7 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
     this._description = config.description;
     this._environment = config.environment;
     this._fireflyNamespace = config.fireflyNamespace;
+    this._ignoreDestroy = config.ignoreDestroy;
     this._name = config.name;
     this._paramsJson = config.paramsJson;
     this._service = config.service;
@@ -187,6 +192,22 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
   // idempotency_key - computed: true, optional: false, required: false
   public get idempotencyKey() {
     return this.getStringAttribute('idempotency_key');
+  }
+
+  // ignore_destroy - computed: false, optional: true, required: false
+  private _ignoreDestroy?: boolean | cdktf.IResolvable; 
+  public get ignoreDestroy() {
+    return this.getBooleanAttribute('ignore_destroy');
+  }
+  public set ignoreDestroy(value: boolean | cdktf.IResolvable) {
+    this._ignoreDestroy = value;
+  }
+  public resetIgnoreDestroy() {
+    this._ignoreDestroy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreDestroyInput() {
+    return this._ignoreDestroy;
   }
 
   // name - computed: false, optional: false, required: true
@@ -280,6 +301,7 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       environment: cdktf.stringToTerraform(this._environment),
       firefly_namespace: cdktf.stringToTerraform(this._fireflyNamespace),
+      ignore_destroy: cdktf.booleanToTerraform(this._ignoreDestroy),
       name: cdktf.stringToTerraform(this._name),
       params_json: cdktf.stringToTerraform(this._paramsJson),
       service: cdktf.stringToTerraform(this._service),
@@ -313,6 +335,12 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ignore_destroy: {
+        value: cdktf.booleanToHclTerraform(this._ignoreDestroy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

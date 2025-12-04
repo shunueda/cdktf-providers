@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface MembershipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership#consortium_id Membership#consortium_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership#consortium_id Membership#consortium_id}
   */
   readonly consortiumId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership#org_name Membership#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership#org_name Membership#org_name}
   */
   readonly orgName: string;
   /**
   * In a decentalized consortium memberships are driven by invitation, and will be pre-existing at the point of deploying infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership#pre_existing Membership#pre_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership#pre_existing Membership#pre_existing}
   */
   readonly preExisting?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership kaleido_membership}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership kaleido_membership}
 */
 export class Membership extends cdktf.TerraformResource {
 
@@ -40,7 +40,7 @@ export class Membership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Membership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Membership to import
-  * @param importFromId The id of the existing Membership that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Membership that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Membership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class Membership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/membership kaleido_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/membership kaleido_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class Membership extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_membership',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

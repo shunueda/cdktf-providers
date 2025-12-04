@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface WifiSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#___path___ WifiSecurity#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#___path___ WifiSecurity#___path___}
   */
   readonly path?: string;
   /**
   * Authentication types to enable on the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#authentication_types WifiSecurity#authentication_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#authentication_types WifiSecurity#authentication_types}
   */
   readonly authenticationTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#comment WifiSecurity#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#comment WifiSecurity#comment}
   */
   readonly comment?: string;
   /**
   * APs within the same connect group do not allow more than 1 client device with the same MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#connect_group WifiSecurity#connect_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#connect_group WifiSecurity#connect_group}
   */
   readonly connectGroup?: string;
   /**
   * An option to determine how a connection is handled if the MAC address of the client device is the same as that of another active connection to another AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#connect_priority WifiSecurity#connect_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#connect_priority WifiSecurity#connect_priority}
   */
   readonly connectPriority?: string;
   /**
   * Identifiers of elliptic curve cryptography groups to use in SAE (WPA3) authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#dh_groups WifiSecurity#dh_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#dh_groups WifiSecurity#dh_groups}
   */
   readonly dhGroups?: number[];
   /**
   * An option to disable inclusion of a PMKID in EAPOL frames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#disable_pmkid WifiSecurity#disable_pmkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#disable_pmkid WifiSecurity#disable_pmkid}
   */
   readonly disablePmkid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#disabled WifiSecurity#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#disabled WifiSecurity#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * An option to send accounting information to RADIUS server for EAP-authenticated peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_accounting WifiSecurity#eap_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_accounting WifiSecurity#eap_accounting}
   */
   readonly eapAccounting?: boolean | cdktf.IResolvable;
   /**
   * An option to specify anonymous identity for EAP outer authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_anonymous_identity WifiSecurity#eap_anonymous_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_anonymous_identity WifiSecurity#eap_anonymous_identity}
   */
   readonly eapAnonymousIdentity?: string;
   /**
   * A policy for handling the TLS certificate of the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_certificate_mode WifiSecurity#eap_certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_certificate_mode WifiSecurity#eap_certificate_mode}
   */
   readonly eapCertificateMode?: string;
   /**
   * A set of EAP methods to consider for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_methods WifiSecurity#eap_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_methods WifiSecurity#eap_methods}
   */
   readonly eapMethods?: string[];
   /**
   * Password to use when the chosen EAP method requires one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_password WifiSecurity#eap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_password WifiSecurity#eap_password}
   */
   readonly eapPassword?: string;
   /**
   * Name or id of a certificate in the device's certificate store to use when the chosen EAP authentication method requires one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_tls_certificate WifiSecurity#eap_tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_tls_certificate WifiSecurity#eap_tls_certificate}
   */
   readonly eapTlsCertificate?: string;
   /**
   * Username to use when the chosen EAP method requires one. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#eap_username WifiSecurity#eap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#eap_username WifiSecurity#eap_username}
   */
   readonly eapUsername?: string;
   /**
   * A list of ciphers to support for encrypting unicast traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#encryption WifiSecurity#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#encryption WifiSecurity#encryption}
   */
   readonly encryption?: string[];
   /**
   * An option to enable 802.11r fast BSS transitions (roaming).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft WifiSecurity#ft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft WifiSecurity#ft}
   */
   readonly ft?: boolean | cdktf.IResolvable;
   /**
   * The fast BSS transition mobility domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_mobility_domain WifiSecurity#ft_mobility_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_mobility_domain WifiSecurity#ft_mobility_domain}
   */
   readonly ftMobilityDomain?: string;
   /**
   * Fast BSS transition PMK-R0 key holder identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_nas_identifier WifiSecurity#ft_nas_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_nas_identifier WifiSecurity#ft_nas_identifier}
   */
   readonly ftNasIdentifier?: string;
   /**
   * An option to enable fast BSS transitions over DS (distributed system).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_over_ds WifiSecurity#ft_over_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_over_ds WifiSecurity#ft_over_ds}
   */
   readonly ftOverDs?: boolean | cdktf.IResolvable;
   /**
   * An option to preserve VLAN ID when roaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_preserve_vlanid WifiSecurity#ft_preserve_vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_preserve_vlanid WifiSecurity#ft_preserve_vlanid}
   */
   readonly ftPreserveVlanid?: boolean | cdktf.IResolvable;
   /**
   * The lifetime of the fast BSS transition PMK-R0 encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_r0_key_lifetime WifiSecurity#ft_r0_key_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_r0_key_lifetime WifiSecurity#ft_r0_key_lifetime}
   */
   readonly ftR0KeyLifetime?: string;
   /**
   * Fast BSS transition reassociation deadline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#ft_reassociation_deadline WifiSecurity#ft_reassociation_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#ft_reassociation_deadline WifiSecurity#ft_reassociation_deadline}
   */
   readonly ftReassociationDeadline?: string;
   /**
   * A cipher to use for encrypting multicast traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#group_encryption WifiSecurity#group_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#group_encryption WifiSecurity#group_encryption}
   */
   readonly groupEncryption?: string;
   /**
   * The interval at which the group temporal key (key for encrypting broadcast traffic) is renewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#group_key_update WifiSecurity#group_key_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#group_key_update WifiSecurity#group_key_update}
   */
   readonly groupKeyUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#id WifiSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#id WifiSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -163,67 +163,67 @@ export interface WifiSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * A cipher to use for encrypting protected management frames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#management_encryption WifiSecurity#management_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#management_encryption WifiSecurity#management_encryption}
   */
   readonly managementEncryption?: string;
   /**
   * An option to enable 802.11w management frame protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#management_protection WifiSecurity#management_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#management_protection WifiSecurity#management_protection}
   */
   readonly managementProtection?: string;
   /**
   * Name of `/interface/wifi/security/multi-passphrase/` group that will be used. Only a single group can be defined under the security profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#multi_passphrase_group WifiSecurity#multi_passphrase_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#multi_passphrase_group WifiSecurity#multi_passphrase_group}
   */
   readonly multiPassphraseGroup?: string;
   /**
   * Name of the security profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#name WifiSecurity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#name WifiSecurity#name}
   */
   readonly name: string;
   /**
   * Name or internal ID of an interface which MAC address and SSID to advertise as the matching AP when running in OWE transition mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#owe_transition_interface WifiSecurity#owe_transition_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#owe_transition_interface WifiSecurity#owe_transition_interface}
   */
   readonly oweTransitionInterface?: string;
   /**
   * Passphrase to use for PSK authentication types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#passphrase WifiSecurity#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#passphrase WifiSecurity#passphrase}
   */
   readonly passphrase?: string;
   /**
   * A parameter to mitigate DoS attacks by specifying a threshold of in-progress SAE authentications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#sae_anti_clogging_threshold WifiSecurity#sae_anti_clogging_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#sae_anti_clogging_threshold WifiSecurity#sae_anti_clogging_threshold}
   */
   readonly saeAntiCloggingThreshold?: string;
   /**
   * Rate of failed SAE (WPA3) associations per minute, at which the AP will stop processing new association requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#sae_max_failure_rate WifiSecurity#sae_max_failure_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#sae_max_failure_rate WifiSecurity#sae_max_failure_rate}
   */
   readonly saeMaxFailureRate?: string;
   /**
   * Methods to support for deriving SAE password element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#sae_pwe WifiSecurity#sae_pwe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#sae_pwe WifiSecurity#sae_pwe}
   */
   readonly saePwe?: string;
   /**
   * An option to enable WPS (Wi-Fi Protected Setup).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#wps WifiSecurity#wps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#wps WifiSecurity#wps}
   */
   readonly wps?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security routeros_wifi_security}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security routeros_wifi_security}
 */
 export class WifiSecurity extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class WifiSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiSecurity to import
-  * @param importFromId The id of the existing WifiSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class WifiSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_security routeros_wifi_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/wifi_security routeros_wifi_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class WifiSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_security',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DataKaleidoPlatformEvmNetinfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#environment DataKaleidoPlatformEvmNetinfo#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#environment DataKaleidoPlatformEvmNetinfo#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#json_rpc_url DataKaleidoPlatformEvmNetinfo#json_rpc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#json_rpc_url DataKaleidoPlatformEvmNetinfo#json_rpc_url}
   */
   readonly jsonRpcUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#password DataKaleidoPlatformEvmNetinfo#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#password DataKaleidoPlatformEvmNetinfo#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#service DataKaleidoPlatformEvmNetinfo#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#service DataKaleidoPlatformEvmNetinfo#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#username DataKaleidoPlatformEvmNetinfo#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#username DataKaleidoPlatformEvmNetinfo#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo kaleido_platform_evm_netinfo}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo kaleido_platform_evm_netinfo}
 */
 export class DataKaleidoPlatformEvmNetinfo extends cdktf.TerraformDataSource {
 
@@ -46,7 +46,7 @@ export class DataKaleidoPlatformEvmNetinfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKaleidoPlatformEvmNetinfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKaleidoPlatformEvmNetinfo to import
-  * @param importFromId The id of the existing DataKaleidoPlatformEvmNetinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKaleidoPlatformEvmNetinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKaleidoPlatformEvmNetinfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DataKaleidoPlatformEvmNetinfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_evm_netinfo kaleido_platform_evm_netinfo} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_evm_netinfo kaleido_platform_evm_netinfo} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DataKaleidoPlatformEvmNetinfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'kaleido_platform_evm_netinfo',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

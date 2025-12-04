@@ -99,6 +99,7 @@ Object.defineProperty(exports, 'ipDhcpServerNetwork', { get: function () { retur
 Object.defineProperty(exports, 'ipDhcpServerOption', { get: function () { return require('./ip-dhcp-server-option'); } });
 Object.defineProperty(exports, 'ipDhcpServerOptionMatcher', { get: function () { return require('./ip-dhcp-server-option-matcher'); } });
 Object.defineProperty(exports, 'ipDhcpServerOptionSet', { get: function () { return require('./ip-dhcp-server-option-set'); } });
+Object.defineProperty(exports, 'ipDhcpServerOptionSets', { get: function () { return require('./ip-dhcp-server-option-sets'); } });
 Object.defineProperty(exports, 'ipDns', { get: function () { return require('./ip-dns'); } });
 Object.defineProperty(exports, 'ipDnsAdlist', { get: function () { return require('./ip-dns-adlist'); } });
 Object.defineProperty(exports, 'ipDnsForwarders', { get: function () { return require('./ip-dns-forwarders'); } });

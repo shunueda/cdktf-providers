@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "corefunc": "2.1.0"
+    "corefunc": "2.2.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface PlatformApplicationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Grant the application the ability to act as an administrator of the platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#admin_enabled PlatformApplication#admin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#admin_enabled PlatformApplication#admin_enabled}
   */
   readonly adminEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#name PlatformApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#name PlatformApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#oauth PlatformApplication#oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#oauth PlatformApplication#oauth}
   */
   readonly oauth?: PlatformApplicationOauth;
   /**
   * Default true. An Identity Provider can be bound to an application to allow it to federate its own OAuth 2.0 authentication realm into the APIs of the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#oauth_enabled PlatformApplication#oauth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#oauth_enabled PlatformApplication#oauth_enabled}
   */
   readonly oauthEnabled?: boolean | cdktf.IResolvable;
 }
 export interface PlatformApplicationOauth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#aud PlatformApplication#aud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#aud PlatformApplication#aud}
   */
   readonly aud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#azp PlatformApplication#azp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#azp PlatformApplication#azp}
   */
   readonly azp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#ca_certificate PlatformApplication#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#ca_certificate PlatformApplication#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#issuer PlatformApplication#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#issuer PlatformApplication#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#jwks PlatformApplication#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#jwks PlatformApplication#jwks}
   */
   readonly jwks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#jwks_endpoint PlatformApplication#jwks_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#jwks_endpoint PlatformApplication#jwks_endpoint}
   */
   readonly jwksEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#oidc_config_url PlatformApplication#oidc_config_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#oidc_config_url PlatformApplication#oidc_config_url}
   */
   readonly oidcConfigUrl?: string;
 }
@@ -322,7 +322,7 @@ export class PlatformApplicationOauthOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application kaleido_platform_application}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application kaleido_platform_application}
 */
 export class PlatformApplication extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class PlatformApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformApplication to import
-  * @param importFromId The id of the existing PlatformApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class PlatformApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_application kaleido_platform_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_application kaleido_platform_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class PlatformApplication extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_application',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

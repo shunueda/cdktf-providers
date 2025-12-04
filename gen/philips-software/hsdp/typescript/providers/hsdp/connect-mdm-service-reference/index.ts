@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmServiceReferenceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#application_id ConnectMdmServiceReference#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#application_id ConnectMdmServiceReference#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#bootstrap_enabled ConnectMdmServiceReference#bootstrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#bootstrap_enabled ConnectMdmServiceReference#bootstrap_enabled}
   */
   readonly bootstrapEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#description ConnectMdmServiceReference#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#description ConnectMdmServiceReference#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#id ConnectMdmServiceReference#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#id ConnectMdmServiceReference#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#matching_rule ConnectMdmServiceReference#matching_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#matching_rule ConnectMdmServiceReference#matching_rule}
   */
   readonly matchingRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#name ConnectMdmServiceReference#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#name ConnectMdmServiceReference#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#service_action_ids ConnectMdmServiceReference#service_action_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#service_action_ids ConnectMdmServiceReference#service_action_ids}
   */
   readonly serviceActionIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#standard_service_id ConnectMdmServiceReference#standard_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#standard_service_id ConnectMdmServiceReference#standard_service_id}
   */
   readonly standardServiceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference hsdp_connect_mdm_service_reference}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference hsdp_connect_mdm_service_reference}
 */
 export class ConnectMdmServiceReference extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ConnectMdmServiceReference extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectMdmServiceReference resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmServiceReference to import
-  * @param importFromId The id of the existing ConnectMdmServiceReference that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmServiceReference that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmServiceReference to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ConnectMdmServiceReference extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_service_reference hsdp_connect_mdm_service_reference} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_service_reference hsdp_connect_mdm_service_reference} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ConnectMdmServiceReference extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_connect_mdm_service_reference',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IpIpsecPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#___path___ IpIpsecPeer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#___path___ IpIpsecPeer#___path___}
   */
   readonly path?: string;
   /**
   * If the remote peer's address matches this prefix, then the peer configuration is used in authentication and establishment of Phase 1. If several peer's addresses match several configuration entries, the most specific one (i.e. the one with the largest netmask) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#address IpIpsecPeer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#address IpIpsecPeer#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#comment IpIpsecPeer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#comment IpIpsecPeer#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#disabled IpIpsecPeer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#disabled IpIpsecPeer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Different ISAKMP phase 1 exchange modes according to RFC 2408. the main mode relaxes rfc2409 section 5.4, to allow pre-shared-key authentication in the main mode. ike2 mode enables Ikev2 RFC 7296. Parameters that are ignored by IKEv2 proposal-check, compatibility-options, lifebytes, dpd-maximum-failures, nat-traversal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#exchange_mode IpIpsecPeer#exchange_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#exchange_mode IpIpsecPeer#exchange_mode}
   */
   readonly exchangeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#id IpIpsecPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#id IpIpsecPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,43 +43,43 @@ export interface IpIpsecPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Routers local address on which Phase 1 should be bounded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#local_address IpIpsecPeer#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#local_address IpIpsecPeer#local_address}
   */
   readonly localAddress?: string;
   /**
   * Peer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#name IpIpsecPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#name IpIpsecPeer#name}
   */
   readonly name: string;
   /**
   * When a passive mode is enabled will wait for a remote peer to initiate an IKE connection. The enabled passive mode also indicates that the peer is xauth responder, and disabled passive mode - xauth initiator. When a passive mode is a disabled peer will try to establish not only phase1 but also phase2 automatically, if policies are configured or created during the phase1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#passive IpIpsecPeer#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#passive IpIpsecPeer#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Communication port used (when a router is an initiator) to connect to remote peer in cases if remote peer uses the non-default port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#port IpIpsecPeer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#port IpIpsecPeer#port}
   */
   readonly port?: number;
   /**
   * Name of the profile template that will be used during IKE negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#profile IpIpsecPeer#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#profile IpIpsecPeer#profile}
   */
   readonly profile?: string;
   /**
   * Specifies whether to send `initial contact` IKE packet or wait for remote side, this packet should trigger the removal of old peer SAs for current source address. Usually, in road warrior setups clients are initiators and this parameter should be set to no. Initial contact is not sent if modecfg or xauth is enabled for ikev1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#send_initial_contact IpIpsecPeer#send_initial_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#send_initial_contact IpIpsecPeer#send_initial_contact}
   */
   readonly sendInitialContact?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer routeros_ip_ipsec_peer}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer routeros_ip_ipsec_peer}
 */
 export class IpIpsecPeer extends cdktf.TerraformResource {
 
@@ -95,7 +95,7 @@ export class IpIpsecPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecPeer to import
-  * @param importFromId The id of the existing IpIpsecPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class IpIpsecPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ipsec_peer routeros_ip_ipsec_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_ipsec_peer routeros_ip_ipsec_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,8 +118,8 @@ export class IpIpsecPeer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_peer',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

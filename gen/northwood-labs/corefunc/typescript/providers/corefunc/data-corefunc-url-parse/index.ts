@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCorefuncUrlParseConfig extends cdktf.TerraformMetaArguments
   /**
   * The method by which the URL should be canonicalized. Allowed values: `standard`, `google_safe_browsing`. The default value is `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse#canonicalizer DataCorefuncUrlParse#canonicalizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse#canonicalizer DataCorefuncUrlParse#canonicalizer}
   */
   readonly canonicalizer?: string;
   /**
   * The absolute URL to parse according to the [WHATWG URL API](https://url.spec.whatwg.org/#api).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse#url DataCorefuncUrlParse#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse#url DataCorefuncUrlParse#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse corefunc_url_parse}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse corefunc_url_parse}
 */
 export class DataCorefuncUrlParse extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataCorefuncUrlParse extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncUrlParse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncUrlParse to import
-  * @param importFromId The id of the existing DataCorefuncUrlParse that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncUrlParse that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncUrlParse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataCorefuncUrlParse extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/url_parse corefunc_url_parse} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/url_parse corefunc_url_parse} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataCorefuncUrlParse extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_url_parse',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface C2CIpRangesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Country code for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#country_code C2CIpRanges#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#country_code C2CIpRanges#country_code}
   */
   readonly countryCode?: string;
   /**
   * Description of the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#description C2CIpRanges#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#description C2CIpRanges#description}
   */
   readonly description?: string;
   /**
   * Whether the C2C IP Ranges is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#enabled C2CIpRanges#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#enabled C2CIpRanges#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Beginning IP address of the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#ip_range_begin C2CIpRanges#ip_range_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#ip_range_begin C2CIpRanges#ip_range_begin}
   */
   readonly ipRangeBegin?: string;
   /**
   * Ending IP address of the range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#ip_range_end C2CIpRanges#ip_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#ip_range_end C2CIpRanges#ip_range_end}
   */
   readonly ipRangeEnd?: string;
   /**
   * Latitude in database for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#latitude_in_db C2CIpRanges#latitude_in_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#latitude_in_db C2CIpRanges#latitude_in_db}
   */
   readonly latitudeInDb?: string;
   /**
   * Location of the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#location C2CIpRanges#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#location C2CIpRanges#location}
   */
   readonly location?: string;
   /**
   * Location hint for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#location_hint C2CIpRanges#location_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#location_hint C2CIpRanges#location_hint}
   */
   readonly locationHint?: string;
   /**
   * Longitude in database for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#longitude_in_db C2CIpRanges#longitude_in_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#longitude_in_db C2CIpRanges#longitude_in_db}
   */
   readonly longitudeInDb?: string;
   /**
   * Name of the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#name C2CIpRanges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#name C2CIpRanges#name}
   */
   readonly name: string;
   /**
   * SCCM flag for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#sccm_flag C2CIpRanges#sccm_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#sccm_flag C2CIpRanges#sccm_flag}
   */
   readonly sccmFlag?: boolean | cdktf.IResolvable;
   /**
   * Subnet CIDR for the C2C IP Ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#subnet_cidr C2CIpRanges#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#subnet_cidr C2CIpRanges#subnet_cidr}
   */
   readonly subnetCidr?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges zpa_c2c_ip_ranges}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges zpa_c2c_ip_ranges}
 */
 export class C2CIpRanges extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class C2CIpRanges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a C2CIpRanges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the C2CIpRanges to import
-  * @param importFromId The id of the existing C2CIpRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing C2CIpRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the C2CIpRanges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class C2CIpRanges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/c2c_ip_ranges zpa_c2c_ip_ranges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/c2c_ip_ranges zpa_c2c_ip_ranges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class C2CIpRanges extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_c2c_ip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

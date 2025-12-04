@@ -1,3 +1,3 @@
 # `hsdp_container_host`
 
-Refer to the Terraform Registry for docs: [`hsdp_container_host`](https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/container_host).
+Refer to the Terraform Registry for docs: [`hsdp_container_host`](https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/container_host).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SiteWlanPortalTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Portal template wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#portal_template SiteWlanPortalTemplate#portal_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#portal_template SiteWlanPortalTemplate#portal_template}
   */
   readonly portalTemplate: SiteWlanPortalTemplatePortalTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#site_id SiteWlanPortalTemplate#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#site_id SiteWlanPortalTemplate#site_id}
   */
   readonly siteId: string;
   /**
   * Site WLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#wlan_id SiteWlanPortalTemplate#wlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#wlan_id SiteWlanPortalTemplate#wlan_id}
   */
   readonly wlanId: string;
 }
@@ -28,523 +28,523 @@ export interface SiteWlanPortalTemplatePortalTemplateLocales {
   /**
   * Label for Amazon auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_amazon SiteWlanPortalTemplate#auth_button_amazon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_amazon SiteWlanPortalTemplate#auth_button_amazon}
   */
   readonly authButtonAmazon?: string;
   /**
   * Label for Azure auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_azure SiteWlanPortalTemplate#auth_button_azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_azure SiteWlanPortalTemplate#auth_button_azure}
   */
   readonly authButtonAzure?: string;
   /**
   * Label for Email auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_email SiteWlanPortalTemplate#auth_button_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_email SiteWlanPortalTemplate#auth_button_email}
   */
   readonly authButtonEmail?: string;
   /**
   * Label for Facebook auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_facebook SiteWlanPortalTemplate#auth_button_facebook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_facebook SiteWlanPortalTemplate#auth_button_facebook}
   */
   readonly authButtonFacebook?: string;
   /**
   * Label for Google auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_google SiteWlanPortalTemplate#auth_button_google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_google SiteWlanPortalTemplate#auth_button_google}
   */
   readonly authButtonGoogle?: string;
   /**
   * Label for Microsoft auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_microsoft SiteWlanPortalTemplate#auth_button_microsoft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_microsoft SiteWlanPortalTemplate#auth_button_microsoft}
   */
   readonly authButtonMicrosoft?: string;
   /**
   * Label for passphrase auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_passphrase SiteWlanPortalTemplate#auth_button_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_passphrase SiteWlanPortalTemplate#auth_button_passphrase}
   */
   readonly authButtonPassphrase?: string;
   /**
   * Label for SMS auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_sms SiteWlanPortalTemplate#auth_button_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_sms SiteWlanPortalTemplate#auth_button_sms}
   */
   readonly authButtonSms?: string;
   /**
   * Label for Sponsor auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_sponsor SiteWlanPortalTemplate#auth_button_sponsor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_sponsor SiteWlanPortalTemplate#auth_button_sponsor}
   */
   readonly authButtonSponsor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_label SiteWlanPortalTemplate#auth_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_label SiteWlanPortalTemplate#auth_label}
   */
   readonly authLabel?: string;
   /**
   * Label of the link to go back to /logon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#back_link SiteWlanPortalTemplate#back_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#back_link SiteWlanPortalTemplate#back_link}
   */
   readonly backLink?: string;
   /**
   * Error message when company not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#company_error SiteWlanPortalTemplate#company_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#company_error SiteWlanPortalTemplate#company_error}
   */
   readonly companyError?: string;
   /**
   * Label of company field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#company_label SiteWlanPortalTemplate#company_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#company_label SiteWlanPortalTemplate#company_label}
   */
   readonly companyLabel?: string;
   /**
   * Error message when a user has valid social login but doesn't match specified email domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_access_domain_error SiteWlanPortalTemplate#email_access_domain_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_access_domain_error SiteWlanPortalTemplate#email_access_domain_error}
   */
   readonly emailAccessDomainError?: string;
   /**
   * Label for cancel confirmation code submission using email auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_cancel SiteWlanPortalTemplate#email_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_cancel SiteWlanPortalTemplate#email_cancel}
   */
   readonly emailCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_cancel SiteWlanPortalTemplate#email_code_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_cancel SiteWlanPortalTemplate#email_code_cancel}
   */
   readonly emailCodeCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_error SiteWlanPortalTemplate#email_code_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_error SiteWlanPortalTemplate#email_code_error}
   */
   readonly emailCodeError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_field_label SiteWlanPortalTemplate#email_code_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_field_label SiteWlanPortalTemplate#email_code_field_label}
   */
   readonly emailCodeFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_message SiteWlanPortalTemplate#email_code_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_message SiteWlanPortalTemplate#email_code_message}
   */
   readonly emailCodeMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_submit SiteWlanPortalTemplate#email_code_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_submit SiteWlanPortalTemplate#email_code_submit}
   */
   readonly emailCodeSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_title SiteWlanPortalTemplate#email_code_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_title SiteWlanPortalTemplate#email_code_title}
   */
   readonly emailCodeTitle?: string;
   /**
   * Error message when email not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_error SiteWlanPortalTemplate#email_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_error SiteWlanPortalTemplate#email_error}
   */
   readonly emailError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_field_label SiteWlanPortalTemplate#email_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_field_label SiteWlanPortalTemplate#email_field_label}
   */
   readonly emailFieldLabel?: string;
   /**
   * Label of email field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_label SiteWlanPortalTemplate#email_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_label SiteWlanPortalTemplate#email_label}
   */
   readonly emailLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_message SiteWlanPortalTemplate#email_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_message SiteWlanPortalTemplate#email_message}
   */
   readonly emailMessage?: string;
   /**
   * Label for confirmation code submit button using email auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_submit SiteWlanPortalTemplate#email_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_submit SiteWlanPortalTemplate#email_submit}
   */
   readonly emailSubmit?: string;
   /**
   * Title for the Email registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_title SiteWlanPortalTemplate#email_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_title SiteWlanPortalTemplate#email_title}
   */
   readonly emailTitle?: string;
   /**
   * Error message when field1 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1error SiteWlanPortalTemplate#field1error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1error SiteWlanPortalTemplate#field1error}
   */
   readonly field1Error?: string;
   /**
   * Label of field1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1label SiteWlanPortalTemplate#field1label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1label SiteWlanPortalTemplate#field1label}
   */
   readonly field1Label?: string;
   /**
   * Error message when field2 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2error SiteWlanPortalTemplate#field2error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2error SiteWlanPortalTemplate#field2error}
   */
   readonly field2Error?: string;
   /**
   * Label of field2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2label SiteWlanPortalTemplate#field2label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2label SiteWlanPortalTemplate#field2label}
   */
   readonly field2Label?: string;
   /**
   * Error message when field3 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3error SiteWlanPortalTemplate#field3error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3error SiteWlanPortalTemplate#field3error}
   */
   readonly field3Error?: string;
   /**
   * Label of field3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3label SiteWlanPortalTemplate#field3label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3label SiteWlanPortalTemplate#field3label}
   */
   readonly field3Label?: string;
   /**
   * Error message when field4 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4error SiteWlanPortalTemplate#field4error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4error SiteWlanPortalTemplate#field4error}
   */
   readonly field4Error?: string;
   /**
   * Label of field4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4label SiteWlanPortalTemplate#field4label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4label SiteWlanPortalTemplate#field4label}
   */
   readonly field4Label?: string;
   /**
   * label of the link to go to /marketing_policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_link SiteWlanPortalTemplate#marketing_policy_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_link SiteWlanPortalTemplate#marketing_policy_link}
   */
   readonly marketingPolicyLink?: string;
   /**
   * Whether marketing policy optin is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in SiteWlanPortalTemplate#marketing_policy_opt_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in SiteWlanPortalTemplate#marketing_policy_opt_in}
   */
   readonly marketingPolicyOptIn?: boolean | cdktf.IResolvable;
   /**
   * label for marketing optin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_label SiteWlanPortalTemplate#marketing_policy_opt_in_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_label SiteWlanPortalTemplate#marketing_policy_opt_in_label}
   */
   readonly marketingPolicyOptInLabel?: string;
   /**
   * marketing policy text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_text SiteWlanPortalTemplate#marketing_policy_opt_in_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_text SiteWlanPortalTemplate#marketing_policy_opt_in_text}
   */
   readonly marketingPolicyOptInText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#message SiteWlanPortalTemplate#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#message SiteWlanPortalTemplate#message}
   */
   readonly message?: string;
   /**
   * Error message when name not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#name_error SiteWlanPortalTemplate#name_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#name_error SiteWlanPortalTemplate#name_error}
   */
   readonly nameError?: string;
   /**
   * Label of name field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#name_label SiteWlanPortalTemplate#name_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#name_label SiteWlanPortalTemplate#name_label}
   */
   readonly nameLabel?: string;
   /**
   * Label for Do Not Store My Personal Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#optout_label SiteWlanPortalTemplate#optout_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#optout_label SiteWlanPortalTemplate#optout_label}
   */
   readonly optoutLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#page_title SiteWlanPortalTemplate#page_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#page_title SiteWlanPortalTemplate#page_title}
   */
   readonly pageTitle?: string;
   /**
   * Label for the Passphrase cancel button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_cancel SiteWlanPortalTemplate#passphrase_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_cancel SiteWlanPortalTemplate#passphrase_cancel}
   */
   readonly passphraseCancel?: string;
   /**
   * Error message when invalid passphrase is provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_error SiteWlanPortalTemplate#passphrase_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_error SiteWlanPortalTemplate#passphrase_error}
   */
   readonly passphraseError?: string;
   /**
   * Passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_label SiteWlanPortalTemplate#passphrase_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_label SiteWlanPortalTemplate#passphrase_label}
   */
   readonly passphraseLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_message SiteWlanPortalTemplate#passphrase_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_message SiteWlanPortalTemplate#passphrase_message}
   */
   readonly passphraseMessage?: string;
   /**
   * Label for the Passphrase submit button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_submit SiteWlanPortalTemplate#passphrase_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_submit SiteWlanPortalTemplate#passphrase_submit}
   */
   readonly passphraseSubmit?: string;
   /**
   * Title for passphrase details page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_title SiteWlanPortalTemplate#passphrase_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_title SiteWlanPortalTemplate#passphrase_title}
   */
   readonly passphraseTitle?: string;
   /**
   * Prefix of the label of the link to go to Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_accept_label SiteWlanPortalTemplate#privacy_policy_accept_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_accept_label SiteWlanPortalTemplate#privacy_policy_accept_label}
   */
   readonly privacyPolicyAcceptLabel?: string;
   /**
   * Error message when Privacy Policy not accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_error SiteWlanPortalTemplate#privacy_policy_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_error SiteWlanPortalTemplate#privacy_policy_error}
   */
   readonly privacyPolicyError?: string;
   /**
   * Label of the link to go to Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_link SiteWlanPortalTemplate#privacy_policy_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_link SiteWlanPortalTemplate#privacy_policy_link}
   */
   readonly privacyPolicyLink?: string;
   /**
   * Text of the Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_text SiteWlanPortalTemplate#privacy_policy_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_text SiteWlanPortalTemplate#privacy_policy_text}
   */
   readonly privacyPolicyText?: string;
   /**
   * Label to denote required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#required_field_label SiteWlanPortalTemplate#required_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#required_field_label SiteWlanPortalTemplate#required_field_label}
   */
   readonly requiredFieldLabel?: string;
   /**
   * Label of the button to signin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sign_in_label SiteWlanPortalTemplate#sign_in_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sign_in_label SiteWlanPortalTemplate#sign_in_label}
   */
   readonly signInLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_default SiteWlanPortalTemplate#sms_carrier_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_default SiteWlanPortalTemplate#sms_carrier_default}
   */
   readonly smsCarrierDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_error SiteWlanPortalTemplate#sms_carrier_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_error SiteWlanPortalTemplate#sms_carrier_error}
   */
   readonly smsCarrierError?: string;
   /**
   * Label for mobile carrier drop-down list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_field_label SiteWlanPortalTemplate#sms_carrier_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_field_label SiteWlanPortalTemplate#sms_carrier_field_label}
   */
   readonly smsCarrierFieldLabel?: string;
   /**
   * Label for cancel confirmation code submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_cancel SiteWlanPortalTemplate#sms_code_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_cancel SiteWlanPortalTemplate#sms_code_cancel}
   */
   readonly smsCodeCancel?: string;
   /**
   * Error message when confirmation code is invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_error SiteWlanPortalTemplate#sms_code_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_error SiteWlanPortalTemplate#sms_code_error}
   */
   readonly smsCodeError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_field_label SiteWlanPortalTemplate#sms_code_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_field_label SiteWlanPortalTemplate#sms_code_field_label}
   */
   readonly smsCodeFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_message SiteWlanPortalTemplate#sms_code_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_message SiteWlanPortalTemplate#sms_code_message}
   */
   readonly smsCodeMessage?: string;
   /**
   * Label for confirmation code submit button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_submit SiteWlanPortalTemplate#sms_code_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_submit SiteWlanPortalTemplate#sms_code_submit}
   */
   readonly smsCodeSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_title SiteWlanPortalTemplate#sms_code_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_title SiteWlanPortalTemplate#sms_code_title}
   */
   readonly smsCodeTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_country_field_label SiteWlanPortalTemplate#sms_country_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_country_field_label SiteWlanPortalTemplate#sms_country_field_label}
   */
   readonly smsCountryFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_country_format SiteWlanPortalTemplate#sms_country_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_country_format SiteWlanPortalTemplate#sms_country_format}
   */
   readonly smsCountryFormat?: string;
   /**
   * Label for checkbox to specify that the user has access code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_have_access_code SiteWlanPortalTemplate#sms_have_access_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_have_access_code SiteWlanPortalTemplate#sms_have_access_code}
   */
   readonly smsHaveAccessCode?: string;
   /**
   * Format of access code sms message. {{code}} and {{duration}} are placeholders and should be retained as is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_message_format SiteWlanPortalTemplate#sms_message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_message_format SiteWlanPortalTemplate#sms_message_format}
   */
   readonly smsMessageFormat?: string;
   /**
   * Label for canceling mobile details for SMS auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_cancel SiteWlanPortalTemplate#sms_number_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_cancel SiteWlanPortalTemplate#sms_number_cancel}
   */
   readonly smsNumberCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_error SiteWlanPortalTemplate#sms_number_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_error SiteWlanPortalTemplate#sms_number_error}
   */
   readonly smsNumberError?: string;
   /**
   * Label for field to provide mobile number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_field_label SiteWlanPortalTemplate#sms_number_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_field_label SiteWlanPortalTemplate#sms_number_field_label}
   */
   readonly smsNumberFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_format SiteWlanPortalTemplate#sms_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_format SiteWlanPortalTemplate#sms_number_format}
   */
   readonly smsNumberFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_message SiteWlanPortalTemplate#sms_number_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_message SiteWlanPortalTemplate#sms_number_message}
   */
   readonly smsNumberMessage?: string;
   /**
   * Label for submit button for code generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_submit SiteWlanPortalTemplate#sms_number_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_submit SiteWlanPortalTemplate#sms_number_submit}
   */
   readonly smsNumberSubmit?: string;
   /**
   * Title for phone number details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_title SiteWlanPortalTemplate#sms_number_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_title SiteWlanPortalTemplate#sms_number_title}
   */
   readonly smsNumberTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_username_format SiteWlanPortalTemplate#sms_username_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_username_format SiteWlanPortalTemplate#sms_username_format}
   */
   readonly smsUsernameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_back_link SiteWlanPortalTemplate#sponsor_back_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_back_link SiteWlanPortalTemplate#sponsor_back_link}
   */
   readonly sponsorBackLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_cancel SiteWlanPortalTemplate#sponsor_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_cancel SiteWlanPortalTemplate#sponsor_cancel}
   */
   readonly sponsorCancel?: string;
   /**
   * Label for Sponsor Email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_email SiteWlanPortalTemplate#sponsor_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_email SiteWlanPortalTemplate#sponsor_email}
   */
   readonly sponsorEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_email_error SiteWlanPortalTemplate#sponsor_email_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_email_error SiteWlanPortalTemplate#sponsor_email_error}
   */
   readonly sponsorEmailError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_approved SiteWlanPortalTemplate#sponsor_info_approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_approved SiteWlanPortalTemplate#sponsor_info_approved}
   */
   readonly sponsorInfoApproved?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_denied SiteWlanPortalTemplate#sponsor_info_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_denied SiteWlanPortalTemplate#sponsor_info_denied}
   */
   readonly sponsorInfoDenied?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_pending SiteWlanPortalTemplate#sponsor_info_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_pending SiteWlanPortalTemplate#sponsor_info_pending}
   */
   readonly sponsorInfoPending?: string;
   /**
   * Label for Sponsor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_name SiteWlanPortalTemplate#sponsor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_name SiteWlanPortalTemplate#sponsor_name}
   */
   readonly sponsorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_name_error SiteWlanPortalTemplate#sponsor_name_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_name_error SiteWlanPortalTemplate#sponsor_name_error}
   */
   readonly sponsorNameError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_note_pending SiteWlanPortalTemplate#sponsor_note_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_note_pending SiteWlanPortalTemplate#sponsor_note_pending}
   */
   readonly sponsorNotePending?: string;
   /**
   * Submit button label request Wifi Access and notify sponsor about guest request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_request_access SiteWlanPortalTemplate#sponsor_request_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_request_access SiteWlanPortalTemplate#sponsor_request_access}
   */
   readonly sponsorRequestAccess?: string;
   /**
   * Text to display if sponsor approves request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_approved SiteWlanPortalTemplate#sponsor_status_approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_approved SiteWlanPortalTemplate#sponsor_status_approved}
   */
   readonly sponsorStatusApproved?: string;
   /**
   * Text to display when sponsor denies request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_denied SiteWlanPortalTemplate#sponsor_status_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_denied SiteWlanPortalTemplate#sponsor_status_denied}
   */
   readonly sponsorStatusDenied?: string;
   /**
   * Text to display if request is still pending
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_pending SiteWlanPortalTemplate#sponsor_status_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_pending SiteWlanPortalTemplate#sponsor_status_pending}
   */
   readonly sponsorStatusPending?: string;
   /**
   * Submit button label to notify sponsor about guest request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_submit SiteWlanPortalTemplate#sponsor_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_submit SiteWlanPortalTemplate#sponsor_submit}
   */
   readonly sponsorSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsors_error SiteWlanPortalTemplate#sponsors_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsors_error SiteWlanPortalTemplate#sponsors_error}
   */
   readonly sponsorsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsors_field_label SiteWlanPortalTemplate#sponsors_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsors_field_label SiteWlanPortalTemplate#sponsors_field_label}
   */
   readonly sponsorsFieldLabel?: string;
   /**
   * Prefix of the label of the link to go to tos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_accept_label SiteWlanPortalTemplate#tos_accept_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_accept_label SiteWlanPortalTemplate#tos_accept_label}
   */
   readonly tosAcceptLabel?: string;
   /**
   * Error message when tos not accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_error SiteWlanPortalTemplate#tos_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_error SiteWlanPortalTemplate#tos_error}
   */
   readonly tosError?: string;
   /**
   * Label of the link to go to tos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_link SiteWlanPortalTemplate#tos_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_link SiteWlanPortalTemplate#tos_link}
   */
   readonly tosLink?: string;
   /**
   * Text of the Terms of Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_text SiteWlanPortalTemplate#tos_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_text SiteWlanPortalTemplate#tos_text}
   */
   readonly tosText?: string;
 }
@@ -3471,279 +3471,279 @@ export class SiteWlanPortalTemplatePortalTemplateLocalesMap extends cdktf.Comple
 }
 export interface SiteWlanPortalTemplatePortalTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#access_code_alternate_email SiteWlanPortalTemplate#access_code_alternate_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#access_code_alternate_email SiteWlanPortalTemplate#access_code_alternate_email}
   */
   readonly accessCodeAlternateEmail?: string;
   /**
   * defines alignment on portal. enum: `center`, `left`, `right`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#alignment SiteWlanPortalTemplate#alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#alignment SiteWlanPortalTemplate#alignment}
   */
   readonly alignment?: string;
   /**
   * Label for Amazon auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_amazon SiteWlanPortalTemplate#auth_button_amazon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_amazon SiteWlanPortalTemplate#auth_button_amazon}
   */
   readonly authButtonAmazon?: string;
   /**
   * Label for Azure auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_azure SiteWlanPortalTemplate#auth_button_azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_azure SiteWlanPortalTemplate#auth_button_azure}
   */
   readonly authButtonAzure?: string;
   /**
   * Label for Email auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_email SiteWlanPortalTemplate#auth_button_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_email SiteWlanPortalTemplate#auth_button_email}
   */
   readonly authButtonEmail?: string;
   /**
   * Label for Facebook auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_facebook SiteWlanPortalTemplate#auth_button_facebook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_facebook SiteWlanPortalTemplate#auth_button_facebook}
   */
   readonly authButtonFacebook?: string;
   /**
   * Label for Google auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_google SiteWlanPortalTemplate#auth_button_google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_google SiteWlanPortalTemplate#auth_button_google}
   */
   readonly authButtonGoogle?: string;
   /**
   * Label for Microsoft auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_microsoft SiteWlanPortalTemplate#auth_button_microsoft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_microsoft SiteWlanPortalTemplate#auth_button_microsoft}
   */
   readonly authButtonMicrosoft?: string;
   /**
   * Label for passphrase auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_passphrase SiteWlanPortalTemplate#auth_button_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_passphrase SiteWlanPortalTemplate#auth_button_passphrase}
   */
   readonly authButtonPassphrase?: string;
   /**
   * Label for SMS auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_sms SiteWlanPortalTemplate#auth_button_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_sms SiteWlanPortalTemplate#auth_button_sms}
   */
   readonly authButtonSms?: string;
   /**
   * Label for Sponsor auth button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_button_sponsor SiteWlanPortalTemplate#auth_button_sponsor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_button_sponsor SiteWlanPortalTemplate#auth_button_sponsor}
   */
   readonly authButtonSponsor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#auth_label SiteWlanPortalTemplate#auth_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#auth_label SiteWlanPortalTemplate#auth_label}
   */
   readonly authLabel?: string;
   /**
   * Label of the link to go back to /logon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#back_link SiteWlanPortalTemplate#back_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#back_link SiteWlanPortalTemplate#back_link}
   */
   readonly backLink?: string;
   /**
   * Portal main color
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#color SiteWlanPortalTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#color SiteWlanPortalTemplate#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#color_dark SiteWlanPortalTemplate#color_dark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#color_dark SiteWlanPortalTemplate#color_dark}
   */
   readonly colorDark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#color_light SiteWlanPortalTemplate#color_light}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#color_light SiteWlanPortalTemplate#color_light}
   */
   readonly colorLight?: string;
   /**
   * Whether company field is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#company SiteWlanPortalTemplate#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#company SiteWlanPortalTemplate#company}
   */
   readonly company?: boolean | cdktf.IResolvable;
   /**
   * Error message when company not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#company_error SiteWlanPortalTemplate#company_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#company_error SiteWlanPortalTemplate#company_error}
   */
   readonly companyError?: string;
   /**
   * Label of company field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#company_label SiteWlanPortalTemplate#company_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#company_label SiteWlanPortalTemplate#company_label}
   */
   readonly companyLabel?: string;
   /**
   * Whether email field is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email SiteWlanPortalTemplate#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email SiteWlanPortalTemplate#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
   * Error message when a user has valid social login but doesn't match specified email domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_access_domain_error SiteWlanPortalTemplate#email_access_domain_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_access_domain_error SiteWlanPortalTemplate#email_access_domain_error}
   */
   readonly emailAccessDomainError?: string;
   /**
   * Label for cancel confirmation code submission using email auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_cancel SiteWlanPortalTemplate#email_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_cancel SiteWlanPortalTemplate#email_cancel}
   */
   readonly emailCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_cancel SiteWlanPortalTemplate#email_code_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_cancel SiteWlanPortalTemplate#email_code_cancel}
   */
   readonly emailCodeCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_error SiteWlanPortalTemplate#email_code_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_error SiteWlanPortalTemplate#email_code_error}
   */
   readonly emailCodeError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_field_label SiteWlanPortalTemplate#email_code_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_field_label SiteWlanPortalTemplate#email_code_field_label}
   */
   readonly emailCodeFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_message SiteWlanPortalTemplate#email_code_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_message SiteWlanPortalTemplate#email_code_message}
   */
   readonly emailCodeMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_submit SiteWlanPortalTemplate#email_code_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_submit SiteWlanPortalTemplate#email_code_submit}
   */
   readonly emailCodeSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_code_title SiteWlanPortalTemplate#email_code_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_code_title SiteWlanPortalTemplate#email_code_title}
   */
   readonly emailCodeTitle?: string;
   /**
   * Error message when email not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_error SiteWlanPortalTemplate#email_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_error SiteWlanPortalTemplate#email_error}
   */
   readonly emailError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_field_label SiteWlanPortalTemplate#email_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_field_label SiteWlanPortalTemplate#email_field_label}
   */
   readonly emailFieldLabel?: string;
   /**
   * Label of email field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_label SiteWlanPortalTemplate#email_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_label SiteWlanPortalTemplate#email_label}
   */
   readonly emailLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_message SiteWlanPortalTemplate#email_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_message SiteWlanPortalTemplate#email_message}
   */
   readonly emailMessage?: string;
   /**
   * Label for confirmation code submit button using email auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_submit SiteWlanPortalTemplate#email_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_submit SiteWlanPortalTemplate#email_submit}
   */
   readonly emailSubmit?: string;
   /**
   * Title for the Email registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#email_title SiteWlanPortalTemplate#email_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#email_title SiteWlanPortalTemplate#email_title}
   */
   readonly emailTitle?: string;
   /**
   * Whether to ask field1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1 SiteWlanPortalTemplate#field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1 SiteWlanPortalTemplate#field1}
   */
   readonly field1?: boolean | cdktf.IResolvable;
   /**
   * Error message when field1 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1error SiteWlanPortalTemplate#field1error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1error SiteWlanPortalTemplate#field1error}
   */
   readonly field1Error?: string;
   /**
   * Label of field1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1label SiteWlanPortalTemplate#field1label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1label SiteWlanPortalTemplate#field1label}
   */
   readonly field1Label?: string;
   /**
   * Whether field1 is required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field1required SiteWlanPortalTemplate#field1required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field1required SiteWlanPortalTemplate#field1required}
   */
   readonly field1Required?: boolean | cdktf.IResolvable;
   /**
   * Whether to ask field2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2 SiteWlanPortalTemplate#field2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2 SiteWlanPortalTemplate#field2}
   */
   readonly field2?: boolean | cdktf.IResolvable;
   /**
   * Error message when field2 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2error SiteWlanPortalTemplate#field2error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2error SiteWlanPortalTemplate#field2error}
   */
   readonly field2Error?: string;
   /**
   * Label of field2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2label SiteWlanPortalTemplate#field2label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2label SiteWlanPortalTemplate#field2label}
   */
   readonly field2Label?: string;
   /**
   * Whether field2 is required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field2required SiteWlanPortalTemplate#field2required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field2required SiteWlanPortalTemplate#field2required}
   */
   readonly field2Required?: boolean | cdktf.IResolvable;
   /**
   * Whether to ask field3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3 SiteWlanPortalTemplate#field3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3 SiteWlanPortalTemplate#field3}
   */
   readonly field3?: boolean | cdktf.IResolvable;
   /**
   * Error message when field3 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3error SiteWlanPortalTemplate#field3error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3error SiteWlanPortalTemplate#field3error}
   */
   readonly field3Error?: string;
   /**
   * Label of field3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3label SiteWlanPortalTemplate#field3label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3label SiteWlanPortalTemplate#field3label}
   */
   readonly field3Label?: string;
   /**
   * Whether field3 is required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field3required SiteWlanPortalTemplate#field3required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field3required SiteWlanPortalTemplate#field3required}
   */
   readonly field3Required?: boolean | cdktf.IResolvable;
   /**
   * Whether to ask field4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4 SiteWlanPortalTemplate#field4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4 SiteWlanPortalTemplate#field4}
   */
   readonly field4?: boolean | cdktf.IResolvable;
   /**
   * Error message when field4 not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4error SiteWlanPortalTemplate#field4error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4error SiteWlanPortalTemplate#field4error}
   */
   readonly field4Error?: string;
   /**
   * Label of field4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4label SiteWlanPortalTemplate#field4label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4label SiteWlanPortalTemplate#field4label}
   */
   readonly field4Label?: string;
   /**
   * Whether field4 is required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#field4required SiteWlanPortalTemplate#field4required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#field4required SiteWlanPortalTemplate#field4required}
   */
   readonly field4Required?: boolean | cdktf.IResolvable;
   /**
@@ -3753,303 +3753,303 @@ export interface SiteWlanPortalTemplatePortalTemplate {
   *   `pl-PL`, `pt-BR`, `pt-PT`, `ro-RO`, `ru-RU`, `sk-SK`, `sv-SE`, `th-TH`, `tr-TR`, `uk-UA`, `vi-VN`, 
   *   `zh-Hans`, `zh-Hant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#locales SiteWlanPortalTemplate#locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#locales SiteWlanPortalTemplate#locales}
   */
   readonly locales?: { [key: string]: SiteWlanPortalTemplatePortalTemplateLocales } | cdktf.IResolvable;
   /**
   * path to the background image file. File must be a `png` image`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#logo SiteWlanPortalTemplate#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#logo SiteWlanPortalTemplate#logo}
   */
   readonly logo?: string;
   /**
   * label of the link to go to /marketing_policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_link SiteWlanPortalTemplate#marketing_policy_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_link SiteWlanPortalTemplate#marketing_policy_link}
   */
   readonly marketingPolicyLink?: string;
   /**
   * Whether marketing policy optin is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in SiteWlanPortalTemplate#marketing_policy_opt_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in SiteWlanPortalTemplate#marketing_policy_opt_in}
   */
   readonly marketingPolicyOptIn?: boolean | cdktf.IResolvable;
   /**
   * label for marketing optin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_label SiteWlanPortalTemplate#marketing_policy_opt_in_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_label SiteWlanPortalTemplate#marketing_policy_opt_in_label}
   */
   readonly marketingPolicyOptInLabel?: string;
   /**
   * marketing policy text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_text SiteWlanPortalTemplate#marketing_policy_opt_in_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#marketing_policy_opt_in_text SiteWlanPortalTemplate#marketing_policy_opt_in_text}
   */
   readonly marketingPolicyOptInText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#message SiteWlanPortalTemplate#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#message SiteWlanPortalTemplate#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#multi_auth SiteWlanPortalTemplate#multi_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#multi_auth SiteWlanPortalTemplate#multi_auth}
   */
   readonly multiAuth?: boolean | cdktf.IResolvable;
   /**
   * Whether name field is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#name SiteWlanPortalTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#name SiteWlanPortalTemplate#name}
   */
   readonly name?: boolean | cdktf.IResolvable;
   /**
   * Error message when name not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#name_error SiteWlanPortalTemplate#name_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#name_error SiteWlanPortalTemplate#name_error}
   */
   readonly nameError?: string;
   /**
   * Label of name field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#name_label SiteWlanPortalTemplate#name_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#name_label SiteWlanPortalTemplate#name_label}
   */
   readonly nameLabel?: string;
   /**
   * Default value for the `Do not store` checkbox
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#opt_out_default SiteWlanPortalTemplate#opt_out_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#opt_out_default SiteWlanPortalTemplate#opt_out_default}
   */
   readonly optOutDefault?: boolean | cdktf.IResolvable;
   /**
   * Whether to display Do Not Store My Personal Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#optout SiteWlanPortalTemplate#optout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#optout SiteWlanPortalTemplate#optout}
   */
   readonly optout?: boolean | cdktf.IResolvable;
   /**
   * Label for Do Not Store My Personal Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#optout_label SiteWlanPortalTemplate#optout_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#optout_label SiteWlanPortalTemplate#optout_label}
   */
   readonly optoutLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#page_title SiteWlanPortalTemplate#page_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#page_title SiteWlanPortalTemplate#page_title}
   */
   readonly pageTitle?: string;
   /**
   * Label for the Passphrase cancel button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_cancel SiteWlanPortalTemplate#passphrase_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_cancel SiteWlanPortalTemplate#passphrase_cancel}
   */
   readonly passphraseCancel?: string;
   /**
   * Error message when invalid passphrase is provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_error SiteWlanPortalTemplate#passphrase_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_error SiteWlanPortalTemplate#passphrase_error}
   */
   readonly passphraseError?: string;
   /**
   * Passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_label SiteWlanPortalTemplate#passphrase_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_label SiteWlanPortalTemplate#passphrase_label}
   */
   readonly passphraseLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_message SiteWlanPortalTemplate#passphrase_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_message SiteWlanPortalTemplate#passphrase_message}
   */
   readonly passphraseMessage?: string;
   /**
   * Label for the Passphrase submit button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_submit SiteWlanPortalTemplate#passphrase_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_submit SiteWlanPortalTemplate#passphrase_submit}
   */
   readonly passphraseSubmit?: string;
   /**
   * Title for passphrase details page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#passphrase_title SiteWlanPortalTemplate#passphrase_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#passphrase_title SiteWlanPortalTemplate#passphrase_title}
   */
   readonly passphraseTitle?: string;
   /**
   * Whether to show \"Powered by Mist\"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#powered_by SiteWlanPortalTemplate#powered_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#powered_by SiteWlanPortalTemplate#powered_by}
   */
   readonly poweredBy?: boolean | cdktf.IResolvable;
   /**
   * Whether to require the Privacy Term acceptance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy SiteWlanPortalTemplate#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy SiteWlanPortalTemplate#privacy}
   */
   readonly privacy?: boolean | cdktf.IResolvable;
   /**
   * Prefix of the label of the link to go to Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_accept_label SiteWlanPortalTemplate#privacy_policy_accept_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_accept_label SiteWlanPortalTemplate#privacy_policy_accept_label}
   */
   readonly privacyPolicyAcceptLabel?: string;
   /**
   * Error message when Privacy Policy not accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_error SiteWlanPortalTemplate#privacy_policy_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_error SiteWlanPortalTemplate#privacy_policy_error}
   */
   readonly privacyPolicyError?: string;
   /**
   * Label of the link to go to Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_link SiteWlanPortalTemplate#privacy_policy_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_link SiteWlanPortalTemplate#privacy_policy_link}
   */
   readonly privacyPolicyLink?: string;
   /**
   * Text of the Privacy Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#privacy_policy_text SiteWlanPortalTemplate#privacy_policy_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#privacy_policy_text SiteWlanPortalTemplate#privacy_policy_text}
   */
   readonly privacyPolicyText?: string;
   /**
   * Label to denote required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#required_field_label SiteWlanPortalTemplate#required_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#required_field_label SiteWlanPortalTemplate#required_field_label}
   */
   readonly requiredFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#responsive_layout SiteWlanPortalTemplate#responsive_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#responsive_layout SiteWlanPortalTemplate#responsive_layout}
   */
   readonly responsiveLayout?: boolean | cdktf.IResolvable;
   /**
   * Label of the button to signin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sign_in_label SiteWlanPortalTemplate#sign_in_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sign_in_label SiteWlanPortalTemplate#sign_in_label}
   */
   readonly signInLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_default SiteWlanPortalTemplate#sms_carrier_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_default SiteWlanPortalTemplate#sms_carrier_default}
   */
   readonly smsCarrierDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_error SiteWlanPortalTemplate#sms_carrier_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_error SiteWlanPortalTemplate#sms_carrier_error}
   */
   readonly smsCarrierError?: string;
   /**
   * Label for mobile carrier drop-down list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_carrier_field_label SiteWlanPortalTemplate#sms_carrier_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_carrier_field_label SiteWlanPortalTemplate#sms_carrier_field_label}
   */
   readonly smsCarrierFieldLabel?: string;
   /**
   * Label for cancel confirmation code submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_cancel SiteWlanPortalTemplate#sms_code_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_cancel SiteWlanPortalTemplate#sms_code_cancel}
   */
   readonly smsCodeCancel?: string;
   /**
   * Error message when confirmation code is invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_error SiteWlanPortalTemplate#sms_code_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_error SiteWlanPortalTemplate#sms_code_error}
   */
   readonly smsCodeError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_field_label SiteWlanPortalTemplate#sms_code_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_field_label SiteWlanPortalTemplate#sms_code_field_label}
   */
   readonly smsCodeFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_message SiteWlanPortalTemplate#sms_code_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_message SiteWlanPortalTemplate#sms_code_message}
   */
   readonly smsCodeMessage?: string;
   /**
   * Label for confirmation code submit button
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_submit SiteWlanPortalTemplate#sms_code_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_submit SiteWlanPortalTemplate#sms_code_submit}
   */
   readonly smsCodeSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_code_title SiteWlanPortalTemplate#sms_code_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_code_title SiteWlanPortalTemplate#sms_code_title}
   */
   readonly smsCodeTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_country_field_label SiteWlanPortalTemplate#sms_country_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_country_field_label SiteWlanPortalTemplate#sms_country_field_label}
   */
   readonly smsCountryFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_country_format SiteWlanPortalTemplate#sms_country_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_country_format SiteWlanPortalTemplate#sms_country_format}
   */
   readonly smsCountryFormat?: string;
   /**
   * Label for checkbox to specify that the user has access code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_have_access_code SiteWlanPortalTemplate#sms_have_access_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_have_access_code SiteWlanPortalTemplate#sms_have_access_code}
   */
   readonly smsHaveAccessCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_is_twilio SiteWlanPortalTemplate#sms_is_twilio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_is_twilio SiteWlanPortalTemplate#sms_is_twilio}
   */
   readonly smsIsTwilio?: boolean | cdktf.IResolvable;
   /**
   * Format of access code sms message. {{code}} and {{duration}} are placeholders and should be retained as is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_message_format SiteWlanPortalTemplate#sms_message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_message_format SiteWlanPortalTemplate#sms_message_format}
   */
   readonly smsMessageFormat?: string;
   /**
   * Label for canceling mobile details for SMS auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_cancel SiteWlanPortalTemplate#sms_number_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_cancel SiteWlanPortalTemplate#sms_number_cancel}
   */
   readonly smsNumberCancel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_error SiteWlanPortalTemplate#sms_number_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_error SiteWlanPortalTemplate#sms_number_error}
   */
   readonly smsNumberError?: string;
   /**
   * Label for field to provide mobile number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_field_label SiteWlanPortalTemplate#sms_number_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_field_label SiteWlanPortalTemplate#sms_number_field_label}
   */
   readonly smsNumberFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_format SiteWlanPortalTemplate#sms_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_format SiteWlanPortalTemplate#sms_number_format}
   */
   readonly smsNumberFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_message SiteWlanPortalTemplate#sms_number_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_message SiteWlanPortalTemplate#sms_number_message}
   */
   readonly smsNumberMessage?: string;
   /**
   * Label for submit button for code generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_submit SiteWlanPortalTemplate#sms_number_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_submit SiteWlanPortalTemplate#sms_number_submit}
   */
   readonly smsNumberSubmit?: string;
   /**
   * Title for phone number details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_number_title SiteWlanPortalTemplate#sms_number_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_number_title SiteWlanPortalTemplate#sms_number_title}
   */
   readonly smsNumberTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_username_format SiteWlanPortalTemplate#sms_username_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_username_format SiteWlanPortalTemplate#sms_username_format}
   */
   readonly smsUsernameFormat?: string;
   /**
   * How long confirmation code should be considered valid (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sms_validity_duration SiteWlanPortalTemplate#sms_validity_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sms_validity_duration SiteWlanPortalTemplate#sms_validity_duration}
   */
   readonly smsValidityDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_back_link SiteWlanPortalTemplate#sponsor_back_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_back_link SiteWlanPortalTemplate#sponsor_back_link}
   */
   readonly sponsorBackLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_cancel SiteWlanPortalTemplate#sponsor_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_cancel SiteWlanPortalTemplate#sponsor_cancel}
   */
   readonly sponsorCancel?: string;
   /**
   * Label for Sponsor Email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_email SiteWlanPortalTemplate#sponsor_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_email SiteWlanPortalTemplate#sponsor_email}
   */
   readonly sponsorEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_email_error SiteWlanPortalTemplate#sponsor_email_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_email_error SiteWlanPortalTemplate#sponsor_email_error}
   */
   readonly sponsorEmailError?: string;
   /**
@@ -4064,99 +4064,99 @@ export interface SiteWlanPortalTemplatePortalTemplate {
   *   * `sponsor_link_validity_duration`: Renders validity time of the request (i.e. Approve/Deny URL)
   *   * `auth_expire_minutes`: Renders Wlan-level configured Guest Authorization Expiration time period (in minutes), If not configured then default (1 day in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_email_template SiteWlanPortalTemplate#sponsor_email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_email_template SiteWlanPortalTemplate#sponsor_email_template}
   */
   readonly sponsorEmailTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_approved SiteWlanPortalTemplate#sponsor_info_approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_approved SiteWlanPortalTemplate#sponsor_info_approved}
   */
   readonly sponsorInfoApproved?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_denied SiteWlanPortalTemplate#sponsor_info_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_denied SiteWlanPortalTemplate#sponsor_info_denied}
   */
   readonly sponsorInfoDenied?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_info_pending SiteWlanPortalTemplate#sponsor_info_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_info_pending SiteWlanPortalTemplate#sponsor_info_pending}
   */
   readonly sponsorInfoPending?: string;
   /**
   * Label for Sponsor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_name SiteWlanPortalTemplate#sponsor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_name SiteWlanPortalTemplate#sponsor_name}
   */
   readonly sponsorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_name_error SiteWlanPortalTemplate#sponsor_name_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_name_error SiteWlanPortalTemplate#sponsor_name_error}
   */
   readonly sponsorNameError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_note_pending SiteWlanPortalTemplate#sponsor_note_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_note_pending SiteWlanPortalTemplate#sponsor_note_pending}
   */
   readonly sponsorNotePending?: string;
   /**
   * Submit button label request Wifi Access and notify sponsor about guest request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_request_access SiteWlanPortalTemplate#sponsor_request_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_request_access SiteWlanPortalTemplate#sponsor_request_access}
   */
   readonly sponsorRequestAccess?: string;
   /**
   * Text to display if sponsor approves request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_approved SiteWlanPortalTemplate#sponsor_status_approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_approved SiteWlanPortalTemplate#sponsor_status_approved}
   */
   readonly sponsorStatusApproved?: string;
   /**
   * Text to display when sponsor denies request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_denied SiteWlanPortalTemplate#sponsor_status_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_denied SiteWlanPortalTemplate#sponsor_status_denied}
   */
   readonly sponsorStatusDenied?: string;
   /**
   * Text to display if request is still pending
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_status_pending SiteWlanPortalTemplate#sponsor_status_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_status_pending SiteWlanPortalTemplate#sponsor_status_pending}
   */
   readonly sponsorStatusPending?: string;
   /**
   * Submit button label to notify sponsor about guest request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsor_submit SiteWlanPortalTemplate#sponsor_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsor_submit SiteWlanPortalTemplate#sponsor_submit}
   */
   readonly sponsorSubmit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsors_error SiteWlanPortalTemplate#sponsors_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsors_error SiteWlanPortalTemplate#sponsors_error}
   */
   readonly sponsorsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#sponsors_field_label SiteWlanPortalTemplate#sponsors_field_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#sponsors_field_label SiteWlanPortalTemplate#sponsors_field_label}
   */
   readonly sponsorsFieldLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos SiteWlanPortalTemplate#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos SiteWlanPortalTemplate#tos}
   */
   readonly tos?: boolean | cdktf.IResolvable;
   /**
   * Prefix of the label of the link to go to tos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_accept_label SiteWlanPortalTemplate#tos_accept_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_accept_label SiteWlanPortalTemplate#tos_accept_label}
   */
   readonly tosAcceptLabel?: string;
   /**
   * Error message when tos not accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_error SiteWlanPortalTemplate#tos_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_error SiteWlanPortalTemplate#tos_error}
   */
   readonly tosError?: string;
   /**
   * Label of the link to go to tos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_link SiteWlanPortalTemplate#tos_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_link SiteWlanPortalTemplate#tos_link}
   */
   readonly tosLink?: string;
   /**
   * Text of the Terms of Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#tos_text SiteWlanPortalTemplate#tos_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#tos_text SiteWlanPortalTemplate#tos_text}
   */
   readonly tosText?: string;
 }
@@ -7875,7 +7875,7 @@ export class SiteWlanPortalTemplatePortalTemplateOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template mist_site_wlan_portal_template}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template mist_site_wlan_portal_template}
 */
 export class SiteWlanPortalTemplate extends cdktf.TerraformResource {
 
@@ -7891,7 +7891,7 @@ export class SiteWlanPortalTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteWlanPortalTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteWlanPortalTemplate to import
-  * @param importFromId The id of the existing SiteWlanPortalTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteWlanPortalTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteWlanPortalTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7903,7 +7903,7 @@ export class SiteWlanPortalTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_wlan_portal_template mist_site_wlan_portal_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan_portal_template mist_site_wlan_portal_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7914,8 +7914,8 @@ export class SiteWlanPortalTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_wlan_portal_template',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

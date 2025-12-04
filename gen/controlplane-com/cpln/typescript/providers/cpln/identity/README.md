@@ -1,3 +1,3 @@
 # `cpln_identity`
 
-Refer to the Terraform Registry for docs: [`cpln_identity`](https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/identity).
+Refer to the Terraform Registry for docs: [`cpln_identity`](https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/identity).

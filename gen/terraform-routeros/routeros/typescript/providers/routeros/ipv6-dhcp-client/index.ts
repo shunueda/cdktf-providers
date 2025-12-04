@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface Ipv6DhcpClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#___path___ Ipv6DhcpClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#___path___ Ipv6DhcpClient#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#accept_prefix_without_address Ipv6DhcpClient#accept_prefix_without_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#accept_prefix_without_address Ipv6DhcpClient#accept_prefix_without_address}
   */
   readonly acceptPrefixWithoutAddress?: boolean | cdktf.IResolvable;
   /**
   * Whether to add default IPv6 route after a client connects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#add_default_route Ipv6DhcpClient#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#add_default_route Ipv6DhcpClient#add_default_route}
   */
   readonly addDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Allow reconfigure messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#allow_reconfigure Ipv6DhcpClient#allow_reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#allow_reconfigure Ipv6DhcpClient#allow_reconfigure}
   */
   readonly allowReconfigure?: boolean | cdktf.IResolvable;
   /**
   * Method on how to check gateway reachability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#check_gateway Ipv6DhcpClient#check_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#check_gateway Ipv6DhcpClient#check_gateway}
   */
   readonly checkGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#comment Ipv6DhcpClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#comment Ipv6DhcpClient#comment}
   */
   readonly comment?: string;
   /**
   * Allow to specify custom IANA ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#custom_iana_id Ipv6DhcpClient#custom_iana_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#custom_iana_id Ipv6DhcpClient#custom_iana_id}
   */
   readonly customIanaId?: string;
   /**
   * Allow to specify custom IAPD ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#custom_iapd_id Ipv6DhcpClient#custom_iapd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#custom_iapd_id Ipv6DhcpClient#custom_iapd_id}
   */
   readonly customIapdId?: string;
   /**
   * Distance of default route. Applicable if add-default-route is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#default_route_distance Ipv6DhcpClient#default_route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#default_route_distance Ipv6DhcpClient#default_route_distance}
   */
   readonly defaultRouteDistance?: number;
   /**
   * List of routing tables to which default route must be added. Table name can be proceeded with ":x" where x would be the distance for the route to be installed with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#default_route_tables Ipv6DhcpClient#default_route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#default_route_tables Ipv6DhcpClient#default_route_tables}
   */
   readonly defaultRouteTables?: string[];
   /**
   * Options that are sent to the DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#dhcp_options Ipv6DhcpClient#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#dhcp_options Ipv6DhcpClient#dhcp_options}
   */
   readonly dhcpOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#disabled Ipv6DhcpClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#disabled Ipv6DhcpClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#id Ipv6DhcpClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#id Ipv6DhcpClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,43 +83,43 @@ export interface Ipv6DhcpClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#interface Ipv6DhcpClient#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#interface Ipv6DhcpClient#interface}
   */
   readonly interface: string;
   /**
   * Name of the IPv6 pool in which received IPv6 prefix will be added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#pool_name Ipv6DhcpClient#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#pool_name Ipv6DhcpClient#pool_name}
   */
   readonly poolName?: string;
   /**
   * Prefix length parameter that will be set for IPv6 pool in which received IPv6 prefix is added. Prefix length must be greater than the length of the received prefix, otherwise, prefix-length will be set to received prefix length + 8 bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#pool_prefix_length Ipv6DhcpClient#pool_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#pool_prefix_length Ipv6DhcpClient#pool_prefix_length}
   */
   readonly poolPrefixLength?: number;
   /**
   * Names of the firewall address lists to which received prefix will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#prefix_address_lists Ipv6DhcpClient#prefix_address_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#prefix_address_lists Ipv6DhcpClient#prefix_address_lists}
   */
   readonly prefixAddressLists?: string[];
   /**
   * Include a preferred prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#prefix_hint Ipv6DhcpClient#prefix_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#prefix_hint Ipv6DhcpClient#prefix_hint}
   */
   readonly prefixHint?: string;
   /**
   * Enable DHCP rapid commit (fast address assignment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#rapid_commit Ipv6DhcpClient#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#rapid_commit Ipv6DhcpClient#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * To choose if the DHCPv6 request will ask for the address, info or the IPv6 prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#request Ipv6DhcpClient#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#request Ipv6DhcpClient#request}
   */
   readonly request: string[];
   /**
@@ -130,31 +130,31 @@ export interface Ipv6DhcpClientConfig extends cdktf.TerraformMetaArguments {
   *   * na-address - the address acquired by the client if any.
   *   * options - array of received options (only ROSv7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#script Ipv6DhcpClient#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#script Ipv6DhcpClient#script}
   */
   readonly script?: string;
   /**
   * Specifies the MAC address of the specified interface as the DHCPv6 client DUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#use_interface_duid Ipv6DhcpClient#use_interface_duid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#use_interface_duid Ipv6DhcpClient#use_interface_duid}
   */
   readonly useInterfaceDuid?: boolean | cdktf.IResolvable;
   /**
   * Whether to accept the DNS settings advertised by the IPv6 DHCP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#use_peer_dns Ipv6DhcpClient#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#use_peer_dns Ipv6DhcpClient#use_peer_dns}
   */
   readonly usePeerDns?: boolean | cdktf.IResolvable;
   /**
   * Whether to validate the DUID of the IPv6 DHCP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#validate_server_duid Ipv6DhcpClient#validate_server_duid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#validate_server_duid Ipv6DhcpClient#validate_server_duid}
   */
   readonly validateServerDuid?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client routeros_ipv6_dhcp_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client routeros_ipv6_dhcp_client}
 */
 export class Ipv6DhcpClient extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class Ipv6DhcpClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6DhcpClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6DhcpClient to import
-  * @param importFromId The id of the existing Ipv6DhcpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6DhcpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6DhcpClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class Ipv6DhcpClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_dhcp_client routeros_ipv6_dhcp_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ipv6_dhcp_client routeros_ipv6_dhcp_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class Ipv6DhcpClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_dhcp_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

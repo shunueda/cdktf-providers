@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SegmentGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the app group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#description SegmentGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#description SegmentGroup#description}
   */
   readonly description?: string;
   /**
   * Whether this app group is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#enabled SegmentGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#enabled SegmentGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#microtenant_id SegmentGroup#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#microtenant_id SegmentGroup#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the app group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#name SegmentGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#name SegmentGroup#name}
   */
   readonly name: string;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#applications SegmentGroup#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#applications SegmentGroup#applications}
   */
   readonly applications?: SegmentGroupApplications[] | cdktf.IResolvable;
 }
 export interface SegmentGroupApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#id SegmentGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#id SegmentGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,7 +157,7 @@ export class SegmentGroupApplicationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group zpa_segment_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group zpa_segment_group}
 */
 export class SegmentGroup extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class SegmentGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SegmentGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SegmentGroup to import
-  * @param importFromId The id of the existing SegmentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SegmentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SegmentGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class SegmentGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/segment_group zpa_segment_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/segment_group zpa_segment_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class SegmentGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_segment_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

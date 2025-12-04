@@ -1,3 +1,3 @@
 # `scaleway_lb_ip`
 
-Refer to the Terraform Registry for docs: [`scaleway_lb_ip`](https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/lb_ip).
+Refer to the Terraform Registry for docs: [`scaleway_lb_ip`](https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/lb_ip).

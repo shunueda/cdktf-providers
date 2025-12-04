@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaApplicationSegmentPraConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#id DataZpaApplicationSegmentPra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#id DataZpaApplicationSegmentPra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#microtenant_id DataZpaApplicationSegmentPra#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#microtenant_id DataZpaApplicationSegmentPra#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#microtenant_name DataZpaApplicationSegmentPra#microtenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#microtenant_name DataZpaApplicationSegmentPra#microtenant_name}
   */
   readonly microtenantName?: string;
   /**
   * Name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#name DataZpaApplicationSegmentPra#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#name DataZpaApplicationSegmentPra#name}
   */
   readonly name?: string;
   /**
   * tcp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#tcp_port_range DataZpaApplicationSegmentPra#tcp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#tcp_port_range DataZpaApplicationSegmentPra#tcp_port_range}
   */
   readonly tcpPortRange?: DataZpaApplicationSegmentPraTcpPortRange[] | cdktf.IResolvable;
   /**
   * udp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#udp_port_range DataZpaApplicationSegmentPra#udp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#udp_port_range DataZpaApplicationSegmentPra#udp_port_range}
   */
   readonly udpPortRange?: DataZpaApplicationSegmentPraUdpPortRange[] | cdktf.IResolvable;
 }
@@ -263,11 +263,11 @@ export class DataZpaApplicationSegmentPraSraAppsList extends cdktf.ComplexList {
 }
 export interface DataZpaApplicationSegmentPraTcpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#from DataZpaApplicationSegmentPra#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#from DataZpaApplicationSegmentPra#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#to DataZpaApplicationSegmentPra#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#to DataZpaApplicationSegmentPra#to}
   */
   readonly to?: string;
 }
@@ -412,11 +412,11 @@ export class DataZpaApplicationSegmentPraTcpPortRangeList extends cdktf.ComplexL
 }
 export interface DataZpaApplicationSegmentPraUdpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#from DataZpaApplicationSegmentPra#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#from DataZpaApplicationSegmentPra#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#to DataZpaApplicationSegmentPra#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#to DataZpaApplicationSegmentPra#to}
   */
   readonly to?: string;
 }
@@ -561,7 +561,7 @@ export class DataZpaApplicationSegmentPraUdpPortRangeList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra zpa_application_segment_pra}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra zpa_application_segment_pra}
 */
 export class DataZpaApplicationSegmentPra extends cdktf.TerraformDataSource {
 
@@ -577,7 +577,7 @@ export class DataZpaApplicationSegmentPra extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaApplicationSegmentPra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaApplicationSegmentPra to import
-  * @param importFromId The id of the existing DataZpaApplicationSegmentPra that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaApplicationSegmentPra that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaApplicationSegmentPra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -589,7 +589,7 @@ export class DataZpaApplicationSegmentPra extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_pra zpa_application_segment_pra} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_pra zpa_application_segment_pra} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,8 +600,8 @@ export class DataZpaApplicationSegmentPra extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_application_segment_pra',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

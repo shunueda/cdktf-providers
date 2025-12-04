@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ConsoleGroupV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Group name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#name ConsoleGroupV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#name ConsoleGroupV2#name}
   */
   readonly name: string;
   /**
   * Group specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#spec ConsoleGroupV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#spec ConsoleGroupV2#spec}
   */
   readonly spec: ConsoleGroupV2Spec;
 }
@@ -24,43 +24,43 @@ export interface ConsoleGroupV2SpecPermissions {
   /**
   * Name of the cluster to apply permission, only required if resource_type is TOPIC, SUBJECT, CONSUMER_GROUP, KAFKA_CONNECT, KSQLDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#cluster ConsoleGroupV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#cluster ConsoleGroupV2#cluster}
   */
   readonly cluster?: string;
   /**
   * Name of the Kafka Connect to apply permission, only required if resource_type is KAFKA_CONNECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#kafka_connect ConsoleGroupV2#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#kafka_connect ConsoleGroupV2#kafka_connect}
   */
   readonly kafkaConnect?: string;
   /**
   * Name of a valid Kafka Connect cluster, only required if resource_type is KSQLDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#ksqldb ConsoleGroupV2#ksqldb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#ksqldb ConsoleGroupV2#ksqldb}
   */
   readonly ksqldb?: string;
   /**
   * Name of the resource to apply permission could be a topic, a cluster, a consumer group, etc. depending on resource_type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#name ConsoleGroupV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#name ConsoleGroupV2#name}
   */
   readonly name?: string;
   /**
   * Type of the pattern to apply permission on valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#pattern_type ConsoleGroupV2#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#pattern_type ConsoleGroupV2#pattern_type}
   */
   readonly patternType?: string;
   /**
   * Set of all permissions to apply on the resource. See https://docs.conduktor.io/platform/reference/resource-reference/console/#permissions for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#permissions ConsoleGroupV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#permissions ConsoleGroupV2#permissions}
   */
   readonly permissions: string[];
   /**
   * Type of the resource to apply permission on valid values are: CLUSTER, CONSUMER_GROUP, KAFKA_CONNECT, KSQLDB, PLATFORM, SUBJECT, TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#resource_type ConsoleGroupV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#resource_type ConsoleGroupV2#resource_type}
   */
   readonly resourceType: string;
 }
@@ -346,37 +346,37 @@ export interface ConsoleGroupV2Spec {
   /**
   * Group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#description ConsoleGroupV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#description ConsoleGroupV2#description}
   */
   readonly description?: string;
   /**
   * Group display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#display_name ConsoleGroupV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#display_name ConsoleGroupV2#display_name}
   */
   readonly displayName: string;
   /**
   * Set of regex to be applied to external groups. NOTE: this field has been introduced with Console `1.36.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#external_group_regex ConsoleGroupV2#external_group_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#external_group_regex ConsoleGroupV2#external_group_regex}
   */
   readonly externalGroupRegex?: string[];
   /**
   * Set of external groups from SSO mapped to this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#external_groups ConsoleGroupV2#external_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#external_groups ConsoleGroupV2#external_groups}
   */
   readonly externalGroups?: string[];
   /**
   * Set of members of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#members ConsoleGroupV2#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#members ConsoleGroupV2#members}
   */
   readonly members?: string[];
   /**
   * Set of all group permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#permissions ConsoleGroupV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#permissions ConsoleGroupV2#permissions}
   */
   readonly permissions?: ConsoleGroupV2SpecPermissions[] | cdktf.IResolvable;
 }
@@ -617,7 +617,7 @@ export class ConsoleGroupV2SpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2 conduktor_console_group_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2 conduktor_console_group_v2}
 */
 export class ConsoleGroupV2 extends cdktf.TerraformResource {
 
@@ -633,7 +633,7 @@ export class ConsoleGroupV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleGroupV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleGroupV2 to import
-  * @param importFromId The id of the existing ConsoleGroupV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleGroupV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleGroupV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -645,7 +645,7 @@ export class ConsoleGroupV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_group_v2 conduktor_console_group_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_group_v2 conduktor_console_group_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,8 +656,8 @@ export class ConsoleGroupV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_group_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

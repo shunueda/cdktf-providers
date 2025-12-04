@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpBlrStorePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#id DataHsdpBlrStorePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#id DataHsdpBlrStorePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#policy_id DataHsdpBlrStorePolicy#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#policy_id DataHsdpBlrStorePolicy#policy_id}
   */
   readonly policyId: string;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#principal DataHsdpBlrStorePolicy#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#principal DataHsdpBlrStorePolicy#principal}
   */
   readonly principal?: DataHsdpBlrStorePolicyPrincipal;
 }
 export interface DataHsdpBlrStorePolicyPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#endpoint DataHsdpBlrStorePolicy#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#endpoint DataHsdpBlrStorePolicy#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#environment DataHsdpBlrStorePolicy#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#environment DataHsdpBlrStorePolicy#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#oauth2_client_id DataHsdpBlrStorePolicy#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#oauth2_client_id DataHsdpBlrStorePolicy#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#oauth2_password DataHsdpBlrStorePolicy#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#oauth2_password DataHsdpBlrStorePolicy#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#password DataHsdpBlrStorePolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#password DataHsdpBlrStorePolicy#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#region DataHsdpBlrStorePolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#region DataHsdpBlrStorePolicy#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#service_id DataHsdpBlrStorePolicy#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#service_id DataHsdpBlrStorePolicy#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#service_private_key DataHsdpBlrStorePolicy#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#service_private_key DataHsdpBlrStorePolicy#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#uaa_password DataHsdpBlrStorePolicy#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#uaa_password DataHsdpBlrStorePolicy#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#uaa_username DataHsdpBlrStorePolicy#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#uaa_username DataHsdpBlrStorePolicy#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#username DataHsdpBlrStorePolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#username DataHsdpBlrStorePolicy#username}
   */
   readonly username?: string;
 }
@@ -441,7 +441,7 @@ export class DataHsdpBlrStorePolicyPrincipalOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy hsdp_blr_store_policy}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy hsdp_blr_store_policy}
 */
 export class DataHsdpBlrStorePolicy extends cdktf.TerraformDataSource {
 
@@ -457,7 +457,7 @@ export class DataHsdpBlrStorePolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpBlrStorePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpBlrStorePolicy to import
-  * @param importFromId The id of the existing DataHsdpBlrStorePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpBlrStorePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpBlrStorePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class DataHsdpBlrStorePolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/blr_store_policy hsdp_blr_store_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/blr_store_policy hsdp_blr_store_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class DataHsdpBlrStorePolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_blr_store_policy',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

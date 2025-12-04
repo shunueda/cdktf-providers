@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZiaCloudConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#id ZiaCloudConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#id ZiaCloudConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface ZiaCloudConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * ZIA cloud domain (without .net suffix). Valid values: zscaler, zscloud, zscalerone, zscalertwo, zscalerthree, zscalerbeta, zscalergov, zscalerten, zspreview
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#zia_cloud_domain ZiaCloudConfig#zia_cloud_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#zia_cloud_domain ZiaCloudConfig#zia_cloud_domain}
   */
   readonly ziaCloudDomain: string;
   /**
   * ZIA cloud service API key (write-only, not returned by API)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#zia_cloud_service_api_key ZiaCloudConfig#zia_cloud_service_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#zia_cloud_service_api_key ZiaCloudConfig#zia_cloud_service_api_key}
   */
   readonly ziaCloudServiceApiKey: string;
   /**
   * ZIA password (write-only, not returned by API)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#zia_password ZiaCloudConfig#zia_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#zia_password ZiaCloudConfig#zia_password}
   */
   readonly ziaPassword: string;
   /**
   * ZIA sandbox API token (write-only, not returned by API)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#zia_sandbox_api_token ZiaCloudConfig#zia_sandbox_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#zia_sandbox_api_token ZiaCloudConfig#zia_sandbox_api_token}
   */
   readonly ziaSandboxApiToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#zia_username ZiaCloudConfig#zia_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#zia_username ZiaCloudConfig#zia_username}
   */
   readonly ziaUsername: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config zpa_zia_cloud_config}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config zpa_zia_cloud_config}
 */
 export class ZiaCloudConfig extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ZiaCloudConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZiaCloudConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZiaCloudConfig to import
-  * @param importFromId The id of the existing ZiaCloudConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZiaCloudConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZiaCloudConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ZiaCloudConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/zia_cloud_config zpa_zia_cloud_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/zia_cloud_config zpa_zia_cloud_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ZiaCloudConfig extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_zia_cloud_config',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

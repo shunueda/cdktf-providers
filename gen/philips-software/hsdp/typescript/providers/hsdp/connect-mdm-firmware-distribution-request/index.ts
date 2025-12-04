@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmFirmwareDistributionRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#description ConnectMdmFirmwareDistributionRequest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#description ConnectMdmFirmwareDistributionRequest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#distribution_target_device_groups_ids ConnectMdmFirmwareDistributionRequest#distribution_target_device_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#distribution_target_device_groups_ids ConnectMdmFirmwareDistributionRequest#distribution_target_device_groups_ids}
   */
   readonly distributionTargetDeviceGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#firmware_component_version_ids ConnectMdmFirmwareDistributionRequest#firmware_component_version_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#firmware_component_version_ids ConnectMdmFirmwareDistributionRequest#firmware_component_version_ids}
   */
   readonly firmwareComponentVersionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#firmware_version ConnectMdmFirmwareDistributionRequest#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#firmware_version ConnectMdmFirmwareDistributionRequest#firmware_version}
   */
   readonly firmwareVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#id ConnectMdmFirmwareDistributionRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#id ConnectMdmFirmwareDistributionRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#orchestration_mode ConnectMdmFirmwareDistributionRequest#orchestration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#orchestration_mode ConnectMdmFirmwareDistributionRequest#orchestration_mode}
   */
   readonly orchestrationMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#status ConnectMdmFirmwareDistributionRequest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#status ConnectMdmFirmwareDistributionRequest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#user_consent_required ConnectMdmFirmwareDistributionRequest#user_consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#user_consent_required ConnectMdmFirmwareDistributionRequest#user_consent_required}
   */
   readonly userConsentRequired?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request hsdp_connect_mdm_firmware_distribution_request}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request hsdp_connect_mdm_firmware_distribution_request}
 */
 export class ConnectMdmFirmwareDistributionRequest extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ConnectMdmFirmwareDistributionRequest extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ConnectMdmFirmwareDistributionRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmFirmwareDistributionRequest to import
-  * @param importFromId The id of the existing ConnectMdmFirmwareDistributionRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmFirmwareDistributionRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmFirmwareDistributionRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ConnectMdmFirmwareDistributionRequest extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_distribution_request hsdp_connect_mdm_firmware_distribution_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_firmware_distribution_request hsdp_connect_mdm_firmware_distribution_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ConnectMdmFirmwareDistributionRequest extends cdktf.TerraformResour
       terraformResourceType: 'hsdp_connect_mdm_firmware_distribution_request',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

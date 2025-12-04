@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface LifecycleMilestoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#auto_assign_timestamp_on_create LifecycleMilestone#auto_assign_timestamp_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#auto_assign_timestamp_on_create LifecycleMilestone#auto_assign_timestamp_on_create}
   */
   readonly autoAssignTimestampOnCreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#description LifecycleMilestone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#description LifecycleMilestone#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#id LifecycleMilestone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#id LifecycleMilestone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#name LifecycleMilestone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#name LifecycleMilestone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#phase_id LifecycleMilestone#phase_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#phase_id LifecycleMilestone#phase_id}
   */
   readonly phaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#position LifecycleMilestone#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#position LifecycleMilestone#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#slug LifecycleMilestone#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#slug LifecycleMilestone#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone firehydrant_lifecycle_milestone}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone firehydrant_lifecycle_milestone}
 */
 export class LifecycleMilestone extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class LifecycleMilestone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LifecycleMilestone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LifecycleMilestone to import
-  * @param importFromId The id of the existing LifecycleMilestone that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LifecycleMilestone that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LifecycleMilestone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class LifecycleMilestone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/lifecycle_milestone firehydrant_lifecycle_milestone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/resources/lifecycle_milestone firehydrant_lifecycle_milestone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class LifecycleMilestone extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_lifecycle_milestone',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.12',
-        providerVersionConstraint: '0.14.12'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

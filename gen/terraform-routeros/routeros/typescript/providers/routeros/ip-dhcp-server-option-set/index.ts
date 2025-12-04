@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface IpDhcpServerOptionSetConfig extends cdktf.TerraformMetaArgument
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#___path___ IpDhcpServerOptionSet#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#___path___ IpDhcpServerOptionSet#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#comment IpDhcpServerOptionSet#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#comment IpDhcpServerOptionSet#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#id IpDhcpServerOptionSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#id IpDhcpServerOptionSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,19 +27,19 @@ export interface IpDhcpServerOptionSetConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the DHCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#name IpDhcpServerOptionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#name IpDhcpServerOptionSet#name}
   */
   readonly name: string;
   /**
   * The comma sepparated list of options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#options IpDhcpServerOptionSet#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#options IpDhcpServerOptionSet#options}
   */
   readonly options: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set routeros_ip_dhcp_server_option_set}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set routeros_ip_dhcp_server_option_set}
 */
 export class IpDhcpServerOptionSet extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class IpDhcpServerOptionSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpServerOptionSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpServerOptionSet to import
-  * @param importFromId The id of the existing IpDhcpServerOptionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpServerOptionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpServerOptionSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class IpDhcpServerOptionSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_dhcp_server_option_set routeros_ip_dhcp_server_option_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/ip_dhcp_server_option_set routeros_ip_dhcp_server_option_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class IpDhcpServerOptionSet extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_server_option_set',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

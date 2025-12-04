@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCorefuncNetCidrContainsConfig extends cdktf.TerraformMetaAr
   /**
   * An IP address or CIDR range to check as a contained range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains#contained_ip_or_cidr DataCorefuncNetCidrContains#contained_ip_or_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains#contained_ip_or_cidr DataCorefuncNetCidrContains#contained_ip_or_cidr}
   */
   readonly containedIpOrCidr: string;
   /**
   * A CIDR range to check as a containing range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains#containing_cidr DataCorefuncNetCidrContains#containing_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains#containing_cidr DataCorefuncNetCidrContains#containing_cidr}
   */
   readonly containingCidr: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains corefunc_net_cidr_contains}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains corefunc_net_cidr_contains}
 */
 export class DataCorefuncNetCidrContains extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataCorefuncNetCidrContains extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncNetCidrContains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncNetCidrContains to import
-  * @param importFromId The id of the existing DataCorefuncNetCidrContains that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncNetCidrContains that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncNetCidrContains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataCorefuncNetCidrContains extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/net_cidr_contains corefunc_net_cidr_contains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/net_cidr_contains corefunc_net_cidr_contains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataCorefuncNetCidrContains extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_net_cidr_contains',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

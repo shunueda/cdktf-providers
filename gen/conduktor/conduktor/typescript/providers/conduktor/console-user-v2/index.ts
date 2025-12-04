@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ConsoleUserV2Config extends cdktf.TerraformMetaArguments {
   /**
   * User email, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#name ConsoleUserV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#name ConsoleUserV2#name}
   */
   readonly name: string;
   /**
   * User specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#spec ConsoleUserV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#spec ConsoleUserV2#spec}
   */
   readonly spec: ConsoleUserV2Spec;
 }
@@ -24,43 +24,43 @@ export interface ConsoleUserV2SpecPermissions {
   /**
   * Name of the cluster to apply permission, only required if resource_type is TOPIC, SUBJECT, CONSUMER_GROUP, KAFKA_CONNECT, KSQLDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#cluster ConsoleUserV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#cluster ConsoleUserV2#cluster}
   */
   readonly cluster?: string;
   /**
   * Name of the Kafka Connect to apply permission, only required if resource_type is KAFKA_CONNECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#kafka_connect ConsoleUserV2#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#kafka_connect ConsoleUserV2#kafka_connect}
   */
   readonly kafkaConnect?: string;
   /**
   * Name of a valid Kafka Connect cluster, only required if resource_type is KSQLDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#ksqldb ConsoleUserV2#ksqldb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#ksqldb ConsoleUserV2#ksqldb}
   */
   readonly ksqldb?: string;
   /**
   * Name of the resource to apply permission to could be a topic, a cluster, a consumer group, etc. depending on resource_type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#name ConsoleUserV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#name ConsoleUserV2#name}
   */
   readonly name?: string;
   /**
   * Type of the pattern to apply permission on valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#pattern_type ConsoleUserV2#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#pattern_type ConsoleUserV2#pattern_type}
   */
   readonly patternType?: string;
   /**
   * Set of all permissions to apply on the resource. See https://docs.conduktor.io/platform/reference/resource-reference/console/#permissions for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#permissions ConsoleUserV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#permissions ConsoleUserV2#permissions}
   */
   readonly permissions: string[];
   /**
   * Type of the resource to apply permission on valid values are: CLUSTER, CONSUMER_GROUP, KAFKA_CONNECT, KSQLDB, PLATFORM, SUBJECT, TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#resource_type ConsoleUserV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#resource_type ConsoleUserV2#resource_type}
   */
   readonly resourceType: string;
 }
@@ -346,19 +346,19 @@ export interface ConsoleUserV2Spec {
   /**
   * User firstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#firstname ConsoleUserV2#firstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#firstname ConsoleUserV2#firstname}
   */
   readonly firstname?: string;
   /**
   * User lastname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#lastname ConsoleUserV2#lastname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#lastname ConsoleUserV2#lastname}
   */
   readonly lastname?: string;
   /**
   * Set of all user permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#permissions ConsoleUserV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#permissions ConsoleUserV2#permissions}
   */
   readonly permissions?: ConsoleUserV2SpecPermissions[] | cdktf.IResolvable;
 }
@@ -510,7 +510,7 @@ export class ConsoleUserV2SpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2 conduktor_console_user_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2 conduktor_console_user_v2}
 */
 export class ConsoleUserV2 extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class ConsoleUserV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleUserV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleUserV2 to import
-  * @param importFromId The id of the existing ConsoleUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleUserV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class ConsoleUserV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_user_v2 conduktor_console_user_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_user_v2 conduktor_console_user_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class ConsoleUserV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_user_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBrowserIsolationExternalProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#banner_id CloudBrowserIsolationExternalProfile#banner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#banner_id CloudBrowserIsolationExternalProfile#banner_id}
   */
   readonly bannerId: string;
   /**
   * This field defines the list of certificate IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#certificate_ids CloudBrowserIsolationExternalProfile#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#certificate_ids CloudBrowserIsolationExternalProfile#certificate_ids}
   */
   readonly certificateIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#description CloudBrowserIsolationExternalProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#description CloudBrowserIsolationExternalProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#name CloudBrowserIsolationExternalProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#name CloudBrowserIsolationExternalProfile#name}
   */
   readonly name: string;
   /**
   * This field defines the list of region IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#region_ids CloudBrowserIsolationExternalProfile#region_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#region_ids CloudBrowserIsolationExternalProfile#region_ids}
   */
   readonly regionIds?: string[];
   /**
   * debug_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#debug_mode CloudBrowserIsolationExternalProfile#debug_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#debug_mode CloudBrowserIsolationExternalProfile#debug_mode}
   */
   readonly debugMode?: CloudBrowserIsolationExternalProfileDebugMode;
   /**
   * security_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#security_controls CloudBrowserIsolationExternalProfile#security_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#security_controls CloudBrowserIsolationExternalProfile#security_controls}
   */
   readonly securityControls?: CloudBrowserIsolationExternalProfileSecurityControls;
   /**
   * user_experience block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#user_experience CloudBrowserIsolationExternalProfile#user_experience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#user_experience CloudBrowserIsolationExternalProfile#user_experience}
   */
   readonly userExperience?: CloudBrowserIsolationExternalProfileUserExperience;
 }
 export interface CloudBrowserIsolationExternalProfileDebugMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#allowed CloudBrowserIsolationExternalProfile#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#allowed CloudBrowserIsolationExternalProfile#allowed}
   */
   readonly allowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#file_password CloudBrowserIsolationExternalProfile#file_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#file_password CloudBrowserIsolationExternalProfile#file_password}
   */
   readonly filePassword?: string;
 }
@@ -169,11 +169,11 @@ export class CloudBrowserIsolationExternalProfileDebugModeOutputReference extend
 }
 export interface CloudBrowserIsolationExternalProfileSecurityControlsDeepLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#applications CloudBrowserIsolationExternalProfile#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#applications CloudBrowserIsolationExternalProfile#applications}
   */
   readonly applications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -286,23 +286,23 @@ export class CloudBrowserIsolationExternalProfileSecurityControlsDeepLinkOutputR
 }
 export interface CloudBrowserIsolationExternalProfileSecurityControlsWatermark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#message CloudBrowserIsolationExternalProfile#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#message CloudBrowserIsolationExternalProfile#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#show_message CloudBrowserIsolationExternalProfile#show_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#show_message CloudBrowserIsolationExternalProfile#show_message}
   */
   readonly showMessage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#show_timestamp CloudBrowserIsolationExternalProfile#show_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#show_timestamp CloudBrowserIsolationExternalProfile#show_timestamp}
   */
   readonly showTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#show_user_id CloudBrowserIsolationExternalProfile#show_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#show_user_id CloudBrowserIsolationExternalProfile#show_user_id}
   */
   readonly showUserId?: boolean | cdktf.IResolvable;
 }
@@ -502,43 +502,43 @@ export class CloudBrowserIsolationExternalProfileSecurityControlsWatermarkOutput
 }
 export interface CloudBrowserIsolationExternalProfileSecurityControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#allow_printing CloudBrowserIsolationExternalProfile#allow_printing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#allow_printing CloudBrowserIsolationExternalProfile#allow_printing}
   */
   readonly allowPrinting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#copy_paste CloudBrowserIsolationExternalProfile#copy_paste}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#copy_paste CloudBrowserIsolationExternalProfile#copy_paste}
   */
   readonly copyPaste?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#document_viewer CloudBrowserIsolationExternalProfile#document_viewer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#document_viewer CloudBrowserIsolationExternalProfile#document_viewer}
   */
   readonly documentViewer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#flattened_pdf CloudBrowserIsolationExternalProfile#flattened_pdf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#flattened_pdf CloudBrowserIsolationExternalProfile#flattened_pdf}
   */
   readonly flattenedPdf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#local_render CloudBrowserIsolationExternalProfile#local_render}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#local_render CloudBrowserIsolationExternalProfile#local_render}
   */
   readonly localRender?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#restrict_keystrokes CloudBrowserIsolationExternalProfile#restrict_keystrokes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#restrict_keystrokes CloudBrowserIsolationExternalProfile#restrict_keystrokes}
   */
   readonly restrictKeystrokes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#upload_download CloudBrowserIsolationExternalProfile#upload_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#upload_download CloudBrowserIsolationExternalProfile#upload_download}
   */
   readonly uploadDownload?: string;
   /**
   * deep_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#deep_link CloudBrowserIsolationExternalProfile#deep_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#deep_link CloudBrowserIsolationExternalProfile#deep_link}
   */
   readonly deepLink?: CloudBrowserIsolationExternalProfileSecurityControlsDeepLink;
   /**
   * watermark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#watermark CloudBrowserIsolationExternalProfile#watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#watermark CloudBrowserIsolationExternalProfile#watermark}
   */
   readonly watermark?: CloudBrowserIsolationExternalProfileSecurityControlsWatermark;
 }
@@ -854,19 +854,19 @@ export class CloudBrowserIsolationExternalProfileSecurityControlsOutputReference
 }
 export interface CloudBrowserIsolationExternalProfileUserExperienceForwardToZia {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#cloud_name CloudBrowserIsolationExternalProfile#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#cloud_name CloudBrowserIsolationExternalProfile#cloud_name}
   */
   readonly cloudName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#enabled CloudBrowserIsolationExternalProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#organization_id CloudBrowserIsolationExternalProfile#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#organization_id CloudBrowserIsolationExternalProfile#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#pac_file_url CloudBrowserIsolationExternalProfile#pac_file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#pac_file_url CloudBrowserIsolationExternalProfile#pac_file_url}
   */
   readonly pacFileUrl?: string;
 }
@@ -1037,29 +1037,29 @@ export class CloudBrowserIsolationExternalProfileUserExperienceForwardToZiaOutpu
 }
 export interface CloudBrowserIsolationExternalProfileUserExperience {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#browser_in_browser CloudBrowserIsolationExternalProfile#browser_in_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#browser_in_browser CloudBrowserIsolationExternalProfile#browser_in_browser}
   */
   readonly browserInBrowser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#persist_isolation_bar CloudBrowserIsolationExternalProfile#persist_isolation_bar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#persist_isolation_bar CloudBrowserIsolationExternalProfile#persist_isolation_bar}
   */
   readonly persistIsolationBar?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#session_persistence CloudBrowserIsolationExternalProfile#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#session_persistence CloudBrowserIsolationExternalProfile#session_persistence}
   */
   readonly sessionPersistence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#translate CloudBrowserIsolationExternalProfile#translate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#translate CloudBrowserIsolationExternalProfile#translate}
   */
   readonly translate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#zgpu CloudBrowserIsolationExternalProfile#zgpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#zgpu CloudBrowserIsolationExternalProfile#zgpu}
   */
   readonly zgpu?: boolean | cdktf.IResolvable;
   /**
   * forward_to_zia block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#forward_to_zia CloudBrowserIsolationExternalProfile#forward_to_zia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#forward_to_zia CloudBrowserIsolationExternalProfile#forward_to_zia}
   */
   readonly forwardToZia?: CloudBrowserIsolationExternalProfileUserExperienceForwardToZia;
 }
@@ -1288,7 +1288,7 @@ export class CloudBrowserIsolationExternalProfileUserExperienceOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile zpa_cloud_browser_isolation_external_profile}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile zpa_cloud_browser_isolation_external_profile}
 */
 export class CloudBrowserIsolationExternalProfile extends cdktf.TerraformResource {
 
@@ -1304,7 +1304,7 @@ export class CloudBrowserIsolationExternalProfile extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CloudBrowserIsolationExternalProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBrowserIsolationExternalProfile to import
-  * @param importFromId The id of the existing CloudBrowserIsolationExternalProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBrowserIsolationExternalProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBrowserIsolationExternalProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1316,7 +1316,7 @@ export class CloudBrowserIsolationExternalProfile extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_external_profile zpa_cloud_browser_isolation_external_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_external_profile zpa_cloud_browser_isolation_external_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1327,8 +1327,8 @@ export class CloudBrowserIsolationExternalProfile extends cdktf.TerraformResourc
       terraformResourceType: 'zpa_cloud_browser_isolation_external_profile',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

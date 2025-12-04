@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RoutingIgmpProxyInterfaceConfig extends cdktf.TerraformMetaArgu
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#___path___ RoutingIgmpProxyInterface#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#___path___ RoutingIgmpProxyInterface#___path___}
   */
   readonly path?: string;
   /**
   * By default, only packets from directly attached subnets are accepted. This parameter can be used to specify a list of alternative valid packet source subnets, both for data or IGMP packets. Has an effect only on the upstream interface. Should be used when the source of multicast data often is in a different IP network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#alternative_subnets RoutingIgmpProxyInterface#alternative_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#alternative_subnets RoutingIgmpProxyInterface#alternative_subnets}
   */
   readonly alternativeSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#comment RoutingIgmpProxyInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#comment RoutingIgmpProxyInterface#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#disabled RoutingIgmpProxyInterface#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#disabled RoutingIgmpProxyInterface#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#id RoutingIgmpProxyInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#id RoutingIgmpProxyInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface RoutingIgmpProxyInterfaceConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#interface RoutingIgmpProxyInterface#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#interface RoutingIgmpProxyInterface#interface}
   */
   readonly interface: string;
   /**
   * Minimal TTL. Packets received with a lower TTL value are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#threshold RoutingIgmpProxyInterface#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#threshold RoutingIgmpProxyInterface#threshold}
   */
   readonly threshold?: number;
   /**
   * The interface is called `upstream` if it's in the direction of the root of the multicast tree. An IGMP forwarding router must have exactly one upstream interface configured. The upstream interface is used to send out IGMP membership requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#upstream RoutingIgmpProxyInterface#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#upstream RoutingIgmpProxyInterface#upstream}
   */
   readonly upstream?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface routeros_routing_igmp_proxy_interface}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface routeros_routing_igmp_proxy_interface}
 */
 export class RoutingIgmpProxyInterface extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class RoutingIgmpProxyInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingIgmpProxyInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingIgmpProxyInterface to import
-  * @param importFromId The id of the existing RoutingIgmpProxyInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingIgmpProxyInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingIgmpProxyInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class RoutingIgmpProxyInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_igmp_proxy_interface routeros_routing_igmp_proxy_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/routing_igmp_proxy_interface routeros_routing_igmp_proxy_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class RoutingIgmpProxyInterface extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_igmp_proxy_interface',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

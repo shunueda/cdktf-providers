@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_camel
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_camel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCorefuncStrCamelConfig extends cdktf.TerraformMetaArguments
   /**
   * The string to convert to `camelCase`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_camel#string DataCorefuncStrCamel#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_camel#string DataCorefuncStrCamel#string}
   */
   readonly string: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_camel corefunc_str_camel}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_camel corefunc_str_camel}
 */
 export class DataCorefuncStrCamel extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCorefuncStrCamel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncStrCamel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncStrCamel to import
-  * @param importFromId The id of the existing DataCorefuncStrCamel that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_camel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncStrCamel that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_camel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncStrCamel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCorefuncStrCamel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_camel corefunc_str_camel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_camel corefunc_str_camel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCorefuncStrCamel extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_str_camel',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

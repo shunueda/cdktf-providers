@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets
+// https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionAzureClientSecretsConfig extends cdktf.TerraformMe
   /**
   * The credentials for the Azure Client Secrets App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#credentials AppConnectionAzureClientSecrets#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#credentials AppConnectionAzureClientSecrets#credentials}
   */
   readonly credentials: AppConnectionAzureClientSecretsCredentials;
   /**
   * An optional description for the Azure Client Secrets App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#description AppConnectionAzureClientSecrets#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#description AppConnectionAzureClientSecrets#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with Azure Client Secrets. Possible values are: client-secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#method AppConnectionAzureClientSecrets#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#method AppConnectionAzureClientSecrets#method}
   */
   readonly method: string;
   /**
   * The name of the Azure Client Secrets App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#name AppConnectionAzureClientSecrets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#name AppConnectionAzureClientSecrets#name}
   */
   readonly name: string;
 }
@@ -36,19 +36,19 @@ export interface AppConnectionAzureClientSecretsCredentials {
   /**
   * The Azure application (client) ID. Required for client-secret method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/azure-client-secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#client_id AppConnectionAzureClientSecrets#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#client_id AppConnectionAzureClientSecrets#client_id}
   */
   readonly clientId: string;
   /**
   * The Azure client secret. Required for client-secret method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/azure-client-secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#client_secret AppConnectionAzureClientSecrets#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#client_secret AppConnectionAzureClientSecrets#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The Azure Active Directory (AAD) tenant ID. Required for client-secret method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/azure-client-secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#tenant_id AppConnectionAzureClientSecrets#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#tenant_id AppConnectionAzureClientSecrets#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -191,7 +191,7 @@ export class AppConnectionAzureClientSecretsCredentialsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets infisical_app_connection_azure_client_secrets}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets infisical_app_connection_azure_client_secrets}
 */
 export class AppConnectionAzureClientSecrets extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class AppConnectionAzureClientSecrets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionAzureClientSecrets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionAzureClientSecrets to import
-  * @param importFromId The id of the existing AppConnectionAzureClientSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionAzureClientSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionAzureClientSecrets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class AppConnectionAzureClientSecrets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_azure_client_secrets infisical_app_connection_azure_client_secrets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_azure_client_secrets infisical_app_connection_azure_client_secrets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class AppConnectionAzureClientSecrets extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_azure_client_secrets',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.50',
-        providerVersionConstraint: '0.15.50'
+        providerVersion: '0.15.52',
+        providerVersionConstraint: '0.15.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

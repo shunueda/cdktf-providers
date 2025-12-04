@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment
+// https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DatawarehouseDeploymentConfig extends cdktf.TerraformMetaArgume
   /**
   * Maximum CPU count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#cpu_max DatawarehouseDeployment#cpu_max}
   */
   readonly cpuMax: number;
   /**
   * Minimum CPU count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#cpu_min DatawarehouseDeployment#cpu_min}
   */
   readonly cpuMin: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#id DatawarehouseDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DatawarehouseDeploymentConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the Datawarehouse deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#name DatawarehouseDeployment#name}
   */
   readonly name: string;
   /**
   * Password for the first user of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#password DatawarehouseDeployment#password}
   */
   readonly password?: string;
   /**
   * The project_id you want to attach the resource to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#project_id DatawarehouseDeployment#project_id}
   */
   readonly projectId?: string;
   /**
   * RAM per CPU (GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#ram_per_cpu DatawarehouseDeployment#ram_per_cpu}
   */
   readonly ramPerCpu: number;
   /**
   * The region you want to attach the resource to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#region DatawarehouseDeployment#region}
   */
   readonly region?: string;
   /**
   * Number of replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#replica_count DatawarehouseDeployment#replica_count}
   */
   readonly replicaCount: number;
   /**
   * List of tags to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#tags DatawarehouseDeployment#tags}
   */
   readonly tags?: string[];
   /**
   * ClickHouse version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#version DatawarehouseDeployment#version}
   */
   readonly version: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#timeouts DatawarehouseDeployment#timeouts}
   */
   readonly timeouts?: DatawarehouseDeploymentTimeouts;
 }
@@ -249,19 +249,19 @@ export class DatawarehouseDeploymentPublicNetworkList extends cdktf.ComplexList 
 }
 export interface DatawarehouseDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#create DatawarehouseDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#create DatawarehouseDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#delete DatawarehouseDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#delete DatawarehouseDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#read DatawarehouseDeployment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#read DatawarehouseDeployment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#update DatawarehouseDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#update DatawarehouseDeployment#update}
   */
   readonly update?: string;
 }
@@ -442,7 +442,7 @@ export class DatawarehouseDeploymentTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment scaleway_datawarehouse_deployment}
+* Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment scaleway_datawarehouse_deployment}
 */
 export class DatawarehouseDeployment extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class DatawarehouseDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatawarehouseDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatawarehouseDeployment to import
-  * @param importFromId The id of the existing DatawarehouseDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatawarehouseDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatawarehouseDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class DatawarehouseDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/datawarehouse_deployment scaleway_datawarehouse_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/resources/datawarehouse_deployment scaleway_datawarehouse_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class DatawarehouseDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_datawarehouse_deployment',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.63.0',
-        providerVersionConstraint: '2.63.0'
+        providerVersion: '2.64.0',
+        providerVersionConstraint: '2.64.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

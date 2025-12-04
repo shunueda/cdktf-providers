@@ -1,3 +1,3 @@
 # `infisical_identity_token_auth`
 
-Refer to the Terraform Registry for docs: [`infisical_identity_token_auth`](https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/identity_token_auth).
+Refer to the Terraform Registry for docs: [`infisical_identity_token_auth`](https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/identity_token_auth).

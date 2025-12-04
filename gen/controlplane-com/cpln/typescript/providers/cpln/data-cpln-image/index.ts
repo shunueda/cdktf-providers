@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCplnImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image#name DataCplnImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image#name DataCplnImage#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image#tags DataCplnImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image#tags DataCplnImage#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -284,7 +284,7 @@ export class DataCplnImageManifestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image cpln_image}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image cpln_image}
 */
 export class DataCplnImage extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataCplnImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnImage to import
-  * @param importFromId The id of the existing DataCplnImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataCplnImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/image cpln_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/image cpln_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataCplnImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_image',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.17',
-        providerVersionConstraint: '1.2.17'
+        providerVersion: '1.2.19',
+        providerVersionConstraint: '1.2.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

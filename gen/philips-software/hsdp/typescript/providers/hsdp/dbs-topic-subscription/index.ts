@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DbsTopicSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#data_type DbsTopicSubscription#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#data_type DbsTopicSubscription#data_type}
   */
   readonly dataType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#deliver_data_only DbsTopicSubscription#deliver_data_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#deliver_data_only DbsTopicSubscription#deliver_data_only}
   */
   readonly deliverDataOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#description DbsTopicSubscription#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#description DbsTopicSubscription#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#id DbsTopicSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#id DbsTopicSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#kinesis_stream_partition_key DbsTopicSubscription#kinesis_stream_partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#kinesis_stream_partition_key DbsTopicSubscription#kinesis_stream_partition_key}
   */
   readonly kinesisStreamPartitionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#name_infix DbsTopicSubscription#name_infix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#name_infix DbsTopicSubscription#name_infix}
   */
   readonly nameInfix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#subscriber_id DbsTopicSubscription#subscriber_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#subscriber_id DbsTopicSubscription#subscriber_id}
   */
   readonly subscriberId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription hsdp_dbs_topic_subscription}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription hsdp_dbs_topic_subscription}
 */
 export class DbsTopicSubscription extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DbsTopicSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbsTopicSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbsTopicSubscription to import
-  * @param importFromId The id of the existing DbsTopicSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbsTopicSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbsTopicSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DbsTopicSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/dbs_topic_subscription hsdp_dbs_topic_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/dbs_topic_subscription hsdp_dbs_topic_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DbsTopicSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_dbs_topic_subscription',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

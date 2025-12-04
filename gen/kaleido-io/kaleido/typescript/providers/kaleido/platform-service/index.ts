@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,67 +8,73 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#config_json PlatformService#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#config_json PlatformService#config_json}
   */
   readonly configJson: string;
   /**
   * Credentials such as usernames and passwords, or API Keys, required to integrate with external systems are also stored and encrypted separately to the main configuration of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#cred_sets PlatformService#cred_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#cred_sets PlatformService#cred_sets}
   */
   readonly credSets?: { [key: string]: PlatformServiceCredSets } | cdktf.IResolvable;
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#environment PlatformService#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#environment PlatformService#environment}
   */
   readonly environment: string;
   /**
   * Some services require binary files as part of their configuration, such as x509 certificates, or large JSON/YAML configuration files to be passed directly down to the service for verification. The files are individually encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#file_sets PlatformService#file_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#file_sets PlatformService#file_sets}
   */
   readonly fileSets?: { [key: string]: PlatformServiceFileSets } | cdktf.IResolvable;
   /**
   * Set to `true` when you plan to delete a protected service like a Besu validator node. You must apply the value before you can successfully `terraform destroy` the protected service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#force_delete PlatformService#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#force_delete PlatformService#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#hostnames PlatformService#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#hostnames PlatformService#hostnames}
   */
   readonly hostnames?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Service Display Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#name PlatformService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#name PlatformService#name}
   */
   readonly name: string;
   /**
   * Runtime ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#runtime PlatformService#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#runtime PlatformService#runtime}
   */
   readonly runtime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#stack_id PlatformService#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#stack_id PlatformService#stack_id}
   */
   readonly stackId?: string;
   /**
   * Service Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#type PlatformService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#type PlatformService#type}
   */
   readonly type: string;
+  /**
+  * Set to `false` to ignore the service's readiness status before proceeding. Defaults to `true`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#wait_for_ready PlatformService#wait_for_ready}
+  */
+  readonly waitForReady?: boolean | cdktf.IResolvable;
 }
 export interface PlatformServiceCredSetsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#password PlatformService#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#password PlatformService#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#username PlatformService#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#username PlatformService#username}
   */
   readonly username: string;
 }
@@ -185,7 +191,7 @@ export class PlatformServiceCredSetsBasicAuthOutputReference extends cdktf.Compl
 }
 export interface PlatformServiceCredSetsKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#value PlatformService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#value PlatformService#value}
   */
   readonly value: string;
 }
@@ -276,15 +282,15 @@ export class PlatformServiceCredSetsKeyOutputReference extends cdktf.ComplexObje
 }
 export interface PlatformServiceCredSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#basic_auth PlatformService#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#basic_auth PlatformService#basic_auth}
   */
   readonly basicAuth?: PlatformServiceCredSetsBasicAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#key PlatformService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#key PlatformService#key}
   */
   readonly key?: PlatformServiceCredSetsKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#type PlatformService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#type PlatformService#type}
   */
   readonly type: string;
 }
@@ -531,15 +537,15 @@ export class PlatformServiceEndpointsMap extends cdktf.ComplexMap {
 }
 export interface PlatformServiceFileSetsFilesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#base64 PlatformService#base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#base64 PlatformService#base64}
   */
   readonly base64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#hex PlatformService#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#hex PlatformService#hex}
   */
   readonly hex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#text PlatformService#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#text PlatformService#text}
   */
   readonly text?: string;
 }
@@ -691,11 +697,11 @@ export class PlatformServiceFileSetsFilesDataOutputReference extends cdktf.Compl
 }
 export interface PlatformServiceFileSetsFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#data PlatformService#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#data PlatformService#data}
   */
   readonly data: PlatformServiceFileSetsFilesData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#type PlatformService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#type PlatformService#type}
   */
   readonly type: string;
 }
@@ -832,7 +838,7 @@ export class PlatformServiceFileSetsFilesMap extends cdktf.ComplexMap {
 }
 export interface PlatformServiceFileSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#files PlatformService#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#files PlatformService#files}
   */
   readonly files: { [key: string]: PlatformServiceFileSetsFiles } | cdktf.IResolvable;
 }
@@ -943,7 +949,7 @@ export class PlatformServiceFileSetsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service kaleido_platform_service}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service kaleido_platform_service}
 */
 export class PlatformService extends cdktf.TerraformResource {
 
@@ -959,7 +965,7 @@ export class PlatformService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformService to import
-  * @param importFromId The id of the existing PlatformService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformService that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -971,7 +977,7 @@ export class PlatformService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service kaleido_platform_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service kaleido_platform_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -982,8 +988,8 @@ export class PlatformService extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_service',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1003,6 +1009,7 @@ export class PlatformService extends cdktf.TerraformResource {
     this._runtime = config.runtime;
     this._stackId = config.stackId;
     this._type = config.type;
+    this._waitForReady = config.waitForReady;
   }
 
   // ==========
@@ -1175,6 +1182,22 @@ export class PlatformService extends cdktf.TerraformResource {
     return this._type;
   }
 
+  // wait_for_ready - computed: false, optional: true, required: false
+  private _waitForReady?: boolean | cdktf.IResolvable; 
+  public get waitForReady() {
+    return this.getBooleanAttribute('wait_for_ready');
+  }
+  public set waitForReady(value: boolean | cdktf.IResolvable) {
+    this._waitForReady = value;
+  }
+  public resetWaitForReady() {
+    this._waitForReady = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get waitForReadyInput() {
+    return this._waitForReady;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1191,6 +1214,7 @@ export class PlatformService extends cdktf.TerraformResource {
       runtime: cdktf.stringToTerraform(this._runtime),
       stack_id: cdktf.stringToTerraform(this._stackId),
       type: cdktf.stringToTerraform(this._type),
+      wait_for_ready: cdktf.booleanToTerraform(this._waitForReady),
     };
   }
 
@@ -1255,6 +1279,12 @@ export class PlatformService extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      wait_for_ready: {
+        value: cdktf.booleanToHclTerraform(this._waitForReady),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

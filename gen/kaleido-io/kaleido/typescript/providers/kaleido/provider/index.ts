@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface KaleidoProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#api KaleidoProvider#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#api KaleidoProvider#api}
   */
   readonly api?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#api_key KaleidoProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#api_key KaleidoProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * For resources prefixed with `platform_`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#platform_api KaleidoProvider#platform_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#platform_api KaleidoProvider#platform_api}
   */
   readonly platformApi?: string;
   /**
   * For resources prefixed with `platform_`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#platform_password KaleidoProvider#platform_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#platform_bearer_token KaleidoProvider#platform_bearer_token}
+  */
+  readonly platformBearerToken?: string;
+  /**
+  * For resources prefixed with `platform_`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#platform_password KaleidoProvider#platform_password}
   */
   readonly platformPassword?: string;
   /**
   * For resources prefixed with `platform_`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#platform_username KaleidoProvider#platform_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#platform_username KaleidoProvider#platform_username}
   */
   readonly platformUsername?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#alias KaleidoProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#alias KaleidoProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs kaleido}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs kaleido}
 */
 export class KaleidoProvider extends cdktf.TerraformProvider {
 
@@ -58,7 +64,7 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KaleidoProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KaleidoProvider to import
-  * @param importFromId The id of the existing KaleidoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KaleidoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KaleidoProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +76,7 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs kaleido} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs kaleido} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,14 +87,15 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kaleido',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       terraformProviderSource: 'kaleido-io/kaleido'
     });
     this._api = config.api;
     this._apiKey = config.apiKey;
     this._platformApi = config.platformApi;
+    this._platformBearerToken = config.platformBearerToken;
     this._platformPassword = config.platformPassword;
     this._platformUsername = config.platformUsername;
     this._alias = config.alias;
@@ -144,6 +151,22 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get platformApiInput() {
     return this._platformApi;
+  }
+
+  // platform_bearer_token - computed: false, optional: true, required: false
+  private _platformBearerToken?: string; 
+  public get platformBearerToken() {
+    return this._platformBearerToken;
+  }
+  public set platformBearerToken(value: string | undefined) {
+    this._platformBearerToken = value;
+  }
+  public resetPlatformBearerToken() {
+    this._platformBearerToken = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get platformBearerTokenInput() {
+    return this._platformBearerToken;
   }
 
   // platform_password - computed: false, optional: true, required: false
@@ -203,6 +226,7 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
       api: cdktf.stringToTerraform(this._api),
       api_key: cdktf.stringToTerraform(this._apiKey),
       platform_api: cdktf.stringToTerraform(this._platformApi),
+      platform_bearer_token: cdktf.stringToTerraform(this._platformBearerToken),
       platform_password: cdktf.stringToTerraform(this._platformPassword),
       platform_username: cdktf.stringToTerraform(this._platformUsername),
       alias: cdktf.stringToTerraform(this._alias),
@@ -225,6 +249,12 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
       },
       platform_api: {
         value: cdktf.stringToHclTerraform(this._platformApi),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      platform_bearer_token: {
+        value: cdktf.stringToHclTerraform(this._platformBearerToken),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

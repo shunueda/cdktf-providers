@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface LogDrainConfig extends cdktf.TerraformMetaArguments {
   /**
   * One of datadog, newrelic, logflare, s3, splunkcloud, http, axiom, or azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#destination LogDrain#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#destination LogDrain#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#exclude_pii LogDrain#exclude_pii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#exclude_pii LogDrain#exclude_pii}
   */
   readonly excludePii: boolean | cdktf.IResolvable;
   /**
   * json or ndjson
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#format LogDrain#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#format LogDrain#format}
   */
   readonly format?: string;
   /**
   * One or more of user_traffic, functions, edge_functions, waf_logs, and deploys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#log_types LogDrain#log_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#log_types LogDrain#log_types}
   */
   readonly logTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#service_config LogDrain#service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#service_config LogDrain#service_config}
   */
   readonly serviceConfig: LogDrainServiceConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#site_id LogDrain#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#site_id LogDrain#site_id}
   */
   readonly siteId: string;
 }
 export interface LogDrainServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#authorization_header LogDrain#authorization_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#authorization_header LogDrain#authorization_header}
   */
   readonly authorizationHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#bucket_name LogDrain#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#bucket_name LogDrain#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#bucket_region LogDrain#bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#bucket_region LogDrain#bucket_region}
   */
   readonly bucketRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#integration_name LogDrain#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#integration_name LogDrain#integration_name}
   */
   readonly integrationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#path LogDrain#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#path LogDrain#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#tags LogDrain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#tags LogDrain#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#url LogDrain#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#url LogDrain#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#verification_filename LogDrain#verification_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#verification_filename LogDrain#verification_filename}
   */
   readonly verificationFilename?: string;
 }
@@ -365,7 +365,7 @@ export class LogDrainServiceConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain netlify_log_drain}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain netlify_log_drain}
 */
 export class LogDrain extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class LogDrain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogDrain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogDrain to import
-  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogDrain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class LogDrain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/log_drain netlify_log_drain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/log_drain netlify_log_drain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,7 +404,8 @@ export class LogDrain extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_log_drain',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

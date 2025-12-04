@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,149 +10,149 @@ export interface OrgGatewaytemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * additional CLI commands to append to the generated Junos config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#additional_config_cmds OrgGatewaytemplate#additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#additional_config_cmds OrgGatewaytemplate#additional_config_cmds}
   */
   readonly additionalConfigCmds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#bgp_config OrgGatewaytemplate#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#bgp_config OrgGatewaytemplate#bgp_config}
   */
   readonly bgpConfig?: { [key: string]: OrgGatewaytemplateBgpConfig } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dhcpd_config OrgGatewaytemplate#dhcpd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dhcpd_config OrgGatewaytemplate#dhcpd_config}
   */
   readonly dhcpdConfig?: OrgGatewaytemplateDhcpdConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_override OrgGatewaytemplate#dns_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_override OrgGatewaytemplate#dns_override}
   */
   readonly dnsOverride?: boolean | cdktf.IResolvable;
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_servers OrgGatewaytemplate#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_servers OrgGatewaytemplate#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8"), the destination Network name or a variable (e.g. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#extra_routes OrgGatewaytemplate#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#extra_routes OrgGatewaytemplate#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: OrgGatewaytemplateExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64"), the destination Network name or a variable (e.g. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#extra_routes6 OrgGatewaytemplate#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#extra_routes6 OrgGatewaytemplate#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: OrgGatewaytemplateExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Property key is the profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#idp_profiles OrgGatewaytemplate#idp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#idp_profiles OrgGatewaytemplate#idp_profiles}
   */
   readonly idpProfiles?: { [key: string]: OrgGatewaytemplateIdpProfiles } | cdktf.IResolvable;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip_configs OrgGatewaytemplate#ip_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip_configs OrgGatewaytemplate#ip_configs}
   */
   readonly ipConfigs?: { [key: string]: OrgGatewaytemplateIpConfigs } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: OrgGatewaytemplateNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ntp_override OrgGatewaytemplate#ntp_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ntp_override OrgGatewaytemplate#ntp_override}
   */
   readonly ntpOverride?: boolean | cdktf.IResolvable;
   /**
   * List of NTP servers specific to this device. By default, those in Site Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ntp_servers OrgGatewaytemplate#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ntp_servers OrgGatewaytemplate#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * Out-of-band (vme/em0/fxp0) IP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#oob_ip_config OrgGatewaytemplate#oob_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#oob_ip_config OrgGatewaytemplate#oob_ip_config}
   */
   readonly oobIpConfig?: OrgGatewaytemplateOobIpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#org_id OrgGatewaytemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#org_id OrgGatewaytemplate#org_id}
   */
   readonly orgId: string;
   /**
   * Property key is the path name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#path_preferences OrgGatewaytemplate#path_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#path_preferences OrgGatewaytemplate#path_preferences}
   */
   readonly pathPreferences?: { [key: string]: OrgGatewaytemplatePathPreferences } | cdktf.IResolvable;
   /**
   * Property key is the Port Name (i.e. "ge-0/0/0"), the Ports Range (i.e. "ge-0/0/0-10"), the List of Ports (i.e. "ge-0/0/0,ge-1/0/0", only allowed for Aggregated or Redundant interfaces) or a Variable (i.e. "{{myvar}}").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#port_config OrgGatewaytemplate#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#port_config OrgGatewaytemplate#port_config}
   */
   readonly portConfig?: { [key: string]: OrgGatewaytemplatePortConfig } | cdktf.IResolvable;
   /**
   * Auto assigned if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#router_id OrgGatewaytemplate#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#router_id OrgGatewaytemplate#router_id}
   */
   readonly routerId?: string;
   /**
   * Property key is the routing policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#routing_policies OrgGatewaytemplate#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#routing_policies OrgGatewaytemplate#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: OrgGatewaytemplateRoutingPolicies } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#service_policies OrgGatewaytemplate#service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#service_policies OrgGatewaytemplate#service_policies}
   */
   readonly servicePolicies?: OrgGatewaytemplateServicePolicies[] | cdktf.IResolvable;
   /**
   * additional CLI commands to append to the generated SSR config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ssr_additional_config_cmds OrgGatewaytemplate#ssr_additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ssr_additional_config_cmds OrgGatewaytemplate#ssr_additional_config_cmds}
   */
   readonly ssrAdditionalConfigCmds?: string[];
   /**
   * Property key is the tunnel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#tunnel_configs OrgGatewaytemplate#tunnel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#tunnel_configs OrgGatewaytemplate#tunnel_configs}
   */
   readonly tunnelConfigs?: { [key: string]: OrgGatewaytemplateTunnelConfigs } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#tunnel_provider_options OrgGatewaytemplate#tunnel_provider_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#tunnel_provider_options OrgGatewaytemplate#tunnel_provider_options}
   */
   readonly tunnelProviderOptions?: OrgGatewaytemplateTunnelProviderOptions;
   /**
   * enum: `spoke`, `standalone`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * When a service policy denies a app_category, what message to show in user's browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#url_filtering_deny_msg OrgGatewaytemplate#url_filtering_deny_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#url_filtering_deny_msg OrgGatewaytemplate#url_filtering_deny_msg}
   */
   readonly urlFilteringDenyMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vrf_config OrgGatewaytemplate#vrf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vrf_config OrgGatewaytemplate#vrf_config}
   */
   readonly vrfConfig?: OrgGatewaytemplateVrfConfig;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vrf_instances OrgGatewaytemplate#vrf_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vrf_instances OrgGatewaytemplate#vrf_instances}
   */
   readonly vrfInstances?: { [key: string]: OrgGatewaytemplateVrfInstances } | cdktf.IResolvable;
 }
@@ -160,31 +160,31 @@ export interface OrgGatewaytemplateBgpConfigNeighbors {
   /**
   * If true, the BGP session to this neighbor will be administratively disabled/shutdown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#export_policy OrgGatewaytemplate#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#export_policy OrgGatewaytemplate#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#hold_time OrgGatewaytemplate#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#hold_time OrgGatewaytemplate#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#import_policy OrgGatewaytemplate#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#import_policy OrgGatewaytemplate#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * Assuming BGP neighbor is directly connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#multihop_ttl OrgGatewaytemplate#multihop_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#multihop_ttl OrgGatewaytemplate#multihop_ttl}
   */
   readonly multihopTtl?: number;
   /**
   * Neighbor AS. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#neighbor_as OrgGatewaytemplate#neighbor_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#neighbor_as OrgGatewaytemplate#neighbor_as}
   */
   readonly neighborAs: string;
 }
@@ -442,7 +442,7 @@ export interface OrgGatewaytemplateBgpConfig {
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auth_key OrgGatewaytemplate#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auth_key OrgGatewaytemplate#auth_key}
   */
   readonly authKey?: string;
   /**
@@ -450,123 +450,123 @@ export interface OrgGatewaytemplateBgpConfig {
   *   * 1000 if `type`==`external`
   *   * 350 `type`==`internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#bfd_minimum_interval OrgGatewaytemplate#bfd_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#bfd_minimum_interval OrgGatewaytemplate#bfd_minimum_interval}
   */
   readonly bfdMinimumInterval?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`, when bfd_minimum_interval_is_configured alone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#bfd_multiplier OrgGatewaytemplate#bfd_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#bfd_multiplier OrgGatewaytemplate#bfd_multiplier}
   */
   readonly bfdMultiplier?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. BFD provides faster path failure detection and is enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disable_bfd OrgGatewaytemplate#disable_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disable_bfd OrgGatewaytemplate#disable_bfd}
   */
   readonly disableBfd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#export OrgGatewaytemplate#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#export OrgGatewaytemplate#export}
   */
   readonly export?: string;
   /**
   * Default export policies if no per-neighbor policies defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#export_policy OrgGatewaytemplate#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#export_policy OrgGatewaytemplate#export_policy}
   */
   readonly exportPolicy?: string;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. By default, either inet/net6 unicast depending on neighbor IP family (v4 or v6). For v6 neighbors, to exchange v4 nexthop, which allows dual-stack support, enable this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#extended_v4_nexthop OrgGatewaytemplate#extended_v4_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#extended_v4_nexthop OrgGatewaytemplate#extended_v4_nexthop}
   */
   readonly extendedV4Nexthop?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. `0` means disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#graceful_restart_time OrgGatewaytemplate#graceful_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#graceful_restart_time OrgGatewaytemplate#graceful_restart_time}
   */
   readonly gracefulRestartTime?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. Default is 90.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#hold_time OrgGatewaytemplate#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#hold_time OrgGatewaytemplate#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#import OrgGatewaytemplate#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#import OrgGatewaytemplate#import}
   */
   readonly import?: string;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. Default import policies if no per-neighbor policies defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#import_policy OrgGatewaytemplate#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#import_policy OrgGatewaytemplate#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. BGPLocal AS. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#local_as OrgGatewaytemplate#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#local_as OrgGatewaytemplate#local_as}
   */
   readonly localAs?: string;
   /**
   * Neighbor AS. If `type`==`internal`, must be equal to `local_as`. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#neighbor_as OrgGatewaytemplate#neighbor_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#neighbor_as OrgGatewaytemplate#neighbor_as}
   */
   readonly neighborAs?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. If per-neighbor as is desired. Property key is the neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#neighbors OrgGatewaytemplate#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#neighbors OrgGatewaytemplate#neighbors}
   */
   readonly neighbors?: { [key: string]: OrgGatewaytemplateBgpConfigNeighbors } | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`. List of networks where we expect BGP neighbor to connect to/from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: string[];
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. If true, we will not advertise private ASNs (AS 64512-65534) to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#no_private_as OrgGatewaytemplate#no_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#no_private_as OrgGatewaytemplate#no_private_as}
   */
   readonly noPrivateAs?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. By default, we'll re-advertise all learned BGP routers toward overlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#no_readvertise_to_overlay OrgGatewaytemplate#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#no_readvertise_to_overlay OrgGatewaytemplate#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#tunnel_name OrgGatewaytemplate#tunnel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#tunnel_name OrgGatewaytemplate#tunnel_name}
   */
   readonly tunnelName?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. enum: `external`, `internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * enum: `lan`, `tunnel`, `vpn`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
   */
   readonly via: string;
   /**
   * Optional if `via`==`vpn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_name OrgGatewaytemplate#vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_name OrgGatewaytemplate#vpn_name}
   */
   readonly vpnName?: string;
   /**
   * Optional if `via`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
   */
   readonly wanName?: string;
 }
@@ -1286,15 +1286,15 @@ export class OrgGatewaytemplateBgpConfigMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateDhcpdConfigConfigFixedBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
 }
@@ -1468,11 +1468,11 @@ export interface OrgGatewaytemplateDhcpdConfigConfigOptions {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#value OrgGatewaytemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#value OrgGatewaytemplate#value}
   */
   readonly value?: string;
 }
@@ -1617,11 +1617,11 @@ export interface OrgGatewaytemplateDhcpdConfigConfigVendorEncapsulated {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#value OrgGatewaytemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#value OrgGatewaytemplate#value}
   */
   readonly value?: string;
 }
@@ -1766,92 +1766,92 @@ export interface OrgGatewaytemplateDhcpdConfigConfig {
   /**
   * If `type`==`local` or `type6`==`local` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_servers OrgGatewaytemplate#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_servers OrgGatewaytemplate#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * If `type`==`local` or `type6`==`local` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * If `type`==`local` or `type6`==`local`. Property key is the MAC Address. Format is `[0-9a-f]{12}` (e.g. "5684dae9ac8b")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#fixed_bindings OrgGatewaytemplate#fixed_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#fixed_bindings OrgGatewaytemplate#fixed_bindings}
   */
   readonly fixedBindings?: { [key: string]: OrgGatewaytemplateDhcpdConfigConfigFixedBindings } | cdktf.IResolvable;
   /**
   * If `type`==`local` - optional, `ip` will be used if not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
   */
   readonly gateway?: string;
   /**
   * If `type6`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6_end OrgGatewaytemplate#ip6_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6_end OrgGatewaytemplate#ip6_end}
   */
   readonly ip6End?: string;
   /**
   * If `type6`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6_start OrgGatewaytemplate#ip6_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6_start OrgGatewaytemplate#ip6_start}
   */
   readonly ip6Start?: string;
   /**
   * If `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip_end OrgGatewaytemplate#ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip_end OrgGatewaytemplate#ip_end}
   */
   readonly ipEnd?: string;
   /**
   * If `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip_start OrgGatewaytemplate#ip_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip_start OrgGatewaytemplate#ip_start}
   */
   readonly ipStart?: string;
   /**
   * In seconds, lease time has to be between 3600 [1hr] - 604800 [1 week], default is 86400 [1 day]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lease_time OrgGatewaytemplate#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lease_time OrgGatewaytemplate#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * If `type`==`local` or `type6`==`local`. Property key is the DHCP option number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#options OrgGatewaytemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#options OrgGatewaytemplate#options}
   */
   readonly options?: { [key: string]: OrgGatewaytemplateDhcpdConfigConfigOptions } | cdktf.IResolvable;
   /**
   * `server_id_override`==`true` means the device, when acts as DHCP relay and forwards DHCP responses from DHCP server to clients, 
   * should overwrite the Sever Identifier option (i.e. DHCP option 54) in DHCP responses with its own IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#server_id_override OrgGatewaytemplate#server_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#server_id_override OrgGatewaytemplate#server_id_override}
   */
   readonly serverIdOverride?: boolean | cdktf.IResolvable;
   /**
   * If `type`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#servers OrgGatewaytemplate#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#servers OrgGatewaytemplate#servers}
   */
   readonly servers?: string[];
   /**
   * If `type6`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#serversv6 OrgGatewaytemplate#serversv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#serversv6 OrgGatewaytemplate#serversv6}
   */
   readonly serversv6?: string[];
   /**
   * enum: `local` (DHCP Server), `none`, `relay` (DHCP Relay)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * enum: `local` (DHCP Server), `none`, `relay` (DHCP Relay)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
   */
   readonly type6?: string;
   /**
@@ -1859,7 +1859,7 @@ export interface OrgGatewaytemplateDhcpdConfigConfig {
   *   * enterprise number: 1-65535 (https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers)
   *   * sub option code: 1-255, sub-option code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vendor_encapsulated OrgGatewaytemplate#vendor_encapsulated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vendor_encapsulated OrgGatewaytemplate#vendor_encapsulated}
   */
   readonly vendorEncapsulated?: { [key: string]: OrgGatewaytemplateDhcpdConfigConfigVendorEncapsulated } | cdktf.IResolvable;
 }
@@ -2410,13 +2410,13 @@ export interface OrgGatewaytemplateDhcpdConfig {
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#config OrgGatewaytemplate#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#config OrgGatewaytemplate#config}
   */
   readonly config?: { [key: string]: OrgGatewaytemplateDhcpdConfigConfig } | cdktf.IResolvable;
   /**
   * If set to `false`, disable the DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2539,7 +2539,7 @@ export class OrgGatewaytemplateDhcpdConfigOutputReference extends cdktf.ComplexO
 }
 export interface OrgGatewaytemplateExtraRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
   */
   readonly via: string;
 }
@@ -2650,7 +2650,7 @@ export class OrgGatewaytemplateExtraRoutesMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateExtraRoutes6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
   */
   readonly via: string;
 }
@@ -2761,15 +2761,15 @@ export class OrgGatewaytemplateExtraRoutes6Map extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateIdpProfilesOverwritesMatching {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#attack_name OrgGatewaytemplate#attack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#attack_name OrgGatewaytemplate#attack_name}
   */
   readonly attackName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dst_subnet OrgGatewaytemplate#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dst_subnet OrgGatewaytemplate#dst_subnet}
   */
   readonly dstSubnet?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#severity OrgGatewaytemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#severity OrgGatewaytemplate#severity}
   */
   readonly severity?: string[];
 }
@@ -2926,15 +2926,15 @@ export interface OrgGatewaytemplateIdpProfilesOverwrites {
   *   * drop: silently dropping packets
   *   * close: notify client/server to close connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#action OrgGatewaytemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#action OrgGatewaytemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#matching OrgGatewaytemplate#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#matching OrgGatewaytemplate#matching}
   */
   readonly matching?: OrgGatewaytemplateIdpProfilesOverwritesMatching;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
 }
@@ -3110,19 +3110,19 @@ export interface OrgGatewaytemplateIdpProfiles {
   /**
   * enum: `critical`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#base_profile OrgGatewaytemplate#base_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#base_profile OrgGatewaytemplate#base_profile}
   */
   readonly baseProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#org_id OrgGatewaytemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#org_id OrgGatewaytemplate#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#overwrites OrgGatewaytemplate#overwrites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#overwrites OrgGatewaytemplate#overwrites}
   */
   readonly overwrites?: OrgGatewaytemplateIdpProfilesOverwrites[] | cdktf.IResolvable;
 }
@@ -3323,37 +3323,37 @@ export class OrgGatewaytemplateIdpProfilesMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateIpConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask6 OrgGatewaytemplate#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask6 OrgGatewaytemplate#netmask6}
   */
   readonly netmask6?: string;
   /**
   * Optional list of secondary IPs in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#secondary_ips OrgGatewaytemplate#secondary_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#secondary_ips OrgGatewaytemplate#secondary_ips}
   */
   readonly secondaryIps?: string[];
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
   */
   readonly type6?: string;
 }
@@ -3641,7 +3641,7 @@ export class OrgGatewaytemplateIpConfigsMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateNetworksInternalAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3737,23 +3737,23 @@ export interface OrgGatewaytemplateNetworksInternetAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
   * The Destination NAT destination IP Address. Must be a Port (i.e. "443") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#port OrgGatewaytemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#port OrgGatewaytemplate#port}
   */
   readonly port?: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
   */
   readonly wanName?: string;
 }
@@ -3956,17 +3956,17 @@ export interface OrgGatewaytemplateNetworksInternetAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity. Can be a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
   */
   readonly wanName?: string;
 }
@@ -4132,29 +4132,29 @@ export class OrgGatewaytemplateNetworksInternetAccessStaticNatMap extends cdktf.
 }
 export interface OrgGatewaytemplateNetworksInternetAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#create_simple_service_policy OrgGatewaytemplate#create_simple_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#create_simple_service_policy OrgGatewaytemplate#create_simple_service_policy}
   */
   readonly createSimpleServicePolicy?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#destination_nat OrgGatewaytemplate#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#destination_nat OrgGatewaytemplate#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgGatewaytemplateNetworksInternetAccessDestinationNat } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * By default, all access is allowed, to only allow certain traffic, make `restricted`=`true` and define service_policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#restricted OrgGatewaytemplate#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#restricted OrgGatewaytemplate#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#static_nat OrgGatewaytemplate#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#static_nat OrgGatewaytemplate#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgGatewaytemplateNetworksInternetAccessStaticNat } | cdktf.IResolvable;
 }
@@ -4366,7 +4366,7 @@ export interface OrgGatewaytemplateNetworksMulticastGroups {
   /**
   * RP (rendezvous point) IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#rp_ip OrgGatewaytemplate#rp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#rp_ip OrgGatewaytemplate#rp_ip}
   */
   readonly rpIp?: string;
 }
@@ -4482,17 +4482,17 @@ export interface OrgGatewaytemplateNetworksMulticast {
   /**
   * If the network will only be the source of the multicast traffic, IGMP can be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disable_igmp OrgGatewaytemplate#disable_igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disable_igmp OrgGatewaytemplate#disable_igmp}
   */
   readonly disableIgmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Group address to RP (rendezvous point) mapping. Property Key is the CIDR (example "225.1.0.3/32")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#groups OrgGatewaytemplate#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#groups OrgGatewaytemplate#groups}
   */
   readonly groups?: { [key: string]: OrgGatewaytemplateNetworksMulticastGroups } | cdktf.IResolvable;
 }
@@ -4644,7 +4644,7 @@ export class OrgGatewaytemplateNetworksMulticastOutputReference extends cdktf.Co
 }
 export interface OrgGatewaytemplateNetworksTenants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#addresses OrgGatewaytemplate#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#addresses OrgGatewaytemplate#addresses}
   */
   readonly addresses?: string[];
 }
@@ -4760,15 +4760,15 @@ export interface OrgGatewaytemplateNetworksVpnAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#port OrgGatewaytemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#port OrgGatewaytemplate#port}
   */
   readonly port?: string;
 }
@@ -4940,7 +4940,7 @@ export class OrgGatewaytemplateNetworksVpnAccessDestinationNatMap extends cdktf.
 }
 export interface OrgGatewaytemplateNetworksVpnAccessSourceNat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#external_ip OrgGatewaytemplate#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#external_ip OrgGatewaytemplate#external_ip}
   */
   readonly externalIp?: string;
 }
@@ -5036,11 +5036,11 @@ export interface OrgGatewaytemplateNetworksVpnAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ip OrgGatewaytemplate#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name: string;
 }
@@ -5179,85 +5179,85 @@ export interface OrgGatewaytemplateNetworksVpnAccess {
   /**
   * If `routed`==`true`, whether to advertise an aggregated subnet toward HUB this is useful when there are multiple networks on SPOKE's side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#advertised_subnet OrgGatewaytemplate#advertised_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#advertised_subnet OrgGatewaytemplate#advertised_subnet}
   */
   readonly advertisedSubnet?: string;
   /**
   * Whether to allow ping from vpn into this routed network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#allow_ping OrgGatewaytemplate#allow_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#allow_ping OrgGatewaytemplate#allow_ping}
   */
   readonly allowPing?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#destination_nat OrgGatewaytemplate#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#destination_nat OrgGatewaytemplate#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgGatewaytemplateNetworksVpnAccessDestinationNat } | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub, a subnet is required to create and advertise the route to Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#nat_pool OrgGatewaytemplate#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#nat_pool OrgGatewaytemplate#nat_pool}
   */
   readonly natPool?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#no_readvertise_to_lan_bgp OrgGatewaytemplate#no_readvertise_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#no_readvertise_to_lan_bgp OrgGatewaytemplate#no_readvertise_to_lan_bgp}
   */
   readonly noReadvertiseToLanBgp?: boolean | cdktf.IResolvable;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#no_readvertise_to_lan_ospf OrgGatewaytemplate#no_readvertise_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#no_readvertise_to_lan_ospf OrgGatewaytemplate#no_readvertise_to_lan_ospf}
   */
   readonly noReadvertiseToLanOspf?: boolean | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#no_readvertise_to_overlay OrgGatewaytemplate#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#no_readvertise_to_overlay OrgGatewaytemplate#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * By default, the routes are only readvertised toward the same vrf on spoke. To allow it to be leaked to other vrfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#other_vrfs OrgGatewaytemplate#other_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#other_vrfs OrgGatewaytemplate#other_vrfs}
   */
   readonly otherVrfs?: string[];
   /**
   * Whether this network is routable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#routed OrgGatewaytemplate#routed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#routed OrgGatewaytemplate#routed}
   */
   readonly routed?: boolean | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#source_nat OrgGatewaytemplate#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#source_nat OrgGatewaytemplate#source_nat}
   */
   readonly sourceNat?: OrgGatewaytemplateNetworksVpnAccessSourceNat;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#static_nat OrgGatewaytemplate#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#static_nat OrgGatewaytemplate#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgGatewaytemplateNetworksVpnAccessStaticNat } | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#summarized_subnet OrgGatewaytemplate#summarized_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#summarized_subnet OrgGatewaytemplate#summarized_subnet}
   */
   readonly summarizedSubnet?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#summarized_subnet_to_lan_bgp OrgGatewaytemplate#summarized_subnet_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#summarized_subnet_to_lan_bgp OrgGatewaytemplate#summarized_subnet_to_lan_bgp}
   */
   readonly summarizedSubnetToLanBgp?: string;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#summarized_subnet_to_lan_ospf OrgGatewaytemplate#summarized_subnet_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#summarized_subnet_to_lan_ospf OrgGatewaytemplate#summarized_subnet_to_lan_ospf}
   */
   readonly summarizedSubnetToLanOspf?: string;
 }
@@ -5750,71 +5750,71 @@ export interface OrgGatewaytemplateNetworks {
   /**
   * Whether to disallow Mist Devices in the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disallow_mist_services OrgGatewaytemplate#disallow_mist_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disallow_mist_services OrgGatewaytemplate#disallow_mist_services}
   */
   readonly disallowMistServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway6 OrgGatewaytemplate#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway6 OrgGatewaytemplate#gateway6}
   */
   readonly gateway6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_access OrgGatewaytemplate#internal_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_access OrgGatewaytemplate#internal_access}
   */
   readonly internalAccess?: OrgGatewaytemplateNetworksInternalAccess;
   /**
   * Whether this network has direct internet access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internet_access OrgGatewaytemplate#internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internet_access OrgGatewaytemplate#internet_access}
   */
   readonly internetAccess?: OrgGatewaytemplateNetworksInternetAccess;
   /**
   * Whether to allow clients in the network to talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#isolation OrgGatewaytemplate#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#isolation OrgGatewaytemplate#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable multicast support (only PIM-sparse mode is supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#multicast OrgGatewaytemplate#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#multicast OrgGatewaytemplate#multicast}
   */
   readonly multicast?: OrgGatewaytemplateNetworksMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name: string;
   /**
   * For a Network (usually LAN), it can be routable to other networks (e.g. OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#routed_for_networks OrgGatewaytemplate#routed_for_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#routed_for_networks OrgGatewaytemplate#routed_for_networks}
   */
   readonly routedForNetworks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#subnet OrgGatewaytemplate#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#subnet OrgGatewaytemplate#subnet}
   */
   readonly subnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#subnet6 OrgGatewaytemplate#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#subnet6 OrgGatewaytemplate#subnet6}
   */
   readonly subnet6?: string;
   /**
   * Property key must be the user/tenant name (i.e. "printer-1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#tenants OrgGatewaytemplate#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#tenants OrgGatewaytemplate#tenants}
   */
   readonly tenants?: { [key: string]: OrgGatewaytemplateNetworksTenants } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * Property key is the VPN name. Whether this network can be accessed from vpn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_access OrgGatewaytemplate#vpn_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_access OrgGatewaytemplate#vpn_access}
   */
   readonly vpnAccess?: { [key: string]: OrgGatewaytemplateNetworksVpnAccess } | cdktf.IResolvable;
 }
@@ -6303,39 +6303,39 @@ export interface OrgGatewaytemplateOobIpConfigNode1 {
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
   */
   readonly ip?: string;
   /**
   * Used only if `subnet` is not specified in `networks`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
   */
   readonly netmask?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#use_mgmt_vrf OrgGatewaytemplate#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#use_mgmt_vrf OrgGatewaytemplate#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * Whether to use `mgmt_junos` for host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#use_mgmt_vrf_for_host_out OrgGatewaytemplate#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#use_mgmt_vrf_for_host_out OrgGatewaytemplate#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -6605,47 +6605,47 @@ export interface OrgGatewaytemplateOobIpConfig {
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
   */
   readonly gateway?: string;
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
   */
   readonly ip?: string;
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
   */
   readonly netmask?: string;
   /**
   * For HA Cluster, node1 can have different IP Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#node1 OrgGatewaytemplate#node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#node1 OrgGatewaytemplate#node1}
   */
   readonly node1?: OrgGatewaytemplateOobIpConfigNode1;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#use_mgmt_vrf OrgGatewaytemplate#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#use_mgmt_vrf OrgGatewaytemplate#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * For host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#use_mgmt_vrf_for_host_out OrgGatewaytemplate#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#use_mgmt_vrf_for_host_out OrgGatewaytemplate#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -6942,25 +6942,25 @@ export class OrgGatewaytemplateOobIpConfigOutputReference extends cdktf.ComplexO
 }
 export interface OrgGatewaytemplatePathPreferencesPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#cost OrgGatewaytemplate#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#cost OrgGatewaytemplate#cost}
   */
   readonly cost?: number;
   /**
   * For SSR Only. `true`, if this specific path is undesired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`local`, if a different gateway is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway_ip OrgGatewaytemplate#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway_ip OrgGatewaytemplate#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Only if `type`==`vpn`, if this vpn path can be used for internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internet_access OrgGatewaytemplate#internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internet_access OrgGatewaytemplate#internet_access}
   */
   readonly internetAccess?: boolean | cdktf.IResolvable;
   /**
@@ -6968,31 +6968,31 @@ export interface OrgGatewaytemplatePathPreferencesPaths {
   *   * `type`==`vpn`: the name of the VPN Path to use 
   *   * `type`==`wan`: the name of the WAN interface to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
   * Required when `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: string[];
   /**
   * If `type`==`local`, if destination IP is to be replaced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#target_ips OrgGatewaytemplate#target_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#target_ips OrgGatewaytemplate#target_ips}
   */
   readonly targetIps?: string[];
   /**
   * enum: `local`, `tunnel`, `vpn`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type: string;
   /**
   * Optional if `type`==`vpn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_name OrgGatewaytemplate#wan_name}
   */
   readonly wanName?: string;
 }
@@ -7337,13 +7337,13 @@ export class OrgGatewaytemplatePathPreferencesPathsList extends cdktf.ComplexLis
 }
 export interface OrgGatewaytemplatePathPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#paths OrgGatewaytemplate#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#paths OrgGatewaytemplate#paths}
   */
   readonly paths?: OrgGatewaytemplatePathPreferencesPaths[] | cdktf.IResolvable;
   /**
   * enum: `ecmp`, `ordered`, `weighted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#strategy OrgGatewaytemplate#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#strategy OrgGatewaytemplate#strategy}
   */
   readonly strategy?: string;
 }
@@ -7488,85 +7488,85 @@ export interface OrgGatewaytemplatePortConfigIpConfig {
   /**
   * Except for out-of_band interface (vme/em0/fxp0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns OrgGatewaytemplate#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns OrgGatewaytemplate#dns}
   */
   readonly dns?: string[];
   /**
   * Except for out-of_band interface (vme/em0/fxp0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_suffix OrgGatewaytemplate#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Except for out-of_band interface (vme/em0/fxp0). Interface Default Gateway IP Address (i.e. "192.168.1.1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway OrgGatewaytemplate#gateway}
   */
   readonly gateway?: string;
   /**
   * Except for out-of_band interface (vme/em0/fxp0). Interface Default Gateway IPv6 Address (i.e. "2001:db8::1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#gateway6 OrgGatewaytemplate#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#gateway6 OrgGatewaytemplate#gateway6}
   */
   readonly gateway6?: string;
   /**
   * Interface IP Address (i.e. "192.168.1.8") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip OrgGatewaytemplate#ip}
   */
   readonly ip?: string;
   /**
   * Interface IPv6 Address (i.e. "2001:db8::123") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6 OrgGatewaytemplate#ip6}
   */
   readonly ip6?: string;
   /**
   * Used only if `subnet` is not specified in `networks`. Interface Netmask (i.e. "/24") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask OrgGatewaytemplate#netmask}
   */
   readonly netmask?: string;
   /**
   * Used only if `subnet` is not specified in `networks`. Interface IPv6 Netmask (i.e. "/64") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#netmask6 OrgGatewaytemplate#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#netmask6 OrgGatewaytemplate#netmask6}
   */
   readonly netmask6?: string;
   /**
   * Optional, the network to be used for mgmt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#network OrgGatewaytemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#network OrgGatewaytemplate#network}
   */
   readonly network?: string;
   /**
   * If `type`==`pppoe`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#poser_password OrgGatewaytemplate#poser_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#poser_password OrgGatewaytemplate#poser_password}
   */
   readonly poserPassword?: string;
   /**
   * if `type`==`pppoe`. enum: `chap`, `none`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#pppoe_auth OrgGatewaytemplate#pppoe_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#pppoe_auth OrgGatewaytemplate#pppoe_auth}
   */
   readonly pppoeAuth?: string;
   /**
   * If `type`==`pppoe`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#pppoe_username OrgGatewaytemplate#pppoe_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#pppoe_username OrgGatewaytemplate#pppoe_username}
   */
   readonly pppoeUsername?: string;
   /**
   * enum: `dhcp`, `pppoe`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type6 OrgGatewaytemplate#type6}
   */
   readonly type6?: string;
 }
@@ -8039,17 +8039,17 @@ export interface OrgGatewaytemplatePortConfigTrafficShaping {
   /**
   * percentages for different class of traffic: high / medium / low / best-effort. Sum must be equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#class_percentages OrgGatewaytemplate#class_percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#class_percentages OrgGatewaytemplate#class_percentages}
   */
   readonly classPercentages?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interface Transmit Cap in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#max_tx_kbps OrgGatewaytemplate#max_tx_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#max_tx_kbps OrgGatewaytemplate#max_tx_kbps}
   */
   readonly maxTxKbps?: number;
 }
@@ -8203,17 +8203,17 @@ export interface OrgGatewaytemplatePortConfigVpnPathsTrafficShaping {
   /**
   * percentages for different class of traffic: high / medium / low / best-effort. Sum must be equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#class_percentages OrgGatewaytemplate#class_percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#class_percentages OrgGatewaytemplate#class_percentages}
   */
   readonly classPercentages?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interface Transmit Cap in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#max_tx_kbps OrgGatewaytemplate#max_tx_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#max_tx_kbps OrgGatewaytemplate#max_tx_kbps}
   */
   readonly maxTxKbps?: number;
 }
@@ -8367,29 +8367,29 @@ export interface OrgGatewaytemplatePortConfigVpnPaths {
   /**
   * Only if the VPN `type`==`hub_spoke`. enum: `broadband`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#bfd_profile OrgGatewaytemplate#bfd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#bfd_profile OrgGatewaytemplate#bfd_profile}
   */
   readonly bfdProfile?: string;
   /**
   * Only if the VPN `type`==`hub_spoke`. Whether to use tunnel mode. SSR only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#bfd_use_tunnel_mode OrgGatewaytemplate#bfd_use_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#bfd_use_tunnel_mode OrgGatewaytemplate#bfd_use_tunnel_mode}
   */
   readonly bfdUseTunnelMode?: boolean | cdktf.IResolvable;
   /**
   * Only if the VPN `type`==`hub_spoke`. For a given VPN, when `path_selection.strategy`==`simple`, the preference for a path (lower is preferred)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#preference OrgGatewaytemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#preference OrgGatewaytemplate#preference}
   */
   readonly preference?: number;
   /**
   * If the VPN `type`==`hub_spoke`, enum: `hub`, `spoke`. If the VPN `type`==`mesh`, enum: `mesh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#role OrgGatewaytemplate#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#role OrgGatewaytemplate#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#traffic_shaping OrgGatewaytemplate#traffic_shaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#traffic_shaping OrgGatewaytemplate#traffic_shaping}
   */
   readonly trafficShaping?: OrgGatewaytemplatePortConfigVpnPathsTrafficShaping;
 }
@@ -8619,7 +8619,7 @@ export class OrgGatewaytemplatePortConfigVpnPathsMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplatePortConfigWanExtraRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
   */
   readonly via?: string;
 }
@@ -8733,7 +8733,7 @@ export class OrgGatewaytemplatePortConfigWanExtraRoutesMap extends cdktf.Complex
 }
 export interface OrgGatewaytemplatePortConfigWanExtraRoutes6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#via OrgGatewaytemplate#via}
   */
   readonly via?: string;
 }
@@ -8847,17 +8847,17 @@ export class OrgGatewaytemplatePortConfigWanExtraRoutes6Map extends cdktf.Comple
 }
 export interface OrgGatewaytemplatePortConfigWanProbeOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip6s OrgGatewaytemplate#ip6s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip6s OrgGatewaytemplate#ip6s}
   */
   readonly ip6S?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ips OrgGatewaytemplate#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ips OrgGatewaytemplate#ips}
   */
   readonly ips?: string[];
   /**
   * enum: `broadband`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe_profile OrgGatewaytemplate#probe_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe_profile OrgGatewaytemplate#probe_profile}
   */
   readonly probeProfile?: string;
 }
@@ -9011,19 +9011,19 @@ export interface OrgGatewaytemplatePortConfigWanSourceNat {
   /**
   * Or to disable the source-nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * If alternative nat_pool is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#nat6_pool OrgGatewaytemplate#nat6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#nat6_pool OrgGatewaytemplate#nat6_pool}
   */
   readonly nat6Pool?: string;
   /**
   * If alternative nat_pool is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#nat_pool OrgGatewaytemplate#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#nat_pool OrgGatewaytemplate#nat_pool}
   */
   readonly natPool?: string;
 }
@@ -9177,267 +9177,267 @@ export interface OrgGatewaytemplatePortConfig {
   /**
   * If `aggregated`==`true`. To disable LCP support for the AE interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ae_disable_lacp OrgGatewaytemplate#ae_disable_lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ae_disable_lacp OrgGatewaytemplate#ae_disable_lacp}
   */
   readonly aeDisableLacp?: boolean | cdktf.IResolvable;
   /**
   * If `aggregated`==`true`. Users could force to use the designated AE name (must be an integer between 0 and 127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ae_idx OrgGatewaytemplate#ae_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ae_idx OrgGatewaytemplate#ae_idx}
   */
   readonly aeIdx?: string;
   /**
-  * For SRX Only, if `aggregated`==`true`.Sets the state of the interface as UP when the peer has limited LACP capability. Use case: When a device connected to this AE port is ZTPing for the first time, it will not have LACP configured on the other end. **Note:** Turning this on will enable force-up on one of the interfaces in the bundle only
+  * For SRX only, if `aggregated`==`true`.Sets the state of the interface as UP when the peer has limited LACP capability. Use case: When a device connected to this AE port is ZTPing for the first time, it will not have LACP configured on the other end. **Note:** Turning this on will enable force-up on one of the interfaces in the bundle only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ae_lacp_force_up OrgGatewaytemplate#ae_lacp_force_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ae_lacp_force_up OrgGatewaytemplate#ae_lacp_force_up}
   */
   readonly aeLacpForceUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aggregated OrgGatewaytemplate#aggregated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aggregated OrgGatewaytemplate#aggregated}
   */
   readonly aggregated?: boolean | cdktf.IResolvable;
   /**
   * To generate port up/down alarm, set it to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#critical OrgGatewaytemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#critical OrgGatewaytemplate#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
   * Interface Description. Can be a variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#description OrgGatewaytemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#description OrgGatewaytemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disable_autoneg OrgGatewaytemplate#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disable_autoneg OrgGatewaytemplate#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * Port admin up (true) / down (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#disabled OrgGatewaytemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * if `wan_type`==`dsl`. enum: `adsl`, `vdsl`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dsl_type OrgGatewaytemplate#dsl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dsl_type OrgGatewaytemplate#dsl_type}
   */
   readonly dslType?: string;
   /**
   * If `wan_type`==`dsl`, 16 bit int
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dsl_vci OrgGatewaytemplate#dsl_vci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dsl_vci OrgGatewaytemplate#dsl_vci}
   */
   readonly dslVci?: number;
   /**
   * If `wan_type`==`dsl`, 8 bit int
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dsl_vpi OrgGatewaytemplate#dsl_vpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dsl_vpi OrgGatewaytemplate#dsl_vpi}
   */
   readonly dslVpi?: number;
   /**
   * enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#duplex OrgGatewaytemplate#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#duplex OrgGatewaytemplate#duplex}
   */
   readonly duplex?: string;
   /**
   * Junos IP Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ip_config OrgGatewaytemplate#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ip_config OrgGatewaytemplate#ip_config}
   */
   readonly ipConfig?: OrgGatewaytemplatePortConfigIpConfig;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lte_apn OrgGatewaytemplate#lte_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lte_apn OrgGatewaytemplate#lte_apn}
   */
   readonly lteApn?: string;
   /**
   * if `wan_type`==`lte`. enum: `chap`, `none`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lte_auth OrgGatewaytemplate#lte_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lte_auth OrgGatewaytemplate#lte_auth}
   */
   readonly lteAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lte_backup OrgGatewaytemplate#lte_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lte_backup OrgGatewaytemplate#lte_backup}
   */
   readonly lteBackup?: boolean | cdktf.IResolvable;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lte_password OrgGatewaytemplate#lte_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lte_password OrgGatewaytemplate#lte_password}
   */
   readonly ltePassword?: string;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lte_username OrgGatewaytemplate#lte_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lte_username OrgGatewaytemplate#lte_username}
   */
   readonly lteUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#mtu OrgGatewaytemplate#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#mtu OrgGatewaytemplate#mtu}
   */
   readonly mtu?: number;
   /**
   * Name that we'll use to derive config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
   * if `usage`==`lan`, name of the `mist_org_network` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: string[];
   /**
   * For Q-in-Q
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#outer_vlan_id OrgGatewaytemplate#outer_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#outer_vlan_id OrgGatewaytemplate#outer_vlan_id}
   */
   readonly outerVlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#poe_disabled OrgGatewaytemplate#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#poe_disabled OrgGatewaytemplate#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * Only for SRX and if `usage`==`lan`, the name of the Network to be used as the Untagged VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#port_network OrgGatewaytemplate#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#port_network OrgGatewaytemplate#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Whether to preserve dscp when sending traffic over VPN (SSR-only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#preserve_dscp OrgGatewaytemplate#preserve_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#preserve_dscp OrgGatewaytemplate#preserve_dscp}
   */
   readonly preserveDscp?: boolean | cdktf.IResolvable;
   /**
   * If HA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#redundant OrgGatewaytemplate#redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#redundant OrgGatewaytemplate#redundant}
   */
   readonly redundant?: boolean | cdktf.IResolvable;
   /**
   * If HA mode, SRX Only - support redundancy-group. 1-128 for physical SRX, 1-64 for virtual SRX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#redundant_group OrgGatewaytemplate#redundant_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#redundant_group OrgGatewaytemplate#redundant_group}
   */
   readonly redundantGroup?: number;
   /**
   * For SRX only and if HA Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#reth_idx OrgGatewaytemplate#reth_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#reth_idx OrgGatewaytemplate#reth_idx}
   */
   readonly rethIdx?: string;
   /**
   * If HA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#reth_node OrgGatewaytemplate#reth_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#reth_node OrgGatewaytemplate#reth_node}
   */
   readonly rethNode?: string;
   /**
   * SSR only - supporting vlan-based redundancy (matching the size of `networks`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#reth_nodes OrgGatewaytemplate#reth_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#reth_nodes OrgGatewaytemplate#reth_nodes}
   */
   readonly rethNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#speed OrgGatewaytemplate#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#speed OrgGatewaytemplate#speed}
   */
   readonly speed?: string;
   /**
   * When SSR is running as VM, this is required on certain hosting platforms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ssr_no_virtual_mac OrgGatewaytemplate#ssr_no_virtual_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ssr_no_virtual_mac OrgGatewaytemplate#ssr_no_virtual_mac}
   */
   readonly ssrNoVirtualMac?: boolean | cdktf.IResolvable;
   /**
   * For SSR only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#svr_port_range OrgGatewaytemplate#svr_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#svr_port_range OrgGatewaytemplate#svr_port_range}
   */
   readonly svrPortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#traffic_shaping OrgGatewaytemplate#traffic_shaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#traffic_shaping OrgGatewaytemplate#traffic_shaping}
   */
   readonly trafficShaping?: OrgGatewaytemplatePortConfigTrafficShaping;
   /**
   * port usage name. enum: `ha_control`, `ha_data`, `lan`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#usage OrgGatewaytemplate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#usage OrgGatewaytemplate#usage}
   */
   readonly usage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vlan_id OrgGatewaytemplate#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * Property key is the VPN name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_paths OrgGatewaytemplate#vpn_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_paths OrgGatewaytemplate#vpn_paths}
   */
   readonly vpnPaths?: { [key: string]: OrgGatewaytemplatePortConfigVpnPaths } | cdktf.IResolvable;
   /**
   * Only when `wan_type`==`broadband`. enum: `default`, `max`, `recommended`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_arp_policer OrgGatewaytemplate#wan_arp_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_arp_policer OrgGatewaytemplate#wan_arp_policer}
   */
   readonly wanArpPolicer?: string;
   /**
   * If `wan_type`==`wan`, disable speedtest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_disable_speedtest OrgGatewaytemplate#wan_disable_speedtest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_disable_speedtest OrgGatewaytemplate#wan_disable_speedtest}
   */
   readonly wanDisableSpeedtest?: boolean | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`, optional. If spoke should reach this port by a different IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_ext_ip OrgGatewaytemplate#wan_ext_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_ext_ip OrgGatewaytemplate#wan_ext_ip}
   */
   readonly wanExtIp?: string;
   /**
   * Only if `usage`==`wan`, optional. If spoke should reach this port by a different IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_ext_ip6 OrgGatewaytemplate#wan_ext_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_ext_ip6 OrgGatewaytemplate#wan_ext_ip6}
   */
   readonly wanExtIp6?: string;
   /**
   * Only if `usage`==`wan`. Property Key is the destination CIDR (e.g. "100.100.100.0/24")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_extra_routes OrgGatewaytemplate#wan_extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_extra_routes OrgGatewaytemplate#wan_extra_routes}
   */
   readonly wanExtraRoutes?: { [key: string]: OrgGatewaytemplatePortConfigWanExtraRoutes } | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`. Property Key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_extra_routes6 OrgGatewaytemplate#wan_extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_extra_routes6 OrgGatewaytemplate#wan_extra_routes6}
   */
   readonly wanExtraRoutes6?: { [key: string]: OrgGatewaytemplatePortConfigWanExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`. If some networks are connected to this WAN port, it can be added here so policies can be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_networks OrgGatewaytemplate#wan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_networks OrgGatewaytemplate#wan_networks}
   */
   readonly wanNetworks?: string[];
   /**
   * Only if `usage`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_probe_override OrgGatewaytemplate#wan_probe_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_probe_override OrgGatewaytemplate#wan_probe_override}
   */
   readonly wanProbeOverride?: OrgGatewaytemplatePortConfigWanProbeOverride;
   /**
   * Only if `usage`==`wan`, optional. By default, source-NAT is performed on all WAN Ports using the interface-ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_source_nat OrgGatewaytemplate#wan_source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_source_nat OrgGatewaytemplate#wan_source_nat}
   */
   readonly wanSourceNat?: OrgGatewaytemplatePortConfigWanSourceNat;
   /**
   * Only if `usage`==`wan`. enum: `broadband`, `dsl`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_type OrgGatewaytemplate#wan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_type OrgGatewaytemplate#wan_type}
   */
   readonly wanType?: string;
 }
@@ -10882,51 +10882,51 @@ export class OrgGatewaytemplatePortConfigMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateRoutingPoliciesTermsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#accept OrgGatewaytemplate#accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#accept OrgGatewaytemplate#accept}
   */
   readonly accept?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#add_community OrgGatewaytemplate#add_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#add_community OrgGatewaytemplate#add_community}
   */
   readonly addCommunity?: string[];
   /**
   * For SSR, hub decides how VRF routes are leaked on spoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#add_target_vrfs OrgGatewaytemplate#add_target_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#add_target_vrfs OrgGatewaytemplate#add_target_vrfs}
   */
   readonly addTargetVrfs?: string[];
   /**
   * When used as export policy, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#community OrgGatewaytemplate#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#community OrgGatewaytemplate#community}
   */
   readonly community?: string[];
   /**
   * When used as export policy, optional. To exclude certain AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#exclude_as_path OrgGatewaytemplate#exclude_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#exclude_as_path OrgGatewaytemplate#exclude_as_path}
   */
   readonly excludeAsPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#exclude_community OrgGatewaytemplate#exclude_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#exclude_community OrgGatewaytemplate#exclude_community}
   */
   readonly excludeCommunity?: string[];
   /**
   * When used as export policy, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#export_communities OrgGatewaytemplate#export_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#export_communities OrgGatewaytemplate#export_communities}
   */
   readonly exportCommunities?: string[];
   /**
   * Optional, for an import policy, local_preference can be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#local_preference OrgGatewaytemplate#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#local_preference OrgGatewaytemplate#local_preference}
   */
   readonly localPreference?: string;
   /**
   * When used as export policy, optional. By default, the local AS will be prepended, to change it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#prepend_as_path OrgGatewaytemplate#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#prepend_as_path OrgGatewaytemplate#prepend_as_path}
   */
   readonly prependAsPath?: string[];
 }
@@ -11252,13 +11252,13 @@ export class OrgGatewaytemplateRoutingPoliciesTermsActionsOutputReference extend
 }
 export interface OrgGatewaytemplateRoutingPoliciesTermsMatchingRouteExists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#route OrgGatewaytemplate#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#route OrgGatewaytemplate#route}
   */
   readonly route?: string;
   /**
   * Name of the vrf instance, it can also be the name of the VPN or wan if they
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vrf_name OrgGatewaytemplate#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vrf_name OrgGatewaytemplate#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -11381,15 +11381,15 @@ export class OrgGatewaytemplateRoutingPoliciesTermsMatchingRouteExistsOutputRefe
 }
 export interface OrgGatewaytemplateRoutingPoliciesTermsMatchingVpnPathSla {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#max_jitter OrgGatewaytemplate#max_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#max_jitter OrgGatewaytemplate#max_jitter}
   */
   readonly maxJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#max_latency OrgGatewaytemplate#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#max_latency OrgGatewaytemplate#max_latency}
   */
   readonly maxLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#max_loss OrgGatewaytemplate#max_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#max_loss OrgGatewaytemplate#max_loss}
   */
   readonly maxLoss?: number;
 }
@@ -11543,47 +11543,47 @@ export interface OrgGatewaytemplateRoutingPoliciesTermsMatching {
   /**
   * takes regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#as_path OrgGatewaytemplate#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#as_path OrgGatewaytemplate#as_path}
   */
   readonly asPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#community OrgGatewaytemplate#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#community OrgGatewaytemplate#community}
   */
   readonly community?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#network OrgGatewaytemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#network OrgGatewaytemplate#network}
   */
   readonly network?: string[];
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#prefix OrgGatewaytemplate#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#prefix OrgGatewaytemplate#prefix}
   */
   readonly prefix?: string[];
   /**
   * `direct`, `bgp`, `osp`, `static`, `aggregate`...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#protocol OrgGatewaytemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#protocol OrgGatewaytemplate#protocol}
   */
   readonly protocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#route_exists OrgGatewaytemplate#route_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#route_exists OrgGatewaytemplate#route_exists}
   */
   readonly routeExists?: OrgGatewaytemplateRoutingPoliciesTermsMatchingRouteExists;
   /**
   * overlay-facing criteria (used for bgp_config where via=vpn)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_neighbor_mac OrgGatewaytemplate#vpn_neighbor_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_neighbor_mac OrgGatewaytemplate#vpn_neighbor_mac}
   */
   readonly vpnNeighborMac?: string[];
   /**
   * overlay-facing criteria (used for bgp_config where via=vpn). ordered-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_path OrgGatewaytemplate#vpn_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_path OrgGatewaytemplate#vpn_path}
   */
   readonly vpnPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#vpn_path_sla OrgGatewaytemplate#vpn_path_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#vpn_path_sla OrgGatewaytemplate#vpn_path_sla}
   */
   readonly vpnPathSla?: OrgGatewaytemplateRoutingPoliciesTermsMatchingVpnPathSla;
 }
@@ -11911,13 +11911,13 @@ export interface OrgGatewaytemplateRoutingPoliciesTerms {
   /**
   * When used as import policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#actions OrgGatewaytemplate#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#actions OrgGatewaytemplate#actions}
   */
   readonly actions?: OrgGatewaytemplateRoutingPoliciesTermsActions;
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#matching OrgGatewaytemplate#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#matching OrgGatewaytemplate#matching}
   */
   readonly matching?: OrgGatewaytemplateRoutingPoliciesTermsMatching;
 }
@@ -12064,7 +12064,7 @@ export interface OrgGatewaytemplateRoutingPolicies {
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#terms OrgGatewaytemplate#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#terms OrgGatewaytemplate#terms}
   */
   readonly terms?: OrgGatewaytemplateRoutingPoliciesTerms[] | cdktf.IResolvable;
 }
@@ -12180,17 +12180,17 @@ export interface OrgGatewaytemplateServicePoliciesAntivirus {
   /**
   * org-level AV Profile can be used, this takes precedence over 'profile'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#avprofile_id OrgGatewaytemplate#avprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#avprofile_id OrgGatewaytemplate#avprofile_id}
   */
   readonly avprofileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Default / noftp / httponly / or keys from av_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
   */
   readonly profile?: string;
 }
@@ -12342,7 +12342,7 @@ export class OrgGatewaytemplateServicePoliciesAntivirusOutputReference extends c
 }
 export interface OrgGatewaytemplateServicePoliciesAppqoe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12436,21 +12436,21 @@ export class OrgGatewaytemplateServicePoliciesAppqoeOutputReference extends cdkt
 }
 export interface OrgGatewaytemplateServicePoliciesEwf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#alert_only OrgGatewaytemplate#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#alert_only OrgGatewaytemplate#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#block_message OrgGatewaytemplate#block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#block_message OrgGatewaytemplate#block_message}
   */
   readonly blockMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `critical`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
   */
   readonly profile?: string;
 }
@@ -12653,23 +12653,23 @@ export class OrgGatewaytemplateServicePoliciesEwfList extends cdktf.ComplexList 
 }
 export interface OrgGatewaytemplateServicePoliciesIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#alert_only OrgGatewaytemplate#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#alert_only OrgGatewaytemplate#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * org_level IDP Profile can be used, this takes precedence over `profile`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#idpprofile_id OrgGatewaytemplate#idpprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#idpprofile_id OrgGatewaytemplate#idpprofile_id}
   */
   readonly idpprofileId?: string;
   /**
   * enum: `Custom`, `strict` (default), `standard` or keys from idp_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#profile OrgGatewaytemplate#profile}
   */
   readonly profile?: string;
 }
@@ -12848,15 +12848,216 @@ export class OrgGatewaytemplateServicePoliciesIdpOutputReference extends cdktf.C
     return this._profile;
   }
 }
+export interface OrgGatewaytemplateServicePoliciesSkyatp {
+  /**
+  * enum: `disabled`, `default`, `standard`, `strict`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_dga_detection OrgGatewaytemplate#dns_dga_detection}
+  */
+  readonly dnsDgaDetection?: string;
+  /**
+  * enum: `disabled`, `default`, `standard`, `strict`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dns_tunnel_detection OrgGatewaytemplate#dns_tunnel_detection}
+  */
+  readonly dnsTunnelDetection?: string;
+  /**
+  * enum: `disabled`, `standard`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#http_inspection OrgGatewaytemplate#http_inspection}
+  */
+  readonly httpInspection?: string;
+  /**
+  * enum: `disabled`, `enabled`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#iot_device_policy OrgGatewaytemplate#iot_device_policy}
+  */
+  readonly iotDevicePolicy?: string;
+}
+
+export function orgGatewaytemplateServicePoliciesSkyatpToTerraform(struct?: OrgGatewaytemplateServicePoliciesSkyatp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dns_dga_detection: cdktf.stringToTerraform(struct!.dnsDgaDetection),
+    dns_tunnel_detection: cdktf.stringToTerraform(struct!.dnsTunnelDetection),
+    http_inspection: cdktf.stringToTerraform(struct!.httpInspection),
+    iot_device_policy: cdktf.stringToTerraform(struct!.iotDevicePolicy),
+  }
+}
+
+
+export function orgGatewaytemplateServicePoliciesSkyatpToHclTerraform(struct?: OrgGatewaytemplateServicePoliciesSkyatp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dns_dga_detection: {
+      value: cdktf.stringToHclTerraform(struct!.dnsDgaDetection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_tunnel_detection: {
+      value: cdktf.stringToHclTerraform(struct!.dnsTunnelDetection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    http_inspection: {
+      value: cdktf.stringToHclTerraform(struct!.httpInspection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    iot_device_policy: {
+      value: cdktf.stringToHclTerraform(struct!.iotDevicePolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OrgGatewaytemplateServicePoliciesSkyatpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): OrgGatewaytemplateServicePoliciesSkyatp | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsDgaDetection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsDgaDetection = this._dnsDgaDetection;
+    }
+    if (this._dnsTunnelDetection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsTunnelDetection = this._dnsTunnelDetection;
+    }
+    if (this._httpInspection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpInspection = this._httpInspection;
+    }
+    if (this._iotDevicePolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iotDevicePolicy = this._iotDevicePolicy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OrgGatewaytemplateServicePoliciesSkyatp | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dnsDgaDetection = undefined;
+      this._dnsTunnelDetection = undefined;
+      this._httpInspection = undefined;
+      this._iotDevicePolicy = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dnsDgaDetection = value.dnsDgaDetection;
+      this._dnsTunnelDetection = value.dnsTunnelDetection;
+      this._httpInspection = value.httpInspection;
+      this._iotDevicePolicy = value.iotDevicePolicy;
+    }
+  }
+
+  // dns_dga_detection - computed: true, optional: true, required: false
+  private _dnsDgaDetection?: string; 
+  public get dnsDgaDetection() {
+    return this.getStringAttribute('dns_dga_detection');
+  }
+  public set dnsDgaDetection(value: string) {
+    this._dnsDgaDetection = value;
+  }
+  public resetDnsDgaDetection() {
+    this._dnsDgaDetection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsDgaDetectionInput() {
+    return this._dnsDgaDetection;
+  }
+
+  // dns_tunnel_detection - computed: true, optional: true, required: false
+  private _dnsTunnelDetection?: string; 
+  public get dnsTunnelDetection() {
+    return this.getStringAttribute('dns_tunnel_detection');
+  }
+  public set dnsTunnelDetection(value: string) {
+    this._dnsTunnelDetection = value;
+  }
+  public resetDnsTunnelDetection() {
+    this._dnsTunnelDetection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsTunnelDetectionInput() {
+    return this._dnsTunnelDetection;
+  }
+
+  // http_inspection - computed: true, optional: true, required: false
+  private _httpInspection?: string; 
+  public get httpInspection() {
+    return this.getStringAttribute('http_inspection');
+  }
+  public set httpInspection(value: string) {
+    this._httpInspection = value;
+  }
+  public resetHttpInspection() {
+    this._httpInspection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpInspectionInput() {
+    return this._httpInspection;
+  }
+
+  // iot_device_policy - computed: true, optional: true, required: false
+  private _iotDevicePolicy?: string; 
+  public get iotDevicePolicy() {
+    return this.getStringAttribute('iot_device_policy');
+  }
+  public set iotDevicePolicy(value: string) {
+    this._iotDevicePolicy = value;
+  }
+  public resetIotDevicePolicy() {
+    this._iotDevicePolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iotDevicePolicyInput() {
+    return this._iotDevicePolicy;
+  }
+}
 export interface OrgGatewaytemplateServicePoliciesSslProxy {
   /**
   * enum: `medium`, `strong`, `weak`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ciphers_category OrgGatewaytemplate#ciphers_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ciphers_category OrgGatewaytemplate#ciphers_category}
   */
   readonly ciphersCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12977,73 +13178,212 @@ export class OrgGatewaytemplateServicePoliciesSslProxyOutputReference extends cd
     return this._enabled;
   }
 }
+export interface OrgGatewaytemplateServicePoliciesSyslog {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#server_names OrgGatewaytemplate#server_names}
+  */
+  readonly serverNames?: string[];
+}
+
+export function orgGatewaytemplateServicePoliciesSyslogToTerraform(struct?: OrgGatewaytemplateServicePoliciesSyslog | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    server_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.serverNames),
+  }
+}
+
+
+export function orgGatewaytemplateServicePoliciesSyslogToHclTerraform(struct?: OrgGatewaytemplateServicePoliciesSyslog | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    server_names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.serverNames),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OrgGatewaytemplateServicePoliciesSyslogOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): OrgGatewaytemplateServicePoliciesSyslog | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._serverNames !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverNames = this._serverNames;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OrgGatewaytemplateServicePoliciesSyslog | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enabled = undefined;
+      this._serverNames = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enabled = value.enabled;
+      this._serverNames = value.serverNames;
+    }
+  }
+
+  // enabled - computed: true, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // server_names - computed: false, optional: true, required: false
+  private _serverNames?: string[]; 
+  public get serverNames() {
+    return this.getListAttribute('server_names');
+  }
+  public set serverNames(value: string[]) {
+    this._serverNames = value;
+  }
+  public resetServerNames() {
+    this._serverNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNamesInput() {
+    return this._serverNames;
+  }
+}
 export interface OrgGatewaytemplateServicePolicies {
   /**
   * Required when `servicepolicy_id` is not defined, optional otherwise (override the servicepolicy action). enum: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#action OrgGatewaytemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#action OrgGatewaytemplate#action}
   */
   readonly action?: string;
   /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#antivirus OrgGatewaytemplate#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#antivirus OrgGatewaytemplate#antivirus}
   */
   readonly antivirus?: OrgGatewaytemplateServicePoliciesAntivirus;
   /**
-  * For SRX Only
+  * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#appqoe OrgGatewaytemplate#appqoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#appqoe OrgGatewaytemplate#appqoe}
   */
   readonly appqoe?: OrgGatewaytemplateServicePoliciesAppqoe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ewf OrgGatewaytemplate#ewf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ewf OrgGatewaytemplate#ewf}
   */
   readonly ewf?: OrgGatewaytemplateServicePoliciesEwf[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#idp OrgGatewaytemplate#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#idp OrgGatewaytemplate#idp}
   */
   readonly idp?: OrgGatewaytemplateServicePoliciesIdp;
   /**
   * access within the same VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#local_routing OrgGatewaytemplate#local_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#local_routing OrgGatewaytemplate#local_routing}
   */
   readonly localRouting?: boolean | cdktf.IResolvable;
   /**
   * Required when `servicepolicy_id` is not defined, optional otherwise (override the servicepolicy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
   * By default, we derive all paths available and use them. Optionally, you can customize by using `path_preference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#path_preference OrgGatewaytemplate#path_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#path_preference OrgGatewaytemplate#path_preference}
   */
   readonly pathPreference?: string;
   /**
   * Used to link servicepolicy defined at org level and overwrite some attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#servicepolicy_id OrgGatewaytemplate#servicepolicy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#servicepolicy_id OrgGatewaytemplate#servicepolicy_id}
   */
   readonly servicepolicyId?: string;
   /**
   * Required when `servicepolicy_id` is not defined. List of Applications / Destinations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#services OrgGatewaytemplate#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#services OrgGatewaytemplate#services}
   */
   readonly services?: string[];
   /**
+  * SRX only
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#skyatp OrgGatewaytemplate#skyatp}
+  */
+  readonly skyatp?: OrgGatewaytemplateServicePoliciesSkyatp;
+  /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ssl_proxy OrgGatewaytemplate#ssl_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ssl_proxy OrgGatewaytemplate#ssl_proxy}
   */
   readonly sslProxy?: OrgGatewaytemplateServicePoliciesSslProxy;
   /**
+  * Required for syslog logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#syslog OrgGatewaytemplate#syslog}
+  */
+  readonly syslog?: OrgGatewaytemplateServicePoliciesSyslog;
+  /**
   * Required when `servicepolicy_id` is not defined. List of Networks / Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#tenants OrgGatewaytemplate#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#tenants OrgGatewaytemplate#tenants}
   */
   readonly tenants?: string[];
 }
@@ -13064,7 +13404,9 @@ export function orgGatewaytemplateServicePoliciesToTerraform(struct?: OrgGateway
     path_preference: cdktf.stringToTerraform(struct!.pathPreference),
     servicepolicy_id: cdktf.stringToTerraform(struct!.servicepolicyId),
     services: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.services),
+    skyatp: orgGatewaytemplateServicePoliciesSkyatpToTerraform(struct!.skyatp),
     ssl_proxy: orgGatewaytemplateServicePoliciesSslProxyToTerraform(struct!.sslProxy),
+    syslog: orgGatewaytemplateServicePoliciesSyslogToTerraform(struct!.syslog),
     tenants: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.tenants),
   }
 }
@@ -13136,11 +13478,23 @@ export function orgGatewaytemplateServicePoliciesToHclTerraform(struct?: OrgGate
       type: "list",
       storageClassType: "stringList",
     },
+    skyatp: {
+      value: orgGatewaytemplateServicePoliciesSkyatpToHclTerraform(struct!.skyatp),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "OrgGatewaytemplateServicePoliciesSkyatp",
+    },
     ssl_proxy: {
       value: orgGatewaytemplateServicePoliciesSslProxyToHclTerraform(struct!.sslProxy),
       isBlock: true,
       type: "struct",
       storageClassType: "OrgGatewaytemplateServicePoliciesSslProxy",
+    },
+    syslog: {
+      value: orgGatewaytemplateServicePoliciesSyslogToHclTerraform(struct!.syslog),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "OrgGatewaytemplateServicePoliciesSyslog",
     },
     tenants: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.tenants),
@@ -13214,9 +13568,17 @@ export class OrgGatewaytemplateServicePoliciesOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.services = this._services;
     }
+    if (this._skyatp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skyatp = this._skyatp?.internalValue;
+    }
     if (this._sslProxy?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.sslProxy = this._sslProxy?.internalValue;
+    }
+    if (this._syslog?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syslog = this._syslog?.internalValue;
     }
     if (this._tenants !== undefined) {
       hasAnyValues = true;
@@ -13239,7 +13601,9 @@ export class OrgGatewaytemplateServicePoliciesOutputReference extends cdktf.Comp
       this._pathPreference = undefined;
       this._servicepolicyId = undefined;
       this._services = undefined;
+      this._skyatp.internalValue = undefined;
       this._sslProxy.internalValue = undefined;
+      this._syslog.internalValue = undefined;
       this._tenants = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -13259,7 +13623,9 @@ export class OrgGatewaytemplateServicePoliciesOutputReference extends cdktf.Comp
       this._pathPreference = value.pathPreference;
       this._servicepolicyId = value.servicepolicyId;
       this._services = value.services;
+      this._skyatp.internalValue = value.skyatp;
       this._sslProxy.internalValue = value.sslProxy;
+      this._syslog.internalValue = value.syslog;
       this._tenants = value.tenants;
     }
   }
@@ -13424,6 +13790,22 @@ export class OrgGatewaytemplateServicePoliciesOutputReference extends cdktf.Comp
     return this._services;
   }
 
+  // skyatp - computed: false, optional: true, required: false
+  private _skyatp = new OrgGatewaytemplateServicePoliciesSkyatpOutputReference(this, "skyatp");
+  public get skyatp() {
+    return this._skyatp;
+  }
+  public putSkyatp(value: OrgGatewaytemplateServicePoliciesSkyatp) {
+    this._skyatp.internalValue = value;
+  }
+  public resetSkyatp() {
+    this._skyatp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skyatpInput() {
+    return this._skyatp.internalValue;
+  }
+
   // ssl_proxy - computed: false, optional: true, required: false
   private _sslProxy = new OrgGatewaytemplateServicePoliciesSslProxyOutputReference(this, "ssl_proxy");
   public get sslProxy() {
@@ -13438,6 +13820,22 @@ export class OrgGatewaytemplateServicePoliciesOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get sslProxyInput() {
     return this._sslProxy.internalValue;
+  }
+
+  // syslog - computed: false, optional: true, required: false
+  private _syslog = new OrgGatewaytemplateServicePoliciesSyslogOutputReference(this, "syslog");
+  public get syslog() {
+    return this._syslog;
+  }
+  public putSyslog(value: OrgGatewaytemplateServicePoliciesSyslog) {
+    this._syslog.internalValue = value;
+  }
+  public resetSyslog() {
+    this._syslog.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syslogInput() {
+    return this._syslog.internalValue;
   }
 
   // tenants - computed: false, optional: true, required: false
@@ -13478,11 +13876,11 @@ export class OrgGatewaytemplateServicePoliciesList extends cdktf.ComplexList {
 }
 export interface OrgGatewaytemplateTunnelConfigsAutoProvisionLatlng {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lat OrgGatewaytemplate#lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lat OrgGatewaytemplate#lat}
   */
   readonly lat: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#lng OrgGatewaytemplate#lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#lng OrgGatewaytemplate#lng}
   */
   readonly lng: number;
 }
@@ -13599,13 +13997,13 @@ export class OrgGatewaytemplateTunnelConfigsAutoProvisionLatlngOutputReference e
 }
 export interface OrgGatewaytemplateTunnelConfigsAutoProvisionPrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Optional, only needed if `vars_only`==`false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
   */
   readonly wanNames?: string[];
 }
@@ -13728,13 +14126,13 @@ export class OrgGatewaytemplateTunnelConfigsAutoProvisionPrimaryOutputReference 
 }
 export interface OrgGatewaytemplateTunnelConfigsAutoProvisionSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Optional, only needed if `vars_only`==`false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
   */
   readonly wanNames?: string[];
 }
@@ -13859,39 +14257,39 @@ export interface OrgGatewaytemplateTunnelConfigsAutoProvision {
   /**
   * Enable auto provisioning for the tunnel. If enabled, the `primary` and `secondary` nodes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * API override for POP selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#latlng OrgGatewaytemplate#latlng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#latlng OrgGatewaytemplate#latlng}
   */
   readonly latlng?: OrgGatewaytemplateTunnelConfigsAutoProvisionLatlng;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#primary OrgGatewaytemplate#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#primary OrgGatewaytemplate#primary}
   */
   readonly primary?: OrgGatewaytemplateTunnelConfigsAutoProvisionPrimary;
   /**
   * enum: `jse-ipsec`, `zscaler-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#provider OrgGatewaytemplate#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#provider OrgGatewaytemplate#provider}
   */
   readonly provider: string;
   /**
   * API override for POP selection in the case user wants to override the auto discovery of remote network location and force the tunnel to use the specified peer location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#region OrgGatewaytemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#region OrgGatewaytemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#secondary OrgGatewaytemplate#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#secondary OrgGatewaytemplate#secondary}
   */
   readonly secondary?: OrgGatewaytemplateTunnelConfigsAutoProvisionSecondary;
   /**
   * if `provider`==`prisma-ipsec`. By default, we'll use the location of the site to determine the optimal Remote Network location, optionally, service_connection can be considered, then we'll also consider this along with the site location. Define service_connection if the traffic is to be routed to a specific service connection. This field takes a service connection name that is configured in the Prisma cloud, Prisma Access Setup -> Service Connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#service_connection OrgGatewaytemplate#service_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#service_connection OrgGatewaytemplate#service_connection}
   */
   readonly serviceConnection?: string;
 }
@@ -14158,7 +14556,7 @@ export interface OrgGatewaytemplateTunnelConfigsIkeProposals {
   /**
   * enum: `md5`, `sha1`, `sha2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auth_algo OrgGatewaytemplate#auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auth_algo OrgGatewaytemplate#auth_algo}
   */
   readonly authAlgo?: string;
   /**
@@ -14174,13 +14572,13 @@ export interface OrgGatewaytemplateTunnelConfigsIkeProposals {
   *   * 21 (521-bit ECP)
   *   * 24 (2048-bit ECP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dh_group OrgGatewaytemplate#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dh_group OrgGatewaytemplate#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * enum: `3des`, `aes128`, `aes256`, `aes_gcm128`, `aes_gcm256`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enc_algo OrgGatewaytemplate#enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enc_algo OrgGatewaytemplate#enc_algo}
   */
   readonly encAlgo?: string;
 }
@@ -14356,7 +14754,7 @@ export interface OrgGatewaytemplateTunnelConfigsIpsecProposals {
   /**
   * enum: `md5`, `sha1`, `sha2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auth_algo OrgGatewaytemplate#auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auth_algo OrgGatewaytemplate#auth_algo}
   */
   readonly authAlgo?: string;
   /**
@@ -14372,13 +14770,13 @@ export interface OrgGatewaytemplateTunnelConfigsIpsecProposals {
   *   * 21 (521-bit ECP)
   *   * 24 (2048-bit ECP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dh_group OrgGatewaytemplate#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dh_group OrgGatewaytemplate#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * enum: `3des`, `aes128`, `aes256`, `aes_gcm128`, `aes_gcm256`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enc_algo OrgGatewaytemplate#enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enc_algo OrgGatewaytemplate#enc_algo}
   */
   readonly encAlgo?: string;
 }
@@ -14552,27 +14950,27 @@ export class OrgGatewaytemplateTunnelConfigsIpsecProposalsList extends cdktf.Com
 }
 export interface OrgGatewaytemplateTunnelConfigsPrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#hosts OrgGatewaytemplate#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#hosts OrgGatewaytemplate#hosts}
   */
   readonly hosts: string[];
   /**
   * Only if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`, `provider`==`custom-ipsec` or `provider`==`custom-gre`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ips OrgGatewaytemplate#internal_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ips OrgGatewaytemplate#internal_ips}
   */
   readonly internalIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Only if  `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#remote_ids OrgGatewaytemplate#remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#remote_ids OrgGatewaytemplate#remote_ids}
   */
   readonly remoteIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
   */
   readonly wanNames: string[];
 }
@@ -14778,25 +15176,25 @@ export interface OrgGatewaytemplateTunnelConfigsProbe {
   /**
   * How often to trigger the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#interval OrgGatewaytemplate#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#interval OrgGatewaytemplate#interval}
   */
   readonly interval?: number;
   /**
   * Number of consecutive misses before declaring the tunnel down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#threshold OrgGatewaytemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#threshold OrgGatewaytemplate#threshold}
   */
   readonly threshold?: number;
   /**
   * Time within which to complete the connectivity check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#timeout OrgGatewaytemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#timeout OrgGatewaytemplate#timeout}
   */
   readonly timeout?: number;
   /**
   * enum: `http`, `icmp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#type OrgGatewaytemplate#type}
   */
   readonly type?: string;
 }
@@ -14977,27 +15375,27 @@ export class OrgGatewaytemplateTunnelConfigsProbeOutputReference extends cdktf.C
 }
 export interface OrgGatewaytemplateTunnelConfigsSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#hosts OrgGatewaytemplate#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#hosts OrgGatewaytemplate#hosts}
   */
   readonly hosts: string[];
   /**
   * Only if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`, `provider`==`custom-ipsec` or `provider`==`custom-gre`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#internal_ips OrgGatewaytemplate#internal_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#internal_ips OrgGatewaytemplate#internal_ips}
   */
   readonly internalIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe_ips OrgGatewaytemplate#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Only if  `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#remote_ids OrgGatewaytemplate#remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#remote_ids OrgGatewaytemplate#remote_ids}
   */
   readonly remoteIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#wan_names OrgGatewaytemplate#wan_names}
   */
   readonly wanNames: string[];
 }
@@ -15203,109 +15601,109 @@ export interface OrgGatewaytemplateTunnelConfigs {
   /**
   * Auto Provisioning configuration for the tunne. This takes precedence over the `primary` and `secondary` nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auto_provision OrgGatewaytemplate#auto_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auto_provision OrgGatewaytemplate#auto_provision}
   */
   readonly autoProvision?: OrgGatewaytemplateTunnelConfigsAutoProvision;
   /**
   * Only if `provider`==`custom-ipsec`. Must be between 180 and 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ike_lifetime OrgGatewaytemplate#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ike_lifetime OrgGatewaytemplate#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
   * Only if `provider`==`custom-ipsec`. enum: `aggressive`, `main`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ike_mode OrgGatewaytemplate#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ike_mode OrgGatewaytemplate#ike_mode}
   */
   readonly ikeMode?: string;
   /**
   * If `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ike_proposals OrgGatewaytemplate#ike_proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ike_proposals OrgGatewaytemplate#ike_proposals}
   */
   readonly ikeProposals?: OrgGatewaytemplateTunnelConfigsIkeProposals[] | cdktf.IResolvable;
   /**
   * Only if `provider`==`custom-ipsec`. Must be between 180 and 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ipsec_lifetime OrgGatewaytemplate#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ipsec_lifetime OrgGatewaytemplate#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
   * Only if  `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ipsec_proposals OrgGatewaytemplate#ipsec_proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ipsec_proposals OrgGatewaytemplate#ipsec_proposals}
   */
   readonly ipsecProposals?: OrgGatewaytemplateTunnelConfigsIpsecProposals[] | cdktf.IResolvable;
   /**
   * Required if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#local_id OrgGatewaytemplate#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#local_id OrgGatewaytemplate#local_id}
   */
   readonly localId?: string;
   /**
   * List of Local protected subnet for policy-based IPSec negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#local_subnets OrgGatewaytemplate#local_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#local_subnets OrgGatewaytemplate#local_subnets}
   */
   readonly localSubnets?: string[];
   /**
   * Required if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`. enum: `active-active`, `active-standby`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#mode OrgGatewaytemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#mode OrgGatewaytemplate#mode}
   */
   readonly mode?: string;
   /**
   * If `provider`==`custom-ipsec` or `provider`==`prisma-ipsec`, networks reachable via this tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: string[];
   /**
   * Only if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#primary OrgGatewaytemplate#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#primary OrgGatewaytemplate#primary}
   */
   readonly primary?: OrgGatewaytemplateTunnelConfigsPrimary;
   /**
   * Only if `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#probe OrgGatewaytemplate#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#probe OrgGatewaytemplate#probe}
   */
   readonly probe?: OrgGatewaytemplateTunnelConfigsProbe;
   /**
   * Only if `provider`==`custom-ipsec`. enum: `gre`, `ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#protocol OrgGatewaytemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#protocol OrgGatewaytemplate#protocol}
   */
   readonly protocol?: string;
   /**
   * Only if `auto_provision.enabled`==`false`. enum: `custom-ipsec`, `custom-gre`, `jse-ipsec`, `prisma-ipsec`, `zscaler-gre`, `zscaler-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#provider OrgGatewaytemplate#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#provider OrgGatewaytemplate#provider}
   */
   readonly provider?: string;
   /**
   * Required if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#psk OrgGatewaytemplate#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#psk OrgGatewaytemplate#psk}
   */
   readonly psk?: string;
   /**
   * List of Remote protected subnet for policy-based IPSec negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#remote_subnets OrgGatewaytemplate#remote_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#remote_subnets OrgGatewaytemplate#remote_subnets}
   */
   readonly remoteSubnets?: string[];
   /**
   * Only if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#secondary OrgGatewaytemplate#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#secondary OrgGatewaytemplate#secondary}
   */
   readonly secondary?: OrgGatewaytemplateTunnelConfigsSecondary;
   /**
   * Only if `provider`==`custom-gre` or `provider`==`custom-ipsec`. enum: `1`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#version OrgGatewaytemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#version OrgGatewaytemplate#version}
   */
   readonly version?: string;
 }
@@ -15912,13 +16310,13 @@ export class OrgGatewaytemplateTunnelConfigsMap extends cdktf.ComplexMap {
 }
 export interface OrgGatewaytemplateTunnelProviderOptionsJse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#num_users OrgGatewaytemplate#num_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#num_users OrgGatewaytemplate#num_users}
   */
   readonly numUsers?: number;
   /**
   * JSE Organization name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#org_name OrgGatewaytemplate#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#org_name OrgGatewaytemplate#org_name}
   */
   readonly orgName?: string;
 }
@@ -16043,7 +16441,7 @@ export interface OrgGatewaytemplateTunnelProviderOptionsPrisma {
   /**
   * For prisma-ipsec, service account name to used for tunnel auto provisioning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#service_account_name OrgGatewaytemplate#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#service_account_name OrgGatewaytemplate#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -16137,85 +16535,85 @@ export class OrgGatewaytemplateTunnelProviderOptionsPrismaOutputReference extend
 }
 export interface OrgGatewaytemplateTunnelProviderOptionsZscalerSubLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_block_internet_until_accepted OrgGatewaytemplate#aup_block_internet_until_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_block_internet_until_accepted OrgGatewaytemplate#aup_block_internet_until_accepted}
   */
   readonly aupBlockInternetUntilAccepted?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display Acceptable Use Policy (AUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_enabled OrgGatewaytemplate#aup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_enabled OrgGatewaytemplate#aup_enabled}
   */
   readonly aupEnabled?: boolean | cdktf.IResolvable;
   /**
   * Proxy HTTPs traffic, requiring Zscaler cert to be installed in browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_force_ssl_inspection OrgGatewaytemplate#aup_force_ssl_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_force_ssl_inspection OrgGatewaytemplate#aup_force_ssl_inspection}
   */
   readonly aupForceSslInspection?: boolean | cdktf.IResolvable;
   /**
   * Required if `aup_enabled`==`true`. Days before AUP is requested again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_timeout_in_days OrgGatewaytemplate#aup_timeout_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_timeout_in_days OrgGatewaytemplate#aup_timeout_in_days}
   */
   readonly aupTimeoutInDays?: number;
   /**
   * Enable this option to authenticate users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auth_required OrgGatewaytemplate#auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auth_required OrgGatewaytemplate#auth_required}
   */
   readonly authRequired?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display caution notification for non-authenticated users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#caution_enabled OrgGatewaytemplate#caution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#caution_enabled OrgGatewaytemplate#caution_enabled}
   */
   readonly cautionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dn_bandwidth OrgGatewaytemplate#dn_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dn_bandwidth OrgGatewaytemplate#dn_bandwidth}
   */
   readonly dnBandwidth?: number;
   /**
   * Required if `surrogate_IP`==`true`, idle Time to Disassociation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#idle_time_in_minutes OrgGatewaytemplate#idle_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#idle_time_in_minutes OrgGatewaytemplate#idle_time_in_minutes}
   */
   readonly idleTimeInMinutes?: number;
   /**
   * Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#name OrgGatewaytemplate#name}
   */
   readonly name?: string;
   /**
   * If `true`, enable the firewall control option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ofw_enabled OrgGatewaytemplate#ofw_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ofw_enabled OrgGatewaytemplate#ofw_enabled}
   */
   readonly ofwEnabled?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`true`. Map a user to a private IP address so it applies the user's policies, instead of the location's policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_ip OrgGatewaytemplate#surrogate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_ip OrgGatewaytemplate#surrogate_ip}
   */
   readonly surrogateIp?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `surrogate_IP`==`true`, enforce surrogate IP for known browsers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_ip_enforced_for_known_browsers OrgGatewaytemplate#surrogate_ip_enforced_for_known_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_ip_enforced_for_known_browsers OrgGatewaytemplate#surrogate_ip_enforced_for_known_browsers}
   */
   readonly surrogateIpEnforcedForKnownBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Required if `surrogate_IP_enforced_for_known_browsers`==`true`, must be lower or equal than `idle_time_in_minutes`, refresh Time for re-validation of Surrogacy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_refresh_time_in_minutes OrgGatewaytemplate#surrogate_refresh_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_refresh_time_in_minutes OrgGatewaytemplate#surrogate_refresh_time_in_minutes}
   */
   readonly surrogateRefreshTimeInMinutes?: number;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#up_bandwidth OrgGatewaytemplate#up_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#up_bandwidth OrgGatewaytemplate#up_bandwidth}
   */
   readonly upBandwidth?: number;
 }
@@ -16708,91 +17106,91 @@ export class OrgGatewaytemplateTunnelProviderOptionsZscalerSubLocationsList exte
 }
 export interface OrgGatewaytemplateTunnelProviderOptionsZscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_block_internet_until_accepted OrgGatewaytemplate#aup_block_internet_until_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_block_internet_until_accepted OrgGatewaytemplate#aup_block_internet_until_accepted}
   */
   readonly aupBlockInternetUntilAccepted?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display Acceptable Use Policy (AUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_enabled OrgGatewaytemplate#aup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_enabled OrgGatewaytemplate#aup_enabled}
   */
   readonly aupEnabled?: boolean | cdktf.IResolvable;
   /**
   * Proxy HTTPs traffic, requiring Zscaler cert to be installed in browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_force_ssl_inspection OrgGatewaytemplate#aup_force_ssl_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_force_ssl_inspection OrgGatewaytemplate#aup_force_ssl_inspection}
   */
   readonly aupForceSslInspection?: boolean | cdktf.IResolvable;
   /**
   * Required if `aup_enabled`==`true`. Days before AUP is requested again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#aup_timeout_in_days OrgGatewaytemplate#aup_timeout_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#aup_timeout_in_days OrgGatewaytemplate#aup_timeout_in_days}
   */
   readonly aupTimeoutInDays?: number;
   /**
   * Enable this option to enforce user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#auth_required OrgGatewaytemplate#auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#auth_required OrgGatewaytemplate#auth_required}
   */
   readonly authRequired?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display caution notification for non-authenticated users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#caution_enabled OrgGatewaytemplate#caution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#caution_enabled OrgGatewaytemplate#caution_enabled}
   */
   readonly cautionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#dn_bandwidth OrgGatewaytemplate#dn_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#dn_bandwidth OrgGatewaytemplate#dn_bandwidth}
   */
   readonly dnBandwidth?: number;
   /**
   * Required if `surrogate_IP`==`true`, idle Time to Disassociation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#idle_time_in_minutes OrgGatewaytemplate#idle_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#idle_time_in_minutes OrgGatewaytemplate#idle_time_in_minutes}
   */
   readonly idleTimeInMinutes?: number;
   /**
   * If `true`, enable the firewall control option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#ofw_enabled OrgGatewaytemplate#ofw_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#ofw_enabled OrgGatewaytemplate#ofw_enabled}
   */
   readonly ofwEnabled?: boolean | cdktf.IResolvable;
   /**
   * `sub-locations` can be used for specific uses cases to define different configuration based on the user network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#sub_locations OrgGatewaytemplate#sub_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#sub_locations OrgGatewaytemplate#sub_locations}
   */
   readonly subLocations?: OrgGatewaytemplateTunnelProviderOptionsZscalerSubLocations[] | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`true`. Map a user to a private IP address so it applies the user's policies, instead of the location's policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_ip OrgGatewaytemplate#surrogate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_ip OrgGatewaytemplate#surrogate_ip}
   */
   readonly surrogateIp?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `surrogate_IP`==`true`, enforce surrogate IP for known browsers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_ip_enforced_for_known_browsers OrgGatewaytemplate#surrogate_ip_enforced_for_known_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_ip_enforced_for_known_browsers OrgGatewaytemplate#surrogate_ip_enforced_for_known_browsers}
   */
   readonly surrogateIpEnforcedForKnownBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Required if `surrogate_IP_enforced_for_known_browsers`==`true`, must be lower or equal than `idle_time_in_minutes`, refresh Time for re-validation of Surrogacy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#surrogate_refresh_time_in_minutes OrgGatewaytemplate#surrogate_refresh_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#surrogate_refresh_time_in_minutes OrgGatewaytemplate#surrogate_refresh_time_in_minutes}
   */
   readonly surrogateRefreshTimeInMinutes?: number;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#up_bandwidth OrgGatewaytemplate#up_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#up_bandwidth OrgGatewaytemplate#up_bandwidth}
   */
   readonly upBandwidth?: number;
   /**
   * Location uses proxy chaining to forward traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#xff_forward_enabled OrgGatewaytemplate#xff_forward_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#xff_forward_enabled OrgGatewaytemplate#xff_forward_enabled}
   */
   readonly xffForwardEnabled?: boolean | cdktf.IResolvable;
 }
@@ -17294,17 +17692,17 @@ export interface OrgGatewaytemplateTunnelProviderOptions {
   /**
   * For jse-ipsec, this allows provisioning of adequate resource on JSE. Make sure adequate licenses are added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#jse OrgGatewaytemplate#jse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#jse OrgGatewaytemplate#jse}
   */
   readonly jse?: OrgGatewaytemplateTunnelProviderOptionsJse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#prisma OrgGatewaytemplate#prisma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#prisma OrgGatewaytemplate#prisma}
   */
   readonly prisma?: OrgGatewaytemplateTunnelProviderOptionsPrisma;
   /**
   * For zscaler-ipsec and zscaler-gre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#zscaler OrgGatewaytemplate#zscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#zscaler OrgGatewaytemplate#zscaler}
   */
   readonly zscaler?: OrgGatewaytemplateTunnelProviderOptionsZscaler;
 }
@@ -17458,7 +17856,7 @@ export interface OrgGatewaytemplateVrfConfig {
   /**
   * Whether to enable VRF (when supported on the device)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#enabled OrgGatewaytemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -17552,7 +17950,7 @@ export class OrgGatewaytemplateVrfConfigOutputReference extends cdktf.ComplexObj
 }
 export interface OrgGatewaytemplateVrfInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#networks OrgGatewaytemplate#networks}
   */
   readonly networks?: string[];
 }
@@ -17666,7 +18064,7 @@ export class OrgGatewaytemplateVrfInstancesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate mist_org_gatewaytemplate}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate mist_org_gatewaytemplate}
 */
 export class OrgGatewaytemplate extends cdktf.TerraformResource {
 
@@ -17682,7 +18080,7 @@ export class OrgGatewaytemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgGatewaytemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgGatewaytemplate to import
-  * @param importFromId The id of the existing OrgGatewaytemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgGatewaytemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgGatewaytemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17694,7 +18092,7 @@ export class OrgGatewaytemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_gatewaytemplate mist_org_gatewaytemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_gatewaytemplate mist_org_gatewaytemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17705,8 +18103,8 @@ export class OrgGatewaytemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_gatewaytemplate',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

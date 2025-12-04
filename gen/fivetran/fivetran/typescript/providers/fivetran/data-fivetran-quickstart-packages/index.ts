@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/quickstart_packages
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/quickstart_packages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranQuickstartPackagesConfig extends cdktf.TerraformMet
   /**
   * packages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/quickstart_packages#packages DataFivetranQuickstartPackages#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/quickstart_packages#packages DataFivetranQuickstartPackages#packages}
   */
   readonly packages?: DataFivetranQuickstartPackagesPackages[] | cdktf.IResolvable;
 }
@@ -122,7 +122,7 @@ export class DataFivetranQuickstartPackagesPackagesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/quickstart_packages fivetran_quickstart_packages}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/quickstart_packages fivetran_quickstart_packages}
 */
 export class DataFivetranQuickstartPackages extends cdktf.TerraformDataSource {
 
@@ -138,7 +138,7 @@ export class DataFivetranQuickstartPackages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranQuickstartPackages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranQuickstartPackages to import
-  * @param importFromId The id of the existing DataFivetranQuickstartPackages that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/quickstart_packages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranQuickstartPackages that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/quickstart_packages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranQuickstartPackages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class DataFivetranQuickstartPackages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/quickstart_packages fivetran_quickstart_packages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/quickstart_packages fivetran_quickstart_packages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class DataFivetranQuickstartPackages extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_quickstart_packages',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

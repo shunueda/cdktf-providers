@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConsoleKafkaSubjectV2Config extends cdktf.TerraformMetaArgument
   /**
   * Kafka cluster name linked with Kafka subject. Must already exist in Conduktor Console. Any change will require the Subject to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#cluster ConsoleKafkaSubjectV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#cluster ConsoleKafkaSubjectV2#cluster}
   */
   readonly cluster: string;
   /**
   * Kafka connect server labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#labels ConsoleKafkaSubjectV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#labels ConsoleKafkaSubjectV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Kafka subject name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#name ConsoleKafkaSubjectV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#name ConsoleKafkaSubjectV2#name}
   */
   readonly name: string;
   /**
   * Kafka subject spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#spec ConsoleKafkaSubjectV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#spec ConsoleKafkaSubjectV2#spec}
   */
   readonly spec: ConsoleKafkaSubjectV2Spec;
 }
@@ -36,19 +36,19 @@ export interface ConsoleKafkaSubjectV2SpecReferences {
   /**
   * name required string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#name ConsoleKafkaSubjectV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#name ConsoleKafkaSubjectV2#name}
   */
   readonly name: string;
   /**
   * subject required string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#subject ConsoleKafkaSubjectV2#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#subject ConsoleKafkaSubjectV2#subject}
   */
   readonly subject: string;
   /**
   * version required integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#version ConsoleKafkaSubjectV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#version ConsoleKafkaSubjectV2#version}
   */
   readonly version: number;
 }
@@ -215,25 +215,25 @@ export interface ConsoleKafkaSubjectV2Spec {
   /**
   * Kafka subject compatibility (BACKWARD, BACKWARD_TRANSITIVE, FORWARD, FORWARD_TRANSITIVE, FULL, FULL_TRANSITIVE, NONE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#compatibility ConsoleKafkaSubjectV2#compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#compatibility ConsoleKafkaSubjectV2#compatibility}
   */
   readonly compatibility?: string;
   /**
   * Kafka subject format (AVRO, JSON, PROTOBUF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#format ConsoleKafkaSubjectV2#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#format ConsoleKafkaSubjectV2#format}
   */
   readonly format: string;
   /**
   * Array of objects (SchemaReference)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#references ConsoleKafkaSubjectV2#references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#references ConsoleKafkaSubjectV2#references}
   */
   readonly references?: ConsoleKafkaSubjectV2SpecReferences[] | cdktf.IResolvable;
   /**
   * Kafka subject schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#schema ConsoleKafkaSubjectV2#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#schema ConsoleKafkaSubjectV2#schema}
   */
   readonly schema: string;
 }
@@ -418,7 +418,7 @@ export class ConsoleKafkaSubjectV2SpecOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2 conduktor_console_kafka_subject_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2 conduktor_console_kafka_subject_v2}
 */
 export class ConsoleKafkaSubjectV2 extends cdktf.TerraformResource {
 
@@ -434,7 +434,7 @@ export class ConsoleKafkaSubjectV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleKafkaSubjectV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleKafkaSubjectV2 to import
-  * @param importFromId The id of the existing ConsoleKafkaSubjectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleKafkaSubjectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleKafkaSubjectV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class ConsoleKafkaSubjectV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_subject_v2 conduktor_console_kafka_subject_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_subject_v2 conduktor_console_kafka_subject_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class ConsoleKafkaSubjectV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_kafka_subject_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

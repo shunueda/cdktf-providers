@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The level of data delay notification threshold. Possible values: LOW, NORMAL, HIGH, CUSTOM. The default value NORMAL. CUSTOM is only available for customers using the Enterprise plan or above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_delay_sensitivity Connector#data_delay_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_delay_sensitivity Connector#data_delay_sensitivity}
   */
   readonly dataDelaySensitivity?: string;
   /**
   * Custom sync delay notification threshold in minutes. The default value is 0. This parameter is only used when data_delay_sensitivity set to CUSTOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_delay_threshold Connector#data_delay_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_delay_threshold Connector#data_delay_threshold}
   */
   readonly dataDelayThreshold?: number;
   /**
   * The unique identifier for the Group (Destination) within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#group_id Connector#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#group_id Connector#group_id}
   */
   readonly groupId: string;
   /**
   * The hybrid deployment agent ID that refers to the controller created for the group the connection belongs to. If the value is specified, the system will try to associate the connection with an existing agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#hybrid_deployment_agent_id Connector#hybrid_deployment_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#hybrid_deployment_agent_id Connector#hybrid_deployment_agent_id}
   */
   readonly hybridDeploymentAgentId?: string;
   /**
   * Possible values: Directly, SshTunnel, ProxyAgent, PrivateLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#networking_method Connector#networking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#networking_method Connector#networking_method}
   */
   readonly networkingMethod?: string;
   /**
   * The private link ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#private_link_id Connector#private_link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#private_link_id Connector#private_link_id}
   */
   readonly privateLinkId?: string;
   /**
   * The proxy agent ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#proxy_agent_id Connector#proxy_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#proxy_agent_id Connector#proxy_agent_id}
   */
   readonly proxyAgentId?: string;
   /**
   * Specifies whether the setup tests should be run automatically. The default value is FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#run_setup_tests Connector#run_setup_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#run_setup_tests Connector#run_setup_tests}
   */
   readonly runSetupTests?: boolean | cdktf.IResolvable;
   /**
   * The connector type id within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service Connector#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service Connector#service}
   */
   readonly service: string;
   /**
   * Specifies whether we should trust the certificate automatically. The default value is FALSE. If a certificate is not trusted automatically, it has to be approved with [Certificates Management API Approve a destination certificate](https://fivetran.com/docs/rest-api/certificates#approveadestinationcertificate).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#trust_certificates Connector#trust_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#trust_certificates Connector#trust_certificates}
   */
   readonly trustCertificates?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether we should trust the SSH fingerprint automatically. The default value is FALSE. If a fingerprint is not trusted automatically, it has to be approved with [Certificates Management API Approve a destination fingerprint](https://fivetran.com/docs/rest-api/certificates#approveadestinationfingerprint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#trust_fingerprints Connector#trust_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#trust_fingerprints Connector#trust_fingerprints}
   */
   readonly trustFingerprints?: boolean | cdktf.IResolvable;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth Connector#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth Connector#auth}
   */
   readonly auth?: ConnectorAuth;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config Connector#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config Connector#config}
   */
   readonly config?: ConnectorConfigA;
   /**
   * destination_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#destination_schema Connector#destination_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#destination_schema Connector#destination_schema}
   */
   readonly destinationSchema?: ConnectorDestinationSchema;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#timeouts Connector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#timeouts Connector#timeouts}
   */
   readonly timeouts?: ConnectorTimeouts;
 }
@@ -154,7 +154,7 @@ export interface ConnectorAuthClientAccess {
   * 	- Service `youtube_analytics`: `Client ID` of your Youtube client application.
   * 	- Service `zoho_crm`: `Client ID` of your Zoho client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_id Connector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_id Connector#client_id}
   */
   readonly clientId?: string;
   /**
@@ -212,21 +212,21 @@ export interface ConnectorAuthClientAccess {
   * 	- Service `youtube_analytics`: `Client Secret` of your Youtube client application.
   * 	- Service `zoho_crm`: `Client Secret` of your Zoho client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_secret Connector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_secret Connector#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: Your approved `Developer token` to connect to the Google Ads API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#developer_token Connector#developer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#developer_token Connector#developer_token}
   */
   readonly developerToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: Your company's name in your Google Ads client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_agent Connector#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_agent Connector#user_agent}
   */
   readonly userAgent?: string;
 }
@@ -443,7 +443,7 @@ export interface ConnectorAuth {
   * 	- Service `zendesk_sell`: The long-lived `Access token` carries the information necessary to access API resources.
   * 	- Service `zoom`: Your Zoom Access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_token Connector#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_token Connector#access_token}
   */
   readonly accessToken?: string;
   /**
@@ -451,21 +451,21 @@ export interface ConnectorAuth {
   * 	- Service `elastic_cloud`: The Elasticsearch API key. If omitted, then basic user and password authentication will apply.
   * 	- Service `es_self_hosted`: The Elasticsearch API key. If omitted, then basic user and password authentication will apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_key Connector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_key Connector#api_key}
   */
   readonly apiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_selling_partner`: `AWS Access Key` of your AWS Account User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aws_access_key Connector#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aws_access_key Connector#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_selling_partner`: `AWS Secret Key` of your AWS Account User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aws_secret_key Connector#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aws_secret_key Connector#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
@@ -477,7 +477,7 @@ export interface ConnectorAuth {
   * 	- Service `workday_hcm`: ID of your Workday Client App
   * 	- Service `yahoo_dsp`: Your Yahoo DSP Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_id Connector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_id Connector#client_id}
   */
   readonly clientId?: string;
   /**
@@ -488,7 +488,7 @@ export interface ConnectorAuth {
   * 	- Service `workday_hcm`: Secret of your Workday Client App
   * 	- Service `yahoo_dsp`: Your Yahoo DSP Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_secret Connector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_secret Connector#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -496,7 +496,7 @@ export interface ConnectorAuth {
   * 	- Service `twitter`: API Key of your app
   * 	- Service `twitter_ads`: The Twitter App consumer key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_key Connector#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_key Connector#consumer_key}
   */
   readonly consumerKey?: string;
   /**
@@ -504,14 +504,14 @@ export interface ConnectorAuth {
   * 	- Service `twitter`: API Secret of your app
   * 	- Service `twitter_ads`: The Twitter App consumer secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_secret Connector#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_secret Connector#consumer_secret}
   */
   readonly consumerSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: Apple Search Ads REST API Key ID. Must be populated if `is_auth2_enabled` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key_id Connector#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key_id Connector#key_id}
   */
   readonly keyId?: string;
   /**
@@ -519,7 +519,7 @@ export interface ConnectorAuth {
   * 	- Service `twitter`: The Twitter App access token.
   * 	- Service `twitter_ads`: The Twitter App access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#oauth_token Connector#oauth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#oauth_token Connector#oauth_token}
   */
   readonly oauthToken?: string;
   /**
@@ -527,29 +527,29 @@ export interface ConnectorAuth {
   * 	- Service `twitter`: The Twitter App access token secret.
   * 	- Service `twitter_ads`: The Twitter App access token secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#oauth_token_secret Connector#oauth_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#oauth_token_secret Connector#oauth_token_secret}
   */
   readonly oauthTokenSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_access_token Connector#ocapi_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_access_token Connector#ocapi_access_token}
   */
   readonly ocapiAccessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_refresh_token Connector#ocapi_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_refresh_token Connector#ocapi_refresh_token}
   */
   readonly ocapiRefreshToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `dynamics_365`: Previous `Refresh token` of your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#previous_refresh_token Connector#previous_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#previous_refresh_token Connector#previous_refresh_token}
   */
   readonly previousRefreshToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `quickbooks`: `Realm ID` of your QuickBooks application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#realm_id Connector#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#realm_id Connector#realm_id}
   */
   readonly realmId?: string;
   /**
@@ -618,41 +618,41 @@ export interface ConnectorAuth {
   * 	- Service `zoho_crm`: The long-lived `Refresh token`, along with the `client_id` and `client_secret` parameters, carries the information necessary to get a new access token for API resources.
   * 	- Service `zoom`: Your Zoom Refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#refresh_token Connector#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#refresh_token Connector#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_selling_partner`: `IAM Role ARN` of your AWS Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#role_arn Connector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#role_arn Connector#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: Apple Search Ads REST API Team ID. Must be populated if `is_auth2_enabled` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#team_id Connector#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#team_id Connector#team_id}
   */
   readonly teamId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `share_point`: `Tenant ID` of your Microsoft client application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_id Connector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_id Connector#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Access Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_access_token Connector#user_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_access_token Connector#user_access_token}
   */
   readonly userAccessToken?: string;
   /**
   * client_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_access Connector#client_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_access Connector#client_access}
   */
   readonly clientAccess?: ConnectorAuthClientAccess;
 }
@@ -1329,7 +1329,7 @@ export interface ConnectorConfigAccountsRedditAds {
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: Reddit username of the additional linked account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
 }
@@ -1448,49 +1448,49 @@ export interface ConnectorConfigAdobeAnalyticsConfigurations {
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The calculated_metrics that you want to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#calculated_metrics Connector#calculated_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#calculated_metrics Connector#calculated_metrics}
   */
   readonly calculatedMetrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The elements that you want to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#elements Connector#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#elements Connector#elements}
   */
   readonly elements?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The metrics that you want to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metrics Connector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metrics Connector#metrics}
   */
   readonly metrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: Specific report suites to sync. Must be populated if `sync_mode` is set to `SpecificReportSuites`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_suites Connector#report_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_suites Connector#report_suites}
   */
   readonly reportSuites?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The segments that you want to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#segments Connector#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#segments Connector#segments}
   */
   readonly segments?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: Whether to sync all report suites or specific report suites. Default value: `AllReportSuites` .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_mode Connector#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_mode Connector#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The table name unique within the schema to which connector will sync the data. Required for connector creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table Connector#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table Connector#table}
   */
   readonly table?: string;
 }
@@ -1783,7 +1783,7 @@ export interface ConnectorConfigAppIdsAppsflyer {
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Your App ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_id Connector#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_id Connector#app_id}
   */
   readonly appId?: string;
 }
@@ -1904,7 +1904,7 @@ export interface ConnectorConfigCustomPayloads {
   * 	- Service `azure_function`: Payload Key
   * 	- Service `google_cloud_function`: Payload Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key Connector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key Connector#key}
   */
   readonly key?: string;
   /**
@@ -1913,7 +1913,7 @@ export interface ConnectorConfigCustomPayloads {
   * 	- Service `azure_function`: Payload Value
   * 	- Service `google_cloud_function`: Payload Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -2061,105 +2061,105 @@ export interface ConnectorConfigCustomReports {
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [Determines if reports will be based on imression on coversion time](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#action_report_time Connector#action_report_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#action_report_time Connector#action_report_time}
   */
   readonly actionReportTime?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: Add fields for separate \"swipe-up\" and \"view\" variants of selected metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#add_metric_variants Connector#add_metric_variants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#add_metric_variants Connector#add_metric_variants}
   */
   readonly addMetricVariants?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Time aggregation of report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aggregate Connector#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aggregate Connector#aggregate}
   */
   readonly aggregate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [List of Core, Additional and Conversion Metrics Stats Fields](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#basemetricsfields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#base_metrics_fields Connector#base_metrics_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#base_metrics_fields Connector#base_metrics_fields}
   */
   readonly baseMetricsFields?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [Sets Breakdown on custom report](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#breakdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#breakdown Connector#breakdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#breakdown Connector#breakdown}
   */
   readonly breakdown?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [Sets Breakout on custom report](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#breakout).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#breakout Connector#breakout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#breakout Connector#breakout}
   */
   readonly breakout?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: The boolean value specifying whether to enable or disable event conversions data synchronisation. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversions_report_included Connector#conversions_report_included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversions_report_included Connector#conversions_report_included}
   */
   readonly conversionsReportIncluded?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: The boolean value specifying whether the custom events are included in event conversions report. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_events_included Connector#custom_events_included}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_events_included Connector#custom_events_included}
   */
   readonly customEventsIncluded?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [Sets Dimension on custom report](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#dimension).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimension Connector#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimension Connector#dimension}
   */
   readonly dimension?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Dimensions to synced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimensions Connector#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimensions Connector#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: The list of events the conversion data will be synchronised for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#event_names Connector#event_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#event_names Connector#event_names}
   */
   readonly eventNames?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [Sets Granularity on custom report](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#granularity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#granularity Connector#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#granularity Connector#granularity}
   */
   readonly granularity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: Level of custom report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#level Connector#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#level Connector#level}
   */
   readonly level?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Metrics to be synced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metrics Connector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metrics Connector#metrics}
   */
   readonly metrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: The list of fields included in custom report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_fields Connector#report_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_fields Connector#report_fields}
   */
   readonly reportFields?: string[];
   /**
@@ -2167,49 +2167,49 @@ export interface ConnectorConfigCustomReports {
   * 	- Service `reddit_ads`: The table name within the schema to which connector syncs the data of the specific report.
   * 	- Service `snapchat_ads`: Custom report name (must be unique)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_name Connector#report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_name Connector#report_name}
   */
   readonly reportName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Type of report to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_type Connector#report_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_type Connector#report_type}
   */
   readonly reportType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: Level of custom report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#segmentation Connector#segmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#segmentation Connector#segmentation}
   */
   readonly segmentation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: [List of SKAd  Metrics fields in custom report](https://fivetran.com/docs/connectors/applications/snapchat-ads/custom-reports#skadmetricsfields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sk_ad_metrics_fields Connector#sk_ad_metrics_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sk_ad_metrics_fields Connector#sk_ad_metrics_fields}
   */
   readonly skAdMetricsFields?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Destination Table name of report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_name Connector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_name Connector#table_name}
   */
   readonly tableName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: The specific time zone to sync report data if  `useAccountTimeZone` set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#time_zone Connector#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#time_zone Connector#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: When this parameter is set to `ACCOUNT`, connector will use account related time zone to sync report data. Default value: `ACCOUNT`. Possible values: `ACCOUNT`, `USER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#time_zone_mode Connector#time_zone_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#time_zone_mode Connector#time_zone_mode}
   */
   readonly timeZoneMode?: string;
 }
@@ -2937,85 +2937,85 @@ export interface ConnectorConfigCustomTables {
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: List of action_breakdowns which connector will sync. [Possible action_breakdowns values](https://fivetran.com/docs/connectors/applications/facebook-ads#actionbreakdowns).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#action_breakdowns Connector#action_breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#action_breakdowns Connector#action_breakdowns}
   */
   readonly actionBreakdowns?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: The report time of action stats. [Possible action_report time values](https://fivetran.com/docs/connectors/applications/facebook-ads#actionreporttime).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#action_report_time Connector#action_report_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#action_report_time Connector#action_report_time}
   */
   readonly actionReportTime?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Options to select aggregation duration. [Possible aggregation values](https://fivetran.com/docs/connectors/applications/facebook-ads#aggregation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aggregation Connector#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aggregation Connector#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: List of breakdowns which connector will sync. [Possible breakdowns values](https://fivetran.com/docs/connectors/applications/facebook-ads#breakdowns).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#breakdowns Connector#breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#breakdowns Connector#breakdowns}
   */
   readonly breakdowns?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Time period to attribute conversions based on clicks. [Possible click_attribution_window values](https://fivetran.com/docs/connectors/applications/facebook-ads#clickattributionwindow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#click_attribution_window Connector#click_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#click_attribution_window Connector#click_attribution_window}
   */
   readonly clickAttributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Option to select Prebuilt Reports or Custom Reports. [Possible config_type values](https://fivetran.com/docs/connectors/applications/facebook-ads#configtype).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_type Connector#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_type Connector#config_type}
   */
   readonly configType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Time period to attribute conversions based on engaged views. [Possible view_attribution_window values](https://fivetran.com/docs/connectors/applications/facebook-ads#engagedviewattributionwindow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#engaged_view_attribution_window Connector#engaged_view_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#engaged_view_attribution_window Connector#engaged_view_attribution_window}
   */
   readonly engagedViewAttributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: List of fields which connector will sync. [Possible field values](https://fivetran.com/docs/connectors/applications/facebook-ads#fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#fields Connector#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#fields Connector#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#level Connector#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#level Connector#level}
   */
   readonly level?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: The report name to which connector will sync the data. [Possible prebuilt_report values](https://fivetran.com/docs/connectors/applications/facebook-ads#prebuiltreport).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prebuilt_report_name Connector#prebuilt_report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prebuilt_report_name Connector#prebuilt_report_name}
   */
   readonly prebuiltReportName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: The table name within the schema to which the connector will sync the data. It must be unique within the connector and must comply with [Fivetran's naming conventions](https://fivetran.com/docs/getting-started/core-concepts#namingconventions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_name Connector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_name Connector#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_unified_attribution_setting Connector#use_unified_attribution_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_unified_attribution_setting Connector#use_unified_attribution_setting}
   */
   readonly useUnifiedAttributionSetting?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Time period to attribute conversions based on views. [Possible view_attribution_window values](https://fivetran.com/docs/connectors/applications/facebook-ads#viewattributionwindow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#view_attribution_window Connector#view_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#view_attribution_window Connector#view_attribution_window}
   */
   readonly viewAttributionWindow?: string;
 }
@@ -3482,14 +3482,14 @@ export interface ConnectorConfigDataModelPathAliasListStruct {
   * Field usage depends on `service` value: 
   * 	- Service `oracle_business_intelligence_publisher`: Schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#alias Connector#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#alias Connector#alias}
   */
   readonly alias?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `oracle_business_intelligence_publisher`: Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#path Connector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#path Connector#path}
   */
   readonly path?: string;
 }
@@ -3647,14 +3647,14 @@ export interface ConnectorConfigFiles {
   * 	- Service `sftp`: All Files inside of compressed archives with filenames matching this regular expression will be synced.
   * 	- Service `share_point`: All Files inside of compressed archives with filenames matching this regular expression will be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#archive_pattern Connector#archive_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#archive_pattern Connector#archive_pattern}
   */
   readonly archivePattern?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `email`: Only attachments from emails with this subject will be synced. Leave this field blank to sync all attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#email_subject Connector#email_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#email_subject Connector#email_subject}
   */
   readonly emailSubject?: string;
   /**
@@ -3671,7 +3671,7 @@ export interface ConnectorConfigFiles {
   * 	- Service `sftp`: All files in your search path matching this regular expression will be synced per table.
   * 	- Service `share_point`: All files in your search path matching this regular expression will be synced per table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#file_pattern Connector#file_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#file_pattern Connector#file_pattern}
   */
   readonly filePattern?: string;
   /**
@@ -3688,7 +3688,7 @@ export interface ConnectorConfigFiles {
   * 	- Service `sftp`: All files matching the above pattern will be synced to this table.
   * 	- Service `share_point`: All files matching the above pattern will be synced to this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_name Connector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_name Connector#table_name}
   */
   readonly tableName?: string;
 }
@@ -3894,28 +3894,28 @@ export interface ConnectorConfigProjectCredentials {
   * Field usage depends on `service` value: 
   * 	- Service `amplitude`: The API key of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_key Connector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_key Connector#api_key}
   */
   readonly apiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amplitude`: The project name you wish to use with Fivetran.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project Connector#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project Connector#project}
   */
   readonly project?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amplitude`: The project ID you wish to use with Fivetran.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_id Connector#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_id Connector#project_id}
   */
   readonly projectId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amplitude`: The secret key of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secret_key Connector#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secret_key Connector#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -4121,63 +4121,63 @@ export interface ConnectorConfigReportConfigs {
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Set the value to `PREBUILT` if it's one of the preconfigured reports (see the `prebuilt_report_type` option). Otherwise, set to `CUSTOM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_type Connector#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_type Connector#config_type}
   */
   readonly configType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: [Currency](https://developer.yahooinc.com/dsp/api/docs/reporting/payloadspec.html) used in a report. Default value: `USD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#currency Connector#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#currency Connector#currency}
   */
   readonly currency?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: [Dimensions](https://developer.yahooinc.com/dsp/api/docs/reporting/dimensions.html) used in a report. Must be populated if `config_type` is set to `CUSTOM`. PUBLISHER, DESKTOP_OS_DEPRECATED, LINE_TYPE, GOAL_TYPE, BID_REQUEST_AD_SIZE, CHANNEL_TYPE, SITE_NAME, and SITE_GROUP_NAME are deprecated dimension, and shouldn't be used anymore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimensions Connector#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimensions Connector#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: The [granularity](https://developer.yahooinc.com/dsp/api/docs/reporting/range-examples.html#interval-type-id) of data in a report. Default value: `DAY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#interval_type Connector#interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#interval_type Connector#interval_type}
   */
   readonly intervalType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: [Metrics](https://developer.yahooinc.com/dsp/api/docs/reporting/metrics.html) used in a report. Must be populated if `config_type` is set to `CUSTOM`. PUBLISHER_EARNINGS, PUBLISHER_EARNINGS_PERCENTAGE, INVENTORY_ECPM_DEPRECATED, SEAT_TECH_FEE, and SEAT_DATA_FEE are deprecated and shouldn't be used anymore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metrics Connector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metrics Connector#metrics}
   */
   readonly metrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Specific report type to sync. Must be populated if `config_type` is set to `PREBUILT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prebuilt_report_type Connector#prebuilt_report_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prebuilt_report_type Connector#prebuilt_report_type}
   */
   readonly prebuiltReportType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Table name in destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_name Connector#report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_name Connector#report_name}
   */
   readonly reportName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Specify the time zone to be used to request report data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#time_zone Connector#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#time_zone Connector#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Use advertiser timezone to request report data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_advertiser_timezone Connector#use_advertiser_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_advertiser_timezone Connector#use_advertiser_timezone}
   */
   readonly useAdvertiserTimezone?: boolean | cdktf.IResolvable;
 }
@@ -4528,28 +4528,28 @@ export interface ConnectorConfigReportListStruct {
   * Field usage depends on `service` value: 
   * 	- Service `spotify_ads`: The dimension (entity_type) to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimension Connector#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimension Connector#dimension}
   */
   readonly dimension?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `spotify_ads`: A list of the fields (metrics) to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#fields Connector#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#fields Connector#fields}
   */
   readonly fields?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `spotify_ads`: The report granularity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#granularity Connector#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#granularity Connector#granularity}
   */
   readonly granularity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `spotify_ads`: The table name within the schema to which connector will sync the data of the specific report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table Connector#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table Connector#table}
   */
   readonly table?: string;
 }
@@ -4755,14 +4755,14 @@ export interface ConnectorConfigReportsAccounts {
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Flag to indicate if descendants are included or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#flag Connector#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#flag Connector#flag}
   */
   readonly flag?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Account ID to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4772,7 +4772,7 @@ export interface ConnectorConfigReportsAccounts {
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Flag to indicate if descendants are included or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#include_descendants Connector#include_descendants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#include_descendants Connector#include_descendants}
   */
   readonly includeDescendants?: boolean | cdktf.IResolvable;
 }
@@ -4946,46 +4946,46 @@ export class ConnectorConfigReportsAccountsList extends cdktf.ComplexList {
 }
 export interface ConnectorConfigReportsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimension Connector#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimension Connector#dimension}
   */
   readonly dimension?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#expression Connector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#expression Connector#expression}
   */
   readonly expression?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The dimension name to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_dimension Connector#filter_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_dimension Connector#filter_dimension}
   */
   readonly filterDimension?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: Filter type for reports request. Possible values are INCLUDE and EXCLUDE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_type Connector#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_type Connector#filter_type}
   */
   readonly filterType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The filter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_value Connector#filter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_value Connector#filter_value}
   */
   readonly filterValue?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The filter values for EXACT match type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_values Connector#filter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_values Connector#filter_values}
   */
   readonly filterValues?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The filter match type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#match_type Connector#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#match_type Connector#match_type}
   */
   readonly matchType?: string;
 }
@@ -5278,14 +5278,14 @@ export interface ConnectorConfigReportsLevels {
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Flag to indicate if descendants are included or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#flag Connector#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#flag Connector#flag}
   */
   readonly flag?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Level ID to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5295,7 +5295,7 @@ export interface ConnectorConfigReportsLevels {
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Flag to indicate if descendants are included or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#include_descendants Connector#include_descendants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#include_descendants Connector#include_descendants}
   */
   readonly includeDescendants?: boolean | cdktf.IResolvable;
 }
@@ -5472,42 +5472,42 @@ export interface ConnectorConfigReports {
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Ad unit view for the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ad_unit_view Connector#ad_unit_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ad_unit_view Connector#ad_unit_view}
   */
   readonly adUnitView?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The list of advertisers to include into a sync. This parameter only takes effect when `config_method` is set to `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisers Connector#advertisers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisers Connector#advertisers}
   */
   readonly advertisers?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_console`: (Optional) Aggregation type. Supported only for the `SEARCH_RESULTS` report type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aggregation Connector#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aggregation Connector#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_ads_360`: The report attributes included to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#attributes Connector#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#attributes Connector#attributes}
   */
   readonly attributes?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Columns provide all trafficking statistics and revenue information available for the chosen dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#columns Connector#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#columns Connector#columns}
   */
   readonly columns?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The report configuration method. Specifies whether a new configuration is defined manually or an existing configuration is reused. The default value is `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_method Connector#config_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_method Connector#config_method}
   */
   readonly configMethod?: string;
   /**
@@ -5515,56 +5515,56 @@ export interface ConnectorConfigReports {
   * 	- Service `google_analytics`: Whether to use the [Prebuilt Reports or Custom Reports](https://fivetran.com/docs/connectors/applications/google-analytics#schemainformation).
   * 	- Service `google_analytics_4`: Whether to use the Prebuilt Reports or Custom Reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_type Connector#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_type Connector#config_type}
   */
   readonly configType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Conversion Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversion_dimensions Connector#conversion_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversion_dimensions Connector#conversion_dimensions}
   */
   readonly conversionDimensions?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: List of currencies to sync for the table, if applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#currency Connector#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#currency Connector#currency}
   */
   readonly currency?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_ads_360`: The report custom column IDs included to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_column_ids Connector#custom_column_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_column_ids Connector#custom_column_ids}
   */
   readonly customColumnIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: The list of custom dimension key IDs included in the report. Custom dimension keys can only be selected with the CUSTOM_DIMENSION dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_dimension_key_ids Connector#custom_dimension_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_dimension_key_ids Connector#custom_dimension_key_ids}
   */
   readonly customDimensionKeyIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: The list of custom field IDs included in the report. Custom fields can only be selected with their corresponding dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_field_ids Connector#custom_field_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_field_ids Connector#custom_field_ids}
   */
   readonly customFieldIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Custom Floodlight variables enable you to capture information beyond the basics (visits and revenue) that you can collect with standard parameters in your tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_floodlight_variables Connector#custom_floodlight_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_floodlight_variables Connector#custom_floodlight_variables}
   */
   readonly customFloodlightVariables?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Dimension attributes provide additional fields associated with a dimension. Dimension attributes can only be selected with their corresponding dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimension_attributes Connector#dimension_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimension_attributes Connector#dimension_attributes}
   */
   readonly dimensionAttributes?: string[];
   /**
@@ -5577,74 +5577,74 @@ export interface ConnectorConfigReports {
   * 	- Service `google_search_console`: The report dimensions included to sync.
   * 	- Service `workday_adaptive`: List of dimensions to sync for the table, if applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimensions Connector#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimensions Connector#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Dynamic parameter field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dynamic_parameter_field Connector#dynamic_parameter_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dynamic_parameter_field Connector#dynamic_parameter_field}
   */
   readonly dynamicParameterField?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Specifies whether to enable all reach dimension combinations in the report. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_all_dimension_combinations Connector#enable_all_dimension_combinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_all_dimension_combinations Connector#enable_all_dimension_combinations}
   */
   readonly enableAllDimensionCombinations?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Select this option to enable dynamic report parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_dynamic_parameters Connector#enable_dynamic_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_dynamic_parameters Connector#enable_dynamic_parameters}
   */
   readonly enableDynamicParameters?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: A list of the fields to sync. Must be populated if `config_type` is set to `Custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#fields Connector#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#fields Connector#fields}
   */
   readonly fields?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics`: String parameter restricts the data returned for your report. To use the filter parameter, specify a dimension or metric on which to filter, followed by the filter expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter Connector#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter Connector#filter}
   */
   readonly filter?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The dimension name to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_field_name Connector#filter_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_field_name Connector#filter_field_name}
   */
   readonly filterFieldName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: Filter type for reports request. Possible values are INCLUDE and EXCLUDE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_type Connector#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_type Connector#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter_value Connector#filter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter_value Connector#filter_value}
   */
   readonly filterValue?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Select this option to generate a Primary Key for reports where no single column or combination of columns can be used to form a Primary Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#generate_fivetran_pk Connector#generate_fivetran_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#generate_fivetran_pk Connector#generate_fivetran_pk}
   */
   readonly generateFivetranPk?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Include zero rows in the table sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#include_zero_rows Connector#include_zero_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#include_zero_rows Connector#include_zero_rows}
   */
   readonly includeZeroRows?: boolean | cdktf.IResolvable;
   /**
@@ -5655,21 +5655,21 @@ export interface ConnectorConfigReports {
   * 	- Service `google_display_and_video_360`: The report metrics to include into a sync. The metric names are provided in the API format. This is a required parameter when `config_method` is set to `CREATE_NEW`.
   * 	- Service `google_search_ads_360`: The report metrics included to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metrics Connector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metrics Connector#metrics}
   */
   readonly metrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The list of partners to include into a sync. This parameter only takes effect when `config_method` is set to `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#partners Connector#partners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#partners Connector#partners}
   */
   readonly partners?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Per Interaction Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#per_interaction_dimensions Connector#per_interaction_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#per_interaction_dimensions Connector#per_interaction_dimensions}
   */
   readonly perInteractionDimensions?: string[];
   /**
@@ -5677,35 +5677,35 @@ export interface ConnectorConfigReports {
   * 	- Service `google_analytics`: The name of the Prebuilt Report from which the connector will sync the data.
   * 	- Service `google_analytics_4`: The name of the Prebuilt Report from which the connector will sync the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prebuilt_report Connector#prebuilt_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prebuilt_report Connector#prebuilt_report}
   */
   readonly prebuiltReport?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Primary Keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#primary_keys Connector#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#primary_keys Connector#primary_keys}
   */
   readonly primaryKeys?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The ID of the query whose configuration you want to reuse. This is a required parameter when `config_method` is set to `REUSE_EXISTING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#query_id Connector#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#query_id Connector#query_id}
   */
   readonly queryId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: You can select only one Floodlight Configuration ID per account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_configuration_ids Connector#report_configuration_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_configuration_ids Connector#report_configuration_ids}
   */
   readonly reportConfigurationIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: This is to select report format from JSON and CSV. By default, report format is JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_format_type Connector#report_format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_format_type Connector#report_format_type}
   */
   readonly reportFormatType?: string;
   /**
@@ -5716,14 +5716,14 @@ export interface ConnectorConfigReports {
   * 	- Service `google_search_ads_360`: The type of report
   * 	- Service `google_search_console`: The type of report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_type Connector#report_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_type Connector#report_type}
   */
   readonly reportType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: URL for a live custom report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_url Connector#report_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_url Connector#report_url}
   */
   readonly reportUrl?: string;
   /**
@@ -5731,18 +5731,18 @@ export interface ConnectorConfigReports {
   * 	- Service `google_analytics_4`: The custom window size for rollback syncs.
   * 	- Service `google_search_ads_360`: The custom window size for rollback syncs (between 2 and 90).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rollback_window Connector#rollback_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rollback_window Connector#rollback_window}
   */
   readonly rollbackWindow?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_console`: Search types included to sync. Supported only for the `SEARCH_RESULTS` report type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#search_types Connector#search_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#search_types Connector#search_types}
   */
   readonly searchTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#segment_ids Connector#segment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#segment_ids Connector#segment_ids}
   */
   readonly segmentIds?: string[];
   /**
@@ -5750,49 +5750,49 @@ export interface ConnectorConfigReports {
   * 	- Service `google_analytics`: A segment is a subset of your Analytics data that is made up of one or more non-destructive filters (filters that do not alter the underlying data). Those filters isolate subsets of users, sessions, and hits.
   * 	- Service `google_search_ads_360`: The report segments included to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#segments Connector#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#segments Connector#segments}
   */
   readonly segments?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Start date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#start_date Connector#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#start_date Connector#start_date}
   */
   readonly startDate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Start date parameter field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#start_date_parameter_field Connector#start_date_parameter_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#start_date_parameter_field Connector#start_date_parameter_field}
   */
   readonly startDateParameterField?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Start month for the table sync, in MM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#start_month Connector#start_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#start_month Connector#start_month}
   */
   readonly startMonth?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Start year for the table sync, in YYYY format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#start_year Connector#start_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#start_year Connector#start_year}
   */
   readonly startYear?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: This option is to unpack the nested columns and sync them separately. By default, we sync the nested columns as JSON objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#support_nested_columns Connector#support_nested_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#support_nested_columns Connector#support_nested_columns}
   */
   readonly supportNestedColumns?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Dynamic report parameters sync strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_strategy Connector#sync_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_strategy Connector#sync_strategy}
   */
   readonly syncStrategy?: string;
   /**
@@ -5807,60 +5807,60 @@ export interface ConnectorConfigReports {
   * 	- Service `workday`: The table name within the schema to which connector will sync the data of the specific report.
   * 	- Service `workday_adaptive`: Table name to be synced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table Connector#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table Connector#table}
   */
   readonly table?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The table name within the schema to which connector will sync the data of the specific report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_name Connector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_name Connector#table_name}
   */
   readonly tableName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The report data aggregation time granularity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#time_aggregation_granularity Connector#time_aggregation_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#time_aggregation_granularity Connector#time_aggregation_granularity}
   */
   readonly timeAggregationGranularity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: Specifies whether the configuration is updated before each sync or only when the connector settings are saved. This parameter only takes effect when `config_method` is set to `REUSE_EXISTING`. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#update_config_on_each_sync Connector#update_config_on_each_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#update_config_on_each_sync Connector#update_config_on_each_sync}
   */
   readonly updateConfigOnEachSync?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Version sync strategy for the table, SYNC_ALL_AND_NEW_VERSIONS or SYNC_SELECT_VERSIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#version_sync_strategy Connector#version_sync_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#version_sync_strategy Connector#version_sync_strategy}
   */
   readonly versionSyncStrategy?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: List of versions to sync for the table, if versionSyncStrategy is SYNC_SELECT_VERSIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#versions Connector#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#versions Connector#versions}
   */
   readonly versions?: string[];
   /**
   * accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#accounts Connector#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#accounts Connector#accounts}
   */
   readonly accounts?: ConnectorConfigReportsAccounts[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filters Connector#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filters Connector#filters}
   */
   readonly filters?: ConnectorConfigReportsFilters[] | cdktf.IResolvable;
   /**
   * levels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#levels Connector#levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#levels Connector#levels}
   */
   readonly levels?: ConnectorConfigReportsLevels[] | cdktf.IResolvable;
 }
@@ -7518,7 +7518,7 @@ export interface ConnectorConfigSecretsListStruct {
   * 	- Service `azure_function`: Key
   * 	- Service `google_cloud_function`: Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key Connector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key Connector#key}
   */
   readonly key?: string;
   /**
@@ -7527,7 +7527,7 @@ export interface ConnectorConfigSecretsListStruct {
   * 	- Service `azure_function`: Value
   * 	- Service `google_cloud_function`: Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -7675,14 +7675,14 @@ export interface ConnectorConfigTenantConfigs {
   * Field usage depends on `service` value: 
   * 	- Service `reltio`: Your Reltio subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#subdomain Connector#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#subdomain Connector#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reltio`: Your Reltio tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_id Connector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_id Connector#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -7830,7 +7830,7 @@ export interface ConnectorConfigA {
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage connection method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_connection_method Connector#abs_connection_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_connection_method Connector#abs_connection_method}
   */
   readonly absConnectionMethod?: string;
   /**
@@ -7838,14 +7838,14 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage connection string.
   * 	- Service `braze`: Connection String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_connection_string Connector#abs_connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_connection_string Connector#abs_connection_string}
   */
   readonly absConnectionString?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage container address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_container_address Connector#abs_container_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_container_address Connector#abs_container_address}
   */
   readonly absContainerAddress?: string;
   /**
@@ -7853,56 +7853,56 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage container name.
   * 	- Service `braze`: Container Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_container_name Connector#abs_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_container_name Connector#abs_container_name}
   */
   readonly absContainerName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage host IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_host_ip Connector#abs_host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_host_ip Connector#abs_host_ip}
   */
   readonly absHostIp?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_host_user Connector#abs_host_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_host_user Connector#abs_host_user}
   */
   readonly absHostUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_prefix Connector#abs_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_prefix Connector#abs_prefix}
   */
   readonly absPrefix?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Azure Blob Storage public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#abs_public_key Connector#abs_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#abs_public_key Connector#abs_public_key}
   */
   readonly absPublicKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workramp`: Your WorkRamp academy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#academy_id Connector#academy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#academy_id Connector#academy_id}
   */
   readonly academyId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ceridian_dayforce`: Your confirmation that you have granted Fivetran access to all the RESTful services and fields you want to sync. Possible values: `true`, `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_confirmation Connector#access_confirmation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_confirmation Connector#access_confirmation}
   */
   readonly accessConfirmation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `planful`: Your Planful access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_id Connector#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_id Connector#access_id}
   */
   readonly accessId?: string;
   /**
@@ -7913,7 +7913,7 @@ export interface ConnectorConfigA {
   * 	- Service `planful`: Your Planful access key.
   * 	- Service `retailnext`: Your RetailNext access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_key Connector#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_key Connector#access_key}
   */
   readonly accessKey?: string;
   /**
@@ -7928,7 +7928,7 @@ export interface ConnectorConfigA {
   * 	- Service `validio`: Your Validio access key ID.
   * 	- Service `wasabi_cloud_storage`: Access Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_key_id Connector#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_key_id Connector#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
@@ -7942,7 +7942,7 @@ export interface ConnectorConfigA {
   * 	- Service `s3_compatible_storage`: Access Key Secret
   * 	- Service `wasabi_cloud_storage`: Access Key Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_key_secret Connector#access_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_key_secret Connector#access_key_secret}
   */
   readonly accessKeySecret?: string;
   /**
@@ -7977,14 +7977,14 @@ export interface ConnectorConfigA {
   * 	- Service `workable`: Your Workable Access Token.
   * 	- Service `workramp`: Your WorkRamp access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_token Connector#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_token Connector#access_token}
   */
   readonly accessToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `share_point`: Access Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#access_type Connector#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#access_type Connector#access_type}
   */
   readonly accessType?: string;
   /**
@@ -7992,14 +7992,14 @@ export interface ConnectorConfigA {
   * 	- Service `netsuite_suiteanalytics`: The NetSuite Account ID.
   * 	- Service `ordway`: Your Ordway account type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account Connector#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account Connector#account}
   */
   readonly account?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rollbar`: Your Rollbar account access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_access_token Connector#account_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_access_token Connector#account_access_token}
   */
   readonly accountAccessToken?: string;
   /**
@@ -8015,14 +8015,14 @@ export interface ConnectorConfigA {
   * 	- Service `rokt`: Your Rokt account ID.
   * 	- Service `udemy_business`: Your Udemy Business account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_id Connector#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_id Connector#account_id}
   */
   readonly accountId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `taboola`: Specific Account IDs to sync.  Must be populated if `syncMode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_ids Connector#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_ids Connector#account_ids}
   */
   readonly accountIds?: string[];
   /**
@@ -8030,7 +8030,7 @@ export interface ConnectorConfigA {
   * 	- Service `cosmos`: The read-only primary or secondary account key for the database account. Required for the `ACCOUNT_KEY` data access method.
   * 	- Service `simplesat`: Your Simplesat account key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_key Connector#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_key Connector#account_key}
   */
   readonly accountKey?: string;
   /**
@@ -8043,21 +8043,21 @@ export interface ConnectorConfigA {
   * 	- Service `talkdesk`: Your Talkdesk Account Name.
   * 	- Service `udemy_business`: Your Udemy Business account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_name Connector#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_name Connector#account_name}
   */
   readonly accountName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tymeshift`: Your Tymeshift account plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_plan Connector#account_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_plan Connector#account_plan}
   */
   readonly accountPlan?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `iterable`: If your Iterable account URL starts with `https://app.eu.iterable.com` then provide `EU` else `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_region Connector#account_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_region Connector#account_region}
   */
   readonly accountRegion?: string;
   /**
@@ -8065,7 +8065,7 @@ export interface ConnectorConfigA {
   * 	- Service `fone_dynamics`: Your Fone Dynamics account SID.
   * 	- Service `impact_partner`: Your Impact Partner account SID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_sid Connector#account_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_sid Connector#account_sid}
   */
   readonly accountSid?: string;
   /**
@@ -8073,21 +8073,21 @@ export interface ConnectorConfigA {
   * 	- Service `itunes_connect`: Account Sync Mode
   * 	- Service `snapchat_ads`: Whether to sync all accounts or specific accounts. Default value: `AllAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_sync_mode Connector#account_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_sync_mode Connector#account_sync_mode}
   */
   readonly accountSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `konnect_insights`: Your Konnect Insights Account Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_token Connector#account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_token Connector#account_token}
   */
   readonly accountToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `freightview`: Your Freightview account type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#account_type Connector#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#account_type Connector#account_type}
   */
   readonly accountType?: string;
   /**
@@ -8111,63 +8111,63 @@ export interface ConnectorConfigA {
   * 	- Service `twitter`: Specific accounts to sync. Must be populated if `sync_mode` is set to `SpecificAccounts`.
   * 	- Service `twitter_ads`: Specific Accounts to sync.  Must be populated if `sync_mode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#accounts Connector#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#accounts Connector#accounts}
   */
   readonly accounts?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_ads_360`: Whether to sync all accounts or specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#accounts_sync_mode Connector#accounts_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#accounts_sync_mode Connector#accounts_sync_mode}
   */
   readonly accountsSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook`: List of action_breakdowns which connector will sync. [Possible action_breakdowns values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#actionbreakdowns).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#action_breakdowns Connector#action_breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#action_breakdowns Connector#action_breakdowns}
   */
   readonly actionBreakdowns?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook`: The report time of action stats. [Possible action_report time values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#actionreporttime).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#action_report_time Connector#action_report_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#action_report_time Connector#action_report_time}
   */
   readonly actionReportTime?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `linkedin_ads`: Whether to sync all analytic reports or specific. Default value: `AllReports`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ad_analytics Connector#ad_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ad_analytics Connector#ad_analytics}
   */
   readonly adAnalytics?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Ad unit view for the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ad_unit_view Connector#ad_unit_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ad_unit_view Connector#ad_unit_view}
   */
   readonly adUnitView?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `splitio`: Your Split admin api key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#admin_api_key Connector#admin_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#admin_api_key Connector#admin_api_key}
   */
   readonly adminApiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `brivo`: Your Brivo Admin username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#admin_username Connector#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#admin_username Connector#admin_username}
   */
   readonly adminUsername?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adroll`: Specific advertisables to sync. Must be populated if `sync_mode` is set to `SpecificAdvertisables`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisables Connector#advertisables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisables Connector#advertisables}
   */
   readonly advertisables?: string[];
   /**
@@ -8176,32 +8176,32 @@ export interface ConnectorConfigA {
   * 	- Service `google_search_ads_360`: Specific advertisers to sync. Must be populated if `advertisersSyncMode` is set to `SPECIFIC_ADVERTISERS`.
   * 	- Service `pinterest_ads`: Specific Advertisers to sync.  Must be populated if `sync_mode` is set to `SpecificAdvertisers`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisers Connector#advertisers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisers Connector#advertisers}
   */
   readonly advertisers?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_gemini`: Specific Advertiser IDs to sync. Must be populated if `syncMode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisers_id Connector#advertisers_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisers_id Connector#advertisers_id}
   */
   readonly advertisersId?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_ads_360`: Whether to sync all or specific advertisers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisers_sync_mode Connector#advertisers_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisers_sync_mode Connector#advertisers_sync_mode}
   */
   readonly advertisersSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Specific Advertisers to sync. Must be populated if `sync_mode_advertiser` is set to `SPECIFIC_ADVERTISERS`. Pay attention to the format: `AdvertiserId:SeatId`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#advertisers_with_seat Connector#advertisers_with_seat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#advertisers_with_seat Connector#advertisers_with_seat}
   */
   readonly advertisersWithSeat?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_config_method Connector#agent_config_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_config_method Connector#agent_config_method}
   */
   readonly agentConfigMethod?: string;
   /**
@@ -8219,14 +8219,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: The host address of the machine running the agent. Often the same as the DB host.
   * 	- Service `sql_server_sap_ecc_hva`: The host address of the machine running the agent. Often the same as the DB host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_host Connector#agent_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_host Connector#agent_host}
   */
   readonly agentHost?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `phoenix_ads`: Your Phoenix Ads Agent ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_id Connector#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_id Connector#agent_id}
   */
   readonly agentId?: string;
   /**
@@ -8234,7 +8234,7 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: The home directory of the Oracle database.
   * 	- Service `oracle_sap_hva`: The home directory of the Oracle database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_ora_home Connector#agent_ora_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_ora_home Connector#agent_ora_home}
   */
   readonly agentOraHome?: string;
   /**
@@ -8252,7 +8252,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: The password for the agent user.
   * 	- Service `sql_server_sap_ecc_hva`: The password for the agent user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_password Connector#agent_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_password Connector#agent_password}
   */
   readonly agentPassword?: string;
   /**
@@ -8270,7 +8270,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: The port that the agent has open for Fivetran's connection. Default value is 4343.
   * 	- Service `sql_server_sap_ecc_hva`: The port that the agent has open for Fivetran's connection. Default value is 4343.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_port Connector#agent_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_port Connector#agent_port}
   */
   readonly agentPort?: number;
   /**
@@ -8288,7 +8288,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: The public certificate generated by the agent.
   * 	- Service `sql_server_sap_ecc_hva`: The public certificate generated by the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_public_cert Connector#agent_public_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_public_cert Connector#agent_public_cert}
   */
   readonly agentPublicCert?: string;
   /**
@@ -8306,28 +8306,28 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: The agent's username.
   * 	- Service `sql_server_sap_ecc_hva`: The agent's username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agent_user Connector#agent_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agent_user Connector#agent_user}
   */
   readonly agentUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook`: Options to select aggregation duration. [Possible aggregation values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#aggregation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aggregation Connector#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aggregation Connector#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `economic`: Your E-conomic X-AgreementGrantToken goes here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#agreement_grant_token Connector#agreement_grant_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#agreement_grant_token Connector#agreement_grant_token}
   */
   readonly agreementGrantToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: HMAC algorithm used for generating the HMAC signature. Supported algorithms  INFER_FROM_HEADER, MD5, SHA_1, SHA_224, SHA_256, SHA_384, SHA_512. Default: SHA_256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#algorithm Connector#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#algorithm Connector#algorithm}
   */
   readonly algorithm?: string;
   /**
@@ -8381,14 +8381,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: Require TLS.
   * 	- Service `sql_server_sap_ecc_hva`: Require TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#always_encrypted Connector#always_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#always_encrypted Connector#always_encrypted}
   */
   readonly alwaysEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `freshsuccess`: Set this parameter to `api`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api Connector#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api Connector#api}
   */
   readonly api?: string;
   /**
@@ -8398,7 +8398,7 @@ export interface ConnectorConfigA {
   * 	- Service `shopify`: API access token of your custom app.
   * 	- Service `square`: The Square API access token of your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_access_token Connector#api_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_access_token Connector#api_access_token}
   */
   readonly apiAccessToken?: string;
   /**
@@ -8406,21 +8406,21 @@ export interface ConnectorConfigA {
   * 	- Service `afterpay`: Your Afterpay API environment.
   * 	- Service `tiktok_organic`: Your TikTok Organic API environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_environment Connector#api_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_environment Connector#api_environment}
   */
   readonly apiEnvironment?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aircall`: Your Aircall API ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_id Connector#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_id Connector#api_id}
   */
   readonly apiId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `onetrust`: Your OneTrust API integration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_integration_type Connector#api_integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_integration_type Connector#api_integration_type}
   */
   readonly apiIntegrationType?: string;
   /**
@@ -8648,49 +8648,49 @@ export interface ConnectorConfigA {
   * 	- Service `zingtree`: Your Zingtree API key.
   * 	- Service `zip`: Your Zip API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_key Connector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_key Connector#api_key}
   */
   readonly apiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `revel`: Your Revel Systems API Key and API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_key_api_secret Connector#api_key_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_key_api_secret Connector#api_key_api_secret}
   */
   readonly apiKeyApiSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mandrill`: Comma-separated list of API keys.  Required if `use_api_keys` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_keys Connector#api_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_keys Connector#api_keys}
   */
   readonly apiKeys?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `duoplane`: Your Duoplane API password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_password Connector#api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_password Connector#api_password}
   */
   readonly apiPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Allowed number of API requests to Marketo instance per day, the default value is 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_quota Connector#api_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_quota Connector#api_quota}
   */
   readonly apiQuota?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `the_movie_database`: Your The Movie Database API read access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_read_access_token Connector#api_read_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_read_access_token Connector#api_read_access_token}
   */
   readonly apiReadAccessToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualtrics`: Allowed number of API requests to Qualtrics per minute, the default value is 2000. Maximum allowed number is 3000 because brands may make up to 3000 API requests per minute across all of its API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_requests_per_minute Connector#api_requests_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_requests_per_minute Connector#api_requests_per_minute}
   */
   readonly apiRequestsPerMinute?: number;
   /**
@@ -8698,7 +8698,7 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: The API role assigned to the integration user.
   * 	- Service `zuora_sandbox`: The API role assigned to the integration user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_role Connector#api_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_role Connector#api_role}
   */
   readonly apiRole?: string;
   /**
@@ -8715,21 +8715,21 @@ export interface ConnectorConfigA {
   * 	- Service `shareasale`: Your ShareASale API secret.
   * 	- Service `vonage`: Your Vonage API Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_secret Connector#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_secret Connector#api_secret}
   */
   readonly apiSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `alchemer`: Your Alchemer API Secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_secret_key Connector#api_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_secret_key Connector#api_secret_key}
   */
   readonly apiSecretKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sigma_computing_source`: Your Sigma Computing api server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_server Connector#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_server Connector#api_server}
   */
   readonly apiServer?: string;
   /**
@@ -8796,60 +8796,60 @@ export interface ConnectorConfigA {
   * 	- Service `zendesk_sunshine`: Zendesk API tokens are auto-generated passwords in the Support admin interface.
   * 	- Service `zendesk_workforce_management`: Your Zendesk Workforce Management API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_token Connector#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_token Connector#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_type Connector#api_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_type Connector#api_type}
   */
   readonly apiType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your Braze API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_url Connector#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_url Connector#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_dsp`: Your Amazon DSP API URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_url_region Connector#api_url_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_url_region Connector#api_url_region}
   */
   readonly apiUrlRegion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `zendesk`: Maximum Zendesk Api Usage allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_usage Connector#api_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_usage Connector#api_usage}
   */
   readonly apiUsage?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `shipnetwork`: Your ShipNetwork API user identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_user_identifier Connector#api_user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_user_identifier Connector#api_user_identifier}
   */
   readonly apiUserIdentifier?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `shipnetwork`: Your ShipNetwork API user secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_user_secret Connector#api_user_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_user_secret Connector#api_user_secret}
   */
   readonly apiUserSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `discourse`: Your Discourse API username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_username Connector#api_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_username Connector#api_username}
   */
   readonly apiUsername?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `kustomer`: Api Utilization Percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_utilization_percentage Connector#api_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_utilization_percentage Connector#api_utilization_percentage}
   */
   readonly apiUtilizationPercentage?: string;
   /**
@@ -8857,7 +8857,7 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: API Version
   * 	- Service `pardot_sandbox`: API Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#api_version Connector#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#api_version Connector#api_version}
   */
   readonly apiVersion?: string;
   /**
@@ -8867,14 +8867,14 @@ export interface ConnectorConfigA {
   * 	- Service `rokt`: Your Rokt app ID.
   * 	- Service `tiktok_organic`: Your Tiktok Organic app ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_id Connector#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_id Connector#app_id}
   */
   readonly appId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pendo`: Specific App IDs to sync. Must be populated if `sync_mode` is set to `SpecificAppIds`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_ids Connector#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_ids Connector#app_ids}
   */
   readonly appIds?: string[];
   /**
@@ -8884,39 +8884,39 @@ export interface ConnectorConfigA {
   * 	- Service `yotpo`: Your Yotpo app key.
   * 	- Service `yotpo_app`: Your Yotpo App key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_key Connector#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_key Connector#app_key}
   */
   readonly appKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `brightpearl`: Your Brightpearl app reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_reference Connector#app_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_reference Connector#app_reference}
   */
   readonly appReference?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rokt`: Your Rokt app secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_secret Connector#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_secret Connector#app_secret}
   */
   readonly appSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_secret_token Connector#app_secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_secret_token Connector#app_secret_token}
   */
   readonly appSecretToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Your app-specific password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_specific_password Connector#app_specific_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_specific_password Connector#app_specific_password}
   */
   readonly appSpecificPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Whether to sync all apps or specific apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_sync_mode Connector#app_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_sync_mode Connector#app_sync_mode}
   */
   readonly appSyncMode?: string;
   /**
@@ -8936,7 +8936,7 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: If you know that the source completely over-writes the same file with new data, you can append the changes instead of upserting based on filename and line number.
   * 	- Service `wasabi_cloud_storage`: If you know that the source completely over-writes the same file with new data, you can append the changes instead of upserting based on filename and line number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#append_file_option Connector#append_file_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#append_file_option Connector#append_file_option}
   */
   readonly appendFileOption?: string;
   /**
@@ -8944,7 +8944,7 @@ export interface ConnectorConfigA {
   * 	- Service `algolia`: Your Algolia application ID.
   * 	- Service `xactly`: Your Xactly Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#application_id Connector#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#application_id Connector#application_id}
   */
   readonly applicationId?: string;
   /**
@@ -8954,21 +8954,21 @@ export interface ConnectorConfigA {
   * 	- Service `dear`: Your Dear Application key.
   * 	- Service `partnerize`: Your Partnerize user application key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#application_key Connector#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#application_key Connector#application_key}
   */
   readonly applicationKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `db2z`: Application name used to generate an RACF PassTicket for user authentication. Specify only when `authentication_method` is `LEGACY_PASS_TICKET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#application_name Connector#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#application_name Connector#application_name}
   */
   readonly applicationName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Specific apps to sync. Must be populated if `app_sync_mode` is set to `SpecificApps`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#apps Connector#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#apps Connector#apps}
   */
   readonly apps?: string[];
   /**
@@ -8979,7 +8979,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Format for archive log file names
   * 	- Service `sql_server_sap_ecc_hva`: Format for archive log file names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#archive_log_format Connector#archive_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#archive_log_format Connector#archive_log_format}
   */
   readonly archiveLogFormat?: string;
   /**
@@ -8990,7 +8990,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Directory where archive logs are located
   * 	- Service `sql_server_sap_ecc_hva`: Directory where archive logs are located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#archive_log_path Connector#archive_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#archive_log_path Connector#archive_log_path}
   */
   readonly archiveLogPath?: string;
   /**
@@ -9010,21 +9010,21 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: Files inside of compressed archives with filenames matching this regular expression will be synced.
   * 	- Service `wasabi_cloud_storage`: Files inside compressed archives with filenames matching this regular expression will be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#archive_pattern Connector#archive_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#archive_pattern Connector#archive_pattern}
   */
   readonly archivePattern?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Marketo SOAP credentials provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#are_soap_credentials_provided Connector#are_soap_credentials_provided}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#are_soap_credentials_provided Connector#are_soap_credentials_provided}
   */
   readonly areSoapCredentialsProvided?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_service_bus`: The IP address (or) the URL of ASB namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asb_ip Connector#asb_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asb_ip Connector#asb_ip}
   */
   readonly asbIp?: string;
   /**
@@ -9032,7 +9032,7 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: Default value: `false`. Set to `true` if you're using ASM on a non-RAC instance.
   * 	- Service `oracle_sap_hva`: Default value: `false`. Set to `true` if you are using ASM on a non-RAC instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asm_option Connector#asm_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asm_option Connector#asm_option}
   */
   readonly asmOption?: boolean | cdktf.IResolvable;
   /**
@@ -9040,7 +9040,7 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: ASM Oracle Home path.
   * 	- Service `oracle_sap_hva`: The Oracle ASM home directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asm_oracle_home Connector#asm_oracle_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asm_oracle_home Connector#asm_oracle_home}
   */
   readonly asmOracleHome?: string;
   /**
@@ -9048,7 +9048,7 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: ASM password. Mandatory if `use_oracle_rac` or `asm_option` is set to `true`.
   * 	- Service `oracle_sap_hva`: The ASM user's password. Mandatory if `use_oracle_rac` or `asm_option` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asm_password Connector#asm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asm_password Connector#asm_password}
   */
   readonly asmPassword?: string;
   /**
@@ -9056,7 +9056,7 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: ASM TNS.
   * 	- Service `oracle_sap_hva`: ASM TNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asm_tns Connector#asm_tns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asm_tns Connector#asm_tns}
   */
   readonly asmTns?: string;
   /**
@@ -9064,28 +9064,28 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: ASM user. Mandatory if `use_oracle_rac` or `asm_option` is set to `true`.
   * 	- Service `oracle_sap_hva`: The ASM user. Mandatory if `use_oracle_rac` or `asm_option` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#asm_user Connector#asm_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#asm_user Connector#asm_user}
   */
   readonly asmUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_ads`: Time period used to attribute conversions based on clicks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#attribution_window Connector#attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#attribution_window Connector#attribution_window}
   */
   readonly attributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tiktok_ads`: Rollback sync duration to capture conversions. Set this to your configured attribution window in TikTok Ads. The default value is 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#attribution_window_size Connector#attribution_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#attribution_window_size Connector#attribution_window_size}
   */
   readonly attributionWindowSize?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `auth0`: Your Auth0 API audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#audience Connector#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#audience Connector#audience}
   */
   readonly audience?: string;
   /**
@@ -9094,28 +9094,28 @@ export interface ConnectorConfigA {
   * 	- Service `redshift_db`: Password-based authentication type
   * 	- Service `snowflake_db`: Password-based or key-based authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth Connector#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth Connector#auth}
   */
   readonly auth?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `happyfox`: Your HappyFox auth code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_code Connector#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_code Connector#auth_code}
   */
   readonly authCode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `younium`: Your Younium auth environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_environment Connector#auth_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_environment Connector#auth_environment}
   */
   readonly authEnvironment?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: Set if you use HMAC/token-based auth methods. This is used to retrieve a key in headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_header_key Connector#auth_header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_header_key Connector#auth_header_key}
   */
   readonly authHeaderKey?: string;
   /**
@@ -9145,7 +9145,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_sap_ecc_hva`: Authentication Method
   * 	- Service `webhooks`: The authentication mechanism you want to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_method Connector#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_method Connector#auth_method}
   */
   readonly authMethod?: string;
   /**
@@ -9158,14 +9158,14 @@ export interface ConnectorConfigA {
   * 	- Service `workday_financial_management`: Authentication Mode
   * 	- Service `workday_hcm`: Authentication Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_mode Connector#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_mode Connector#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: The secret you want to use for HMAC/token-based auth methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_secret Connector#auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_secret Connector#auth_secret}
   */
   readonly authSecret?: string;
   /**
@@ -9173,7 +9173,7 @@ export interface ConnectorConfigA {
   * 	- Service `impact_partner`: Your Impact Partner auth token
   * 	- Service `zonka_feedback`: Your Zonka Feedback auth token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_token Connector#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_token Connector#auth_token}
   */
   readonly authToken?: string;
   /**
@@ -9194,14 +9194,14 @@ export interface ConnectorConfigA {
   * 	- Service `s3_compatible_storage`: Access approach
   * 	- Service `wasabi_cloud_storage`: The Wasabi Cloud Storage Access approach. Required for connector creation. Default value: `ACCESS_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_type Connector#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_type Connector#auth_type}
   */
   readonly authType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_dsp`: Your Amazon DSP auth grant URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#auth_url_region Connector#auth_url_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#auth_url_region Connector#auth_url_region}
   */
   readonly authUrlRegion?: string;
   /**
@@ -9218,7 +9218,7 @@ export interface ConnectorConfigA {
   * 	- Service `salesforce`: (Optional) Authentication type (default value = `STANDARD`)
   * 	- Service `salesforce_sandbox`: (Optional) Authentication type (default value = `STANDARD`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#authentication_method Connector#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#authentication_method Connector#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
@@ -9226,7 +9226,7 @@ export interface ConnectorConfigA {
   * 	- Service `tiktok_organic`: The authorization URL of the app registered in your TikTok developer account.
   * 	- Service `workday`: Authorization URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#authorization_url Connector#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#authorization_url Connector#authorization_url}
   */
   readonly authorizationUrl?: string;
   /**
@@ -9237,36 +9237,36 @@ export interface ConnectorConfigA {
   * 	- Service `maria_rds`: The AWS region code for your RDS instance. Required if the authentication method is `AWS_IAM`.
   * 	- Service `mysql_rds`: The AWS region code for your RDS instance. Required if the authentication method is `AWS_IAM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#aws_region_code Connector#aws_region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#aws_region_code Connector#aws_region_code}
   */
   readonly awsRegionCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backint_configuration_path Connector#backint_configuration_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backint_configuration_path Connector#backint_configuration_path}
   */
   readonly backintConfigurationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backint_executable_path Connector#backint_executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backint_executable_path Connector#backint_executable_path}
   */
   readonly backintExecutablePath?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Filename pattern for transaction log backup files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backup_log_format Connector#backup_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backup_log_format Connector#backup_log_format}
   */
   readonly backupLogFormat?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Full path to the local directory containing transaction log backup files. Required if `backup_storage_type` is `ALTERNATE_LOCATION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backup_log_path Connector#backup_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backup_log_path Connector#backup_log_path}
   */
   readonly backupLogPath?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Location of transaction log backup files when using BACKUP binary log type. Possible values: `"AZURE"`, `"ALTERNATE_LOCATION"`, `"AWS"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backup_storage_type Connector#backup_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backup_storage_type Connector#backup_storage_type}
   */
   readonly backupStorageType?: string;
   /**
@@ -9277,7 +9277,7 @@ export interface ConnectorConfigA {
   * 	- Service `stripe_test`: Limit of the Historical Sync Time for selected tables
   * 	- Service `zendesk`: Date Limit of the Historical Sync Time for selected tables. The format should be YYYY-MM-DD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backward_sync_limit Connector#backward_sync_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backward_sync_limit Connector#backward_sync_limit}
   */
   readonly backwardSyncLimit?: string;
   /**
@@ -9286,28 +9286,28 @@ export interface ConnectorConfigA {
   * 	- Service `mixpanel`: Date from which data needs to be synced.
   * 	- Service `pendo`: The start date (YYYY-MM-DD) from which to sync historical data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#backward_sync_limit_date Connector#backward_sync_limit_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#backward_sync_limit_date Connector#backward_sync_limit_date}
   */
   readonly backwardSyncLimitDate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `open_exchange_rates`: Your Open Exchange Rates Base Currency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#base_currency Connector#base_currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#base_currency Connector#base_currency}
   */
   readonly baseCurrency?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `freshteam`: Your company's Freshteam base domain name (usually **company**.freshteam.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#base_domain Connector#base_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#base_domain Connector#base_domain}
   */
   readonly baseDomain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `airtable`: ID of base in Airtable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#base_id Connector#base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#base_id Connector#base_id}
   */
   readonly baseId?: string;
   /**
@@ -9344,7 +9344,7 @@ export interface ConnectorConfigA {
   * 	- Service `veevavault`: Your Veeva Vault base URL.
   * 	- Service `vitally`: Your Vitally base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#base_url Connector#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#base_url Connector#base_url}
   */
   readonly baseUrl?: string;
   /**
@@ -9360,21 +9360,21 @@ export interface ConnectorConfigA {
   * 	- Service `sprout`: Your Sprout Social API Access Token.
   * 	- Service `zenefits`: Your Zenefits bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#bearer_token Connector#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#bearer_token Connector#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Determine who is responsible for truncating the online transaction log. Possible values: `"FIVETRAN"`, `"USER_MANAGED"`, `"SQL_SERVER_AGENT"`. Default value is `"FIVETRAN"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#binary_log_truncater Connector#binary_log_truncater}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#binary_log_truncater Connector#binary_log_truncater}
   */
   readonly binaryLogTruncater?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Source of transaction log data when using Binary Log Reader. Possible values: `"ONLINE"`, `"BACKUP"`. Default value is `"ONLINE"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#binary_log_type Connector#binary_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#binary_log_type Connector#binary_log_type}
   */
   readonly binaryLogType?: string;
   /**
@@ -9383,35 +9383,35 @@ export interface ConnectorConfigA {
   * 	- Service `mongo`: How binary data is represented in the database. Possible values: 'Base64' (default), 'Uuid'.
   * 	- Service `mongo_sharded`: How binary data is represented in the database. Possible values: 'Base64' (default), 'Uuid'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#binary_representation Connector#binary_representation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#binary_representation Connector#binary_representation}
   */
   readonly binaryRepresentation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: The blob SAS URL of your Azure container. Required if `bucket_service` is set to `AZURE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#blob_sas_url Connector#blob_sas_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#blob_sas_url Connector#blob_sas_url}
   */
   readonly blobSasUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rarible`: Your Rarible Blockchain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#blockchain Connector#blockchain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#blockchain Connector#blockchain}
   */
   readonly blockchain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `oracle_moat_analytics`: Your Oracle Moat Analytics Brand ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#brand_id Connector#brand_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#brand_id Connector#brand_id}
   */
   readonly brandId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook`: List of breakdowns which connector will sync. [Possible breakdowns values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#breakdowns).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#breakdowns Connector#breakdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#breakdowns Connector#breakdowns}
   */
   readonly breakdowns?: string[];
   /**
@@ -9432,7 +9432,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server`: The name of the S3 bucket.
   * 	- Service `wasabi_cloud_storage`: The Wasabi Cloud Storage bucket name. Required for connector creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#bucket Connector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#bucket Connector#bucket}
   */
   readonly bucket?: string;
   /**
@@ -9441,35 +9441,35 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics_360`: The name of the bucket.
   * 	- Service `google_analytics_4_export`: The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#bucket_name Connector#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#bucket_name Connector#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: Whether to store the events in Fivetran's container service or your S3 bucket. Default value: `Fivetran`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#bucket_service Connector#bucket_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#bucket_service Connector#bucket_service}
   */
   readonly bucketService?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: Specific Accounts to sync.  Must be populated if `sync_mode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#business_accounts Connector#business_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#business_accounts Connector#business_accounts}
   */
   readonly businessAccounts?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `birdeye`: Your Birdeye Business ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#business_id Connector#business_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#business_id Connector#business_id}
   */
   readonly businessId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `deposco`: Your Deposco business unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#business_unit Connector#business_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#business_unit Connector#business_unit}
   */
   readonly businessUnit?: string;
   /**
@@ -9477,14 +9477,14 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: Business Unit Id
   * 	- Service `pardot_sandbox`: Business Unit Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#business_unit_id Connector#business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#business_unit_id Connector#business_unit_id}
   */
   readonly businessUnitId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks_db`: catalog to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#catalog Connector#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#catalog Connector#catalog}
   */
   readonly catalog?: string;
   /**
@@ -9495,14 +9495,14 @@ export interface ConnectorConfigA {
   * 	- Service `salesforce`: Provide content of the `.pem` certificate (only when authentication_method = `ADVANCED`).
   * 	- Service `salesforce_sandbox`: Provide content of the `.pem` certificate (only when authentication_method = `ADVANCED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#certificate Connector#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#certificate Connector#certificate}
   */
   readonly certificate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `netsuite_suiteanalytics`: Certificate Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#certificate_id Connector#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#certificate_id Connector#certificate_id}
   */
   readonly certificateId?: string;
   /**
@@ -9510,11 +9510,11 @@ export interface ConnectorConfigA {
   * 	- Service `facebook`: Time period to attribute conversions based on clicks. [Possible click_attribution_window values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#clickattributionwindow).
   * 	- Service `pinterest_ads`: The number of days to use as the conversion attribution window for a 'click' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#click_attribution_window Connector#click_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#click_attribution_window Connector#click_attribution_window}
   */
   readonly clickAttributionWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client Connector#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client Connector#client}
   */
   readonly client?: string;
   /**
@@ -9522,7 +9522,7 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: Kafka client certificate.
   * 	- Service `heroku_kafka`: Heroku Kafka client certificate. Required for `TLS` security protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_cert Connector#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_cert Connector#client_cert}
   */
   readonly clientCert?: string;
   /**
@@ -9530,14 +9530,14 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: Kafka client certificate key.
   * 	- Service `heroku_kafka`: Heroku Kafka client certificate key.  Required for `TLS` security protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_cert_key Connector#client_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_cert_key Connector#client_cert_key}
   */
   readonly clientCertKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ceridian_dayforce`: Your Ceridian Dayforce client host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_host Connector#client_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_host Connector#client_host}
   */
   readonly clientHost?: string;
   /**
@@ -9675,7 +9675,7 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: Zuora Client ID.
   * 	- Service `zuora_sandbox`: Zuora Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_id Connector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_id Connector#client_id}
   */
   readonly clientId?: string;
   /**
@@ -9684,7 +9684,7 @@ export interface ConnectorConfigA {
   * 	- Service `thinkific`: Your Thinkific client key.
   * 	- Service `yougov_sport`: Your Yougov Sport client key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_key Connector#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_key Connector#client_key}
   */
   readonly clientKey?: string;
   /**
@@ -9694,14 +9694,14 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: The name of your organization as registered with Zuora Revenue.
   * 	- Service `zuora_sandbox`: The name of your organization as registered with Zuora Revenue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_name Connector#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_name Connector#client_name}
   */
   readonly clientName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ceridian_dayforce`: Your Ceridian Dayforce client namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_namespace Connector#client_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_namespace Connector#client_namespace}
   */
   readonly clientNamespace?: string;
   /**
@@ -9723,7 +9723,7 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Client Private Key in .pem format.
   * 	- Service `postgres_rds`: Client Private Key in .pem format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_private_key Connector#client_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_private_key Connector#client_private_key}
   */
   readonly clientPrivateKey?: string;
   /**
@@ -9745,7 +9745,7 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Client Certificate in .pem format.
   * 	- Service `postgres_rds`: Client Certificate in .pem format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_public_certificate Connector#client_public_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_public_certificate Connector#client_public_certificate}
   */
   readonly clientPublicCertificate?: string;
   /**
@@ -9871,63 +9871,63 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: Zuora Client Secret.
   * 	- Service `zuora_sandbox`: Zuora Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#client_secret Connector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#client_secret Connector#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Cloud storage type Braze Current is connected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#cloud_storage_type Connector#cloud_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#cloud_storage_type Connector#cloud_storage_type}
   */
   readonly cloudStorageType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rarible`: Your Rarible Collection Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#collection_address Connector#collection_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#collection_address Connector#collection_address}
   */
   readonly collectionAddress?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Columns provide all trafficking statistics and revenue information available for the chosen Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#columns Connector#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#columns Connector#columns}
   */
   readonly columns?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `alida`: Your Alida community API key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#community_api_key_name Connector#community_api_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#community_api_key_name Connector#community_api_key_name}
   */
   readonly communityApiKeyName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `khoros_communities`: Your Khoros Communities community domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#community_domain Connector#community_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#community_domain Connector#community_domain}
   */
   readonly communityDomain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `khoros_communities`: Your Khoros Communities community ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#community_id Connector#community_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#community_id Connector#community_id}
   */
   readonly communityId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `business_central`: List of companies to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#companies Connector#companies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#companies Connector#companies}
   */
   readonly companies?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ordway`: Your Ordway company name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company Connector#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company Connector#company}
   */
   readonly company?: string;
   /**
@@ -9940,14 +9940,14 @@ export interface ConnectorConfigA {
   * 	- Service `sage_intacct`: Company ID
   * 	- Service `sap_success_factors`: Your SAP SuccessFactors Company ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_id Connector#company_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_id Connector#company_id}
   */
   readonly companyId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cj_commission_detail`: Your CJ Commission Detail company IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_ids Connector#company_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_ids Connector#company_ids}
   */
   readonly companyIds?: string;
   /**
@@ -9955,28 +9955,28 @@ export interface ConnectorConfigA {
   * 	- Service `khoros_care`: Your Khoros Care companyKey.
   * 	- Service `upland`: Your Upland Software Company Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_key Connector#company_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_key Connector#company_key}
   */
   readonly companyKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `clockodo`: Your Clockodo company name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_name Connector#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_name Connector#company_name}
   */
   readonly companyName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `concur`: The SAP Concur Company Request Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_request_token Connector#company_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_request_token Connector#company_request_token}
   */
   readonly companyRequestToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `concur`: The SAP Concur Company UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#company_uuid Connector#company_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#company_uuid Connector#company_uuid}
   */
   readonly companyUuid?: string;
   /**
@@ -9996,21 +9996,21 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: The compression format is used to let Fivetran know that even files without a compression extension should be decompressed using the selected compression format.
   * 	- Service `wasabi_cloud_storage`: The compression format is used to let Fivetran know that even files without a compression extension should be decompressed using the selected compression format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#compression Connector#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#compression Connector#compression}
   */
   readonly compression?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The report configuration method. Specifies whether a new configuration is defined manually or an existing configuration is reused. The default value is `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_method Connector#config_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_method Connector#config_method}
   */
   readonly configMethod?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowplow`: Public repository URL containing JSON configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_repository_url Connector#config_repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_repository_url Connector#config_repository_url}
   */
   readonly configRepositoryUrl?: string;
   /**
@@ -10018,29 +10018,29 @@ export interface ConnectorConfigA {
   * 	- Service `facebook`: Option to select Prebuilt Reports or Custom Reports. [Possible config_type values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#configtype).
   * 	- Service `google_analytics`: Whether to use the [Prebuilt Reports or Custom Reports](https://fivetran.com/docs/connectors/applications/google-analytics#schemainformation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#config_type Connector#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#config_type Connector#config_type}
   */
   readonly configType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `xactly`: Your Xactly Connect password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connect_password Connector#connect_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connect_password Connector#connect_password}
   */
   readonly connectPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `xactly`: Your Xactly Connect username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connect_username Connector#connect_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connect_username Connector#connect_username}
   */
   readonly connectUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connecting_user Connector#connecting_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connecting_user Connector#connecting_user}
   */
   readonly connectingUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connecting_user_email Connector#connecting_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connecting_user_email Connector#connecting_user_email}
   */
   readonly connectingUserEmail?: string;
   /**
@@ -10051,14 +10051,14 @@ export interface ConnectorConfigA {
   * 	- Service `azure_service_bus`: The connection method
   * 	- Service `sftp`: The connection method used to connect to SFTP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connection_method Connector#connection_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connection_method Connector#connection_method}
   */
   readonly connectionMethod?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Your Data Locker Connection Name. Default value: `data-locker-hourly/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connection_name Connector#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connection_name Connector#connection_name}
   */
   readonly connectionName?: string;
   /**
@@ -10070,7 +10070,7 @@ export interface ConnectorConfigA {
   * 	- Service `microsoft_dynamics_365_fo`: The blob storage container connection string.
   * 	- Service `sql_server`: The Azure Blob Storage container connection string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connection_string Connector#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connection_string Connector#connection_string}
   */
   readonly connectionString?: string;
   /**
@@ -10140,14 +10140,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: Possible values: `Directly`, `PrivateLink`, `SshTunnel`. `SshTunnel` is used as a value if this parameter is omitted in the request and any of the following parameter's values is specified: `tunnel_host`, `tunnel_port`, `tunnel_user`. Otherwise, `Directly` is used as a value if the parameter is omitted.
   * 	- Service `sql_server_sap_ecc_hva`: Possible values: `Directly`, `PrivateLink`, `SshTunnel`. `SshTunnel` is used as a value if this parameter is omitted in the request and any of the following parameter's values is specified: `tunnel_host`, `tunnel_port`, `tunnel_user`. Otherwise, `Directly` is used as a value if the parameter is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#connection_type Connector#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#connection_type Connector#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `prisma_cloud`: Your Prisma Cloud console URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#console_url Connector#console_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#console_url Connector#console_url}
   */
   readonly consoleUrl?: string;
   /**
@@ -10158,7 +10158,7 @@ export interface ConnectorConfigA {
   * 	- Service `confluent_cloud`: Confluent Cloud consumer group name.
   * 	- Service `heroku_kafka`: Heroku Kafka consumer group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_group Connector#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_group Connector#consumer_group}
   */
   readonly consumerGroup?: string;
   /**
@@ -10169,14 +10169,14 @@ export interface ConnectorConfigA {
   * 	- Service `twitter_ads`: The Twitter App consumer key.
   * 	- Service `woocommerce`: Your WooCommerce Consumer key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_key Connector#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_key Connector#consumer_key}
   */
   readonly consumerKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `xactly`: Your Xactly Connect consumer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_name Connector#consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_name Connector#consumer_name}
   */
   readonly consumerName?: string;
   /**
@@ -10187,14 +10187,14 @@ export interface ConnectorConfigA {
   * 	- Service `twitter_ads`: The Twitter App consumer secret.
   * 	- Service `woocommerce`: Your WooCommerce Consumer secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#consumer_secret Connector#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#consumer_secret Connector#consumer_secret}
   */
   readonly consumerSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_blob_storage`: IP address of the Azure Storage Container which is accessible from host machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#container_address Connector#container_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#container_address Connector#container_address}
   */
   readonly containerAddress?: string;
   /**
@@ -10204,60 +10204,60 @@ export interface ConnectorConfigA {
   * 	- Service `microsoft_dynamics_365_fo`: The name of the blob container.
   * 	- Service `sql_server`: The name of the Azure Blob Storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#container_name Connector#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#container_name Connector#container_name}
   */
   readonly containerName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `youtube_analytics`: Used only for Content Owner reports. The ID of the content owner for whom the API request is being made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#content_owner_id Connector#content_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#content_owner_id Connector#content_owner_id}
   */
   readonly contentOwnerId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `acumatica`: Your Acumatica contract version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#contract_version Connector#contract_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#contract_version Connector#contract_version}
   */
   readonly contractVersion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `helpscout`: Your conversation webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversation_webhook_url Connector#conversation_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversation_webhook_url Connector#conversation_webhook_url}
   */
   readonly conversationWebhookUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Conversion Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversion_dimensions Connector#conversion_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversion_dimensions Connector#conversion_dimensions}
   */
   readonly conversionDimensions?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pinterest_ads`: The date that the user interacted with the ad OR completed a conversion event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversion_report_time Connector#conversion_report_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversion_report_time Connector#conversion_report_time}
   */
   readonly conversionReportTime?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: A period of time in days during which a conversion is recorded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#conversion_window_size Connector#conversion_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#conversion_window_size Connector#conversion_window_size}
   */
   readonly conversionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#convert_dats_type_to_date Connector#convert_dats_type_to_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#convert_dats_type_to_date Connector#convert_dats_type_to_date}
   */
   readonly convertDatsTypeToDate?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adjust`: CSV definition for the CSV export (https://help.adjust.com/en/article/csv-uploads#how-do-i-format-my-csv-definition).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#csv_definition Connector#csv_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#csv_definition Connector#csv_definition}
   */
   readonly csvDefinition?: string;
   /**
@@ -10265,7 +10265,7 @@ export interface ConnectorConfigA {
   * 	- Service `criteo`: Currency
   * 	- Service `rokt`: Your Rokt currency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#currency Connector#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#currency Connector#currency}
   */
   readonly currency?: string;
   /**
@@ -10274,49 +10274,49 @@ export interface ConnectorConfigA {
   * 	- Service `datadog`: Your Datadog custom base url.
   * 	- Service `deposco`: Your Deposco custom base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_base_url Connector#custom_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_base_url Connector#custom_base_url}
   */
   readonly customBaseUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: The list of custom dimension key IDs included in the report. Custom dimension keys can only be selected with the CUSTOM_DIMENSION dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_dimension_key_ids Connector#custom_dimension_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_dimension_key_ids Connector#custom_dimension_key_ids}
   */
   readonly customDimensionKeyIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `iterable`: Custom Events Sync Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_event_sync_mode Connector#custom_event_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_event_sync_mode Connector#custom_event_sync_mode}
   */
   readonly customEventSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `iterable`: List of custom events to sync. Should be specified when `custom_event_sync_mode` is `SelectedEvents`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_events Connector#custom_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_events Connector#custom_events}
   */
   readonly customEvents?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: The list of custom field IDs included in the report. Custom fields can only be selected with their corresponding dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_field_ids Connector#custom_field_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_field_ids Connector#custom_field_ids}
   */
   readonly customFieldIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Custom Floodlight variables enable you to capture information beyond the basics (visits and revenue) that you can collect with standard parameters in your tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_floodlight_variables Connector#custom_floodlight_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_floodlight_variables Connector#custom_floodlight_variables}
   */
   readonly customFloodlightVariables?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `toggl_track`: Your Toggl Track custom rate limit. Supports only numeric characters (0-9).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_rate_limit Connector#custom_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_rate_limit Connector#custom_rate_limit}
   */
   readonly customRateLimit?: string;
   /**
@@ -10325,39 +10325,39 @@ export interface ConnectorConfigA {
   * 	- Service `factbird`: Your Factbird custom base url.
   * 	- Service `jotform`: Your Jotform custom base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_url Connector#custom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_url Connector#custom_url}
   */
   readonly customUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ukg_pro`: Your UKG Pro Customer API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#customer_api_key Connector#customer_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#customer_api_key Connector#customer_api_key}
   */
   readonly customerApiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: ID of the customer, can be retrieved from your AdWords dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#customer_id Connector#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#customer_id Connector#customer_id}
   */
   readonly customerId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The parameter to retrieve customer details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#customer_list_id Connector#customer_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#customer_list_id Connector#customer_list_id}
   */
   readonly customerListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#daily_api_call_limit Connector#daily_api_call_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#daily_api_call_limit Connector#daily_api_call_limit}
   */
   readonly dailyApiCallLimit?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cosmos`: The source data access method. Supported values:`ACCOUNT_KEY`- Data access method that uses account keys to authenticate to the source database. It comes in both read-write and read-only variants.`RESOURCE_TOKEN`- Fine-grained permission model based on native Azure Cosmos DB users and permissions. Learn more in our [Azure Cosmos DB Data Access Methods documentation](https://fivetran.com/docs/connectors/databases/cosmos#dataaccessmethods).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_access_method Connector#data_access_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_access_method Connector#data_access_method}
   */
   readonly dataAccessMethod?: string;
   /**
@@ -10366,21 +10366,21 @@ export interface ConnectorConfigA {
   * 	- Service `qualtrics`: Data center ID of the Qualtrics account. Can be found in the URL before `qualtrics.com`. (For example, if your URL is `youraccount.ca1.qualtrics.com`, then the data center is `ca1`.)
   * 	- Service `zoho_crm`: Data Center, depending on the Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_center Connector#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_center Connector#data_center}
   */
   readonly dataCenter?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `zonka_feedback`: Your Zonka Feedback data center ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_center_id Connector#data_center_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_center_id Connector#data_center_id}
   */
   readonly dataCenterId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `bigquery_db`: Data set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_set_name Connector#data_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_set_name Connector#data_set_name}
   */
   readonly dataSetName?: string;
   /**
@@ -10434,14 +10434,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: The database name.
   * 	- Service `sql_server_sap_ecc_hva`: The database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#database Connector#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#database Connector#database}
   */
   readonly database?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `firebase`: Database Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#database_name Connector#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#database_name Connector#database_name}
   */
   readonly databaseName?: string;
   /**
@@ -10449,35 +10449,35 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics_360`: The dataset ID.
   * 	- Service `google_analytics_4_export`: The Dataset ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dataset_id Connector#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dataset_id Connector#dataset_id}
   */
   readonly datasetId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `netsuite_suiteanalytics`: The NetSuite data source value: `NetSuite.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#datasource Connector#datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#datasource Connector#datasource}
   */
   readonly datasource?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: The aggregation duration you want. Default value: `HOUR` .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#date_granularity Connector#date_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#date_granularity Connector#date_granularity}
   */
   readonly dateGranularity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `myosh`: Your Myosh Server variables/db .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#db Connector#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#db Connector#db}
   */
   readonly db?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `discourse`: Your Discourse default host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#default_host Connector#default_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#default_host Connector#default_host}
   */
   readonly defaultHost?: string;
   /**
@@ -10497,21 +10497,21 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: You can specify the delimiter that your CSVs use here. Fivetran generally tries to infer the delimiter, but in some cases this is impossible.
   * 	- Service `wasabi_cloud_storage`: You can specify the delimiter that your CSVs use here. Fivetran generally tries to infer the delimiter, but in some cases this is impossible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#delimiter Connector#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#delimiter Connector#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `brightpearl`: Your Brightpearl dev reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#developer_reference Connector#developer_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#developer_reference Connector#developer_reference}
   */
   readonly developerReference?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Dimension attributes provide additional fields associated with a Dimension. Dimension attributes can only be selected with their corresponding Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimension_attributes Connector#dimension_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimension_attributes Connector#dimension_attributes}
   */
   readonly dimensionAttributes?: string[];
   /**
@@ -10522,7 +10522,7 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics`: The report dimensions to include into a sync. The `date` dimension is mandatory for all the report types.
   * 	- Service `google_display_and_video_360`: The report dimensions (filters) to include into a sync. The dimension names are provided in the API format. This is a required parameter when `config_method` is set to `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dimensions Connector#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dimensions Connector#dimensions}
   */
   readonly dimensions?: string[];
   /**
@@ -10530,21 +10530,21 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: Possible values:`DIRECT`, `BFILE`, `ASM`, `ARCHIVE_ONLY`
   * 	- Service `oracle_sap_hva`: Possible values:`DIRECT`, `BFILE`, `ASM`, `ARCHIVE_ONLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#direct_capture_method Connector#direct_capture_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#direct_capture_method Connector#direct_capture_method}
   */
   readonly directCaptureMethod?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualtrics`: Set of directories to be synced when syncMode is CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#directories Connector#directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#directories Connector#directories}
   */
   readonly directories?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualtrics`: Sync mode to be used for fetching select directories. The Allowed Values are ALL and CUSTOM. If CUSTOM add the directories to be synced in the `directories` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#directory_sync_mode Connector#directory_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#directory_sync_mode Connector#directory_sync_mode}
   */
   readonly directorySyncMode?: string;
   /**
@@ -10552,14 +10552,14 @@ export interface ConnectorConfigA {
   * 	- Service `cosmos`: Specifies the total number of connectors in the Distributed Connector Cluster running in parallel.
   * 	- Service `dynamodb`: Specifies the total number of connectors in the Distributed Connector Cluster running in parallel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#distributed_connector_cluster_size Connector#distributed_connector_cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#distributed_connector_cluster_size Connector#distributed_connector_cluster_size}
   */
   readonly distributedConnectorClusterSize?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualtrics`: Can be used to set the distributions fetch window for incremental sync. Fetch window cannot be lesser than 60 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#distribution_incremental_fetch_window_days Connector#distribution_incremental_fetch_window_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#distribution_incremental_fetch_window_days Connector#distribution_incremental_fetch_window_days}
   */
   readonly distributionIncrementalFetchWindowDays?: number;
   /**
@@ -10577,7 +10577,7 @@ export interface ConnectorConfigA {
   * 	- Service `zendesk`: Zendesk domain.
   * 	- Service `zendesk_sunshine`: Zendesk domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#domain Connector#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#domain Connector#domain}
   */
   readonly domain?: string;
   /**
@@ -10586,7 +10586,7 @@ export interface ConnectorConfigA {
   * 	- Service `workday_financial_management`: Workday host name.
   * 	- Service `workday_hcm`: Workday host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#domain_host_name Connector#domain_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#domain_host_name Connector#domain_host_name}
   */
   readonly domainHostName?: string;
   /**
@@ -10595,44 +10595,44 @@ export interface ConnectorConfigA {
   * 	- Service `dynamics_365`: The custom domain name associated with Dynamics 365.
   * 	- Service `helpshift`: Your Helpshift domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#domain_name Connector#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#domain_name Connector#domain_name}
   */
   readonly domainName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `lightspeed_retail_xseries`: Your Lightspeed Retail X-Series store domain prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#domain_prefix Connector#domain_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#domain_prefix Connector#domain_prefix}
   */
   readonly domainPrefix?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `medallia`: Domain type of your Medallia URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#domain_type Connector#domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#domain_type Connector#domain_type}
   */
   readonly domainType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dsv_service_auth Connector#dsv_service_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dsv_service_auth Connector#dsv_service_auth}
   */
   readonly dsvServiceAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#dsv_subscription_key Connector#dsv_subscription_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#dsv_subscription_key Connector#dsv_subscription_key}
   */
   readonly dsvSubscriptionKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mailchimp`: List of IDs of the Mailchimp E-Commerce Stores to Sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ecommerce_stores Connector#ecommerce_stores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ecommerce_stores Connector#ecommerce_stores}
   */
   readonly ecommerceStores?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#edition Connector#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#edition Connector#edition}
   */
   readonly edition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#elements Connector#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#elements Connector#elements}
   */
   readonly elements?: string[];
   /**
@@ -10652,14 +10652,14 @@ export interface ConnectorConfigA {
   * 	- Service `zendesk`: Zendesk email.
   * 	- Service `zendesk_sunshine`: Zendesk email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#email Connector#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#email Connector#email}
   */
   readonly email?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `clockodo`: Your Clockodo email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#email_address Connector#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#email_address Connector#email_address}
   */
   readonly emailAddress?: string;
   /**
@@ -10669,7 +10669,7 @@ export interface ConnectorConfigA {
   * 	- Service `planful`: Your Planful email ID.
   * 	- Service `zendesk_workforce_management`: Email ID associated with the Zendesk Workforce Management account you want Fivetran to use to access your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#email_id Connector#email_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#email_id Connector#email_id}
   */
   readonly emailId?: string;
   /**
@@ -10689,14 +10689,14 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: Optional. If your CSV generating software doesn't provide header line for the documents, Fivetran can generate the generic column names and sync data rows with them.
   * 	- Service `wasabi_cloud_storage`: If your CSVs are headerless, set this is as `true`. When `true`, we will generate generic column names following the convention of `column_0`, `column_1`, ... `column_n` to map the rows. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#empty_header Connector#empty_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#empty_header Connector#empty_header}
   */
   readonly emptyHeader?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Whether to enable all reach dimension combinations in the report. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_all_dimension_combinations Connector#enable_all_dimension_combinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_all_dimension_combinations Connector#enable_all_dimension_combinations}
   */
   readonly enableAllDimensionCombinations?: boolean | cdktf.IResolvable;
   /**
@@ -10707,11 +10707,11 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Use archive log only mode
   * 	- Service `sql_server_sap_ecc_hva`: Use archive log only mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_archive_log_only Connector#enable_archive_log_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_archive_log_only Connector#enable_archive_log_only}
   */
   readonly enableArchiveLogOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_data_extensions_syncing Connector#enable_data_extensions_syncing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_data_extensions_syncing Connector#enable_data_extensions_syncing}
   */
   readonly enableDataExtensionsSyncing?: boolean | cdktf.IResolvable;
   /**
@@ -10719,21 +10719,21 @@ export interface ConnectorConfigA {
   * 	- Service `cosmos`: Enable to allow the connector to join a cluster of connectors forming a Distributed Connector Cluster. This cluster allows parallel syncs from the same source to the same destination using multiple connectors.
   * 	- Service `dynamodb`: Enable to allow the connector to join a cluster of connectors forming a Distributed Connector Cluster. This cluster allows parallel syncs from the same source to the same destination using multiple connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_distributed_connector_mode Connector#enable_distributed_connector_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_distributed_connector_mode Connector#enable_distributed_connector_mode}
   */
   readonly enableDistributedConnectorMode?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowplow`: Enable Enrichments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_enrichments Connector#enable_enrichments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_enrichments Connector#enable_enrichments}
   */
   readonly enableEnrichments?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Enable User Profile Exports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_exports Connector#enable_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_exports Connector#enable_exports}
   */
   readonly enableExports?: boolean | cdktf.IResolvable;
   /**
@@ -10742,7 +10742,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Using Transparent Data Encryption (TDE)
   * 	- Service `sql_server_sap_ecc_hva`: Using Transparent Data Encryption (TDE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_tde Connector#enable_tde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_tde Connector#enable_tde}
   */
   readonly enableTde?: boolean | cdktf.IResolvable;
   /**
@@ -10751,21 +10751,21 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_sap_hva`: Default value: `false`. Set to `true` if you're using TDE encryption.
   * 	- Service `oracle_sap_hva_netweaver`: Default value: `false`. Set to `true` if you're using TDE encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enable_tde_encryption Connector#enable_tde_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enable_tde_encryption Connector#enable_tde_encryption}
   */
   readonly enableTdeEncryption?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: Use the public key to grant Fivetran access to Apple Search Ads api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#encoded_public_key Connector#encoded_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#encoded_public_key Connector#encoded_public_key}
   */
   readonly encodedPublicKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Marketo SOAP API Encryption Key (Discontinued).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#encryption_key Connector#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#encryption_key Connector#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
@@ -10776,28 +10776,28 @@ export interface ConnectorConfigA {
   * 	- Service `snowplow`: Connection-specific collector endpoint. The collector endpoint will have the `webhooks.fivetran.com/snowplow/endpoint_ID` format. You will need it to configure Snowplow to connect with Fivetran.
   * 	- Service `webhooks`: You can send your events to https://webhooks.fivetran.com/webhooks/{endpoint}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#endpoint Connector#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#endpoint Connector#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `s3_compatible_storage`: S3-Compatible Storage Endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#endpoint_url Connector#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#endpoint_url Connector#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pinterest_ads`: The number of days to use as the conversion attribution window for an engagement (i.e. closeup or save) action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#engagement_attribution_window Connector#engagement_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#engagement_attribution_window Connector#engagement_attribution_window}
   */
   readonly engagementAttributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `optimizely`: Enriched Events S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#enriched_export Connector#enriched_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#enriched_export Connector#enriched_export}
   */
   readonly enrichedExport?: string;
   /**
@@ -10806,7 +10806,7 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: If `is_multi_entity_feature_enabled` is `true`, then it's `EntityId`.
   * 	- Service `zuora_sandbox`: If `is_multi_entity_feature_enabled` is `true`, then it's `EntityId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#entity_id Connector#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#entity_id Connector#entity_id}
   */
   readonly entityId?: string;
   /**
@@ -10818,7 +10818,7 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Registered Application ID (for Entra ID authentication).
   * 	- Service `postgres_rds`: Registered Application ID (for Entra ID authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#entra_app_id Connector#entra_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#entra_app_id Connector#entra_app_id}
   */
   readonly entraAppId?: string;
   /**
@@ -10830,7 +10830,7 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Azure Tenant ID (for Entra ID authentication).
   * 	- Service `postgres_rds`: Azure Tenant ID (for Entra ID authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#entra_tenant_id Connector#entra_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#entra_tenant_id Connector#entra_tenant_id}
   */
   readonly entraTenantId?: string;
   /**
@@ -10859,21 +10859,21 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: Zuora Sandbox Environment. This accepts either of the two values Sandbox or Central Sandbox based on your subscription. The default environment is Sandbox.
   * 	- Service `zuora_sandbox`: Zuora Sandbox Environment. This accepts either of the two values Sandbox or Central Sandbox based on your subscription. The default environment is Sandbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#environment Connector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#environment Connector#environment}
   */
   readonly environment?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `xactly`: Your Xactly environment host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#environment_host Connector#environment_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#environment_host Connector#environment_host}
   */
   readonly environmentHost?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `business_central`: Name of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#environment_name Connector#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#environment_name Connector#environment_name}
   */
   readonly environmentName?: string;
   /**
@@ -10893,7 +10893,7 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: If your CSV generator follows non-standard rules for escaping quotation marks, you can set the escape character here.
   * 	- Service `wasabi_cloud_storage`: If your CSV generator follows non-standard rules for escaping quotation marks, you can set the escape character here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#escape_char Connector#escape_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#escape_char Connector#escape_char}
   */
   readonly escapeChar?: string;
   /**
@@ -10901,7 +10901,7 @@ export interface ConnectorConfigA {
   * 	- Service `gcs`: Approach used by CSV parser. Default  value: `CUSTOM_ESCAPE_CHAR`. required for CSV parsing when `non_standard_escape_char` is `true`.
   * 	- Service `s3`: Approach used by CSV parser. Default  value: `CUSTOM_ESCAPE_CHAR`. required for CSV parsing when `non_standard_escape_char` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#escape_char_options Connector#escape_char_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#escape_char_options Connector#escape_char_options}
   */
   readonly escapeCharOptions?: string;
   /**
@@ -10909,21 +10909,21 @@ export interface ConnectorConfigA {
   * 	- Service `kustomer`: Turn it on if your app is on EU region
   * 	- Service `survey_monkey`: The SurveyMonkey account region. Specify `true`, if your account is hosted in the EU region. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#eu_region Connector#eu_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#eu_region Connector#eu_region}
   */
   readonly euRegion?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `iterable`: List of events to sync. Should be specified when `sync_mode` is `SelectedEvents`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#events Connector#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#events Connector#events}
   */
   readonly events?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_drive`: Optional. Set to true to export your Google Docs and Slides as PDF documents. By default, we export Google Docs and Slides as .docx and .pptx files, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#export_native_types_as_pdf Connector#export_native_types_as_pdf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#export_native_types_as_pdf Connector#export_native_types_as_pdf}
   */
   readonly exportNativeTypesAsPdf?: boolean | cdktf.IResolvable;
   /**
@@ -10932,7 +10932,7 @@ export interface ConnectorConfigA {
   * 	- Service `amplitude`: Your cloud storage type
   * 	- Service `braze`: Export Storage. Required if `enable_exports` is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#export_storage_type Connector#export_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#export_storage_type Connector#export_storage_type}
   */
   readonly exportStorageType?: string;
   /**
@@ -10950,28 +10950,28 @@ export interface ConnectorConfigA {
   * 	- Service `segment`: The external ID is a string that designates who can assume the role. For more information, see a href="http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html"Amazon's AWS Identity and Access Management User Guide/a.
   * 	- Service `sql_server`: The external ID to be used when assuming the IAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#external_id Connector#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#external_id Connector#external_id}
   */
   readonly externalId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `s3`: A regular expression with a named capture group `(?table...)` to extract table names from file paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#extraction_pattern Connector#extraction_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#extraction_pattern Connector#extraction_pattern}
   */
   readonly extractionPattern?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `unicommerce`: Your uniware facility codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#facility_codes Connector#facility_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#facility_codes Connector#facility_codes}
   */
   readonly facilityCodes?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook`: List of fields which connector will sync. [Possible field values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#fields Connector#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#fields Connector#fields}
   */
   readonly fields?: string[];
   /**
@@ -10981,14 +10981,14 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: Files will be processed and synced according to the selected file handling option. Supported values:`structured`- (Default) Extract structured data into destination tables for analysis. Commonly used.`unstructured`- Replicate files in their original format. Best for PDFs, images, and other unstructured content.  Learn more about unstructured file replication in our [documentation.](https://fivetran.com/docs/using-fivetran/features/unstructured-file-replication).
   * 	- Service `share_point`: Files will be processed and synced according to the selected file handling option. Supported values:`structured`- (Default) Extract structured data into destination tables for analysis. Commonly used.`unstructured`- Replicate files in their original format. Best for PDFs, images, and other unstructured content.  Learn more about unstructured file replication in our [documentation.](https://fivetran.com/docs/using-fivetran/features/unstructured-file-replication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#file_handling Connector#file_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#file_handling Connector#file_handling}
   */
   readonly fileHandling?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `s3`: The method used to map files to destination tables. Use `DEFINE_PER_TABLE` to manually configure each table with its own file pattern, or `EXTRACT_TABLES` to automatically discover tables based on a single extraction pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#file_mapping_method Connector#file_mapping_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#file_mapping_method Connector#file_mapping_method}
   */
   readonly fileMappingMethod?: string;
   /**
@@ -11008,35 +11008,35 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: If your files are saved with improper extensions, you can force them to be synced as the selected file type.
   * 	- Service `wasabi_cloud_storage`: If your files are saved with improper extensions, you can force them to be synced as the selected file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#file_type Connector#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#file_type Connector#file_type}
   */
   readonly fileType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics`: String parameter restricts the data returned for your report. To use the filter parameter, specify a dimension or metric on which to filter, followed by the filter expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#filter Connector#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#filter Connector#filter}
   */
   readonly filter?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Whether to sync all finance accounts or specific finance accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#finance_account_sync_mode Connector#finance_account_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#finance_account_sync_mode Connector#finance_account_sync_mode}
   */
   readonly financeAccountSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Specific finance accounts to sync. Must be populated if `finance_account_sync_mode` is set to `SpecificFinanceAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#finance_accounts Connector#finance_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#finance_accounts Connector#finance_accounts}
   */
   readonly financeAccounts?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `dropbox`: Your Dropbox Folder URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#folder Connector#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#folder Connector#folder}
   */
   readonly folder?: string;
   /**
@@ -11044,7 +11044,7 @@ export interface ConnectorConfigA {
   * 	- Service `box`: Folder URL
   * 	- Service `google_drive`: Folder URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#folder_id Connector#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#folder_id Connector#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -11053,77 +11053,77 @@ export interface ConnectorConfigA {
   * 	- Service `one_drive`: Your OneDrive folder URL
   * 	- Service `oracle_business_intelligence_publisher`: The folder path to save data models and reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#folder_path Connector#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#folder_path Connector#folder_path}
   */
   readonly folderPath?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `clari`: Your Clari Forecast id .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#forecast_id Connector#forecast_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#forecast_id Connector#forecast_id}
   */
   readonly forecastId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: FTP host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ftp_host Connector#ftp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ftp_host Connector#ftp_host}
   */
   readonly ftpHost?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: FTP password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ftp_password Connector#ftp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ftp_password Connector#ftp_password}
   */
   readonly ftpPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: FTP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ftp_port Connector#ftp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ftp_port Connector#ftp_port}
   */
   readonly ftpPort?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: FTP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ftp_user Connector#ftp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ftp_user Connector#ftp_user}
   */
   readonly ftpUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_lambda`: The name of your AWS Lambda Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#function Connector#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#function Connector#function}
   */
   readonly function?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_function`: Function app name in Azure portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#function_app Connector#function_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#function_app Connector#function_app}
   */
   readonly functionApp?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_function`: Function key used for authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#function_key Connector#function_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#function_key Connector#function_key}
   */
   readonly functionKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_function`: Name of the function to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#function_name Connector#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#function_name Connector#function_name}
   */
   readonly functionName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_cloud_function`: The trigger URL of the cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#function_trigger Connector#function_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#function_trigger Connector#function_trigger}
   */
   readonly functionTrigger?: string;
   /**
@@ -11131,53 +11131,53 @@ export interface ConnectorConfigA {
   * 	- Service `braze`: Your GCS bucket. Required if `GCS` is the `cloud_storage_type`
   * 	- Service `webhooks`: The GCS bucket name. Required if `bucket_service` is set to `GCS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#gcs_bucket Connector#gcs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#gcs_bucket Connector#gcs_bucket}
   */
   readonly gcsBucket?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your GCS bucket. Required if `GCS` is the `export_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#gcs_export_bucket Connector#gcs_export_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#gcs_export_bucket Connector#gcs_export_bucket}
   */
   readonly gcsExportBucket?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your GCS folder name. Required if `GCS` is the `export_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#gcs_export_folder Connector#gcs_export_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#gcs_export_folder Connector#gcs_export_folder}
   */
   readonly gcsExportFolder?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your GCS folder name. Required if `GCS` is the `cloud_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#gcs_folder Connector#gcs_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#gcs_folder Connector#gcs_folder}
   */
   readonly gcsFolder?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Select this option to generate a Primary Key for reports where no single column or combination of columns can be used to form a Primary Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#generate_fivetran_pk Connector#generate_fivetran_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#generate_fivetran_pk Connector#generate_fivetran_pk}
   */
   readonly generateFivetranPk?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `line_ads`: Your LINE Ads group ID(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#group_id Connector#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#group_id Connector#group_id}
   */
   readonly groupId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `fivetran_log`: (Optional) The group name of the `target_group_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#group_name Connector#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#group_name Connector#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#hana_backup_password Connector#hana_backup_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#hana_backup_password Connector#hana_backup_password}
   */
   readonly hanaBackupPassword?: string;
   /**
@@ -11188,14 +11188,14 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_s4`: The mode for connecting to HANA server. Available options: Single container (default), Multiple containers - Tenant database, Multiple containers - System database, Manual port selection - This option is used only if the database port needs to be specified manually.
   * 	- Service `hana_sap_hva_s4_netweaver`: The mode for connecting to HANA server. Available options: Single container (default), Multiple containers - Tenant database, Multiple containers - System database, Manual port selection - This option is used only if the database port needs to be specified manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#hana_mode Connector#hana_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#hana_mode Connector#hana_mode}
   */
   readonly hanaMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_service_bus`: The boolean value specifying whether the connection string has manage permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#has_manage_permissions Connector#has_manage_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#has_manage_permissions Connector#has_manage_permissions}
   */
   readonly hasManagePermissions?: boolean | cdktf.IResolvable;
   /**
@@ -11207,7 +11207,7 @@ export interface ConnectorConfigA {
   * 	- Service `sailthru`: Range of historical data you would like to include in the initial sync. Default value: `ALL_TIME`.
   * 	- Service `salesforce_marketing_cloud`: Range of data in history you would like to include in the initial sync. Default value: `ALL_TIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#historic_sync_time_frame Connector#historic_sync_time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#historic_sync_time_frame Connector#historic_sync_time_frame}
   */
   readonly historicSyncTimeFrame?: string;
   /**
@@ -11224,7 +11224,7 @@ export interface ConnectorConfigA {
   * 	- Service `sailthru`: The time range for which historical data should be synced. Default value: `All Time`.
   * 	- Service `salesforce_marketing_cloud`: The time range for which historical data should be synced. Default value: `All Time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#historical_sync_limit Connector#historical_sync_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#historical_sync_limit Connector#historical_sync_limit}
   */
   readonly historicalSyncLimit?: string;
   /**
@@ -11238,7 +11238,7 @@ export interface ConnectorConfigA {
   * 	- Service `sailthru`: The start date (YYYY-MM-DD) from which to sync historical data.
   * 	- Service `salesforce_marketing_cloud`: The start date (YYYY-MM-DD) from which to sync historical data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#historical_sync_limit_date Connector#historical_sync_limit_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#historical_sync_limit_date Connector#historical_sync_limit_date}
   */
   readonly historicalSyncLimitDate?: string;
   /**
@@ -11246,7 +11246,7 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: The options for time range for which historical data should be synced. Default value: `All Time`.
   * 	- Service `pardot_sandbox`: The options for time range for which historical data should be synced. Default value: `All Time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#historical_sync_limit_time_frame Connector#historical_sync_limit_time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#historical_sync_limit_time_frame Connector#historical_sync_limit_time_frame}
   */
   readonly historicalSyncLimitTimeFrame?: string;
   /**
@@ -11264,14 +11264,14 @@ export interface ConnectorConfigA {
   * 	- Service `vimeo`: Your Vimeo Historical sync time frame.
   * 	- Service `zendesk`: Used to configure Historical sync timeframe for selected tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#historical_sync_time_frame Connector#historical_sync_time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#historical_sync_time_frame Connector#historical_sync_time_frame}
   */
   readonly historicalSyncTimeFrame?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Your S3 home folder path of the Data Locker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#home_folder Connector#home_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#home_folder Connector#home_folder}
   */
   readonly homeFolder?: string;
   /**
@@ -11339,7 +11339,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: DB instance host or IP address.
   * 	- Service `sql_server_sap_ecc_hva`: DB instance host or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#host Connector#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#host Connector#host}
   */
   readonly host?: string;
   /**
@@ -11347,7 +11347,7 @@ export interface ConnectorConfigA {
   * 	- Service `azure_blob_storage`: IP address of host tunnel machine which is used to connect to the Storage container.
   * 	- Service `azure_service_bus`: The IP address of the host machine which we use to connect to ASB via ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#host_ip Connector#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#host_ip Connector#host_ip}
   */
   readonly hostIp?: string;
   /**
@@ -11358,7 +11358,7 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: The domain or URL of your Zuora Revenue instance.
   * 	- Service `zuora_sandbox`: The domain or URL of your Zuora Revenue instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#host_name Connector#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#host_name Connector#host_name}
   */
   readonly hostName?: string;
   /**
@@ -11367,7 +11367,7 @@ export interface ConnectorConfigA {
   * 	- Service `github`: The GHES instance host address. Only for on-premises installations.
   * 	- Service `sparkpost`: Your SparkPost host URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#host_url Connector#host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#host_url Connector#host_url}
   */
   readonly hostUrl?: string;
   /**
@@ -11375,7 +11375,7 @@ export interface ConnectorConfigA {
   * 	- Service `azure_blob_storage`: Username in the host machine.
   * 	- Service `azure_service_bus`: The username on the host machine which we use to connect to ASB via ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#host_user Connector#host_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#host_user Connector#host_user}
   */
   readonly hostUser?: string;
   /**
@@ -11384,7 +11384,7 @@ export interface ConnectorConfigA {
   * 	- Service `discourse`: Your Discourse hostname.
   * 	- Service `ukg_pro`: Your UKG Pro hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#hostname Connector#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#hostname Connector#hostname}
   */
   readonly hostname?: string;
   /**
@@ -11393,14 +11393,14 @@ export interface ConnectorConfigA {
   * 	- Service `mongo`: A list of host addresses of the primary node and all replicas. Each list item is either: a DB instance host/IP address with a port number, or SRV host record.
   * 	- Service `mongo_sharded`: A list of host addresses of the primary node and all replicas. Each list item is either: a DB instance host/IP address with a port number, or SRV host record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#hosts Connector#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#hosts Connector#hosts}
   */
   readonly hosts?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks_db`: http path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#http_path Connector#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#http_path Connector#http_path}
   */
   readonly httpPath?: string;
   /**
@@ -11408,28 +11408,28 @@ export interface ConnectorConfigA {
   * 	- Service `playvox_workforce_management`: Your Playvox Workforce Management client identifier.
   * 	- Service `statistics_netherlands_cbs`: Your Statistics Netherlands CBS catalog identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#identifier Connector#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#identifier Connector#identifier}
   */
   readonly identifier?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Marketo REST API identity url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#identity Connector#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#identity Connector#identity}
   */
   readonly identity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `servicenow`: (Immutable) Include inherited columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#include_inherited_columns Connector#include_inherited_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#include_inherited_columns Connector#include_inherited_columns}
   */
   readonly includeInheritedColumns?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: Whether to sync data through OCAPI endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#include_ocapi_endpoints Connector#include_ocapi_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#include_ocapi_endpoints Connector#include_ocapi_endpoints}
   */
   readonly includeOcapiEndpoints?: boolean | cdktf.IResolvable;
   /**
@@ -11440,14 +11440,14 @@ export interface ConnectorConfigA {
   * 	- Service `salesforce_marketing_cloud`: The Salesforce Marketing Cloud instance ID
   * 	- Service `servicenow`: ServiceNow Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#instance Connector#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#instance Connector#instance}
   */
   readonly instance?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_adaptive`: Instance code for Workday Adaptive Planning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#instance_code Connector#instance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#instance_code Connector#instance_code}
   */
   readonly instanceCode?: string;
   /**
@@ -11459,49 +11459,49 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_s4_netweaver`: Two-digit number (00-97) of the SAP instance within its host.
   * 	- Service `oracle_sap_hva_netweaver`: Two-digit number (00-97) of the SAP instance within its host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#instance_number Connector#instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#instance_number Connector#instance_number}
   */
   readonly instanceNumber?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sap_business_by_design`: The SAP Business ByDesign instance URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#instance_url Connector#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#instance_url Connector#instance_url}
   */
   readonly instanceUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pendo`: The integration key of the Pendo account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#integration_key Connector#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#integration_key Connector#integration_key}
   */
   readonly integrationKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aveva_pi`: IP address of the AF Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ip_address Connector#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ip_address Connector#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `fivetran_log`: (Optional) Retrieve account-level logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_account_level_connector Connector#is_account_level_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_account_level_connector Connector#is_account_level_connector}
   */
   readonly isAccountLevelConnector?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: The contents of your PEM certificate file. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_auth2_enabled Connector#is_auth2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_auth2_enabled Connector#is_auth2_enabled}
   */
   readonly isAuth2Enabled?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `twitter_ads`: Custom API credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_custom_api_credentials Connector#is_custom_api_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_custom_api_credentials Connector#is_custom_api_credentials}
   */
   readonly isCustomApiCredentials?: boolean | cdktf.IResolvable;
   /**
@@ -11509,21 +11509,21 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: Whether the `EXTERNAL_ACTIVITY` table must be synced or not.
   * 	- Service `pardot_sandbox`: Whether the `EXTERNAL_ACTIVITY` table must be synced or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_external_activities_endpoint_selected Connector#is_external_activities_endpoint_selected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_external_activities_endpoint_selected Connector#is_external_activities_endpoint_selected}
   */
   readonly isExternalActivitiesEndpointSelected?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: Use Secure FTP (FTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_ftps Connector#is_ftps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_ftps Connector#is_ftps}
   */
   readonly isFtps?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sftp`: Whether to use a key pair for authentication.  When `true`, do not use `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_keypair Connector#is_keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_keypair Connector#is_keypair}
   */
   readonly isKeypair?: boolean | cdktf.IResolvable;
   /**
@@ -11531,21 +11531,21 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: Set to `true` if there are multiple entities in your Zuora account and you only want to use one entity. Otherwise, set to `false`.
   * 	- Service `zuora_sandbox`: Set to `true` if there are multiple entities in your Zuora account and you only want to use one entity. Otherwise, set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_multi_entity_feature_enabled Connector#is_multi_entity_feature_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_multi_entity_feature_enabled Connector#is_multi_entity_feature_enabled}
   */
   readonly isMultiEntityFeatureEnabled?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_marketing_cloud`: Indicates that that your installed package uses OAuth 2.0. Default value: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_new_package Connector#is_new_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_new_package Connector#is_new_package}
   */
   readonly isNewPackage?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake_db`: Indicates that a private key is encrypted. The default value: `false`. The field can be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_private_key_encrypted Connector#is_private_key_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_private_key_encrypted Connector#is_private_key_encrypted}
   */
   readonly isPrivateKeyEncrypted?: boolean | cdktf.IResolvable;
   /**
@@ -11553,7 +11553,7 @@ export interface ConnectorConfigA {
   * 	- Service `aws_lambda`: We use PrivateLink by default if your AWS Lambda is in the same region as Fivetran. Turning on this toggle ensures that Fivetran always connects to AWS lambda over PrivateLink. Learn more in our [PrivateLink documentation](https://fivetran.com/docs/connectors/databases/connection-options/aws-private-link).
   * 	- Service `s3`: Set to `true` if you want to connect to S3 bucket over PrivateLink. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_private_link_required Connector#is_private_link_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_private_link_required Connector#is_private_link_required}
   */
   readonly isPrivateLinkRequired?: boolean | cdktf.IResolvable;
   /**
@@ -11562,28 +11562,28 @@ export interface ConnectorConfigA {
   * 	- Service `kinesis`: Is the bucket public? (you don't need an AWS account for syncing public buckets!)
   * 	- Service `s3`: Whether you are syncing from a public bucket. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_public Connector#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_public Connector#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sailthru`: Enable this if you want to sync Sailthru Connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_sailthru_connect_enabled Connector#is_sailthru_connect_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_sailthru_connect_enabled Connector#is_sailthru_connect_enabled}
   */
   readonly isSailthruConnectEnabled?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ftp`: Whether the server supports FTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_secure Connector#is_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_secure Connector#is_secure}
   */
   readonly isSecure?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_marketing_cloud`: Provide SFTP credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_sftp_creds_available Connector#is_sftp_creds_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_sftp_creds_available Connector#is_sftp_creds_available}
   */
   readonly isSftpCredsAvailable?: boolean | cdktf.IResolvable;
   /**
@@ -11594,21 +11594,21 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: Allows the creation of connector using the specified Sync strategy.
   * 	- Service `share_point`: Allows the creation of connector using Merge Mode strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_single_table_mode Connector#is_single_table_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_single_table_mode Connector#is_single_table_mode}
   */
   readonly isSingleTableMode?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adyen`: Whether or not your Adyen Account is a Test Account. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_test_account Connector#is_test_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_test_account Connector#is_test_account}
   */
   readonly isTestAccount?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_selling_partner`: Whether or not you have a Vendor Account. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#is_vendor Connector#is_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#is_vendor Connector#is_vendor}
   */
   readonly isVendor?: boolean | cdktf.IResolvable;
   /**
@@ -11617,14 +11617,14 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_fusion_cloud_apps_fscm`: The Oracle Fusion Cloud issuer name.
   * 	- Service `oracle_fusion_cloud_apps_hcm`: The Oracle Fusion Cloud issuer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#issuer Connector#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#issuer Connector#issuer}
   */
   readonly issuer?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Your Issuer ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#issuer_id Connector#issuer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#issuer_id Connector#issuer_id}
   */
   readonly issuerId?: string;
   /**
@@ -11644,56 +11644,56 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: Control how your JSON data is delivered into your destination
   * 	- Service `wasabi_cloud_storage`: Specifies how Fivetran should handle your JSON data. Default value: `Packed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#json_delivery_mode Connector#json_delivery_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#json_delivery_mode Connector#json_delivery_mode}
   */
   readonly jsonDeliveryMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `uservoice`: The UserVoice API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key Connector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key Connector#key}
   */
   readonly key?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Your Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key_id Connector#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key_id Connector#key_id}
   */
   readonly keyId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_msk`: If `security_protocol` is set to `TLS`, enter your `Key Password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key_password Connector#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key_password Connector#key_password}
   */
   readonly keyPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `heroku_kafka`: Key Store Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#key_store_type Connector#key_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#key_store_type Connector#key_store_type}
   */
   readonly keyStoreType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_msk`: If `security_protocol` is set to `TLS`, add the `Keystore File` as Base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#keystore Connector#keystore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#keystore Connector#keystore}
   */
   readonly keystore?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_msk`: If `security_protocol` is set to `TLS`, enter your `Keystore Password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#keystore_password Connector#keystore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#keystore_password Connector#keystore_password}
   */
   readonly keystorePassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `younium`: Your Younium legal entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#legal_entity_id Connector#legal_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#legal_entity_id Connector#legal_entity_id}
   */
   readonly legalEntityId?: string;
   /**
@@ -11701,7 +11701,7 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: API limit for the external activities endpoint.
   * 	- Service `pardot_sandbox`: API limit for the external activities endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#limit_for_api_calls_to_external_activities_endpoint Connector#limit_for_api_calls_to_external_activities_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#limit_for_api_calls_to_external_activities_endpoint Connector#limit_for_api_calls_to_external_activities_endpoint}
   */
   readonly limitForApiCallsToExternalActivitiesEndpoint?: number;
   /**
@@ -11721,21 +11721,21 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: You can specify the custom line separator for your CSV files. The line separator is used in files to separate one row from the next.
   * 	- Service `wasabi_cloud_storage`: You can specify the custom line separator for your CSV files. The line separator is used in files to separate one row from the next.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#line_separator Connector#line_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#line_separator Connector#line_separator}
   */
   readonly lineSeparator?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pigment`: Your Pigment list ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#list_id Connector#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#list_id Connector#list_id}
   */
   readonly listId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cj_commission_detail`: Your CJ Commission Detail list of company IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#list_of_company_ids Connector#list_of_company_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#list_of_company_ids Connector#list_of_company_ids}
   */
   readonly listOfCompanyIds?: string;
   /**
@@ -11745,21 +11745,21 @@ export interface ConnectorConfigA {
   * 	- Service `s3`: The listing strategy you want to use. Default value: `complete_listing`.
   * 	- Service `s3_compatible_storage`: The listing strategy you want to use. Default value: `complete_listing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#list_strategy Connector#list_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#list_strategy Connector#list_strategy}
   */
   readonly listStrategy?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4_export`: The Sync Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#list_sync_mode Connector#list_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#list_sync_mode Connector#list_sync_mode}
   */
   readonly listSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `h_level`: Your HighLevel Location IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#location_ids Connector#location_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#location_ids Connector#location_ids}
   */
   readonly locationIds?: string;
   /**
@@ -11767,7 +11767,7 @@ export interface ConnectorConfigA {
   * 	- Service `db2i_hva`: The log journal name.
   * 	- Service `db2i_sap_hva`: The log journal name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#log_journal Connector#log_journal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#log_journal Connector#log_journal}
   */
   readonly logJournal?: string;
   /**
@@ -11775,7 +11775,7 @@ export interface ConnectorConfigA {
   * 	- Service `db2i_hva`: The log journal schema.
   * 	- Service `db2i_sap_hva`: The log journal schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#log_journal_schema Connector#log_journal_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#log_journal_schema Connector#log_journal_schema}
   */
   readonly logJournalSchema?: string;
   /**
@@ -11783,7 +11783,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc_netweaver`: Name of the SAP logon group. The default value is PUBLIC. This field is optional.
   * 	- Service `hana_sap_hva_s4_netweaver`: Name of the SAP logon group. The default value is PUBLIC. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#log_on_group Connector#log_on_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#log_on_group Connector#log_on_group}
   */
   readonly logOnGroup?: string;
   /**
@@ -11793,7 +11793,7 @@ export interface ConnectorConfigA {
   * 	- Service `walmart_dsp`: Walmart DSP email. It is a part of the login credentials.
   * 	- Service `workday_adaptive`: User email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#login Connector#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#login Connector#login}
   */
   readonly login?: string;
   /**
@@ -11801,28 +11801,28 @@ export interface ConnectorConfigA {
   * 	- Service `concur`: The SAP Concur password.
   * 	- Service `sage_intacct`: The login password. It is a part of the login credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#login_password Connector#login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#login_password Connector#login_password}
   */
   readonly loginPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sage_intacct`: Lookback window for GL Batch endpoint lookback sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#look_back_window_for_gl_batch_endpoint Connector#look_back_window_for_gl_batch_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#look_back_window_for_gl_batch_endpoint Connector#look_back_window_for_gl_batch_endpoint}
   */
   readonly lookBackWindowForGlBatchEndpoint?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: The list of the Manager Account IDs whose clients will be synced. Must be populated if `sync_mode` is set to `ManagerAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#manager_accounts Connector#manager_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#manager_accounts Connector#manager_accounts}
   */
   readonly managerAccounts?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reltio`: Maximum API requests per day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#max_api_requests_per_day Connector#max_api_requests_per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#max_api_requests_per_day Connector#max_api_requests_per_day}
   */
   readonly maxApiRequestsPerDay?: number;
   /**
@@ -11835,7 +11835,7 @@ export interface ConnectorConfigA {
   * 	- Service `shareasale`: Your ShareASale merchant ID.
   * 	- Service `xsolla`: Your Xsolla Merchant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#merchant_id Connector#merchant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#merchant_id Connector#merchant_id}
   */
   readonly merchantId?: string;
   /**
@@ -11847,14 +11847,14 @@ export interface ConnectorConfigA {
   * 	- Service `confluent_cloud`: Confluent Cloud message type.
   * 	- Service `heroku_kafka`: Heroku Kafka message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#message_type Connector#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#message_type Connector#message_type}
   */
   readonly messageType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pigment`: Your Pigment metric ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metric_id Connector#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metric_id Connector#metric_id}
   */
   readonly metricId?: string;
   /**
@@ -11865,28 +11865,28 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics`: The report metrics to include into a sync.
   * 	- Service `google_display_and_video_360`: The report metrics to include into a sync. The metric names are provided in the API format. This is a required parameter when `config_method` is set to `CREATE_NEW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#metrics Connector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#metrics Connector#metrics}
   */
   readonly metrics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_sheets`: The name of the named data range on the sheet that contains the data to be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#named_range Connector#named_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#named_range Connector#named_range}
   */
   readonly namedRange?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_service_bus`: The ASB namespace which we have to sync. Required for `AzureActiveDirectory` authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#namespace Connector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#namespace Connector#namespace}
   */
   readonly namespace?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_publishers`: Network code is a unique, numeric identifier for your Ad Manager network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#network_code Connector#network_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#network_code Connector#network_code}
   */
   readonly networkCode?: number;
   /**
@@ -11894,7 +11894,7 @@ export interface ConnectorConfigA {
   * 	- Service `gcs`: Use this if your CSV generator uses non-standard ways of escaping characters. Default value: `false`.
   * 	- Service `s3`: Use this if your CSV generator uses non-standard ways of escaping characters. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#non_standard_escape_char Connector#non_standard_escape_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#non_standard_escape_char Connector#non_standard_escape_char}
   */
   readonly nonStandardEscapeChar?: boolean | cdktf.IResolvable;
   /**
@@ -11914,43 +11914,43 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: If your CSVs use a special value indicating null, you can specify it here.
   * 	- Service `wasabi_cloud_storage`: If your CSVs use a special value indicating null, you can specify it here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#null_sequence Connector#null_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#null_sequence Connector#null_sequence}
   */
   readonly nullSequence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#oauth_token Connector#oauth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#oauth_token Connector#oauth_token}
   */
   readonly oauthToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#oauth_token_secret Connector#oauth_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#oauth_token_secret Connector#oauth_token_secret}
   */
   readonly oauthTokenSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The Salesforce Commerce Cloud OCAPI Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_client_id Connector#ocapi_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_client_id Connector#ocapi_client_id}
   */
   readonly ocapiClientId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The Salesforce Commerce Cloud OCAPI Client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_client_secret Connector#ocapi_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_client_secret Connector#ocapi_client_secret}
   */
   readonly ocapiClientSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The Salesforce Commerce Cloud OCAPI custom object types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_custom_object_types Connector#ocapi_custom_object_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_custom_object_types Connector#ocapi_custom_object_types}
   */
   readonly ocapiCustomObjectTypes?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The Salesforce Commerce Cloud OCAPI hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ocapi_hostname Connector#ocapi_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ocapi_hostname Connector#ocapi_hostname}
   */
   readonly ocapiHostname?: string;
   /**
@@ -11959,7 +11959,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc`: ODBC manager library path
   * 	- Service `hana_sap_hva_s4`: ODBC manager library path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#odbc_driver_manager_library_path Connector#odbc_driver_manager_library_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#odbc_driver_manager_library_path Connector#odbc_driver_manager_library_path}
   */
   readonly odbcDriverManagerLibraryPath?: string;
   /**
@@ -11968,7 +11968,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc`: odbc.ini and odbcsinst.ini location
   * 	- Service `hana_sap_hva_s4`: odbc.ini and odbcsinst.ini location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#odbc_sys_ini_path Connector#odbc_sys_ini_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#odbc_sys_ini_path Connector#odbc_sys_ini_path}
   */
   readonly odbcSysIniPath?: string;
   /**
@@ -11987,14 +11987,14 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: If you know that your files contain some errors, you can choose to have poorly formatted lines skipped. We recommend leaving the value as fail unless you are certain that you have undesirable, malformed data.
   * 	- Service `wasabi_cloud_storage`: If you know that your files contain some errors, you can choose to have poorly formatted lines skipped. We recommend leaving the value as `fail` unless you are certain that you have undesirable, malformed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#on_error Connector#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#on_error Connector#on_error}
   */
   readonly onError?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `jira`: Whether the Jira instance is local or in cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#on_premise Connector#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#on_premise Connector#on_premise}
   */
   readonly onPremise?: boolean | cdktf.IResolvable;
   /**
@@ -12002,14 +12002,14 @@ export interface ConnectorConfigA {
   * 	- Service `gladly`: Your Gladly Organization Name.
   * 	- Service `statuspage`: Your Statuspage Organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#organization Connector#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#organization Connector#organization}
   */
   readonly organization?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_workfront`: Your Adobe Workfront organization domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#organization_domain Connector#organization_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#organization_domain Connector#organization_domain}
   */
   readonly organizationDomain?: string;
   /**
@@ -12024,7 +12024,7 @@ export interface ConnectorConfigA {
   * 	- Service `zoho_books`: Your Zoho Books Organization ID.
   * 	- Service `zoho_inventory`: Your Zoho Inventory organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#organization_id Connector#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#organization_id Connector#organization_id}
   */
   readonly organizationId?: string;
   /**
@@ -12032,7 +12032,7 @@ export interface ConnectorConfigA {
   * 	- Service `brightpearl`: Your Brightpearl organization name.
   * 	- Service `confluence`: Your Confluence organization name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#organization_name Connector#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#organization_name Connector#organization_name}
   */
   readonly organizationName?: string;
   /**
@@ -12040,7 +12040,7 @@ export interface ConnectorConfigA {
   * 	- Service `apple_search_ads`: Organizations
   * 	- Service `snapchat_ads`: Specific organizations IDs to sync. Must be populated if `syncMode` is set to `SpecificOrganizations`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#organizations Connector#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#organizations Connector#organizations}
   */
   readonly organizations?: string[];
   /**
@@ -12051,7 +12051,7 @@ export interface ConnectorConfigA {
   * 	- Service `mongo`: List of tables to be synced in packed mode; format:`db.table`(case-sensitive).
   * 	- Service `mongo_sharded`: List of tables to be synced in packed mode; format:`db.table`(case-sensitive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#packed_mode_tables Connector#packed_mode_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#packed_mode_tables Connector#packed_mode_tables}
   */
   readonly packedModeTables?: string[];
   /**
@@ -12064,35 +12064,35 @@ export interface ConnectorConfigA {
   * 	- Service `optimizely`: Packing mode for conversion and decision tables.
   * 	- Service `sailthru`: Packing mode for LIST_STATE and USER tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#packing_mode Connector#packing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#packing_mode Connector#packing_mode}
   */
   readonly packingMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_pages`: Specific pages to sync. Must be populated if `sync_mode` is set to `SpecificPages`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pages Connector#pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pages Connector#pages}
   */
   readonly pages?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `care_quality_commission`: Your Care Quality Commission partner code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#partner_code Connector#partner_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#partner_code Connector#partner_code}
   */
   readonly partnerCode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `expensify`: Your Expensify partnerUserID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#partner_user_id Connector#partner_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#partner_user_id Connector#partner_user_id}
   */
   readonly partnerUserId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `expensify`: Your Expensify partnerUserSecret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#partner_user_secret Connector#partner_user_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#partner_user_secret Connector#partner_user_secret}
   */
   readonly partnerUserSecret?: string;
   /**
@@ -12101,21 +12101,21 @@ export interface ConnectorConfigA {
   * 	- Service `the_trade_desk`: Specific Partner IDs to sync.  Must be populated if `syncMode` is set to `SpecificAccounts`.
   * 	- Service `walmart_dsp`: Specific Partner IDs to sync.  Must be populated if `syncMode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#partners Connector#partners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#partners Connector#partners}
   */
   readonly partners?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualtrics`: Pass Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pass_phrase Connector#pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pass_phrase Connector#pass_phrase}
   */
   readonly passPhrase?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake_db`: In case private key is encrypted, you are required to enter passphrase that was used to encrypt the private key. The field can be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#passphrase Connector#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#passphrase Connector#passphrase}
   */
   readonly passphrase?: string;
   /**
@@ -12260,42 +12260,42 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: The corresponding password for the API user.
   * 	- Service `zuora_sandbox`: The corresponding password for the API user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#password Connector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#password Connector#password}
   */
   readonly password?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `github`: The `Personal Access Token` generated in Github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pat Connector#pat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pat Connector#pat}
   */
   readonly pat?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tableau_source`: Your Tableau Source PAT Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pat_name Connector#pat_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pat_name Connector#pat_name}
   */
   readonly patName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tableau_source`: Your Tableau Source PAT Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pat_secret Connector#pat_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pat_secret Connector#pat_secret}
   */
   readonly patSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `jira`: A URL subdirectory where the Jira instance is working.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#path Connector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#path Connector#path}
   */
   readonly path?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `github`: The `Personal Access Tokens`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pats Connector#pats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pats Connector#pats}
   */
   readonly pats?: string[];
   /**
@@ -12314,7 +12314,7 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: All files in your search path matching this regular expression will be synced.
   * 	- Service `wasabi_cloud_storage`: All files in your search path matching this regular expression will be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pattern Connector#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pattern Connector#pattern}
   */
   readonly pattern?: string;
   /**
@@ -12326,28 +12326,28 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_rds`: Optional: Required only for containerized database.
   * 	- Service `oracle_sap_hva`: (Multi-tenant databases only) The database's PDB name. Exclude this parameter for single-tenant databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pdb_name Connector#pdb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pdb_name Connector#pdb_name}
   */
   readonly pdbName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: The contents of your PEM certificate file. Must be populated if `is_auth2_enabled` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pem_certificate Connector#pem_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pem_certificate Connector#pem_certificate}
   */
   readonly pemCertificate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: The contents of your PEM secret key file. Must be populated if `is_auth2_enabled` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pem_private_key Connector#pem_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pem_private_key Connector#pem_private_key}
   */
   readonly pemPrivateKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: Per Interaction Dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#per_interaction_dimensions Connector#per_interaction_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#per_interaction_dimensions Connector#per_interaction_dimensions}
   */
   readonly perInteractionDimensions?: string[];
   /**
@@ -12358,7 +12358,7 @@ export interface ConnectorConfigA {
   * 	- Service `productive`: Your Productive personal access token.
   * 	- Service `totango`: Your Totango personal access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#personal_access_token Connector#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#personal_access_token Connector#personal_access_token}
   */
   readonly personalAccessToken?: string;
   /**
@@ -12366,7 +12366,7 @@ export interface ConnectorConfigA {
   * 	- Service `circleci`: Your CircleCI Personal API token.
   * 	- Service `monday`: Your Monday.com Personal API Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#personal_api_token Connector#personal_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#personal_api_token Connector#personal_api_token}
   */
   readonly personalApiToken?: string;
   /**
@@ -12379,7 +12379,7 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: The PGP passphrase used to create the key. Must be populated if `use_pgp_encryption_options` is set to `true`.
   * 	- Service `wasabi_cloud_storage`: The PGP passphrase used to create the key. Must be populated if `use_pgp_encryption_options` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pgp_pass_phrase Connector#pgp_pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pgp_pass_phrase Connector#pgp_pass_phrase}
   */
   readonly pgpPassPhrase?: string;
   /**
@@ -12392,28 +12392,28 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: The contents of your PGP secret key file. Must be populated if `use_pgp_encryption_options` is set to `true`.
   * 	- Service `wasabi_cloud_storage`: The contents of your PGP secret key file. Must be populated if `use_pgp_encryption_options` is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pgp_secret_key Connector#pgp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pgp_secret_key Connector#pgp_secret_key}
   */
   readonly pgpSecretKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Register the number on AppleId Account Page for 2FA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#phone_number Connector#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#phone_number Connector#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `wrike`: Your Wrike Subscription Plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#plan Connector#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#plan Connector#plan}
   */
   readonly plan?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `justcall`: Your JustCall Plan Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#plan_type Connector#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#plan_type Connector#plan_type}
   */
   readonly planType?: string;
   /**
@@ -12478,14 +12478,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: The port number.
   * 	- Service `sql_server_sap_ecc_hva`: The port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#port Connector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#port Connector#port}
   */
   readonly port?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `linkedin_ads`: The time period to attribute conversions based on clicks. Default value: `DAY_30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#post_click_attribution_window_size Connector#post_click_attribution_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#post_click_attribution_window_size Connector#post_click_attribution_window_size}
   */
   readonly postClickAttributionWindowSize?: string;
   /**
@@ -12493,7 +12493,7 @@ export interface ConnectorConfigA {
   * 	- Service `facebook`: The name of report of which connector will sync the data. [Possible prebuilt_report values](https://fivetran.com/docs/applications/facebook-ad-insights/api-config#prebuiltreport).
   * 	- Service `google_analytics`: The name of the Prebuilt Report from which the connector will sync the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prebuilt_report Connector#prebuilt_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prebuilt_report Connector#prebuilt_report}
   */
   readonly prebuiltReport?: string;
   /**
@@ -12518,35 +12518,35 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: All files and folders under this folder path link will be searched for files to sync. This can be any shared folder link.
   * 	- Service `wasabi_cloud_storage`: All files and folders under this folder path will be searched for files to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prefix Connector#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prefix Connector#prefix}
   */
   readonly prefix?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `care_quality_commission`: Your Care Quality Commission primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#primary_key Connector#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#primary_key Connector#primary_key}
   */
   readonly primaryKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Primary Keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#primary_keys Connector#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#primary_keys Connector#primary_keys}
   */
   readonly primaryKeys?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Use BULK for both LEAD and ACTIITIES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prioritise_bulk_export_over_rest Connector#prioritise_bulk_export_over_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prioritise_bulk_export_over_rest Connector#prioritise_bulk_export_over_rest}
   */
   readonly prioritiseBulkExportOverRest?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `purple_dot`: Your PurpleDot Private access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#private_access_token Connector#private_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#private_access_token Connector#private_access_token}
   */
   readonly privateAccessToken?: string;
   /**
@@ -12569,21 +12569,21 @@ export interface ConnectorConfigA {
   * 	- Service `salesforce_sandbox`: Provide content of the `.key` private key (only when authentication_method = `ADVANCED`).
   * 	- Service `snowflake_db`: Private access key.  The field should be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#private_key Connector#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#private_key Connector#private_key}
   */
   readonly privateKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `eventbrite`: Your Eventbrite private token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#private_token Connector#private_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#private_token Connector#private_token}
   */
   readonly privateToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webconnex`: Your Webconnex product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#product Connector#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#product Connector#product}
   */
   readonly product?: string;
   /**
@@ -12592,21 +12592,21 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics`: Specific User Profile IDs to sync.  Must be populated if `syncMode` is set to `SpecificAccounts`.
   * 	- Service `google_analytics_mcf`: Specific User Profile IDs to sync.  Must be populated if `sync_mode` is set to `SPECIFIC_ACCOUNTS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#profiles Connector#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#profiles Connector#profiles}
   */
   readonly profiles?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_dsp`: your Amazon DSP profiles pass it inside an Array list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#profiles_amazon_dsp Connector#profiles_amazon_dsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#profiles_amazon_dsp Connector#profiles_amazon_dsp}
   */
   readonly profilesAmazonDsp?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rollbar`: Your Rollbar project access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_access_token Connector#project_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_access_token Connector#project_access_token}
   */
   readonly projectAccessToken?: string;
   /**
@@ -12616,28 +12616,28 @@ export interface ConnectorConfigA {
   * 	- Service `google_analytics_4_export`: The Project ID.
   * 	- Service `mixpanel`: Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_id Connector#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_id Connector#project_id}
   */
   readonly projectId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sentry`: Your Sentry project IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_ids Connector#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_ids Connector#project_ids}
   */
   readonly projectIds?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `commercetools`: Your commercetools project key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_key Connector#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_key Connector#project_key}
   */
   readonly projectKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `writesonic`: Your Writesonic Project Website Url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_website_url Connector#project_website_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_website_url Connector#project_website_url}
   */
   readonly projectWebsiteUrl?: string;
   /**
@@ -12645,21 +12645,21 @@ export interface ConnectorConfigA {
   * 	- Service `asana`: Specific Project IDs to sync. Must be populated if `syncMode` is set to `SpecificProjects`.
   * 	- Service `jira`: Specific projects to sync. Must be populated if `syncMode` is set to `CUSTOM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#projects Connector#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#projects Connector#projects}
   */
   readonly projects?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4`: The array of strings in the `properties/{id}` format where `id` is a Google Analytics 4 property identifier. Must be populated if `sync_mode` is set to `SPECIFIC_ACCOUNTS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#properties Connector#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#properties Connector#properties}
   */
   readonly properties?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cloudbeds`: Your Cloudbeds property IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#property_id Connector#property_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#property_id Connector#property_id}
   */
   readonly propertyId?: string;
   /**
@@ -12724,7 +12724,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: Public Key.
   * 	- Service `sql_server_sap_ecc_hva`: Public Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#public_key Connector#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#public_key Connector#public_key}
   */
   readonly publicKey?: string;
   /**
@@ -12736,32 +12736,32 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Publication name. Specify only for `"updated_method": "WAL_PGOUTPUT"`.
   * 	- Service `postgres_rds`: Publication name. Specify only for `"updated_method": "WAL_PGOUTPUT"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#publication_name Connector#publication_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#publication_name Connector#publication_name}
   */
   readonly publicationName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `skimlinks`: Your Skimlinks publisher ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#publisher_id Connector#publisher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#publisher_id Connector#publisher_id}
   */
   readonly publisherId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `outbrain`: Include or ignore results from archived campaigns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#pull_archived_campaigns Connector#pull_archived_campaigns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#pull_archived_campaigns Connector#pull_archived_campaigns}
   */
   readonly pullArchivedCampaigns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#python_version Connector#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#python_version Connector#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: The ID of the query whose configuration you want to reuse. This is a required parameter when `config_method` is set to `REUSE_EXISTING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#query_id Connector#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#query_id Connector#query_id}
   */
   readonly queryId?: string;
   /**
@@ -12769,14 +12769,14 @@ export interface ConnectorConfigA {
   * 	- Service `alchemer`: Your Alchemer API key.
   * 	- Service `birdeye`: Your Birdeye query-param-value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#query_param_value Connector#query_param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#query_param_value Connector#query_param_value}
   */
   readonly queryParamValue?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `bigquery_db`: Specify a different project ID to account for quota and billing of Fivetran query workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#quota_project_id Connector#quota_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#quota_project_id Connector#quota_project_id}
   */
   readonly quotaProjectId?: string;
   /**
@@ -12793,7 +12793,7 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: You can specify the enclosing character used in your CSVs here. Fivetran will consider " as the quote character if this field is empty and quote_character_enabled is set to true.
   * 	- Service `share_point`: You can specify the enclosing character used in your CSVs here. Fivetran will consider " as the quote character if this field is empty and quote_character_enabled is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#quote_char Connector#quote_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#quote_char Connector#quote_char}
   */
   readonly quoteChar?: string;
   /**
@@ -12810,7 +12810,7 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: If you don’t want to use an enclosing character while processing the files, set the value to false. By default, the value is set to true and is considered " as quote character.
   * 	- Service `share_point`: If you don’t want to use an enclosing character while processing the files, set the value to false. By default, the value is set to true and is considered " as quote character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#quote_character_enabled Connector#quote_character_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#quote_character_enabled Connector#quote_character_enabled}
   */
   readonly quoteCharacterEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -12818,21 +12818,21 @@ export interface ConnectorConfigA {
   * 	- Service `toggl_track`: Your Toggl Track plan type.
   * 	- Service `vimeo`: Your Vimeo rate limit plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rate_limit_plan Connector#rate_limit_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rate_limit_plan Connector#rate_limit_plan}
   */
   readonly rateLimitPlan?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ironsource`: Your Ironsource `Client Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#refresh_token Connector#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#refresh_token Connector#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pinterest_ads`: The expiration date of the refresh token. Unix timestamp in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#refresh_token_expires_at Connector#refresh_token_expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#refresh_token_expires_at Connector#refresh_token_expires_at}
   */
   readonly refreshTokenExpiresAt?: string;
   /**
@@ -12877,35 +12877,35 @@ export interface ConnectorConfigA {
   * 	- Service `zoho_inventory`: Your Zoho Inventory application host region.
   * 	- Service `zoho_recruit`: Your Zoho Recruit region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#region Connector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#region Connector#region}
   */
   readonly region?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_attribution`: Your Amazon Attribution API URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#region_api_url Connector#region_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#region_api_url Connector#region_api_url}
   */
   readonly regionApiUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_attribution`: Your Amazon Attribution auth URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#region_auth_url Connector#region_auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#region_auth_url Connector#region_auth_url}
   */
   readonly regionAuthUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_attribution`: Your Amazon Attribution token URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#region_token_url Connector#region_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#region_token_url Connector#region_token_url}
   */
   readonly regionTokenUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `playvox_workforce_management`: Your Playvox Workforce Management region URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#region_url Connector#region_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#region_url Connector#region_url}
   */
   readonly regionUrl?: string;
   /**
@@ -12921,7 +12921,7 @@ export interface ConnectorConfigA {
   * 	- Service `mysql_azure`: Unique ID within the MySQL replica set. Must be an integer different from all other master and replica servers within the same group.
   * 	- Service `mysql_rds`: Unique ID within the MySQL replica set. Must be an integer different from all other master and replica servers within the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#replica_id Connector#replica_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#replica_id Connector#replica_id}
   */
   readonly replicaId?: number;
   /**
@@ -12933,53 +12933,53 @@ export interface ConnectorConfigA {
   * 	- Service `postgres`: Replication slot name. Specify only for `"updated_method": "WAL_PGOUTPUT"`.
   * 	- Service `postgres_rds`: Replication slot name. Specify only for `"updated_method": "WAL_PGOUTPUT"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#replication_slot Connector#replication_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#replication_slot Connector#replication_slot}
   */
   readonly replicationSlot?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: You can select only one Floodlight Configuration ID per account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_configuration_ids Connector#report_configuration_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_configuration_ids Connector#report_configuration_ids}
   */
   readonly reportConfigurationIds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: This is to select report format from JSON and CSV. By default, report format is JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_format_type Connector#report_format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_format_type Connector#report_format_type}
   */
   readonly reportFormatType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pinterest_ads`: Granularity at which reports will be 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_granularity Connector#report_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_granularity Connector#report_granularity}
   */
   readonly reportGranularity?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rakutenadvertising`: Your Rakuten Advertising report keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_keys Connector#report_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_keys Connector#report_keys}
   */
   readonly reportKeys?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adyen`: Your Report Service API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_service_api_key Connector#report_service_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_service_api_key Connector#report_service_api_key}
   */
   readonly reportServiceApiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_suites Connector#report_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_suites Connector#report_suites}
   */
   readonly reportSuites?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `criteo`: Report Timezone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_timezone Connector#report_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_timezone Connector#report_timezone}
   */
   readonly reportTimezone?: string;
   /**
@@ -12989,42 +12989,42 @@ export interface ConnectorConfigA {
   * 	- Service `google_display_and_video_360`: The type of the report to create. This is a required parameter when `config_method` is set to `CREATE_NEW`.
   * 	- Service `youtube_analytics`: The name of report of which connector will sync the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_type Connector#report_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_type Connector#report_type}
   */
   readonly reportType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: URL for a live custom report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_url Connector#report_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_url Connector#report_url}
   */
   readonly reportUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `linkedin_ads`: Specific analytics reports to sync. Must be populated if adAnalytics is set to 'SpecificReports'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#reports_linkedin_ads Connector#reports_linkedin_ads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#reports_linkedin_ads Connector#reports_linkedin_ads}
   */
   readonly reportsLinkedinAds?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `github`: Specific Repository IDs to sync. Must be populated if `syncMode` is set to `SpecificRepositories`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#repositories Connector#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#repositories Connector#repositories}
   */
   readonly repositories?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cosmos`: A token that provides access to a specific Azure Cosmos DB resource. Required for the `RESOURCE_TOKEN` data access method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#resource_token Connector#resource_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#resource_token Connector#resource_token}
   */
   readonly resourceToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `dynamics_365`: URL at which Dynamics 365 is accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#resource_url Connector#resource_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#resource_url Connector#resource_url}
   */
   readonly resourceUrl?: string;
   /**
@@ -13032,7 +13032,7 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: The number of API calls that the connector should not exceed in a day. Default REST API call limit per day: 150,000.
   * 	- Service `pardot_sandbox`: The number of API calls that the connector should not exceed in a day. Default REST API call limit per day: 150,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rest_api_limit Connector#rest_api_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rest_api_limit Connector#rest_api_limit}
   */
   readonly restApiLimit?: number;
   /**
@@ -13041,7 +13041,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_s4_netweaver`: Directory path containing the SAP NetWeaver RFC SDK library files.
   * 	- Service `oracle_sap_hva_netweaver`: Directory path containing the SAP NetWeaver RFC SDK library files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rfc_library_path Connector#rfc_library_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rfc_library_path Connector#rfc_library_path}
   */
   readonly rfcLibraryPath?: string;
   /**
@@ -13049,7 +13049,7 @@ export interface ConnectorConfigA {
   * 	- Service `netsuite_suiteanalytics`: The NetSuite Role ID for connection.
   * 	- Service `snowflake_db`: Snowflake Connector role name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#role Connector#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#role Connector#role}
   */
   readonly role?: string;
   /**
@@ -13073,56 +13073,56 @@ export interface ConnectorConfigA {
   * 	- Service `segment`: The Role ARN required for authentication. Must be populated if `sync_type` is set to `S3`.
   * 	- Service `sql_server`: The ARN of the IAM role that has access to the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#role_arn Connector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#role_arn Connector#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Rollback window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rollback_window Connector#rollback_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rollback_window Connector#rollback_window}
   */
   readonly rollbackWindow?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `bingads`: A period of time in days during which a conversion is recorded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#rollback_window_size Connector#rollback_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#rollback_window_size Connector#rollback_window_size}
   */
   readonly rollbackWindowSize?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `oracle_fusion_field_service`: Your Oracle Fusion Field Service rootresourceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#root_resource_id Connector#root_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#root_resource_id Connector#root_resource_id}
   */
   readonly rootResourceId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your S3 user export bucket. Required if `AWS_S3` is the `export_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3_export_bucket Connector#s3_export_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3_export_bucket Connector#s3_export_bucket}
   */
   readonly s3ExportBucket?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: This is the same as your `group_id`, used if `export_storage_type` is `AWS_S3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3_export_external_id Connector#s3_export_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3_export_external_id Connector#s3_export_external_id}
   */
   readonly s3ExportExternalId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your S3 user export folder name. Required if `AWS_S3` is the `export_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3_export_folder Connector#s3_export_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3_export_folder Connector#s3_export_folder}
   */
   readonly s3ExportFolder?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: The Role ARN required for authentication required if `AWS_S3` is the `export_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3_export_role_arn Connector#s3_export_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3_export_role_arn Connector#s3_export_role_arn}
   */
   readonly s3ExportRoleArn?: string;
   /**
@@ -13131,7 +13131,7 @@ export interface ConnectorConfigA {
   * 	- Service `braze`: Your S3 bucket required if `AWS_S3` is the `cloud_storage_type`
   * 	- Service `sailthru`: Name of the bucket configured to receive sailthru connect data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3bucket Connector#s3bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3bucket Connector#s3bucket}
   */
   readonly s3Bucket?: string;
   /**
@@ -13139,21 +13139,21 @@ export interface ConnectorConfigA {
   * 	- Service `braze`: This is the same as your `group_id`, used for authentication along with the `role_arn` required if `AWS_S3` is the `cloud_storage_type`
   * 	- Service `sailthru`: The external ID is a string that designates who can assume the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3external_id Connector#s3external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3external_id Connector#s3external_id}
   */
   readonly s3ExternalId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `braze`: Your S3 folder name required if `AWS_S3` is the `cloud_storage_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3folder Connector#s3folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3folder Connector#s3folder}
   */
   readonly s3Folder?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sailthru`: Copy and use this to configure Sailthru Connect in your sailthru account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3path Connector#s3path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3path Connector#s3path}
   */
   readonly s3Path?: string;
   /**
@@ -13162,21 +13162,21 @@ export interface ConnectorConfigA {
   * 	- Service `braze`: The Role ARN required for authentication required if `AWS_S3` is the `cloud_storage_type`
   * 	- Service `sailthru`: Role ARN of the IAM role created for Fivetran.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#s3role_arn Connector#s3role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#s3role_arn Connector#s3role_arn}
   */
   readonly s3RoleArn?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Whether to sync all sales accounts or specific sales accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sales_account_sync_mode Connector#sales_account_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sales_account_sync_mode Connector#sales_account_sync_mode}
   */
   readonly salesAccountSyncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Specific sales account to sync. Must be populated if `sales_account_sync_mode` is set to `SpecificSalesAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sales_accounts Connector#sales_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sales_accounts Connector#sales_accounts}
   */
   readonly salesAccounts?: string[];
   /**
@@ -13184,14 +13184,14 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: The Pardot user's Salesforce SSO Account Security Token.
   * 	- Service `pardot_sandbox`: The Pardot user's Salesforce SSO Account Security Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#salesforce_security_token Connector#salesforce_security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#salesforce_security_token Connector#salesforce_security_token}
   */
   readonly salesforceSecurityToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `gocardless`: Your GoCardless account type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sandbox_account Connector#sandbox_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sandbox_account Connector#sandbox_account}
   */
   readonly sandboxAccount?: string;
   /**
@@ -13201,7 +13201,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: SAP Schema Name. Required only for High-Volume Agent SAP ECC connector.
   * 	- Service `sql_server_sap_ecc_hva`: SAP Schema Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sap_schema Connector#sap_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sap_schema Connector#sap_schema}
   */
   readonly sapSchema?: string;
   /**
@@ -13212,14 +13212,14 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_s4`: The Hana schema name where the SAP tables reside.
   * 	- Service `hana_sap_hva_s4_netweaver`: The Hana schema name where the SAP tables reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sap_source_schema Connector#sap_source_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sap_source_schema Connector#sap_source_schema}
   */
   readonly sapSourceSchema?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `oracle_sap_hva`: The Oracle schema name where the SAP tables reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sap_user Connector#sap_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sap_user Connector#sap_user}
   */
   readonly sapUser?: string;
   /**
@@ -13227,35 +13227,35 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: SASL Mechanism
   * 	- Service `aws_msk`: If `security_protocol` is set to `SASL`, enter the SASL Mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_mechanism Connector#sasl_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_mechanism Connector#sasl_mechanism}
   */
   readonly saslMechanism?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apache_kafka`: API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_plain_key Connector#sasl_plain_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_plain_key Connector#sasl_plain_key}
   */
   readonly saslPlainKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apache_kafka`: API Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_plain_secret Connector#sasl_plain_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_plain_secret Connector#sasl_plain_secret}
   */
   readonly saslPlainSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apache_kafka`: API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_scram256_key Connector#sasl_scram256_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_scram256_key Connector#sasl_scram256_key}
   */
   readonly saslScram256Key?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apache_kafka`: API Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_scram256_secret Connector#sasl_scram256_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_scram256_secret Connector#sasl_scram256_secret}
   */
   readonly saslScram256Secret?: string;
   /**
@@ -13263,7 +13263,7 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: API Key
   * 	- Service `aws_msk`: If `sasl_mechanism` is set to `SCRAM_SHA_512`, enter your secret's `saslScram512Key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_scram512_key Connector#sasl_scram512_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_scram512_key Connector#sasl_scram512_key}
   */
   readonly saslScram512Key?: string;
   /**
@@ -13271,7 +13271,7 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: API Secret
   * 	- Service `aws_msk`: If `sasl_mechanism` is set to `SCRAM_SHA_512`, enter your secret's `saslScram512Key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sasl_scram512_secret Connector#sasl_scram512_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sasl_scram512_secret Connector#sasl_scram512_secret}
   */
   readonly saslScram512Secret?: string;
   /**
@@ -13280,7 +13280,7 @@ export interface ConnectorConfigA {
   * 	- Service `aws_msk`: Schema Registry Credentials source
   * 	- Service `confluent_cloud`: Schema Registry Credentials source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#schema_registry_credentials_source Connector#schema_registry_credentials_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#schema_registry_credentials_source Connector#schema_registry_credentials_source}
   */
   readonly schemaRegistryCredentialsSource?: string;
   /**
@@ -13290,7 +13290,7 @@ export interface ConnectorConfigA {
   * 	- Service `azure_service_bus`: The key used to access the schema registry. Required for the `avro` and `protobuf` message types
   * 	- Service `confluent_cloud`: Schema Registry Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#schema_registry_key Connector#schema_registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#schema_registry_key Connector#schema_registry_key}
   */
   readonly schemaRegistryKey?: string;
   /**
@@ -13300,7 +13300,7 @@ export interface ConnectorConfigA {
   * 	- Service `azure_service_bus`: The secret used to access the schema registry. Required for the `avro` and `protobuf` message types
   * 	- Service `confluent_cloud`: Schema Registry Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#schema_registry_secret Connector#schema_registry_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#schema_registry_secret Connector#schema_registry_secret}
   */
   readonly schemaRegistrySecret?: string;
   /**
@@ -13310,14 +13310,14 @@ export interface ConnectorConfigA {
   * 	- Service `azure_service_bus`: The comma-separated list of schema registry servers in the `server:port` format
   * 	- Service `confluent_cloud`: Your schema registry URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#schema_registry_urls Connector#schema_registry_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#schema_registry_urls Connector#schema_registry_urls}
   */
   readonly schemaRegistryUrls?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ebay`: Your eBay scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#scope Connector#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#scope Connector#scope}
   */
   readonly scope?: string;
   /**
@@ -13325,14 +13325,14 @@ export interface ConnectorConfigA {
   * 	- Service `cornerstone`: Your Cornerstone scopes.
   * 	- Service `fortnox`: Your Fortnox app scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#scopes Connector#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#scopes Connector#scopes}
   */
   readonly scopes?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Specific Seats to sync. Must be populated if `sync_mode_seat` is set to `SPECIFIC_SEATS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#seats Connector#seats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#seats Connector#seats}
   */
   readonly seats?: string[];
   /**
@@ -13349,14 +13349,14 @@ export interface ConnectorConfigA {
   * 	- Service `venminder`: Your Venminder secret.
   * 	- Service `vts`: Your VTS secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secret Connector#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secret Connector#secret}
   */
   readonly secret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `validio`: Your Validio secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secret_access_key Connector#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secret_access_key Connector#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
@@ -13378,7 +13378,7 @@ export interface ConnectorConfigA {
   * 	- Service `statsig`: Your Statsig secret key.
   * 	- Service `yotpo`: Your Yotpo Secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secret_key Connector#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secret_key Connector#secret_key}
   */
   readonly secretKey?: string;
   /**
@@ -13387,14 +13387,14 @@ export interface ConnectorConfigA {
   * 	- Service `azure_function`: The secrets that should be passed to the function at runtime.
   * 	- Service `google_cloud_function`: The secrets that should be passed to the function at runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secrets Connector#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secrets Connector#secrets}
   */
   readonly secrets?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `db2z`: The application secret key registered in RACF for the application, used to generate a PassTicket when authentication_method is `LEGACY_PASS_TICKET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secured_signon_key Connector#secured_signon_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secured_signon_key Connector#secured_signon_key}
   */
   readonly securedSignonKey?: string;
   /**
@@ -13404,28 +13404,28 @@ export interface ConnectorConfigA {
   * 	- Service `confluent_cloud`: Security protocol for Confluent Cloud interaction.
   * 	- Service `heroku_kafka`: Security protocol for Heroku Kafka interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#security_protocol Connector#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#security_protocol Connector#security_protocol}
   */
   readonly securityProtocol?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics`: A segment is a subset of your Analytics data that is made up of one or more non-destructive filters (filters that do not alter the underlying data). Those filters isolate subsets of users, sessions, and hits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#segments Connector#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#segments Connector#segments}
   */
   readonly segments?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_marketing_cloud`: Select the event types to be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#selected_event_types Connector#selected_event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#selected_event_types Connector#selected_event_types}
   */
   readonly selectedEventTypes?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `anaplan`: The list of export IDs in the format `workspace_id_model_id_export_id` that the connector will sync. Must be populated if `sync_mode` is set to `SpecificExports`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#selected_exports Connector#selected_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#selected_exports Connector#selected_exports}
   */
   readonly selectedExports?: string[];
   /**
@@ -13440,42 +13440,42 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: Cell reference that will be used to sync all contiguous data starting from the top-left cell in all the spreadsheets matching the name. Cell reference is in the `'sheetName'!startColumnNamestartRowName` format.
   * 	- Service `share_point`: Cell reference that will be used to sync all contiguous data starting from the top-left cell in all the spreadsheets matching the name. Cell reference is in the `'sheetName'!startColumnNamestartRowName` format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#selected_range Connector#selected_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#selected_range Connector#selected_range}
   */
   readonly selectedRange?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sage_intacct`: Your Sender ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sender_id Connector#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sender_id Connector#sender_id}
   */
   readonly senderId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sage_intacct`: Your Sender Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sender_password Connector#sender_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sender_password Connector#sender_password}
   */
   readonly senderPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `castor_edc`: Your Castor EDC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#server Connector#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#server Connector#server}
   */
   readonly server?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `tableau_source`: Your Tableau Source server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#server_address Connector#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#server_address Connector#server_address}
   */
   readonly serverAddress?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `clockify`: Your Clockify server region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#server_region Connector#server_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#server_region Connector#server_region}
   */
   readonly serverRegion?: string;
   /**
@@ -13485,14 +13485,14 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_fusion_cloud_apps_fscm`: The Oracle Fusion Cloud Instance URL.
   * 	- Service `oracle_fusion_cloud_apps_hcm`: The Oracle Fusion Cloud Instance URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#server_url Connector#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#server_url Connector#server_url}
   */
   readonly serverUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `myosh`: Your myosh server variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#server_variable Connector#server_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#server_variable Connector#server_variable}
   */
   readonly serverVariable?: string;
   /**
@@ -13502,49 +13502,49 @@ export interface ConnectorConfigA {
   * 	- Service `confluent_cloud`: Comma-separated list of Confluent Cloud servers in the format `server:port`.
   * 	- Service `heroku_kafka`: Comma-separated list of Heroku Kafka servers in the format `server:port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#servers Connector#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#servers Connector#servers}
   */
   readonly servers?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_drive`: Share the folder with the email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_account Connector#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_account Connector#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_cloud_function`: Provide Invoker role to this service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_account_email Connector#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_account_email Connector#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `firebase`: The contents of your service account key file. Required for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_account_key Connector#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_account_key Connector#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mixpanel`: Service Account Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_account_secret Connector#service_account_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_account_secret Connector#service_account_secret}
   */
   readonly serviceAccountSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mixpanel`: Service Account Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_account_username Connector#service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_account_username Connector#service_account_username}
   */
   readonly serviceAccountUsername?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `dsv`: A base64 encoded variant of your `username:password` string. Required for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_authentication Connector#service_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_authentication Connector#service_authentication}
   */
   readonly serviceAuthentication?: string;
   /**
@@ -13553,7 +13553,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_s4_netweaver`: Unique identifier sapsid of the SAP system. This field is displayed only when the REMOTE SERVICE IDENTIFICATION is set to Service.
   * 	- Service `walmart_marketplace`: Your Walmart Marketplace service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#service_name Connector#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#service_name Connector#service_name}
   */
   readonly serviceName?: string;
   /**
@@ -13561,7 +13561,7 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: SFTP host.
   * 	- Service `salesforce_marketing_cloud`: Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_host Connector#sftp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_host Connector#sftp_host}
   */
   readonly sftpHost?: string;
   /**
@@ -13569,7 +13569,7 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: Log in with key pair or password
   * 	- Service `salesforce_marketing_cloud`: Set this field if you use a key pair for logging into your SFTP server. Don't set it if you use a username and password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_is_key_pair Connector#sftp_is_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_is_key_pair Connector#sftp_is_key_pair}
   */
   readonly sftpIsKeyPair?: boolean | cdktf.IResolvable;
   /**
@@ -13577,7 +13577,7 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: SFTP password required if sftp_is_key_pair is false
   * 	- Service `salesforce_marketing_cloud`: Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_password Connector#sftp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_password Connector#sftp_password}
   */
   readonly sftpPassword?: string;
   /**
@@ -13585,7 +13585,7 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: SFTP port.
   * 	- Service `salesforce_marketing_cloud`: Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_port Connector#sftp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_port Connector#sftp_port}
   */
   readonly sftpPort?: number;
   /**
@@ -13593,7 +13593,7 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: Public Key
   * 	- Service `salesforce_marketing_cloud`: Public Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_public_key Connector#sftp_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_public_key Connector#sftp_public_key}
   */
   readonly sftpPublicKey?: string;
   /**
@@ -13601,21 +13601,21 @@ export interface ConnectorConfigA {
   * 	- Service `adobe_analytics_data_feed`: SFTP user.
   * 	- Service `salesforce_marketing_cloud`: User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sftp_user Connector#sftp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sftp_user Connector#sftp_user}
   */
   readonly sftpUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `share_point`: Your SharePoint folder URL. You can find the folder URL by following the steps mentioned [here](https://fivetran.com/docs/connectors/files/share-point/setup-guide).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#share_url Connector#share_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#share_url Connector#share_url}
   */
   readonly shareUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_sheets`: The URL of the sheet that can be copied from the browser address bar, or the ID of the sheet that can be found in the sheet's URL between ** /d/** and ** /edit**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sheet_id Connector#sheet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sheet_id Connector#sheet_id}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -13624,56 +13624,56 @@ export interface ConnectorConfigA {
   * Field usage depends on `service` value: 
   * 	- Service `shopify`: The Shopify shop name. Can be found in the URL before **.myshopify.com**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#shop Connector#shop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#shop Connector#shop}
   */
   readonly shop?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `triple_whale`: Your Triple Whale shop domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#shop_domain Connector#shop_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#shop_domain Connector#shop_domain}
   */
   readonly shopDomain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `salesforce_commerce_cloud`: The Salesforce eight-character string assigned to a realm for routing purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#short_code Connector#short_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#short_code Connector#short_code}
   */
   readonly shortCode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `klaviyo`: Sync events linked to deleted profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#should_sync_events_with_deleted_profiles Connector#should_sync_events_with_deleted_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#should_sync_events_with_deleted_profiles Connector#should_sync_events_with_deleted_profiles}
   */
   readonly shouldSyncEventsWithDeletedProfiles?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `netsuite_suiteanalytics`: Re-sync re-import tables during every sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#should_sync_reimport_tables Connector#should_sync_reimport_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#should_sync_reimport_tables Connector#should_sync_reimport_tables}
   */
   readonly shouldSyncReimportTables?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: Turn the toggle on if you want the reports to also return records without metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#show_records_with_no_metrics Connector#show_records_with_no_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#show_records_with_no_metrics Connector#show_records_with_no_metrics}
   */
   readonly showRecordsWithNoMetrics?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `twilio`: The Twilio API key SID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sid Connector#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sid Connector#sid}
   */
   readonly sid?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: This is used in HMAC auth method to decode and verify the signature. Supported encodings BASE64 and HEXA_DECIMAL. Default: BASE64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#signature_encoding Connector#signature_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#signature_encoding Connector#signature_encoding}
   */
   readonly signatureEncoding?: string;
   /**
@@ -13686,14 +13686,14 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: The contents of the signer's public key file. Must be populated if `use_pgp_encryption_options` is set to `true` and PGP encrypted files are signed.
   * 	- Service `wasabi_cloud_storage`: The contents of the signer's public key file. Must be populated if `use_pgp_encryption_options` is set to `true` and PGP encrypted files are signed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#signer_public_key Connector#signer_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#signer_public_key Connector#signer_public_key}
   */
   readonly signerPublicKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `teamwork`: Your Teamwork site address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#site_address Connector#site_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#site_address Connector#site_address}
   */
   readonly siteAddress?: string;
   /**
@@ -13701,7 +13701,7 @@ export interface ConnectorConfigA {
   * 	- Service `microsoft_lists`: The Site ID of the SharePoint site from which you want to sync your lists. The Site ID is the `id` field in the [Graph API](https://docs.microsoft.com/en-us/graph/api/site-search?view=graph-rest-1.0&tabs=http) response for sites.
   * 	- Service `salesforce_commerce_cloud`: The name of the site from which you want to sync data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#site_id Connector#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#site_id Connector#site_id}
   */
   readonly siteId?: string;
   /**
@@ -13709,14 +13709,14 @@ export interface ConnectorConfigA {
   * 	- Service `microsoft_lists`: The Name of the SharePoint site. The Site Name is the `name` field in the Graph API response for sites.
   * 	- Service `tableau_source`: Your Tableau Source site name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#site_name Connector#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#site_name Connector#site_name}
   */
   readonly siteName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_search_console`: Specific Site URLs to sync. Must be populated if `sync_mode` is set to `SpecificSites`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#site_urls Connector#site_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#site_urls Connector#site_urls}
   */
   readonly siteUrls?: string[];
   /**
@@ -13736,7 +13736,7 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: We will skip over the number of lines specified at the end so as to not introduce aberrant data into your destination.
   * 	- Service `wasabi_cloud_storage`: We will skip over the number of lines specified at the end to avoid introducing aberrant data into your destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#skip_after Connector#skip_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#skip_after Connector#skip_after}
   */
   readonly skipAfter?: number;
   /**
@@ -13756,26 +13756,26 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: We will skip over the number of lines specified before syncing data.
   * 	- Service `wasabi_cloud_storage`: We will skip over the number of lines specified before syncing data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#skip_before Connector#skip_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#skip_before Connector#skip_before}
   */
   readonly skipBefore?: number;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_ads`: Toggles the ["Skip empty reports"](https://fivetran.com/docs/connectors/applications/google-ads#skipemptyreports) feature. Enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#skip_empty_reports Connector#skip_empty_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#skip_empty_reports Connector#skip_empty_reports}
   */
   readonly skipEmptyReports?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_certificate Connector#snc_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_certificate Connector#snc_certificate}
   */
   readonly sncCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_certificate_source Connector#snc_certificate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_certificate_source Connector#snc_certificate_source}
   */
   readonly sncCertificateSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_fivetran_name Connector#snc_fivetran_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_fivetran_name Connector#snc_fivetran_name}
   */
   readonly sncFivetranName?: string;
   /**
@@ -13783,15 +13783,15 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc_netweaver`: Path to the external security product's library.
   * 	- Service `hana_sap_hva_s4_netweaver`: Path to the external security product's library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_library_path Connector#snc_library_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_library_path Connector#snc_library_path}
   */
   readonly sncLibraryPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_mode Connector#snc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_mode Connector#snc_mode}
   */
   readonly sncMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_my_name Connector#snc_my_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_my_name Connector#snc_my_name}
   */
   readonly sncMyName?: string;
   /**
@@ -13799,7 +13799,7 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc_netweaver`: Client SNC name.
   * 	- Service `hana_sap_hva_s4_netweaver`: Client SNC name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_name Connector#snc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_name Connector#snc_name}
   */
   readonly sncName?: string;
   /**
@@ -13807,39 +13807,39 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc_netweaver`: Communication partner's SNC name.
   * 	- Service `hana_sap_hva_s4_netweaver`: Communication partner's SNC name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_partner_name Connector#snc_partner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_partner_name Connector#snc_partner_name}
   */
   readonly sncPartnerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#snc_source_name Connector#snc_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#snc_source_name Connector#snc_source_name}
   */
   readonly sncSourceName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `marketo`: Marketo SOAP API Endpoint (Discontinued).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#soap_uri Connector#soap_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#soap_uri Connector#soap_uri}
   */
   readonly soapUri?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `linkedin_company_pages`: The social data (UGCPosts, Shares, Comments) sync time frame in months. Default value: `SIX` .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#social_data_sync_timeframe Connector#social_data_sync_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#social_data_sync_timeframe Connector#social_data_sync_timeframe}
   */
   readonly socialDataSyncTimeframe?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics_data_feed`: The data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#source Connector#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#source Connector#source}
   */
   readonly source?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `consensus_demo_automation_platform`: Your Consensus Demo Automation Platform source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#source_name Connector#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#source_name Connector#source_name}
   */
   readonly sourceName?: string;
   /**
@@ -13847,28 +13847,28 @@ export interface ConnectorConfigA {
   * 	- Service `azure_blob_storage`: The name of the Azure Storage account.
   * 	- Service `microsoft_dynamics_365_fno`: The name of the Azure Storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#storage_account_name Connector#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#storage_account_name Connector#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `big_commerce`: The BigCommerce store hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#store_hash Connector#store_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#store_hash Connector#store_hash}
   */
   readonly storeHash?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reviewsio`: Your REVIEWS.io store ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#store_id Connector#store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#store_id Connector#store_id}
   */
   readonly storeId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `firebase`: List of nested collections to sync. Only specified subCollections can be synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sub_collections Connector#sub_collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sub_collections Connector#sub_collections}
   */
   readonly subCollections?: string[];
   /**
@@ -13955,7 +13955,7 @@ export interface ConnectorConfigA {
   * 	- Service `workable`: Your Workable Subdomain.
   * 	- Service `wrike`: Your Wrike Subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sub_domain Connector#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sub_domain Connector#sub_domain}
   */
   readonly subDomain?: string;
   /**
@@ -13989,14 +13989,14 @@ export interface ConnectorConfigA {
   * 	- Service `zendesk_chat`: Your Zendesk domain.
   * 	- Service `zendesk_workforce_management`: Your Zendesk Workforce Management subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#subdomain Connector#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#subdomain Connector#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `retailnext`: Your RetailNext subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#subscription Connector#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#subscription Connector#subscription}
   */
   readonly subscription?: string;
   /**
@@ -14004,7 +14004,7 @@ export interface ConnectorConfigA {
   * 	- Service `cabcharge`: Your Cabcharge subscription key.
   * 	- Service `dsv`: Your DSV subscription key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#subscription_key Connector#subscription_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#subscription_key Connector#subscription_key}
   */
   readonly subscriptionKey?: string;
   /**
@@ -14012,42 +14012,42 @@ export interface ConnectorConfigA {
   * 	- Service `stripe`: Sync Connected Accounts. Connected Account Documentation - https://stripe.com/docs/api/connected_accounts.
   * 	- Service `stripe_test`: Sync Connected Accounts. Connected Account Documentation - https://stripe.com/docs/api/connected_accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#support_connected_accounts_sync Connector#support_connected_accounts_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#support_connected_accounts_sync Connector#support_connected_accounts_sync}
   */
   readonly supportConnectedAccountsSync?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: This option is to unpack the nested columns and sync them separately. By default, we sync the nested columns as JSON objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#support_nested_columns Connector#support_nested_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#support_nested_columns Connector#support_nested_columns}
   */
   readonly supportNestedColumns?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `qualaroo`: Array of Qualaroo Survey IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#survey_ids Connector#survey_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#survey_ids Connector#survey_ids}
   */
   readonly surveyIds?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snapchat_ads`: The time period to attribute conversions based on swipes. Default value: `DAY_28`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#swipe_attribution_window Connector#swipe_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#swipe_attribution_window Connector#swipe_attribution_window}
   */
   readonly swipeAttributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Sync AppsFlyer Data Locker. Default value is `true`, set it to `false` to sync AppsFlyer data using only webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_data_locker Connector#sync_data_locker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_data_locker Connector#sync_data_locker}
   */
   readonly syncDataLocker?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `webhooks`: The webhooks sync format.  Default value: `Unpacked`. Unpacked messages must be valid JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_format Connector#sync_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_format Connector#sync_format}
   */
   readonly syncFormat?: string;
   /**
@@ -14056,21 +14056,21 @@ export interface ConnectorConfigA {
   * 	- Service `salesforce`: Enable this option to sync formula fields directly (default value = `false`)
   * 	- Service `salesforce_sandbox`: Enable this option to sync formula fields directly (default value = `false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_formula_fields Connector#sync_formula_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_formula_fields Connector#sync_formula_fields}
   */
   readonly syncFormulaFields?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `facebook_ads`: Parameter defining whether to enable or disable metadata synchronisation. Default value: `TRUE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_metadata Connector#sync_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_metadata Connector#sync_metadata}
   */
   readonly syncMetadata?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_lambda`: Sync Method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_method Connector#sync_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_method Connector#sync_method}
   */
   readonly syncMethod?: string;
   /**
@@ -14114,28 +14114,28 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: Select `Zuora Billing` to sync exclusively Zuora Billing related records. Choose `Zuora Revenue` for syncing only Zuora Revenue reports. If both Zuora Billing records and Zuora Revenue reports are to be synced, opt for `Both`.
   * 	- Service `zuora_sandbox`: Select `Zuora Billing` to sync exclusively Zuora Billing related records. Choose `Zuora Revenue` for syncing only Zuora Revenue reports. If both Zuora Billing records and Zuora Revenue reports are to be synced, opt for `Both`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_mode Connector#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_mode Connector#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Whether to sync all advertisers or specific advertisers. Default value: `ALL_ADVERTISERS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_mode_advertiser Connector#sync_mode_advertiser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_mode_advertiser Connector#sync_mode_advertiser}
   */
   readonly syncModeAdvertiser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `yahoo_dsp`: Whether to sync all seats or specific seats. Default value: `ALL_SEATS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_mode_seat Connector#sync_mode_seat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_mode_seat Connector#sync_mode_seat}
   */
   readonly syncModeSeat?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `reddit_ads`: When this parameter is set to `true`, we sync the data of the additional linked accounts. When this parameter is set to `false`, we sync only the data from the main account that was used for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_multiple_accounts Connector#sync_multiple_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_multiple_accounts Connector#sync_multiple_accounts}
   */
   readonly syncMultipleAccounts?: boolean | cdktf.IResolvable;
   /**
@@ -14143,7 +14143,7 @@ export interface ConnectorConfigA {
   * 	- Service `cosmos`: The packing mode type. Supported values:`STANDARD_UNPACKED_MODE`- Unpacks _one_ layer of nested fields and infers types.`PACKED_MODE`- Delivers packed data as a single destination column value.Learn more in our [Azure Cosmos DB Sync Pack Mode Options documentation](https://fivetran.com/docs/connectors/databases/cosmos#packmodeoptions).
   * 	- Service `documentdb`: Indicates whether synced data will be packed into a single entry(column), or unpacked with one layer of nested fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_pack_mode Connector#sync_pack_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_pack_mode Connector#sync_pack_mode}
   */
   readonly syncPackMode?: string;
   /**
@@ -14151,21 +14151,21 @@ export interface ConnectorConfigA {
   * 	- Service `google_drive`: Optional. Set to true to sync per-user file access permissions to control visibility in downstream applications.
   * 	- Service `share_point`: Optional. Set to true to sync per-user file access permissions to control visibility in downstream applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_permissions Connector#sync_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_permissions Connector#sync_permissions}
   */
   readonly syncPermissions?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: These options are for Appsflyer's Pull API, and are only necessary for syncing events from Pull API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_pull_api Connector#sync_pull_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_pull_api Connector#sync_pull_api}
   */
   readonly syncPullApi?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_analytics_4_export`: Sync Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_tables Connector#sync_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_tables Connector#sync_tables}
   */
   readonly syncTables?: string;
   /**
@@ -14178,11 +14178,11 @@ export interface ConnectorConfigA {
   * 	- Service `heroku_kafka`: Heroku Kafka sync type.  Unpacked messages must be valid JSON.
   * 	- Service `segment`: The Segment connector sync type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sync_type Connector#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sync_type Connector#sync_type}
   */
   readonly syncType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#sysnr Connector#sysnr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#sysnr Connector#sysnr}
   */
   readonly sysnr?: string;
   /**
@@ -14190,42 +14190,42 @@ export interface ConnectorConfigA {
   * 	- Service `hana_sap_hva_ecc_netweaver`: Unique identifier sapsid of the SAP system. This field is displayed only when the REMOTE SERVICE IDENTIFICATION is set to System ID.
   * 	- Service `hana_sap_hva_s4_netweaver`: Unique identifier sapsid of the SAP system. This field is displayed only when the REMOTE SERVICE IDENTIFICATION is set to System ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#system_id Connector#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#system_id Connector#system_id}
   */
   readonly systemId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pigment`: Your Pigment table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_id Connector#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_id Connector#table_id}
   */
   readonly tableId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `airtable`: Name of table in Airtable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_name Connector#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_name Connector#table_name}
   */
   readonly tableName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `hubspot`: Timestamp to indicate when tables without access was updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tables_without_access_updated_at Connector#tables_without_access_updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tables_without_access_updated_at Connector#tables_without_access_updated_at}
   */
   readonly tablesWithoutAccessUpdatedAt?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `culture_amp`: Your Culture Amp Target entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#target_entity_id Connector#target_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#target_entity_id Connector#target_entity_id}
   */
   readonly targetEntityId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `d2l_brightspace`: Your D2L Brightspace target host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#target_host Connector#target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#target_host Connector#target_host}
   */
   readonly targetHost?: string;
   /**
@@ -14234,14 +14234,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Certificate used to protect a database encryption key
   * 	- Service `sql_server_sap_ecc_hva`: Certificate used to protect a database encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_certificate Connector#tde_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_certificate Connector#tde_certificate}
   */
   readonly tdeCertificate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Certificate file used to protect a database encryption key. Used when decrypting backup logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_certificate_backup Connector#tde_certificate_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_certificate_backup Connector#tde_certificate_backup}
   */
   readonly tdeCertificateBackup?: string;
   /**
@@ -14249,14 +14249,14 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Name of the Certificate used to protect a database encryption key
   * 	- Service `sql_server_sap_ecc_hva`: Name of the Certificate used to protect a database encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_certificate_name Connector#tde_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_certificate_name Connector#tde_certificate_name}
   */
   readonly tdeCertificateName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Certificate file path used to protect a database encryption key. Used when decrypting online logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_certificate_path Connector#tde_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_certificate_path Connector#tde_certificate_path}
   */
   readonly tdeCertificatePath?: string;
   /**
@@ -14265,7 +14265,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Password of the TDE private key
   * 	- Service `sql_server_sap_ecc_hva`: Password of the TDE private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_password Connector#tde_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_password Connector#tde_password}
   */
   readonly tdePassword?: string;
   /**
@@ -14274,21 +14274,21 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_hva`: Private key associated with the TDE certificate
   * 	- Service `sql_server_sap_ecc_hva`: Private key associated with the TDE certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_private_key Connector#tde_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_private_key Connector#tde_private_key}
   */
   readonly tdePrivateKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Private key file associated with the TDE certificate. Used when decrypting backup logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_private_key_backup Connector#tde_private_key_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_private_key_backup Connector#tde_private_key_backup}
   */
   readonly tdePrivateKeyBackup?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `sql_server`: Private key file path associated with the TDE certificate. Used when decrypting online logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_private_key_path Connector#tde_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_private_key_path Connector#tde_private_key_path}
   */
   readonly tdePrivateKeyPath?: string;
   /**
@@ -14297,28 +14297,28 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_sap_hva`: TDE wallet password. Required for password based wallet.
   * 	- Service `oracle_sap_hva_netweaver`: TDE wallet password. Required for password based wallet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tde_wallet_password Connector#tde_wallet_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tde_wallet_password Connector#tde_wallet_password}
   */
   readonly tdeWalletPassword?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `asana`: Team ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#team_id Connector#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#team_id Connector#team_id}
   */
   readonly teamId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adobe_analytics`: Technical Account ID from the Service Account (JWT) credentials of your Adobe Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#technical_account_id Connector#technical_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#technical_account_id Connector#technical_account_id}
   */
   readonly technicalAccountId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mandrill`: Provide the labels to filter the templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#template_labels Connector#template_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#template_labels Connector#template_labels}
   */
   readonly templateLabels?: string[];
   /**
@@ -14331,21 +14331,21 @@ export interface ConnectorConfigA {
   * 	- Service `workday_financial_management`: Workday tenant name
   * 	- Service `workday_hcm`: Workday tenant name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant Connector#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant Connector#tenant}
   */
   readonly tenant?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `planful`: Your Planful tenant app URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_app_url Connector#tenant_app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_app_url Connector#tenant_app_url}
   */
   readonly tenantAppUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `deposco`: Your Deposco tenant code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_code Connector#tenant_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_code Connector#tenant_code}
   */
   readonly tenantCode?: string;
   /**
@@ -14359,14 +14359,14 @@ export interface ConnectorConfigA {
   * 	- Service `share_point`: `Tenant ID` of your Microsoft client application.
   * 	- Service `visma`: Your Visma tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_id Connector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_id Connector#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mambu`: Your Mambu tenant name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_name Connector#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_name Connector#tenant_name}
   */
   readonly tenantName?: string;
   /**
@@ -14375,7 +14375,7 @@ export interface ConnectorConfigA {
   * 	- Service `playvox_workforce_management`: Your Playvox Workforce Management tenant URL.
   * 	- Service `reltio`: Your Reltio tenant URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_url Connector#tenant_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_url Connector#tenant_url}
   */
   readonly tenantUrl?: string;
   /**
@@ -14383,7 +14383,7 @@ export interface ConnectorConfigA {
   * 	- Service `sap_hana`: testTableName
   * 	- Service `sap_s4hana`: testTableName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#test_table_name Connector#test_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#test_table_name Connector#test_table_name}
   */
   readonly testTableName?: string;
   /**
@@ -14391,7 +14391,7 @@ export interface ConnectorConfigA {
   * 	- Service `pardot`: The time zone configured in your Pardot instance. An empty value defaults to `UTC+00:00`.
   * 	- Service `pardot_sandbox`: The time zone configured in your Pardot instance. An empty value defaults to `UTC+00:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#time_zone Connector#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#time_zone Connector#time_zone}
   */
   readonly timeZone?: string;
   /**
@@ -14429,21 +14429,21 @@ export interface ConnectorConfigA {
   * 	- Service `yahoo_dsp`: Number of months` worth of reporting data you'd like to include in your initial sync. This cannot be modified once the connector is created. Default value: `THREE`.
   * 	- Service `yahoo_gemini`: Number of months' worth of reporting data you'd like to include in your initial sync. This cannot be modified once the connector is created. Default value: `TWELVE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#timeframe_months Connector#timeframe_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#timeframe_months Connector#timeframe_months}
   */
   readonly timeframeMonths?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `rokt`: Your Rokt timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#timezone Connector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#timezone Connector#timezone}
   */
   readonly timezone?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `apple_search_ads`: Determines whether to use UTC or the users timezone from the apple account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#timezone_mode Connector#timezone_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#timezone_mode Connector#timezone_mode}
   */
   readonly timezoneMode?: string;
   /**
@@ -14451,14 +14451,14 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: Single-tenant database: The database's SID.  Multi-tenant database: The database's TNS.
   * 	- Service `oracle_sap_hva`: Single-tenant database: The database SID.  Multi-tenant database: The database TNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tns Connector#tns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tns Connector#tns}
   */
   readonly tns?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `toast`: Your Toast Restaurant External ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#toast_id Connector#toast_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#toast_id Connector#toast_id}
   */
   readonly toastId?: string;
   /**
@@ -14470,21 +14470,21 @@ export interface ConnectorConfigA {
   * 	- Service `shareasale`: Your ShareASale token.
   * 	- Service `solarwinds_service_desk`: Your SolarWinds Service Desk token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token Connector#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token Connector#token}
   */
   readonly token?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cosmos`: The container name. Required for the `RESOURCE_TOKEN` data access method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_authenticated_container Connector#token_authenticated_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_authenticated_container Connector#token_authenticated_container}
   */
   readonly tokenAuthenticatedContainer?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cosmos`: The database name. Required for the `RESOURCE_TOKEN` data access method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_authenticated_database Connector#token_authenticated_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_authenticated_database Connector#token_authenticated_database}
   */
   readonly tokenAuthenticatedDatabase?: string;
   /**
@@ -14492,7 +14492,7 @@ export interface ConnectorConfigA {
   * 	- Service `chargedesk`: Your ChargeDesk token ID.
   * 	- Service `mux`: Your Mux token ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_id Connector#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_id Connector#token_id}
   */
   readonly tokenId?: string;
   /**
@@ -14501,7 +14501,7 @@ export interface ConnectorConfigA {
   * 	- Service `on24`: Your ON24 token key.
   * 	- Service `proofpoint_security_awareness`: Your Proofpoint Security Awareness Token Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_key Connector#token_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_key Connector#token_key}
   */
   readonly tokenKey?: string;
   /**
@@ -14509,35 +14509,35 @@ export interface ConnectorConfigA {
   * 	- Service `netsuite_suiteanalytics`: Token Secret
   * 	- Service `on24`: Your ON24 token secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_secret Connector#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_secret Connector#token_secret}
   */
   readonly tokenSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mux`: Your Mux token secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_secret_key Connector#token_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_secret_key Connector#token_secret_key}
   */
   readonly tokenSecretKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amazon_dsp`: Your Amazon DSP token URL region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#token_url_region Connector#token_url_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#token_url_region Connector#token_url_region}
   */
   readonly tokenUrlRegion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `azure_service_bus`: The comma-separated list of topics which should be synced. Required if you do not have manage permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#topics Connector#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#topics Connector#topics}
   */
   readonly topics?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `heroku_kafka`: Trust Store Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#trust_store_type Connector#trust_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#trust_store_type Connector#trust_store_type}
   */
   readonly trustStoreType?: string;
   /**
@@ -14545,14 +14545,14 @@ export interface ConnectorConfigA {
   * 	- Service `apache_kafka`: Kafka trusted certificate.
   * 	- Service `heroku_kafka`: Heroku Kafka trusted certificate. Required for `TLS` security protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#trusted_cert Connector#trusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#trusted_cert Connector#trusted_cert}
   */
   readonly trustedCert?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `aws_msk`: If `security_protocol` is set to `TLS`, add the `Truststore File` as Base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#truststore Connector#truststore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#truststore Connector#truststore}
   */
   readonly truststore?: string;
   /**
@@ -14615,7 +14615,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: SSH host, specify only to connect via an SSH tunnel (do not use a load balancer).
   * 	- Service `sql_server_sap_ecc_hva`: SSH host, specify only to connect via an SSH tunnel (do not use a load balancer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tunnel_host Connector#tunnel_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tunnel_host Connector#tunnel_host}
   */
   readonly tunnelHost?: string;
   /**
@@ -14678,7 +14678,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: SSH port, specify only to connect via an SSH tunnel.
   * 	- Service `sql_server_sap_ecc_hva`: SSH port, specify only to connect via an SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tunnel_port Connector#tunnel_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tunnel_port Connector#tunnel_port}
   */
   readonly tunnelPort?: number;
   /**
@@ -14741,7 +14741,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: SSH user, specify only to connect via an SSH tunnel.
   * 	- Service `sql_server_sap_ecc_hva`: SSH user, specify only to connect via an SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tunnel_user Connector#tunnel_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tunnel_user Connector#tunnel_user}
   */
   readonly tunnelUser?: string;
   /**
@@ -14749,18 +14749,18 @@ export interface ConnectorConfigA {
   * 	- Service `akamai`: Your Akamai type name.
   * 	- Service `bubble`: Your Bubble type name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#type_name Connector#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#type_name Connector#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#unique_id Connector#unique_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#unique_id Connector#unique_id}
   */
   readonly uniqueId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `google_display_and_video_360`: Specifies whether the configuration is updated before each sync or only when the connector settings are saved. This parameter only takes effect when `config_method` is set to `REUSE_EXISTING`. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#update_config_on_each_sync Connector#update_config_on_each_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#update_config_on_each_sync Connector#update_config_on_each_sync}
   */
   readonly updateConfigOnEachSync?: boolean | cdktf.IResolvable;
   /**
@@ -14801,42 +14801,42 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: (Optional) The incremental update method the connector will use. The possible values are `"TELEPORT"` or `"NATIVE_UPDATE"`. The type defaults to `"NATIVE_UPDATE"` if the value is set to `null` or not specified.
   * 	- Service `sql_server_sap_ecc_hva`: (Optional) The incremental update method the connector will use. The possible values are `"TELEPORT"` or `"NATIVE_UPDATE"`. The type defaults to `"NATIVE_UPDATE"` if the value is set to `null` or not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#update_method Connector#update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#update_method Connector#update_method}
   */
   readonly updateMethod?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `cosmos`: Cosmos resource instance address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#uri Connector#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#uri Connector#uri}
   */
   readonly uri?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `fountain`: Your Fountain URL format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#url_format Connector#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#url_format Connector#url_format}
   */
   readonly urlFormat?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mandrill`: Whether to use multiple API keys for interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_api_keys Connector#use_api_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_api_keys Connector#use_api_keys}
   */
   readonly useApiKeys?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `amplitude`: Sync events from cloud storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_cloud_storage Connector#use_cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_cloud_storage Connector#use_cloud_storage}
   */
   readonly useCloudStorage?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Use Custom Bucket. Set it to 'true' if the data is being synced to your S3 bucket instead of an AppsFlyer-managed bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_customer_bucket Connector#use_customer_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_customer_bucket Connector#use_customer_bucket}
   */
   readonly useCustomerBucket?: boolean | cdktf.IResolvable;
   /**
@@ -14844,14 +14844,14 @@ export interface ConnectorConfigA {
   * 	- Service `oracle_hva`: Default value: `false`. Set to `true` if you're using a RAC instance.
   * 	- Service `oracle_sap_hva`: Default value: `false`. Set to `true` if you're using a RAC instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_oracle_rac Connector#use_oracle_rac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_oracle_rac Connector#use_oracle_rac}
   */
   readonly useOracleRac?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `oracle_hva`: Default value: `false`. Set to `true` to connect directly to a single PDB. When `true`, set `database` to the PDB name and omit the `pdbName` field. Use only for Direct or Archive Log Only capture. Not supported with TDE, ASM, or RAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_pdb_only Connector#use_pdb_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_pdb_only Connector#use_pdb_only}
   */
   readonly usePdbOnly?: boolean | cdktf.IResolvable;
   /**
@@ -14864,21 +14864,21 @@ export interface ConnectorConfigA {
   * 	- Service `sftp`: Set to `true` if files present in SFTP server are encrypted using PGP. Default value: `false`.
   * 	- Service `wasabi_cloud_storage`: Set to `true` if files are encrypted using PGP in the Wasabi Cloud Storage bucket. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_pgp_encryption_options Connector#use_pgp_encryption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_pgp_encryption_options Connector#use_pgp_encryption_options}
   */
   readonly usePgpEncryptionOptions?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `bigquery_db`: BigQuery use service account; default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_service_account Connector#use_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_service_account Connector#use_service_account}
   */
   readonly useServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mandrill`: Use template labels to filter templates for sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_template_labels Connector#use_template_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_template_labels Connector#use_template_labels}
   */
   readonly useTemplateLabels?: boolean | cdktf.IResolvable;
   /**
@@ -14886,7 +14886,7 @@ export interface ConnectorConfigA {
   * 	- Service `github`: Set to `true` to capture deletes.
   * 	- Service `xero`: Updates to few fields like sent_to_contact in Invoice table might be missed if you don't enable this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_webhooks Connector#use_webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_webhooks Connector#use_webhooks}
   */
   readonly useWebhooks?: boolean | cdktf.IResolvable;
   /**
@@ -14894,7 +14894,7 @@ export interface ConnectorConfigA {
   * 	- Service `bigquery_db`: Create and drop tables in a query results dataset. Default is false
   * 	- Service `snowflake_db`: Choose a database and schema to create temporary tables for syncs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#use_workspace Connector#use_workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#use_workspace Connector#use_workspace}
   */
   readonly useWorkspace?: boolean | cdktf.IResolvable;
   /**
@@ -14963,7 +14963,7 @@ export interface ConnectorConfigA {
   * 	- Service `sql_server_rds`: The user name.  For Azure Databases, the format must be `user@domain`.
   * 	- Service `sql_server_sap_ecc_hva`: The user name.  For Azure Databases, the format must be `user@domain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user Connector#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user Connector#user}
   */
   readonly user?: string;
   /**
@@ -14977,25 +14977,25 @@ export interface ConnectorConfigA {
   * 	- Service `sage_intacct`: User ID
   * 	- Service `vimeo`: Your Vimeo user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_id Connector#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_id Connector#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_key Connector#user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_key Connector#user_key}
   */
   readonly userKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday`: Workday username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_name Connector#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_name Connector#user_name}
   */
   readonly userName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `double_click_campaign_manager`: IDs of specific User Profiles to sync. Must be populated if `sync_mode` is set to `SpecificAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_profiles Connector#user_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_profiles Connector#user_profiles}
   */
   readonly userProfiles?: string[];
   /**
@@ -15004,7 +15004,7 @@ export interface ConnectorConfigA {
   * 	- Service `konnect_insights`: Your Konnect Insights User Token.
   * 	- Service `sonarqube`: Your Sonarqube user token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#user_token Connector#user_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#user_token Connector#user_token}
   */
   readonly userToken?: string;
   /**
@@ -15085,21 +15085,21 @@ export interface ConnectorConfigA {
   * 	- Service `zuora`: The API username with the necessary access permissions.
   * 	- Service `zuora_sandbox`: The API username with the necessary access permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#username Connector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#username Connector#username}
   */
   readonly username?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `itunes_connect`: Your vendors id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#vendors_id Connector#vendors_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#vendors_id Connector#vendors_id}
   */
   readonly vendorsId?: string[];
   /**
   * Field usage depends on `service` value: 
   * 	- Service `criteo_retail_media`: Your Criteo Retail Media version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#version Connector#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#version Connector#version}
   */
   readonly version?: string;
   /**
@@ -15108,49 +15108,49 @@ export interface ConnectorConfigA {
   * 	- Service `pinterest_ads`: The number of days to use as the conversion attribution window for a 'view' action.
   * 	- Service `snapchat_ads`: The time period to attribute conversions based on views. Default value: `DAY_1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#view_attribution_window Connector#view_attribution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#view_attribution_window Connector#view_attribution_window}
   */
   readonly viewAttributionWindow?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `pigment`: Your Pigment view ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#view_id Connector#view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#view_id Connector#view_id}
   */
   readonly viewId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `linkedin_ads`: The time period to attribute conversions based on views. Default value: `DAY_7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#view_through_attribution_window_size Connector#view_through_attribution_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#view_through_attribution_window_size Connector#view_through_attribution_window_size}
   */
   readonly viewThroughAttributionWindowSize?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adyen`: Your Adyen Web Service API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#web_service_api_key Connector#web_service_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#web_service_api_key Connector#web_service_api_key}
   */
   readonly webServiceApiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `appsflyer`: Webhook Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#webhook_endpoint Connector#webhook_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#webhook_endpoint Connector#webhook_endpoint}
   */
   readonly webhookEndpoint?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `xero`: Webhook Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#webhook_key Connector#webhook_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#webhook_key Connector#webhook_key}
   */
   readonly webhookKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `ordway`: Your Ordway Webhook name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#webhook_name Connector#webhook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#webhook_name Connector#webhook_name}
   */
   readonly webhookName?: string;
   /**
@@ -15160,35 +15160,35 @@ export interface ConnectorConfigA {
   * 	- Service `segment`: Webhook URL.
   * 	- Service `xero`: (ReadOnly) The Webhook URL generated by Fivetran. You can configure this in XERO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#webhook_url Connector#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#webhook_url Connector#webhook_url}
   */
   readonly webhookUrl?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `woocommerce`: The Site ID of your WordPress hosted WooCommerce instance or the subdomain of your self-hosted WooCommerce instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#word_press_site_id_or_woocommerce_domain_name Connector#word_press_site_id_or_woocommerce_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#word_press_site_id_or_woocommerce_domain_name Connector#word_press_site_id_or_woocommerce_domain_name}
   */
   readonly wordPressSiteIdOrWoocommerceDomainName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `moloco`: Your Moloco workplace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workplace_id Connector#workplace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workplace_id Connector#workplace_id}
   */
   readonly workplaceId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `mode`: Your Mode Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace Connector#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace Connector#workspace}
   */
   readonly workspace?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `fulfil`: Your Fulfil workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace_id Connector#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace_id Connector#workspace_id}
   */
   readonly workspaceId?: string;
   /**
@@ -15196,154 +15196,154 @@ export interface ConnectorConfigA {
   * 	- Service `bigquery_db`: Workspace Dataset Name
   * 	- Service `snowflake_db`: The name of the database where the temporary tables will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace_name Connector#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace_name Connector#workspace_name}
   */
   readonly workspaceName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `bigquery_db`: Use the source dataset as the workspace dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace_same_as_source Connector#workspace_same_as_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace_same_as_source Connector#workspace_same_as_source}
   */
   readonly workspaceSameAsSource?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake_db`: The name of the schema that belongs to the workspace database where the temporary tables will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace_schema Connector#workspace_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace_schema Connector#workspace_schema}
   */
   readonly workspaceSchema?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `hex`: Your Hex workspace token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#workspace_token Connector#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#workspace_token Connector#workspace_token}
   */
   readonly workspaceToken?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `adp_workforce_now`: Web Services Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#ws_certificate Connector#ws_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#ws_certificate Connector#ws_certificate}
   */
   readonly wsCertificate?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_strategic_sourcing`: Your Workday Strategic Sourcing X API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#x_api_key Connector#x_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#x_api_key Connector#x_api_key}
   */
   readonly xApiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `medallia_agile_research`: Your Medallia Agile Research key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#x_key Connector#x_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#x_key Connector#x_key}
   */
   readonly xKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `medallia_agile_research`: Your Medallia Agile Research master key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#x_master_key Connector#x_master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#x_master_key Connector#x_master_key}
   */
   readonly xMasterKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_strategic_sourcing`: Your Workday Strategic Sourcing X User Email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#x_user_email Connector#x_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#x_user_email Connector#x_user_email}
   */
   readonly xUserEmail?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `workday_strategic_sourcing`: Your Workday Strategic Sourcing X User Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#x_user_token Connector#x_user_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#x_user_token Connector#x_user_token}
   */
   readonly xUserToken?: string;
   /**
   * accounts_reddit_ads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#accounts_reddit_ads Connector#accounts_reddit_ads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#accounts_reddit_ads Connector#accounts_reddit_ads}
   */
   readonly accountsRedditAds?: ConnectorConfigAccountsRedditAds[] | cdktf.IResolvable;
   /**
   * adobe_analytics_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#adobe_analytics_configurations Connector#adobe_analytics_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#adobe_analytics_configurations Connector#adobe_analytics_configurations}
   */
   readonly adobeAnalyticsConfigurations?: ConnectorConfigAdobeAnalyticsConfigurations[] | cdktf.IResolvable;
   /**
   * app_ids_appsflyer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#app_ids_appsflyer Connector#app_ids_appsflyer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#app_ids_appsflyer Connector#app_ids_appsflyer}
   */
   readonly appIdsAppsflyer?: ConnectorConfigAppIdsAppsflyer[] | cdktf.IResolvable;
   /**
   * custom_payloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_payloads Connector#custom_payloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_payloads Connector#custom_payloads}
   */
   readonly customPayloads?: ConnectorConfigCustomPayloads[] | cdktf.IResolvable;
   /**
   * custom_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_reports Connector#custom_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_reports Connector#custom_reports}
   */
   readonly customReports?: ConnectorConfigCustomReports[] | cdktf.IResolvable;
   /**
   * custom_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#custom_tables Connector#custom_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#custom_tables Connector#custom_tables}
   */
   readonly customTables?: ConnectorConfigCustomTables[] | cdktf.IResolvable;
   /**
   * data_model_path_alias_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#data_model_path_alias_list Connector#data_model_path_alias_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#data_model_path_alias_list Connector#data_model_path_alias_list}
   */
   readonly dataModelPathAliasList?: ConnectorConfigDataModelPathAliasListStruct[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#files Connector#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#files Connector#files}
   */
   readonly files?: ConnectorConfigFiles[] | cdktf.IResolvable;
   /**
   * project_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#project_credentials Connector#project_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#project_credentials Connector#project_credentials}
   */
   readonly projectCredentials?: ConnectorConfigProjectCredentials[] | cdktf.IResolvable;
   /**
   * report_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_configs Connector#report_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_configs Connector#report_configs}
   */
   readonly reportConfigs?: ConnectorConfigReportConfigs[] | cdktf.IResolvable;
   /**
   * report_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#report_list Connector#report_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#report_list Connector#report_list}
   */
   readonly reportList?: ConnectorConfigReportListStruct[] | cdktf.IResolvable;
   /**
   * reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#reports Connector#reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#reports Connector#reports}
   */
   readonly reports?: ConnectorConfigReports[] | cdktf.IResolvable;
   /**
   * secrets_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#secrets_list Connector#secrets_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#secrets_list Connector#secrets_list}
   */
   readonly secretsList?: ConnectorConfigSecretsListStruct[] | cdktf.IResolvable;
   /**
   * tenant_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#tenant_configs Connector#tenant_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#tenant_configs Connector#tenant_configs}
   */
   readonly tenantConfigs?: ConnectorConfigTenantConfigs[] | cdktf.IResolvable;
 }
@@ -36025,25 +36025,25 @@ export interface ConnectorDestinationSchema {
   /**
   * The connector schema name in destination. Has to be unique within the group (destination). Required for connector creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The connector schema prefix has to be unique within the group (destination). Each replicated schema is prefixed with the provided value. Required for connector creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#prefix Connector#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#prefix Connector#prefix}
   */
   readonly prefix?: string;
   /**
   * The table name unique within the schema to which connector will sync the data. Required for connector creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table Connector#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table Connector#table}
   */
   readonly table?: string;
   /**
   * Table group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#table_group_name Connector#table_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#table_group_name Connector#table_group_name}
   */
   readonly tableGroupName?: string;
 }
@@ -36226,13 +36226,13 @@ export interface ConnectorTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#create Connector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#create Connector#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#update Connector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#update Connector#update}
   */
   readonly update?: string;
 }
@@ -36355,7 +36355,7 @@ export class ConnectorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector fivetran_connector}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector fivetran_connector}
 */
 export class Connector extends cdktf.TerraformResource {
 
@@ -36371,7 +36371,7 @@ export class Connector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connector to import
-  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -36383,7 +36383,7 @@ export class Connector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector fivetran_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/connector fivetran_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -36394,8 +36394,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_connector',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

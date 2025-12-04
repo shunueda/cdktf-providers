@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs
+// https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InfisicalProviderConfig {
   /**
   * The configuration values for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#auth InfisicalProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#auth InfisicalProvider#auth}
   */
   readonly auth?: InfisicalProviderAuth;
   /**
   * (DEPRECATED, Use the `auth` attribute), Machine identity client ID. Used to fetch/modify secrets for a given project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#client_id InfisicalProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#client_id InfisicalProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * (DEPRECATED, use `auth` attribute), Machine identity client secret. Used to fetch/modify secrets for a given project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#client_secret InfisicalProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#client_secret InfisicalProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Used to point the client to fetch secrets from your self hosted instance of Infisical. If not host is provided, https://app.infisical.com is the default host. This attribute can also be set using the `INFISICAL_HOST` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#host InfisicalProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#host InfisicalProvider#host}
   */
   readonly host?: string;
   /**
   *  (DEPRECATED, Use machine identity auth), Used to fetch/modify secrets for a given project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#service_token InfisicalProvider#service_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#service_token InfisicalProvider#service_token}
   */
   readonly serviceToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#alias InfisicalProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#alias InfisicalProvider#alias}
   */
   readonly alias?: string;
 }
@@ -48,7 +48,7 @@ export interface InfisicalProviderAuthAwsIam {
   /**
   * Machine identity ID. This attribute can also be set using the `INFISICAL_MACHINE_IDENTITY_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#identity_id InfisicalProvider#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#identity_id InfisicalProvider#identity_id}
   */
   readonly identityId?: string;
 }
@@ -86,19 +86,19 @@ export interface InfisicalProviderAuthKubernetes {
   /**
   * Machine identity ID. This attribute can also be set using the `INFISICAL_MACHINE_IDENTITY_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#identity_id InfisicalProvider#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#identity_id InfisicalProvider#identity_id}
   */
   readonly identityId?: string;
   /**
   * The service account token. This attribute can also be set using the `INFISICAL_KUBERNETES_SERVICE_ACCOUNT_TOKEN` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#service_account_token InfisicalProvider#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#service_account_token InfisicalProvider#service_account_token}
   */
   readonly serviceAccountToken?: string;
   /**
   * The path to the service account token. This attribute can also be set using the `INFISICAL_KUBERNETES_SERVICE_ACCOUNT_TOKEN_PATH` environment variable. Default is `/var/run/secrets/kubernetes.io/serviceaccount/token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#service_account_token_path InfisicalProvider#service_account_token_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#service_account_token_path InfisicalProvider#service_account_token_path}
   */
   readonly serviceAccountTokenPath?: string;
 }
@@ -150,13 +150,13 @@ export interface InfisicalProviderAuthOidc {
   /**
   * Machine identity ID. This attribute can also be set using the `INFISICAL_MACHINE_IDENTITY_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#identity_id InfisicalProvider#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#identity_id InfisicalProvider#identity_id}
   */
   readonly identityId?: string;
   /**
   * The environment variable name for the OIDC JWT token. This attribute can also be set using the `INFISICAL_OIDC_AUTH_TOKEN_KEY_NAME` environment variable. Default is `INFISICAL_AUTH_JWT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#token_environment_variable_name InfisicalProvider#token_environment_variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#token_environment_variable_name InfisicalProvider#token_environment_variable_name}
   */
   readonly tokenEnvironmentVariableName?: string;
 }
@@ -201,13 +201,13 @@ export interface InfisicalProviderAuthUniversal {
   /**
   * Machine identity client ID. This attribute can also be set using the `INFISICAL_UNIVERSAL_AUTH_CLIENT_ID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#client_id InfisicalProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#client_id InfisicalProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Machine identity client secret. This attribute can also be set using the `INFISICAL_UNIVERSAL_AUTH_CLIENT_SECRET` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#client_secret InfisicalProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#client_secret InfisicalProvider#client_secret}
   */
   readonly clientSecret?: string;
 }
@@ -252,31 +252,31 @@ export interface InfisicalProviderAuth {
   /**
   * The configuration values for AWS IAM Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#aws_iam InfisicalProvider#aws_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#aws_iam InfisicalProvider#aws_iam}
   */
   readonly awsIam?: InfisicalProviderAuthAwsIam;
   /**
   * The configuration values for Kubernetes Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#kubernetes InfisicalProvider#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#kubernetes InfisicalProvider#kubernetes}
   */
   readonly kubernetes?: InfisicalProviderAuthKubernetes;
   /**
   * The configuration values for OIDC Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#oidc InfisicalProvider#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#oidc InfisicalProvider#oidc}
   */
   readonly oidc?: InfisicalProviderAuthOidc;
   /**
   * The authentication token for Machine Identity Token Auth. This attribute can also be set using the `INFISICAL_TOKEN` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#token InfisicalProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#token InfisicalProvider#token}
   */
   readonly token?: string;
   /**
   * The configuration values for Universal Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#universal InfisicalProvider#universal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#universal InfisicalProvider#universal}
   */
   readonly universal?: InfisicalProviderAuthUniversal;
 }
@@ -340,7 +340,7 @@ export function infisicalProviderAuthToHclTerraform(struct?: InfisicalProviderAu
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs infisical}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs infisical}
 */
 export class InfisicalProvider extends cdktf.TerraformProvider {
 
@@ -356,7 +356,7 @@ export class InfisicalProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a InfisicalProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfisicalProvider to import
-  * @param importFromId The id of the existing InfisicalProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfisicalProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfisicalProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class InfisicalProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs infisical} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs infisical} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class InfisicalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infisical',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.50',
-        providerVersionConstraint: '0.15.50'
+        providerVersion: '0.15.52',
+        providerVersionConstraint: '0.15.52'
       },
       terraformProviderSource: 'Infisical/infisical'
     });

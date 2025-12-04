@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface PolicyForwardingRuleConfig extends cdktf.TerraformMetaArguments
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#action PolicyForwardingRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#action PolicyForwardingRule#action}
   */
   readonly action?: string;
   /**
   * This field defines the description of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#action_id PolicyForwardingRule#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#action_id PolicyForwardingRule#action_id}
   */
   readonly actionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#bypass_default_rule PolicyForwardingRule#bypass_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#bypass_default_rule PolicyForwardingRule#bypass_default_rule}
   */
   readonly bypassDefaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#custom_msg PolicyForwardingRule#custom_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#custom_msg PolicyForwardingRule#custom_msg}
   */
   readonly customMsg?: string;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#default_rule PolicyForwardingRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#default_rule PolicyForwardingRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#description PolicyForwardingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#description PolicyForwardingRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#lss_default_rule PolicyForwardingRule#lss_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#lss_default_rule PolicyForwardingRule#lss_default_rule}
   */
   readonly lssDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#name PolicyForwardingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#name PolicyForwardingRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#operator PolicyForwardingRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#operator PolicyForwardingRule#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#policy_set_id PolicyForwardingRule#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#policy_set_id PolicyForwardingRule#policy_set_id}
   */
   readonly policySetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#policy_type PolicyForwardingRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#policy_type PolicyForwardingRule#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#priority PolicyForwardingRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#priority PolicyForwardingRule#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#reauth_default_rule PolicyForwardingRule#reauth_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#reauth_default_rule PolicyForwardingRule#reauth_default_rule}
   */
   readonly reauthDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#reauth_idle_timeout PolicyForwardingRule#reauth_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#reauth_idle_timeout PolicyForwardingRule#reauth_idle_timeout}
   */
   readonly reauthIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#reauth_timeout PolicyForwardingRule#reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#reauth_timeout PolicyForwardingRule#reauth_timeout}
   */
   readonly reauthTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#rule_order PolicyForwardingRule#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#rule_order PolicyForwardingRule#rule_order}
   */
   readonly ruleOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#zpn_cbi_profile_id PolicyForwardingRule#zpn_cbi_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#zpn_cbi_profile_id PolicyForwardingRule#zpn_cbi_profile_id}
   */
   readonly zpnCbiProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#zpn_inspection_profile_id PolicyForwardingRule#zpn_inspection_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#zpn_inspection_profile_id PolicyForwardingRule#zpn_inspection_profile_id}
   */
   readonly zpnInspectionProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#zpn_isolation_profile_id PolicyForwardingRule#zpn_isolation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#zpn_isolation_profile_id PolicyForwardingRule#zpn_isolation_profile_id}
   */
   readonly zpnIsolationProfileId?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#conditions PolicyForwardingRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#conditions PolicyForwardingRule#conditions}
   */
   readonly conditions?: PolicyForwardingRuleConditions[] | cdktf.IResolvable;
 }
 export interface PolicyForwardingRuleConditionsOperands {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#idp_id PolicyForwardingRule#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#idp_id PolicyForwardingRule#idp_id}
   */
   readonly idpId?: string;
   /**
   * This signifies the key for the object type. String ID example: id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#lhs PolicyForwardingRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#lhs PolicyForwardingRule#lhs}
   */
   readonly lhs: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#name PolicyForwardingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#name PolicyForwardingRule#name}
   */
   readonly name?: string;
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#object_type PolicyForwardingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#object_type PolicyForwardingRule#object_type}
   */
   readonly objectType: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#rhs PolicyForwardingRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#rhs PolicyForwardingRule#rhs}
   */
   readonly rhs?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#rhs_list PolicyForwardingRule#rhs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#rhs_list PolicyForwardingRule#rhs_list}
   */
   readonly rhsList?: string[];
 }
@@ -431,17 +431,17 @@ export class PolicyForwardingRuleConditionsOperandsList extends cdktf.ComplexLis
 }
 export interface PolicyForwardingRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#microtenant_id PolicyForwardingRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#operator PolicyForwardingRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#operator PolicyForwardingRule#operator}
   */
   readonly operator: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#operands PolicyForwardingRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#operands PolicyForwardingRule#operands}
   */
   readonly operands?: PolicyForwardingRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -617,7 +617,7 @@ export class PolicyForwardingRuleConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule zpa_policy_forwarding_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule zpa_policy_forwarding_rule}
 */
 export class PolicyForwardingRule extends cdktf.TerraformResource {
 
@@ -633,7 +633,7 @@ export class PolicyForwardingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyForwardingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyForwardingRule to import
-  * @param importFromId The id of the existing PolicyForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyForwardingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyForwardingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -645,7 +645,7 @@ export class PolicyForwardingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_forwarding_rule zpa_policy_forwarding_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_forwarding_rule zpa_policy_forwarding_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,8 +656,8 @@ export class PolicyForwardingRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_forwarding_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

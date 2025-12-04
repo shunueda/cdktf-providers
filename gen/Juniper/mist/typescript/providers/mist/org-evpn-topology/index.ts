@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface OrgEvpnTopologyConfig extends cdktf.TerraformMetaArguments {
   /**
   * EVPN Options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#evpn_options OrgEvpnTopology#evpn_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#evpn_options OrgEvpnTopology#evpn_options}
   */
   readonly evpnOptions?: OrgEvpnTopologyEvpnOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#name OrgEvpnTopology#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#name OrgEvpnTopology#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#org_id OrgEvpnTopology#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#org_id OrgEvpnTopology#org_id}
   */
   readonly orgId: string;
   /**
   * Property key is the pod number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#pod_names OrgEvpnTopology#pod_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#pod_names OrgEvpnTopology#pod_names}
   */
   readonly podNames?: { [key: string]: string };
   /**
   * Property key can be the switch MAC Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#switches OrgEvpnTopology#switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#switches OrgEvpnTopology#switches}
   */
   readonly switches: { [key: string]: OrgEvpnTopologySwitches } | cdktf.IResolvable;
 }
@@ -38,7 +38,7 @@ export interface OrgEvpnTopologyEvpnOptionsOverlay {
   /**
   * Overlay BGP Local AS Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#as OrgEvpnTopology#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#as OrgEvpnTopology#as}
   */
   readonly as?: number;
 }
@@ -134,23 +134,23 @@ export interface OrgEvpnTopologyEvpnOptionsUnderlay {
   /**
   * Underlay BGP Base AS Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#as_base OrgEvpnTopology#as_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#as_base OrgEvpnTopology#as_base}
   */
   readonly asBase?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#routed_id_prefix OrgEvpnTopology#routed_id_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#routed_id_prefix OrgEvpnTopology#routed_id_prefix}
   */
   readonly routedIdPrefix?: string;
   /**
   * Underlay subnet, by default, `10.255.240.0/20`, or `fd31:5700::/64` for ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#subnet OrgEvpnTopology#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#subnet OrgEvpnTopology#subnet}
   */
   readonly subnet?: string;
   /**
   * If v6 is desired for underlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#use_ipv6 OrgEvpnTopology#use_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#use_ipv6 OrgEvpnTopology#use_ipv6}
   */
   readonly useIpv6?: boolean | cdktf.IResolvable;
 }
@@ -331,7 +331,7 @@ export class OrgEvpnTopologyEvpnOptionsUnderlayOutputReference extends cdktf.Com
 }
 export interface OrgEvpnTopologyEvpnOptionsVsInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#networks OrgEvpnTopology#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#networks OrgEvpnTopology#networks}
   */
   readonly networks?: string[];
 }
@@ -447,69 +447,69 @@ export interface OrgEvpnTopologyEvpnOptions {
   /**
   * Optional, for dhcp_relay, unique loopback IPs are required for ERB or IPClos where we can set option-82 server_id-overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#auto_loopback_subnet OrgEvpnTopology#auto_loopback_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#auto_loopback_subnet OrgEvpnTopology#auto_loopback_subnet}
   */
   readonly autoLoopbackSubnet?: string;
   /**
   * Optional, for dhcp_relay, unique loopback IPs are required for ERB or IPClos where we can set option-82 server_id-overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#auto_loopback_subnet6 OrgEvpnTopology#auto_loopback_subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#auto_loopback_subnet6 OrgEvpnTopology#auto_loopback_subnet6}
   */
   readonly autoLoopbackSubnet6?: string;
   /**
   * Optional, this generates router_id automatically, if specified, `router_id_prefix` is ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#auto_router_id_subnet OrgEvpnTopology#auto_router_id_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#auto_router_id_subnet OrgEvpnTopology#auto_router_id_subnet}
   */
   readonly autoRouterIdSubnet?: string;
   /**
   * Optional, this generates router_id automatically, if specified, `router_id_prefix` is ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#auto_router_id_subnet6 OrgEvpnTopology#auto_router_id_subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#auto_router_id_subnet6 OrgEvpnTopology#auto_router_id_subnet6}
   */
   readonly autoRouterIdSubnet6?: string;
   /**
   * Optional, for ERB or CLOS, you can either use esilag to upstream routers or to also be the virtual-gateway. When `routed_at` != `core`, whether to do virtual-gateway at core as well
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#core_as_border OrgEvpnTopology#core_as_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#core_as_border OrgEvpnTopology#core_as_border}
   */
   readonly coreAsBorder?: boolean | cdktf.IResolvable;
   /**
   * if the mangement traffic goes inbnd, during installation, only the border/core switches are connected to the Internet to allow initial configuration to be pushed down and leave the downstream access switches stay in the Factory Default state enabling inband-ztp allows upstream switches to use LLDP to assign IP and gives Internet to downstream switches in that state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#enable_inband_ztp OrgEvpnTopology#enable_inband_ztp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#enable_inband_ztp OrgEvpnTopology#enable_inband_ztp}
   */
   readonly enableInbandZtp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#overlay OrgEvpnTopology#overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#overlay OrgEvpnTopology#overlay}
   */
   readonly overlay?: OrgEvpnTopologyEvpnOptionsOverlay;
   /**
   * Only for by Core-Distribution architecture when `evpn_options.routed_at`==`core`. By default, JUNOS uses 00-00-5e-00-01-01 as the virtual-gateway-address's v4_mac. If enabled, 00-00-5e-00-0X-YY will be used (where XX=vlan_id/256, YY=vlan_id%256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#per_vlan_vga_v4_mac OrgEvpnTopology#per_vlan_vga_v4_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#per_vlan_vga_v4_mac OrgEvpnTopology#per_vlan_vga_v4_mac}
   */
   readonly perVlanVgaV4Mac?: boolean | cdktf.IResolvable;
   /**
   * Only for by Core-Distribution architecture when `evpn_options.routed_at`==`core`. By default, JUNOS uses 00-00-5e-00-02-01 as the virtual-gateway-address's v6_mac. If enabled, 00-00-5e-00-1X-YY will be used (where XX=vlan_id/256, YY=vlan_id%256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#per_vlan_vga_v6_mac OrgEvpnTopology#per_vlan_vga_v6_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#per_vlan_vga_v6_mac OrgEvpnTopology#per_vlan_vga_v6_mac}
   */
   readonly perVlanVgaV6Mac?: boolean | cdktf.IResolvable;
   /**
   * optional, where virtual-gateway should reside. enum: `core`, `distribution`, `edge`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#routed_at OrgEvpnTopology#routed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#routed_at OrgEvpnTopology#routed_at}
   */
   readonly routedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#underlay OrgEvpnTopology#underlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#underlay OrgEvpnTopology#underlay}
   */
   readonly underlay?: OrgEvpnTopologyEvpnOptionsUnderlay;
   /**
   * Optional, for EX9200 only to segregate virtual-switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#vs_instances OrgEvpnTopology#vs_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#vs_instances OrgEvpnTopology#vs_instances}
   */
   readonly vsInstances?: { [key: string]: OrgEvpnTopologyEvpnOptionsVsInstances } | cdktf.IResolvable;
 }
@@ -926,20 +926,20 @@ export interface OrgEvpnTopologySwitches {
   *   * for CLOS, to group dist / access switches into pods
   *   * for ERB/CRB, to group dist / esilag-access into pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#pod OrgEvpnTopology#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#pod OrgEvpnTopology#pod}
   */
   readonly pod?: number;
   /**
   * By default, core switches are assumed to be connecting all pods. 
   * if you want to limit the pods, you can specify pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#pods OrgEvpnTopology#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#pods OrgEvpnTopology#pods}
   */
   readonly pods?: number[];
   /**
   * use `role`==`none` to remove a switch from the topology. enum: `access`, `collapsed-core`, `core`, `distribution`, `esilag-access`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#role OrgEvpnTopology#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#role OrgEvpnTopology#role}
   */
   readonly role: string;
 }
@@ -1138,7 +1138,7 @@ export class OrgEvpnTopologySwitchesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology mist_org_evpn_topology}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology mist_org_evpn_topology}
 */
 export class OrgEvpnTopology extends cdktf.TerraformResource {
 
@@ -1154,7 +1154,7 @@ export class OrgEvpnTopology extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgEvpnTopology resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgEvpnTopology to import
-  * @param importFromId The id of the existing OrgEvpnTopology that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgEvpnTopology that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgEvpnTopology to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1166,7 +1166,7 @@ export class OrgEvpnTopology extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_evpn_topology mist_org_evpn_topology} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_evpn_topology mist_org_evpn_topology} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1177,8 +1177,8 @@ export class OrgEvpnTopology extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_evpn_topology',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

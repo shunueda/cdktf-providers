@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpIamUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users#disabled DataHsdpIamUsers#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users#disabled DataHsdpIamUsers#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users#email_verified DataHsdpIamUsers#email_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users#email_verified DataHsdpIamUsers#email_verified}
   */
   readonly emailVerified?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users#id DataHsdpIamUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users#id DataHsdpIamUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users#organization_id DataHsdpIamUsers#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users#organization_id DataHsdpIamUsers#organization_id}
   */
   readonly organizationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users hsdp_iam_users}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users hsdp_iam_users}
 */
 export class DataHsdpIamUsers extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataHsdpIamUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpIamUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpIamUsers to import
-  * @param importFromId The id of the existing DataHsdpIamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpIamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpIamUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataHsdpIamUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_users hsdp_iam_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_users hsdp_iam_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataHsdpIamUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_iam_users',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

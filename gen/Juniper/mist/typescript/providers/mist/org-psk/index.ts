@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,99 +10,99 @@ export interface OrgPskConfig extends cdktf.TerraformMetaArguments {
   /**
   * email to send psk expiring notifications to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#email OrgPsk#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#email OrgPsk#email}
   */
   readonly email?: string;
   /**
   * Expire time for this PSK key (epoch time in seconds). Default `null` (as no expiration)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#expire_time OrgPsk#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#expire_time OrgPsk#expire_time}
   */
   readonly expireTime?: number;
   /**
   * Number of days before psk is expired. Used as to when to start sending reminder notification when the psk is about to expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#expiry_notification_time OrgPsk#expiry_notification_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#expiry_notification_time OrgPsk#expiry_notification_time}
   */
   readonly expiryNotificationTime?: number;
   /**
   * If `usage`==`single`, the mac that this PSK ties to, empty if `auto-binding`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#mac OrgPsk#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#mac OrgPsk#mac}
   */
   readonly mac?: string;
   /**
   * If `usage`==`macs`, this list contains N number of client mac addresses or mac patterns(1122*) or both. This list is capped at 5000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#macs OrgPsk#macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#macs OrgPsk#macs}
   */
   readonly macs?: string[];
   /**
   * For Org PSK Only. Max concurrent users for this PSK key. Default is 0 (unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#max_usage OrgPsk#max_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#max_usage OrgPsk#max_usage}
   */
   readonly maxUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#name OrgPsk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#name OrgPsk#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#note OrgPsk#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#note OrgPsk#note}
   */
   readonly note?: string;
   /**
   * If set to true, reminder notification will be sent when psk is about to expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#notify_expiry OrgPsk#notify_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#notify_expiry OrgPsk#notify_expiry}
   */
   readonly notifyExpiry?: boolean | cdktf.IResolvable;
   /**
   * If set to true, notification will be sent when psk is created or edited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#notify_on_create_or_edit OrgPsk#notify_on_create_or_edit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#notify_on_create_or_edit OrgPsk#notify_on_create_or_edit}
   */
   readonly notifyOnCreateOrEdit?: boolean | cdktf.IResolvable;
   /**
   * previous passphrase of the PSK if it has been rotated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#old_passphrase OrgPsk#old_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#old_passphrase OrgPsk#old_passphrase}
   */
   readonly oldPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#org_id OrgPsk#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#org_id OrgPsk#org_id}
   */
   readonly orgId: string;
   /**
   * passphrase of the PSK (8-63 character or 64 in hex)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#passphrase OrgPsk#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#passphrase OrgPsk#passphrase}
   */
   readonly passphrase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#role OrgPsk#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#role OrgPsk#role}
   */
   readonly role?: string;
   /**
   * SSID this PSK should be applicable to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#ssid OrgPsk#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#ssid OrgPsk#ssid}
   */
   readonly ssid: string;
   /**
   * enum: `macs`, `multi`, `single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#usage OrgPsk#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#usage OrgPsk#usage}
   */
   readonly usage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#vlan_id OrgPsk#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#vlan_id OrgPsk#vlan_id}
   */
   readonly vlanId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk mist_org_psk}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk mist_org_psk}
 */
 export class OrgPsk extends cdktf.TerraformResource {
 
@@ -118,7 +118,7 @@ export class OrgPsk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgPsk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgPsk to import
-  * @param importFromId The id of the existing OrgPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgPsk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class OrgPsk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_psk mist_org_psk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_psk mist_org_psk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class OrgPsk extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_psk',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

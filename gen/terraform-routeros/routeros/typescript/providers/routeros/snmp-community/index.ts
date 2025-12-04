@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SnmpCommunityConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#___path___ SnmpCommunity#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#___path___ SnmpCommunity#___path___}
   */
   readonly path?: string;
   /**
   * Set of IP (v4 or v6) addresses or CIDR networks from which connections to SNMP server are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#addresses SnmpCommunity#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#addresses SnmpCommunity#addresses}
   */
   readonly addresses?: string[];
   /**
   * Password used to authenticate the connection to the server (SNMPv3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#authentication_password SnmpCommunity#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#authentication_password SnmpCommunity#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * The protocol used for authentication (SNMPv3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#authentication_protocol SnmpCommunity#authentication_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#authentication_protocol SnmpCommunity#authentication_protocol}
   */
   readonly authenticationProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#comment SnmpCommunity#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#comment SnmpCommunity#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#disabled SnmpCommunity#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#disabled SnmpCommunity#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The password used for encryption (SNMPv3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#encryption_password SnmpCommunity#encryption_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#encryption_password SnmpCommunity#encryption_password}
   */
   readonly encryptionPassword?: string;
   /**
   * encryption protocol to be used to encrypt the communication (SNMPv3). AES (see rfc3826) available since v6.16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#encryption_protocol SnmpCommunity#encryption_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#encryption_protocol SnmpCommunity#encryption_protocol}
   */
   readonly encryptionProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#id SnmpCommunity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#id SnmpCommunity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,31 +61,31 @@ export interface SnmpCommunityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Community Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#name SnmpCommunity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#name SnmpCommunity#name}
   */
   readonly name?: string;
   /**
   * Whether read access is enabled for this community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#read_access SnmpCommunity#read_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#read_access SnmpCommunity#read_access}
   */
   readonly readAccess?: boolean | cdktf.IResolvable;
   /**
   * Security features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#security SnmpCommunity#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#security SnmpCommunity#security}
   */
   readonly security?: string;
   /**
   * Whether write access is enabled for this community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#write_access SnmpCommunity#write_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#write_access SnmpCommunity#write_access}
   */
   readonly writeAccess?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community routeros_snmp_community}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community routeros_snmp_community}
 */
 export class SnmpCommunity extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class SnmpCommunity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpCommunity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpCommunity to import
-  * @param importFromId The id of the existing SnmpCommunity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpCommunity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpCommunity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class SnmpCommunity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/snmp_community routeros_snmp_community} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/snmp_community routeros_snmp_community} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class SnmpCommunity extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_snmp_community',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

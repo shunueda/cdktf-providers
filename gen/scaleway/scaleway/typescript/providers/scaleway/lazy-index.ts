@@ -132,6 +132,7 @@ Object.defineProperty(exports, 'webhosting', { get: function () { return require
 Object.defineProperty(exports, 'dataScalewayAccountProject', { get: function () { return require('./data-scaleway-account-project'); } });
 Object.defineProperty(exports, 'dataScalewayAccountProjects', { get: function () { return require('./data-scaleway-account-projects'); } });
 Object.defineProperty(exports, 'dataScalewayAccountSshKey', { get: function () { return require('./data-scaleway-account-ssh-key'); } });
+Object.defineProperty(exports, 'dataScalewayAuditTrailEvent', { get: function () { return require('./data-scaleway-audit-trail-event'); } });
 Object.defineProperty(exports, 'dataScalewayAvailabilityZones', { get: function () { return require('./data-scaleway-availability-zones'); } });
 Object.defineProperty(exports, 'dataScalewayBaremetalOffer', { get: function () { return require('./data-scaleway-baremetal-offer'); } });
 Object.defineProperty(exports, 'dataScalewayBaremetalOption', { get: function () { return require('./data-scaleway-baremetal-option'); } });

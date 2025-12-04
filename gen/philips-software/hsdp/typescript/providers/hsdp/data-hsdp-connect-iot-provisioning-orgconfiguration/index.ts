@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_iot_provisioning_orgconfiguration
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/connect_iot_provisioning_orgconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHsdpConnectIotProvisioningOrgconfigurationConfig extends cd
   /**
   * The GUID of the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_iot_provisioning_orgconfiguration#organization_guid DataHsdpConnectIotProvisioningOrgconfiguration#organization_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/connect_iot_provisioning_orgconfiguration#organization_guid DataHsdpConnectIotProvisioningOrgconfiguration#organization_guid}
   */
   readonly organizationGuid: string;
 }
@@ -267,7 +267,7 @@ export class DataHsdpConnectIotProvisioningOrgconfigurationServiceAccountList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration}
 */
 export class DataHsdpConnectIotProvisioningOrgconfiguration extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataHsdpConnectIotProvisioningOrgconfiguration extends cdktf.Terraf
   * Generates CDKTF code for importing a DataHsdpConnectIotProvisioningOrgconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpConnectIotProvisioningOrgconfiguration to import
-  * @param importFromId The id of the existing DataHsdpConnectIotProvisioningOrgconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_iot_provisioning_orgconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpConnectIotProvisioningOrgconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/connect_iot_provisioning_orgconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpConnectIotProvisioningOrgconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataHsdpConnectIotProvisioningOrgconfiguration extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataHsdpConnectIotProvisioningOrgconfiguration extends cdktf.Terraf
       terraformResourceType: 'hsdp_connect_iot_provisioning_orgconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

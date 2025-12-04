@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ConsoleConnectorV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Auto restart configuration for the connector. NOTE: this field has been introduced with Console `1.29.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#auto_restart ConsoleConnectorV2#auto_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#auto_restart ConsoleConnectorV2#auto_restart}
   */
   readonly autoRestart?: ConsoleConnectorV2AutoRestart;
   /**
   * Kafka cluster name linked with Kafka Connect connector. Must already exist in Conduktor Console. Any change will require the Connector to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#cluster ConsoleConnectorV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#cluster ConsoleConnectorV2#cluster}
   */
   readonly cluster: string;
   /**
   * Kafka Connect server name linked with connector. Must already exist in Conduktor Console. Any change will require the Connector to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#connect_cluster ConsoleConnectorV2#connect_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#connect_cluster ConsoleConnectorV2#connect_cluster}
   */
   readonly connectCluster: string;
   /**
   * Connector description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#description ConsoleConnectorV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#description ConsoleConnectorV2#description}
   */
   readonly description?: string;
   /**
   * Custom labels for the connector resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#labels ConsoleConnectorV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#labels ConsoleConnectorV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Connector name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#name ConsoleConnectorV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#name ConsoleConnectorV2#name}
   */
   readonly name: string;
   /**
   * Connector specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#spec ConsoleConnectorV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#spec ConsoleConnectorV2#spec}
   */
   readonly spec: ConsoleConnectorV2Spec;
 }
@@ -54,13 +54,13 @@ export interface ConsoleConnectorV2AutoRestart {
   /**
   * Whether to enable auto restart for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#enabled ConsoleConnectorV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#enabled ConsoleConnectorV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Defines the delay between consecutive restart attempts, default to 600 seconds (10 minutes) max 86400 (1 day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#frequency_seconds ConsoleConnectorV2#frequency_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#frequency_seconds ConsoleConnectorV2#frequency_seconds}
   */
   readonly frequencySeconds?: number;
 }
@@ -182,7 +182,7 @@ export interface ConsoleConnectorV2Spec {
   /**
   * Must be valid Kafka Connect Connector configs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#config ConsoleConnectorV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#config ConsoleConnectorV2#config}
   */
   readonly config?: { [key: string]: string };
 }
@@ -276,7 +276,7 @@ export class ConsoleConnectorV2SpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2 conduktor_console_connector_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2 conduktor_console_connector_v2}
 */
 export class ConsoleConnectorV2 extends cdktf.TerraformResource {
 
@@ -292,7 +292,7 @@ export class ConsoleConnectorV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleConnectorV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleConnectorV2 to import
-  * @param importFromId The id of the existing ConsoleConnectorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleConnectorV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleConnectorV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class ConsoleConnectorV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_connector_v2 conduktor_console_connector_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_connector_v2 conduktor_console_connector_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class ConsoleConnectorV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_connector_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

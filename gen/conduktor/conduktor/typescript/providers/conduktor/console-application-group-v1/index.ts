@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsoleApplicationGroupV1Config extends cdktf.TerraformMetaArgu
   /**
   * Reference to the application this group belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#application ConsoleApplicationGroupV1#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#application ConsoleApplicationGroupV1#application}
   */
   readonly application: string;
   /**
   * Application Group name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#name ConsoleApplicationGroupV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#name ConsoleApplicationGroupV1#name}
   */
   readonly name: string;
   /**
   * Application Group specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#spec ConsoleApplicationGroupV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#spec ConsoleApplicationGroupV1#spec}
   */
   readonly spec: ConsoleApplicationGroupV1Spec;
 }
@@ -30,37 +30,37 @@ export interface ConsoleApplicationGroupV1SpecPermissions {
   /**
   * Reference to the application instance this group belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#app_instance ConsoleApplicationGroupV1#app_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#app_instance ConsoleApplicationGroupV1#app_instance}
   */
   readonly appInstance: string;
   /**
   * Valid Connect Cluster linked to the Kafka Cluster. Only mandatory when type is CONNECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#connect_cluster ConsoleApplicationGroupV1#connect_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#connect_cluster ConsoleApplicationGroupV1#connect_cluster}
   */
   readonly connectCluster?: string;
   /**
   * Name of the resource to apply permission could be a topic, a cluster, a consumer group, etc. depending on resource_type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#name ConsoleApplicationGroupV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#name ConsoleApplicationGroupV1#name}
   */
   readonly name: string;
   /**
   * Type of the pattern to apply permission on valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#pattern_type ConsoleApplicationGroupV1#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#pattern_type ConsoleApplicationGroupV1#pattern_type}
   */
   readonly patternType: string;
   /**
   * Set of all permissions to apply on the resource. See https://docs.conduktor.io/platform/reference/resource-reference/console/#permissions for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#permissions ConsoleApplicationGroupV1#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#permissions ConsoleApplicationGroupV1#permissions}
   */
   readonly permissions?: string[];
   /**
   * Type of the resource to apply permission on valid values are: CONNECTOR, CONSUMER_GROUP, SUBJECT, TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#resource_type ConsoleApplicationGroupV1#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#resource_type ConsoleApplicationGroupV1#resource_type}
   */
   readonly resourceType: string;
 }
@@ -311,37 +311,37 @@ export interface ConsoleApplicationGroupV1Spec {
   /**
   * Description of the application group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#description ConsoleApplicationGroupV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#description ConsoleApplicationGroupV1#description}
   */
   readonly description?: string;
   /**
   * Display name of the application group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#display_name ConsoleApplicationGroupV1#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#display_name ConsoleApplicationGroupV1#display_name}
   */
   readonly displayName: string;
   /**
   * Set of regex to be applied to external groups. NOTE: this field has been introduced with Console `1.36.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#external_group_regex ConsoleApplicationGroupV1#external_group_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#external_group_regex ConsoleApplicationGroupV1#external_group_regex}
   */
   readonly externalGroupRegex?: string[];
   /**
   * Set of external groups from SSO mapped to this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#external_groups ConsoleApplicationGroupV1#external_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#external_groups ConsoleApplicationGroupV1#external_groups}
   */
   readonly externalGroups?: string[];
   /**
   * Set of members of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#members ConsoleApplicationGroupV1#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#members ConsoleApplicationGroupV1#members}
   */
   readonly members?: string[];
   /**
   * Set of all group permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#permissions ConsoleApplicationGroupV1#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#permissions ConsoleApplicationGroupV1#permissions}
   */
   readonly permissions?: ConsoleApplicationGroupV1SpecPermissions[] | cdktf.IResolvable;
 }
@@ -582,7 +582,7 @@ export class ConsoleApplicationGroupV1SpecOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1 conduktor_console_application_group_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1 conduktor_console_application_group_v1}
 */
 export class ConsoleApplicationGroupV1 extends cdktf.TerraformResource {
 
@@ -598,7 +598,7 @@ export class ConsoleApplicationGroupV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleApplicationGroupV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleApplicationGroupV1 to import
-  * @param importFromId The id of the existing ConsoleApplicationGroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleApplicationGroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleApplicationGroupV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +610,7 @@ export class ConsoleApplicationGroupV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_group_v1 conduktor_console_application_group_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_group_v1 conduktor_console_application_group_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +621,8 @@ export class ConsoleApplicationGroupV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_application_group_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

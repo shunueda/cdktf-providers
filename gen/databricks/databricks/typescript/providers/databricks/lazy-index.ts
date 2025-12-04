@@ -43,6 +43,7 @@ Object.defineProperty(exports, 'entityTagAssignment', { get: function () { retur
 Object.defineProperty(exports, 'externalLocation', { get: function () { return require('./external-location'); } });
 Object.defineProperty(exports, 'externalMetadata', { get: function () { return require('./external-metadata'); } });
 Object.defineProperty(exports, 'featureEngineeringFeature', { get: function () { return require('./feature-engineering-feature'); } });
+Object.defineProperty(exports, 'featureEngineeringKafkaConfig', { get: function () { return require('./feature-engineering-kafka-config'); } });
 Object.defineProperty(exports, 'featureEngineeringMaterializedFeature', { get: function () { return require('./feature-engineering-materialized-feature'); } });
 Object.defineProperty(exports, 'file', { get: function () { return require('./file'); } });
 Object.defineProperty(exports, 'gitCredential', { get: function () { return require('./git-credential'); } });
@@ -182,6 +183,8 @@ Object.defineProperty(exports, 'dataDatabricksExternalMetadata', { get: function
 Object.defineProperty(exports, 'dataDatabricksExternalMetadatas', { get: function () { return require('./data-databricks-external-metadatas'); } });
 Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringFeature', { get: function () { return require('./data-databricks-feature-engineering-feature'); } });
 Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringFeatures', { get: function () { return require('./data-databricks-feature-engineering-features'); } });
+Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringKafkaConfig', { get: function () { return require('./data-databricks-feature-engineering-kafka-config'); } });
+Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringKafkaConfigs', { get: function () { return require('./data-databricks-feature-engineering-kafka-configs'); } });
 Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringMaterializedFeature', { get: function () { return require('./data-databricks-feature-engineering-materialized-feature'); } });
 Object.defineProperty(exports, 'dataDatabricksFeatureEngineeringMaterializedFeatures', { get: function () { return require('./data-databricks-feature-engineering-materialized-features'); } });
 Object.defineProperty(exports, 'dataDatabricksFunctions', { get: function () { return require('./data-databricks-functions'); } });
@@ -234,6 +237,7 @@ Object.defineProperty(exports, 'dataDatabricksTables', { get: function () { retu
 Object.defineProperty(exports, 'dataDatabricksTagPolicies', { get: function () { return require('./data-databricks-tag-policies'); } });
 Object.defineProperty(exports, 'dataDatabricksTagPolicy', { get: function () { return require('./data-databricks-tag-policy'); } });
 Object.defineProperty(exports, 'dataDatabricksUser', { get: function () { return require('./data-databricks-user'); } });
+Object.defineProperty(exports, 'dataDatabricksUsers', { get: function () { return require('./data-databricks-users'); } });
 Object.defineProperty(exports, 'dataDatabricksViews', { get: function () { return require('./data-databricks-views'); } });
 Object.defineProperty(exports, 'dataDatabricksVolume', { get: function () { return require('./data-databricks-volume'); } });
 Object.defineProperty(exports, 'dataDatabricksVolumes', { get: function () { return require('./data-databricks-volumes'); } });

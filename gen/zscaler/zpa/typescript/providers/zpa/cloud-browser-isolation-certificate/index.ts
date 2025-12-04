@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBrowserIsolationCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate#name CloudBrowserIsolationCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate#name CloudBrowserIsolationCertificate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate#pem CloudBrowserIsolationCertificate#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate#pem CloudBrowserIsolationCertificate#pem}
   */
   readonly pem?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate zpa_cloud_browser_isolation_certificate}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate zpa_cloud_browser_isolation_certificate}
 */
 export class CloudBrowserIsolationCertificate extends cdktf.TerraformResource {
 
@@ -34,7 +34,7 @@ export class CloudBrowserIsolationCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudBrowserIsolationCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBrowserIsolationCertificate to import
-  * @param importFromId The id of the existing CloudBrowserIsolationCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBrowserIsolationCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBrowserIsolationCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class CloudBrowserIsolationCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/cloud_browser_isolation_certificate zpa_cloud_browser_isolation_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_certificate zpa_cloud_browser_isolation_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class CloudBrowserIsolationCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_cloud_browser_isolation_certificate',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

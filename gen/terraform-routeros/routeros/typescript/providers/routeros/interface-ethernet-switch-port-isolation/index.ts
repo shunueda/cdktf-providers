@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface InterfaceEthernetSwitchPortIsolationConfig extends cdktf.Terraf
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#___path___ InterfaceEthernetSwitchPortIsolation#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#___path___ InterfaceEthernetSwitchPortIsolation#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#___skip___ InterfaceEthernetSwitchPortIsolation#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#___skip___ InterfaceEthernetSwitchPortIsolation#___skip___}
   */
   readonly skip?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#___unset___ InterfaceEthernetSwitchPortIsolation#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#___unset___ InterfaceEthernetSwitchPortIsolation#___unset___}
   */
   readonly unset?: string;
   /**
   * Forces ingress traffic to be forwarded to a specific interface. Multiple interfaces can be specified by separating them with a comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#forwarding_override InterfaceEthernetSwitchPortIsolation#forwarding_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#forwarding_override InterfaceEthernetSwitchPortIsolation#forwarding_override}
   */
   readonly forwardingOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#id InterfaceEthernetSwitchPortIsolation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#id InterfaceEthernetSwitchPortIsolation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface InterfaceEthernetSwitchPortIsolationConfig extends cdktf.Terraf
   /**
   * Port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#name InterfaceEthernetSwitchPortIsolation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#name InterfaceEthernetSwitchPortIsolation#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation routeros_interface_ethernet_switch_port_isolation}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation routeros_interface_ethernet_switch_port_isolation}
 */
 export class InterfaceEthernetSwitchPortIsolation extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class InterfaceEthernetSwitchPortIsolation extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a InterfaceEthernetSwitchPortIsolation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchPortIsolation to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchPortIsolation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchPortIsolation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchPortIsolation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class InterfaceEthernetSwitchPortIsolation extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_port_isolation routeros_interface_ethernet_switch_port_isolation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_ethernet_switch_port_isolation routeros_interface_ethernet_switch_port_isolation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class InterfaceEthernetSwitchPortIsolation extends cdktf.TerraformResourc
       terraformResourceType: 'routeros_interface_ethernet_switch_port_isolation',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate#cert_blob BaCertificate#cert_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate#cert_blob BaCertificate#cert_blob}
   */
   readonly certBlob?: string;
   /**
   * The description of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate#description BaCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate#description BaCertificate#description}
   */
   readonly description?: string;
   /**
   * The unique identifier of the Microtenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate#microtenant_id BaCertificate#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate#microtenant_id BaCertificate#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The name of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate#name BaCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate#name BaCertificate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate zpa_ba_certificate}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate zpa_ba_certificate}
 */
 export class BaCertificate extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class BaCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BaCertificate to import
-  * @param importFromId The id of the existing BaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BaCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/ba_certificate zpa_ba_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/ba_certificate zpa_ba_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class BaCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_ba_certificate',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataCorefuncStrLeftpadConfig extends cdktf.TerraformMetaArgumen
   /**
   * The padding character to use. Only supports a single byte. If more than one byte is provided, only the first byte will be used. The default value is a space character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad#pad_char DataCorefuncStrLeftpad#pad_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad#pad_char DataCorefuncStrLeftpad#pad_char}
   */
   readonly padChar?: string;
   /**
   * The max number of padding characters to pad the string with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad#pad_width DataCorefuncStrLeftpad#pad_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad#pad_width DataCorefuncStrLeftpad#pad_width}
   */
   readonly padWidth: number;
   /**
   * The string to pad with padding characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad#string DataCorefuncStrLeftpad#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad#string DataCorefuncStrLeftpad#string}
   */
   readonly string: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad corefunc_str_leftpad}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad corefunc_str_leftpad}
 */
 export class DataCorefuncStrLeftpad extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataCorefuncStrLeftpad extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncStrLeftpad resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncStrLeftpad to import
-  * @param importFromId The id of the existing DataCorefuncStrLeftpad that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncStrLeftpad that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncStrLeftpad to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataCorefuncStrLeftpad extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_leftpad corefunc_str_leftpad} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_leftpad corefunc_str_leftpad} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataCorefuncStrLeftpad extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_str_leftpad',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

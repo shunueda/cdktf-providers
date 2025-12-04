@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsoleResourcePolicyV1Config extends cdktf.TerraformMetaArgume
   /**
   * Custom labels for the resource policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#labels ConsoleResourcePolicyV1#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#labels ConsoleResourcePolicyV1#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource Policy name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#name ConsoleResourcePolicyV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#name ConsoleResourcePolicyV1#name}
   */
   readonly name: string;
   /**
   * Resource Policy specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#spec ConsoleResourcePolicyV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#spec ConsoleResourcePolicyV1#spec}
   */
   readonly spec: ConsoleResourcePolicyV1Spec;
 }
@@ -30,13 +30,13 @@ export interface ConsoleResourcePolicyV1SpecRules {
   /**
   * A valid CEL expression, see [CEL documentation](https://cel.dev/) for more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#condition ConsoleResourcePolicyV1#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#condition ConsoleResourcePolicyV1#condition}
   */
   readonly condition: string;
   /**
   * The error message that will be displayed when the condition is not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#error_message ConsoleResourcePolicyV1#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#error_message ConsoleResourcePolicyV1#error_message}
   */
   readonly errorMessage: string;
 }
@@ -177,19 +177,19 @@ export interface ConsoleResourcePolicyV1Spec {
   /**
   * Description of the resource policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#description ConsoleResourcePolicyV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#description ConsoleResourcePolicyV1#description}
   */
   readonly description?: string;
   /**
   * Set of all rules to apply on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#rules ConsoleResourcePolicyV1#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#rules ConsoleResourcePolicyV1#rules}
   */
   readonly rules: ConsoleResourcePolicyV1SpecRules[] | cdktf.IResolvable;
   /**
   * Type of the resource to apply policy on. Valid values are: ApplicationGroup, Connector, Subject, Topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#target_kind ConsoleResourcePolicyV1#target_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#target_kind ConsoleResourcePolicyV1#target_kind}
   */
   readonly targetKind: string;
 }
@@ -335,7 +335,7 @@ export class ConsoleResourcePolicyV1SpecOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1 conduktor_console_resource_policy_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1 conduktor_console_resource_policy_v1}
 */
 export class ConsoleResourcePolicyV1 extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class ConsoleResourcePolicyV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleResourcePolicyV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleResourcePolicyV1 to import
-  * @param importFromId The id of the existing ConsoleResourcePolicyV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleResourcePolicyV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleResourcePolicyV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class ConsoleResourcePolicyV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_resource_policy_v1 conduktor_console_resource_policy_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_resource_policy_v1 conduktor_console_resource_policy_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class ConsoleResourcePolicyV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_resource_policy_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

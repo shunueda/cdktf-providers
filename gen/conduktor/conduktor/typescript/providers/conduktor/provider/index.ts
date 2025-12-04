@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface ConduktorProviderConfig {
   /**
   * The password of the admin user. May be set using environment variable `CDK_CONSOLE_PASSWORD` or `CDK_ADMIN_PASSWORD` for Console, `CDK_GATEWAY_PASSWORD` or `CDK_ADMIN_PASSWORD` for Gateway. Required if admin_user is set. If not provided, the API token will be used to authenticater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#admin_password ConduktorProvider#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#admin_password ConduktorProvider#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * The login credentials of the admin user. May be set using environment variable `CDK_CONSOLE_USER`, `CDK_ADMIN_EMAIL` or `CDK_ADMIN_USER` for Console, `CDK_GATEWAY_USER` or `CDK_ADMIN_USER` for Gateway. Required if admin_password is set. If not provided and `mode` is Console, the API token will be used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#admin_user ConduktorProvider#admin_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#admin_user ConduktorProvider#admin_user}
   */
   readonly adminUser?: string;
   /**
   * The API token to authenticate with the Conduktor Console API. May be set using environment variable `CDK_API_TOKEN` or `CDK_API_KEY`. If not provided, admin_user and admin_password will be used to authenticate. See [documentation](https://docs.conduktor.io/platform/reference/api-reference/#generate-an-api-key) for more information. Not used if `mode` is Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#api_token ConduktorProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#api_token ConduktorProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * The URL of either Conduktor Console or Gateway, depending on the `mode`. May be set using environment variable `CDK_CONSOLE_BASE_URL` or `CDK_BASE_URL` for Console, `CDK_GATEWAY_BASE_URL` or `CDK_BASE_URL` for Gateway. Required either here or in the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#base_url ConduktorProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#base_url ConduktorProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Root CA certificate in PEM format to verify the Conduktor certificate. May be set using environment variable `CDK_CONSOLE_CACERT` or `CDK_CACERT` for Console, `CDK_GATEWAY_CACERT` or `CDK_CACERT` for Gateway. If not provided, the system's root CA certificates will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#cacert ConduktorProvider#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#cacert ConduktorProvider#cacert}
   */
   readonly cacert?: string;
   /**
   * Cert in PEM format to authenticate using client certificates. May be set using environment variable `CDK_CONSOLE_CERT` or `CDK_CERT` for Console, `CDK_GATEWAY_CERT` or `CDK_CERT` for Gateway. Must be used with key. If key is provided, cert is required. Useful when Console is behind a reverse proxy with client certificate authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#cert ConduktorProvider#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#cert ConduktorProvider#cert}
   */
   readonly cert?: string;
   /**
   * Skip TLS verification flag. May be set using environment variable `CDK_CONSOLE_INSECURE` or `CDK_INSECURE` for Console, `CDK_GATEWAY_INSECURE` or `CDK_INSECURE` for Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#insecure ConduktorProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#insecure ConduktorProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Key in PEM format to authenticate using client certificates. May be set using environment variable `CDK_CONSOLE_KEY` or `CDK_KEY` for Console, `CDK_GATEWAY_KEY` or `CDK_KEY` for Gateway. Must be used with cert. If cert is provided, key is required. Useful when Console is behind a reverse proxy with client certificate authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#key ConduktorProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#key ConduktorProvider#key}
   */
   readonly key?: string;
   /**
   * The mode for the Terraform provider. When using one provider, can be set to either `console` or `gateway`. Alternatively for multi-provider configuration, set both providers with an an alias, and set the relevant alias at the resource level. May also be set using environment variable `CDK_PROVIDER_MODE`.  
   * See [documentation](https://github.com/conduktor/terraform-provider-conduktor/blob/main/docs/index.md#multi-client-configuration-using-terraform-alias) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#mode ConduktorProvider#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#mode ConduktorProvider#mode}
   */
   readonly mode: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#alias ConduktorProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#alias ConduktorProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs conduktor}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs conduktor}
 */
 export class ConduktorProvider extends cdktf.TerraformProvider {
 
@@ -87,7 +87,7 @@ export class ConduktorProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ConduktorProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConduktorProvider to import
-  * @param importFromId The id of the existing ConduktorProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConduktorProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConduktorProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ConduktorProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs conduktor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs conduktor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ConduktorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'conduktor',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       terraformProviderSource: 'conduktor/conduktor'
     });

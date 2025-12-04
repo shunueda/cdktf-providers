@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,173 +10,173 @@ export interface HsdpProviderConfig {
   /**
   * The Cartel host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#cartel_host HsdpProvider#cartel_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#cartel_host HsdpProvider#cartel_host}
   */
   readonly cartelHost?: string;
   /**
   * Disable TLS for Cartel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#cartel_no_tls HsdpProvider#cartel_no_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#cartel_no_tls HsdpProvider#cartel_no_tls}
   */
   readonly cartelNoTls?: boolean | cdktf.IResolvable;
   /**
   * The Cartel secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#cartel_secret HsdpProvider#cartel_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#cartel_secret HsdpProvider#cartel_secret}
   */
   readonly cartelSecret?: string;
   /**
   * Skip certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#cartel_skip_verify HsdpProvider#cartel_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#cartel_skip_verify HsdpProvider#cartel_skip_verify}
   */
   readonly cartelSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The Cartel token key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#cartel_token HsdpProvider#cartel_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#cartel_token HsdpProvider#cartel_token}
   */
   readonly cartelToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#credentials HsdpProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#credentials HsdpProvider#credentials}
   */
   readonly credentials?: string;
   /**
   * The log file to write debugging output to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#debug_log HsdpProvider#debug_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#debug_log HsdpProvider#debug_log}
   */
   readonly debugLog?: string;
   /**
   * Debug to stderr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#debug_stderr HsdpProvider#debug_stderr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#debug_stderr HsdpProvider#debug_stderr}
   */
   readonly debugStderr?: boolean | cdktf.IResolvable;
   /**
   * The HSDP environment to configure for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#environment HsdpProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#environment HsdpProvider#environment}
   */
   readonly environment?: string;
   /**
   * The HSDP IAM instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#iam_url HsdpProvider#iam_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#iam_url HsdpProvider#iam_url}
   */
   readonly iamUrl?: string;
   /**
   * The HSDP IDM instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#idm_url HsdpProvider#idm_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#idm_url HsdpProvider#idm_url}
   */
   readonly idmUrl?: string;
   /**
   * The Connect MDM URL to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#mdm_url HsdpProvider#mdm_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#mdm_url HsdpProvider#mdm_url}
   */
   readonly mdmUrl?: string;
   /**
   * The HSDP Notification service base URL to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#notification_url HsdpProvider#notification_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#notification_url HsdpProvider#notification_url}
   */
   readonly notificationUrl?: string;
   /**
   * The OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#oauth2_client_id HsdpProvider#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#oauth2_client_id HsdpProvider#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
   * The OAuth2 password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#oauth2_password HsdpProvider#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#oauth2_password HsdpProvider#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
   * The password of the Organization Admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#org_admin_password HsdpProvider#org_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#org_admin_password HsdpProvider#org_admin_password}
   */
   readonly orgAdminPassword?: string;
   /**
   * The username of the Organization Admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#org_admin_username HsdpProvider#org_admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#org_admin_username HsdpProvider#org_admin_username}
   */
   readonly orgAdminUsername?: string;
   /**
   * The HSDP region to configure for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#region HsdpProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#region HsdpProvider#region}
   */
   readonly region?: string;
   /**
   * Maximum number of retries for API requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#retry_max HsdpProvider#retry_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#retry_max HsdpProvider#retry_max}
   */
   readonly retryMax?: number;
   /**
   * The HSDP S3 Credentials instance URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#s3creds_url HsdpProvider#s3creds_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#s3creds_url HsdpProvider#s3creds_url}
   */
   readonly s3CredsUrl?: string;
   /**
   * The secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#secret_key HsdpProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#secret_key HsdpProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The service ID to use as Organization Admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#service_id HsdpProvider#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#service_id HsdpProvider#service_id}
   */
   readonly serviceId?: string;
   /**
   * The private key of the service ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#service_private_key HsdpProvider#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#service_private_key HsdpProvider#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
   * The shared key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#shared_key HsdpProvider#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#shared_key HsdpProvider#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * The password of the Cloudfoundry account to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#uaa_password HsdpProvider#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#uaa_password HsdpProvider#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
   * The URL of the UAA server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#uaa_url HsdpProvider#uaa_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#uaa_url HsdpProvider#uaa_url}
   */
   readonly uaaUrl?: string;
   /**
   * The username of the Cloudfoundry account to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#uaa_username HsdpProvider#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#uaa_username HsdpProvider#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#alias HsdpProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#alias HsdpProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs hsdp}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs hsdp}
 */
 export class HsdpProvider extends cdktf.TerraformProvider {
 
@@ -192,7 +192,7 @@ export class HsdpProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HsdpProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HsdpProvider to import
-  * @param importFromId The id of the existing HsdpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HsdpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HsdpProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class HsdpProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs hsdp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs hsdp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class HsdpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hsdp',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'philips-software/hsdp'
     });

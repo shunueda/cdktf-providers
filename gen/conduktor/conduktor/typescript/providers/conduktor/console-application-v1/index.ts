@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ConsoleApplicationV1Config extends cdktf.TerraformMetaArguments
   /**
   * Application name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#name ConsoleApplicationV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#name ConsoleApplicationV1#name}
   */
   readonly name: string;
   /**
   * Application specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#spec ConsoleApplicationV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#spec ConsoleApplicationV1#spec}
   */
   readonly spec: ConsoleApplicationV1Spec;
 }
@@ -24,19 +24,19 @@ export interface ConsoleApplicationV1Spec {
   /**
   * Application description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#description ConsoleApplicationV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#description ConsoleApplicationV1#description}
   */
   readonly description?: string;
   /**
   * Application owner, must be a valid Console Group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#owner ConsoleApplicationV1#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#owner ConsoleApplicationV1#owner}
   */
   readonly owner: string;
   /**
   * Application title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#title ConsoleApplicationV1#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#title ConsoleApplicationV1#title}
   */
   readonly title: string;
 }
@@ -182,7 +182,7 @@ export class ConsoleApplicationV1SpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1 conduktor_console_application_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1 conduktor_console_application_v1}
 */
 export class ConsoleApplicationV1 extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class ConsoleApplicationV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleApplicationV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleApplicationV1 to import
-  * @param importFromId The id of the existing ConsoleApplicationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleApplicationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleApplicationV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class ConsoleApplicationV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_v1 conduktor_console_application_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_v1 conduktor_console_application_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class ConsoleApplicationV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_application_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

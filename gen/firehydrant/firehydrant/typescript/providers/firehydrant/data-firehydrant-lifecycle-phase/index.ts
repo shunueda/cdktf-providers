@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/lifecycle_phase
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/lifecycle_phase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataFirehydrantLifecyclePhaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/lifecycle_phase#name DataFirehydrantLifecyclePhase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/lifecycle_phase#name DataFirehydrantLifecyclePhase#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/lifecycle_phase firehydrant_lifecycle_phase}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/lifecycle_phase firehydrant_lifecycle_phase}
 */
 export class DataFirehydrantLifecyclePhase extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataFirehydrantLifecyclePhase extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFirehydrantLifecyclePhase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFirehydrantLifecyclePhase to import
-  * @param importFromId The id of the existing DataFirehydrantLifecyclePhase that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/lifecycle_phase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFirehydrantLifecyclePhase that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/lifecycle_phase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFirehydrantLifecyclePhase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataFirehydrantLifecyclePhase extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/lifecycle_phase firehydrant_lifecycle_phase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/lifecycle_phase firehydrant_lifecycle_phase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataFirehydrantLifecyclePhase extends cdktf.TerraformDataSource {
       terraformResourceType: 'firehydrant_lifecycle_phase',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.12',
-        providerVersionConstraint: '0.14.12'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

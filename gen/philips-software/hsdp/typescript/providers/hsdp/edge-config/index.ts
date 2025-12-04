@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#id EdgeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#id EdgeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#serial_number EdgeConfig#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#serial_number EdgeConfig#serial_number}
   */
   readonly serialNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#sync EdgeConfig#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#sync EdgeConfig#sync}
   */
   readonly sync?: boolean | cdktf.IResolvable;
   /**
   * firewall_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#firewall_exceptions EdgeConfig#firewall_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#firewall_exceptions EdgeConfig#firewall_exceptions}
   */
   readonly firewallExceptions?: EdgeConfigFirewallExceptions;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#logging EdgeConfig#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#logging EdgeConfig#logging}
   */
   readonly logging?: EdgeConfigLogging;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#principal EdgeConfig#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#principal EdgeConfig#principal}
   */
   readonly principal?: EdgeConfigPrincipal;
 }
@@ -45,23 +45,23 @@ export interface EdgeConfigFirewallExceptions {
   /**
   * Clear ports on resource destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#clear_on_destroy EdgeConfig#clear_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#clear_on_destroy EdgeConfig#clear_on_destroy}
   */
   readonly clearOnDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#ensure_tcp EdgeConfig#ensure_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#ensure_tcp EdgeConfig#ensure_tcp}
   */
   readonly ensureTcp?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#ensure_udp EdgeConfig#ensure_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#ensure_udp EdgeConfig#ensure_udp}
   */
   readonly ensureUdp?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#tcp EdgeConfig#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#tcp EdgeConfig#tcp}
   */
   readonly tcp?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#udp EdgeConfig#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#udp EdgeConfig#udp}
   */
   readonly udp?: number[];
 }
@@ -261,31 +261,31 @@ export class EdgeConfigFirewallExceptionsOutputReference extends cdktf.ComplexOb
 }
 export interface EdgeConfigLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_custom_field EdgeConfig#hsdp_custom_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_custom_field EdgeConfig#hsdp_custom_field}
   */
   readonly hsdpCustomField?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_ingestor_host EdgeConfig#hsdp_ingestor_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_ingestor_host EdgeConfig#hsdp_ingestor_host}
   */
   readonly hsdpIngestorHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_logging EdgeConfig#hsdp_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_logging EdgeConfig#hsdp_logging}
   */
   readonly hsdpLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_product_key EdgeConfig#hsdp_product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_product_key EdgeConfig#hsdp_product_key}
   */
   readonly hsdpProductKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_secret_key EdgeConfig#hsdp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_secret_key EdgeConfig#hsdp_secret_key}
   */
   readonly hsdpSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#hsdp_shared_key EdgeConfig#hsdp_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#hsdp_shared_key EdgeConfig#hsdp_shared_key}
   */
   readonly hsdpSharedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#raw_config EdgeConfig#raw_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#raw_config EdgeConfig#raw_config}
   */
   readonly rawConfig?: string;
 }
@@ -543,47 +543,47 @@ export class EdgeConfigLoggingOutputReference extends cdktf.ComplexObject {
 }
 export interface EdgeConfigPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#endpoint EdgeConfig#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#endpoint EdgeConfig#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#environment EdgeConfig#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#environment EdgeConfig#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#oauth2_client_id EdgeConfig#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#oauth2_client_id EdgeConfig#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#oauth2_password EdgeConfig#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#oauth2_password EdgeConfig#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#password EdgeConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#password EdgeConfig#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#region EdgeConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#region EdgeConfig#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#service_id EdgeConfig#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#service_id EdgeConfig#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#service_private_key EdgeConfig#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#service_private_key EdgeConfig#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#uaa_password EdgeConfig#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#uaa_password EdgeConfig#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#uaa_username EdgeConfig#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#uaa_username EdgeConfig#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#username EdgeConfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#username EdgeConfig#username}
   */
   readonly username?: string;
 }
@@ -957,7 +957,7 @@ export class EdgeConfigPrincipalOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config hsdp_edge_config}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config hsdp_edge_config}
 */
 export class EdgeConfig extends cdktf.TerraformResource {
 
@@ -973,7 +973,7 @@ export class EdgeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeConfig to import
-  * @param importFromId The id of the existing EdgeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -985,7 +985,7 @@ export class EdgeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/edge_config hsdp_edge_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/edge_config hsdp_edge_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -996,8 +996,8 @@ export class EdgeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_edge_config',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

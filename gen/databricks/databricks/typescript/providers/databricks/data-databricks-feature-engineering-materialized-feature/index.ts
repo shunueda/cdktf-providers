@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature
+// https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataDatabricksFeatureEngineeringMaterializedFeatureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#materialized_feature_id DataDatabricksFeatureEngineeringMaterializedFeature#materialized_feature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#materialized_feature_id DataDatabricksFeatureEngineeringMaterializedFeature#materialized_feature_id}
   */
   readonly materializedFeatureId: string;
 }
 export interface DataDatabricksFeatureEngineeringMaterializedFeatureOfflineStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#catalog_name DataDatabricksFeatureEngineeringMaterializedFeature#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#catalog_name DataDatabricksFeatureEngineeringMaterializedFeature#catalog_name}
   */
   readonly catalogName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#schema_name DataDatabricksFeatureEngineeringMaterializedFeature#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#schema_name DataDatabricksFeatureEngineeringMaterializedFeature#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#table_name_prefix DataDatabricksFeatureEngineeringMaterializedFeature#table_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#table_name_prefix DataDatabricksFeatureEngineeringMaterializedFeature#table_name_prefix}
   */
   readonly tableNamePrefix: string;
 }
@@ -155,17 +155,21 @@ export class DataDatabricksFeatureEngineeringMaterializedFeatureOfflineStoreConf
 }
 export interface DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#capacity DataDatabricksFeatureEngineeringMaterializedFeature#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#catalog_name DataDatabricksFeatureEngineeringMaterializedFeature#catalog_name}
   */
-  readonly capacity: string;
+  readonly catalogName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#name DataDatabricksFeatureEngineeringMaterializedFeature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#online_store_name DataDatabricksFeatureEngineeringMaterializedFeature#online_store_name}
   */
-  readonly name: string;
+  readonly onlineStoreName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#read_replica_count DataDatabricksFeatureEngineeringMaterializedFeature#read_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#schema_name DataDatabricksFeatureEngineeringMaterializedFeature#schema_name}
   */
-  readonly readReplicaCount?: number;
+  readonly schemaName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#table_name_prefix DataDatabricksFeatureEngineeringMaterializedFeature#table_name_prefix}
+  */
+  readonly tableNamePrefix: string;
 }
 
 export function dataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfigToTerraform(struct?: DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfig): any {
@@ -174,9 +178,10 @@ export function dataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreCo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    capacity: cdktf.stringToTerraform(struct!.capacity),
-    name: cdktf.stringToTerraform(struct!.name),
-    read_replica_count: cdktf.numberToTerraform(struct!.readReplicaCount),
+    catalog_name: cdktf.stringToTerraform(struct!.catalogName),
+    online_store_name: cdktf.stringToTerraform(struct!.onlineStoreName),
+    schema_name: cdktf.stringToTerraform(struct!.schemaName),
+    table_name_prefix: cdktf.stringToTerraform(struct!.tableNamePrefix),
   }
 }
 
@@ -187,23 +192,29 @@ export function dataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreCo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    capacity: {
-      value: cdktf.stringToHclTerraform(struct!.capacity),
+    catalog_name: {
+      value: cdktf.stringToHclTerraform(struct!.catalogName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+    online_store_name: {
+      value: cdktf.stringToHclTerraform(struct!.onlineStoreName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    read_replica_count: {
-      value: cdktf.numberToHclTerraform(struct!.readReplicaCount),
+    schema_name: {
+      value: cdktf.stringToHclTerraform(struct!.schemaName),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
+      storageClassType: "string",
+    },
+    table_name_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.tableNamePrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -225,17 +236,21 @@ export class DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfi
   public get internalValue(): DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._capacity !== undefined) {
+    if (this._catalogName !== undefined) {
       hasAnyValues = true;
-      internalValueResult.capacity = this._capacity;
+      internalValueResult.catalogName = this._catalogName;
     }
-    if (this._name !== undefined) {
+    if (this._onlineStoreName !== undefined) {
       hasAnyValues = true;
-      internalValueResult.name = this._name;
+      internalValueResult.onlineStoreName = this._onlineStoreName;
     }
-    if (this._readReplicaCount !== undefined) {
+    if (this._schemaName !== undefined) {
       hasAnyValues = true;
-      internalValueResult.readReplicaCount = this._readReplicaCount;
+      internalValueResult.schemaName = this._schemaName;
+    }
+    if (this._tableNamePrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tableNamePrefix = this._tableNamePrefix;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -243,78 +258,75 @@ export class DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfi
   public set internalValue(value: DataDatabricksFeatureEngineeringMaterializedFeatureOnlineStoreConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._capacity = undefined;
-      this._name = undefined;
-      this._readReplicaCount = undefined;
+      this._catalogName = undefined;
+      this._onlineStoreName = undefined;
+      this._schemaName = undefined;
+      this._tableNamePrefix = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._capacity = value.capacity;
-      this._name = value.name;
-      this._readReplicaCount = value.readReplicaCount;
+      this._catalogName = value.catalogName;
+      this._onlineStoreName = value.onlineStoreName;
+      this._schemaName = value.schemaName;
+      this._tableNamePrefix = value.tableNamePrefix;
     }
   }
 
-  // capacity - computed: true, optional: false, required: true
-  private _capacity?: string; 
-  public get capacity() {
-    return this.getStringAttribute('capacity');
+  // catalog_name - computed: true, optional: false, required: true
+  private _catalogName?: string; 
+  public get catalogName() {
+    return this.getStringAttribute('catalog_name');
   }
-  public set capacity(value: string) {
-    this._capacity = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get capacityInput() {
-    return this._capacity;
-  }
-
-  // creation_time - computed: true, optional: false, required: false
-  public get creationTime() {
-    return this.getStringAttribute('creation_time');
-  }
-
-  // creator - computed: true, optional: false, required: false
-  public get creator() {
-    return this.getStringAttribute('creator');
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
+  public set catalogName(value: string) {
+    this._catalogName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get catalogNameInput() {
+    return this._catalogName;
   }
 
-  // read_replica_count - computed: true, optional: true, required: false
-  private _readReplicaCount?: number; 
-  public get readReplicaCount() {
-    return this.getNumberAttribute('read_replica_count');
+  // online_store_name - computed: true, optional: false, required: true
+  private _onlineStoreName?: string; 
+  public get onlineStoreName() {
+    return this.getStringAttribute('online_store_name');
   }
-  public set readReplicaCount(value: number) {
-    this._readReplicaCount = value;
-  }
-  public resetReadReplicaCount() {
-    this._readReplicaCount = undefined;
+  public set onlineStoreName(value: string) {
+    this._onlineStoreName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get readReplicaCountInput() {
-    return this._readReplicaCount;
+  public get onlineStoreNameInput() {
+    return this._onlineStoreName;
   }
 
-  // state - computed: true, optional: false, required: false
-  public get state() {
-    return this.getStringAttribute('state');
+  // schema_name - computed: true, optional: false, required: true
+  private _schemaName?: string; 
+  public get schemaName() {
+    return this.getStringAttribute('schema_name');
+  }
+  public set schemaName(value: string) {
+    this._schemaName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaNameInput() {
+    return this._schemaName;
+  }
+
+  // table_name_prefix - computed: true, optional: false, required: true
+  private _tableNamePrefix?: string; 
+  public get tableNamePrefix() {
+    return this.getStringAttribute('table_name_prefix');
+  }
+  public set tableNamePrefix(value: string) {
+    this._tableNamePrefix = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tableNamePrefixInput() {
+    return this._tableNamePrefix;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature}
 */
 export class DataDatabricksFeatureEngineeringMaterializedFeature extends cdktf.TerraformDataSource {
 
@@ -330,7 +342,7 @@ export class DataDatabricksFeatureEngineeringMaterializedFeature extends cdktf.T
   * Generates CDKTF code for importing a DataDatabricksFeatureEngineeringMaterializedFeature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDatabricksFeatureEngineeringMaterializedFeature to import
-  * @param importFromId The id of the existing DataDatabricksFeatureEngineeringMaterializedFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDatabricksFeatureEngineeringMaterializedFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDatabricksFeatureEngineeringMaterializedFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +354,7 @@ export class DataDatabricksFeatureEngineeringMaterializedFeature extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/data-sources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/data-sources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +365,8 @@ export class DataDatabricksFeatureEngineeringMaterializedFeature extends cdktf.T
       terraformResourceType: 'databricks_feature_engineering_materialized_feature',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

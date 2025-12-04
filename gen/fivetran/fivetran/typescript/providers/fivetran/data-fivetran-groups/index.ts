@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups#groups DataFivetranGroups#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups#groups DataFivetranGroups#groups}
   */
   readonly groups?: DataFivetranGroupsGroups[] | cdktf.IResolvable;
 }
@@ -18,7 +18,7 @@ export interface DataFivetranGroupsGroups {
   /**
   * The unique identifier for the group within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups#id DataFivetranGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups#id DataFivetranGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ export class DataFivetranGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups fivetran_groups}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups fivetran_groups}
 */
 export class DataFivetranGroups extends cdktf.TerraformDataSource {
 
@@ -165,7 +165,7 @@ export class DataFivetranGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranGroups to import
-  * @param importFromId The id of the existing DataFivetranGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DataFivetranGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/groups fivetran_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/groups fivetran_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DataFivetranGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_groups',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

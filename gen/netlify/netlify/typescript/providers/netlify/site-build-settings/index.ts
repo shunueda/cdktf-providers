@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,77 @@ import * as cdktf from 'cdktf';
 
 export interface SiteBuildSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#base_directory SiteBuildSettings#base_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#base_directory SiteBuildSettings#base_directory}
   */
   readonly baseDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#branch_deploy_all_branches SiteBuildSettings#branch_deploy_all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#branch_deploy_all_branches SiteBuildSettings#branch_deploy_all_branches}
   */
   readonly branchDeployAllBranches?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#branch_deploy_branches SiteBuildSettings#branch_deploy_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#branch_deploy_branches SiteBuildSettings#branch_deploy_branches}
   */
   readonly branchDeployBranches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#build_command SiteBuildSettings#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#build_command SiteBuildSettings#build_command}
   */
   readonly buildCommand: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#build_image SiteBuildSettings#build_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#build_image SiteBuildSettings#build_image}
   */
   readonly buildImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#deploy_previews SiteBuildSettings#deploy_previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#deploy_previews SiteBuildSettings#deploy_previews}
   */
   readonly deployPreviews?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#functions_directory SiteBuildSettings#functions_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#functions_directory SiteBuildSettings#functions_directory}
   */
   readonly functionsDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#functions_region SiteBuildSettings#functions_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#functions_region SiteBuildSettings#functions_region}
   */
   readonly functionsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#package_directory SiteBuildSettings#package_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#package_directory SiteBuildSettings#package_directory}
   */
   readonly packageDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#pretty_urls SiteBuildSettings#pretty_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#pretty_urls SiteBuildSettings#pretty_urls}
   */
   readonly prettyUrls?: boolean | cdktf.IResolvable;
   /**
   * When enabled, prevents production deploys from sources other than the linked git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#prevent_non_git_prod_deploys SiteBuildSettings#prevent_non_git_prod_deploys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#prevent_non_git_prod_deploys SiteBuildSettings#prevent_non_git_prod_deploys}
   */
   readonly preventNonGitProdDeploys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#production_branch SiteBuildSettings#production_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#production_branch SiteBuildSettings#production_branch}
   */
   readonly productionBranch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#publish_directory SiteBuildSettings#publish_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#publish_directory SiteBuildSettings#publish_directory}
   */
   readonly publishDirectory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#site_id SiteBuildSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#site_id SiteBuildSettings#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#stop_builds SiteBuildSettings#stop_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#stop_builds SiteBuildSettings#stop_builds}
   */
   readonly stopBuilds?: boolean | cdktf.IResolvable;
   /**
   * See more details in the netlify_waf_policy resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#waf_policy_id SiteBuildSettings#waf_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#waf_policy_id SiteBuildSettings#waf_policy_id}
   */
   readonly wafPolicyId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings netlify_site_build_settings}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings netlify_site_build_settings}
 */
 export class SiteBuildSettings extends cdktf.TerraformResource {
 
@@ -94,7 +94,7 @@ export class SiteBuildSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteBuildSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteBuildSettings to import
-  * @param importFromId The id of the existing SiteBuildSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteBuildSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteBuildSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -106,7 +106,7 @@ export class SiteBuildSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_build_settings netlify_site_build_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_build_settings netlify_site_build_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -117,7 +117,8 @@ export class SiteBuildSettings extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_site_build_settings',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

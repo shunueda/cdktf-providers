@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface SiteDomainSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#branch_deploy_custom_domain SiteDomainSettings#branch_deploy_custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#branch_deploy_custom_domain SiteDomainSettings#branch_deploy_custom_domain}
   */
   readonly branchDeployCustomDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#custom_domain SiteDomainSettings#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#custom_domain SiteDomainSettings#custom_domain}
   */
   readonly customDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#deploy_preview_custom_domain SiteDomainSettings#deploy_preview_custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#deploy_preview_custom_domain SiteDomainSettings#deploy_preview_custom_domain}
   */
   readonly deployPreviewCustomDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#domain_aliases SiteDomainSettings#domain_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#domain_aliases SiteDomainSettings#domain_aliases}
   */
   readonly domainAliases?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#site_id SiteDomainSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#site_id SiteDomainSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings netlify_site_domain_settings}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings netlify_site_domain_settings}
 */
 export class SiteDomainSettings extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class SiteDomainSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteDomainSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteDomainSettings to import
-  * @param importFromId The id of the existing SiteDomainSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteDomainSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteDomainSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class SiteDomainSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_domain_settings netlify_site_domain_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_domain_settings netlify_site_domain_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,8 @@ export class SiteDomainSettings extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_site_domain_settings',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

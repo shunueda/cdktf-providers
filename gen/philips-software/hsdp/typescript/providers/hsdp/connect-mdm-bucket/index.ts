@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#auditing_enabled ConnectMdmBucket#auditing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#auditing_enabled ConnectMdmBucket#auditing_enabled}
   */
   readonly auditingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#cache_control_age ConnectMdmBucket#cache_control_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#cache_control_age ConnectMdmBucket#cache_control_age}
   */
   readonly cacheControlAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#default_region_id ConnectMdmBucket#default_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#default_region_id ConnectMdmBucket#default_region_id}
   */
   readonly defaultRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#description ConnectMdmBucket#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#description ConnectMdmBucket#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#enabled_cdn ConnectMdmBucket#enabled_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#enabled_cdn ConnectMdmBucket#enabled_cdn}
   */
   readonly enabledCdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#id ConnectMdmBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#id ConnectMdmBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#logging_enabled ConnectMdmBucket#logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#logging_enabled ConnectMdmBucket#logging_enabled}
   */
   readonly loggingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#name ConnectMdmBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#name ConnectMdmBucket#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#proposition_id ConnectMdmBucket#proposition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#proposition_id ConnectMdmBucket#proposition_id}
   */
   readonly propositionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#replication_region_id ConnectMdmBucket#replication_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#replication_region_id ConnectMdmBucket#replication_region_id}
   */
   readonly replicationRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#versioning_enabled ConnectMdmBucket#versioning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#versioning_enabled ConnectMdmBucket#versioning_enabled}
   */
   readonly versioningEnabled?: boolean | cdktf.IResolvable;
   /**
   * cors_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#cors_configuration ConnectMdmBucket#cors_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#cors_configuration ConnectMdmBucket#cors_configuration}
   */
   readonly corsConfiguration?: ConnectMdmBucketCorsConfiguration[] | cdktf.IResolvable;
 }
 export interface ConnectMdmBucketCorsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#allowed_headers ConnectMdmBucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#allowed_headers ConnectMdmBucket#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#allowed_methods ConnectMdmBucket#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#allowed_methods ConnectMdmBucket#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#allowed_origins ConnectMdmBucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#allowed_origins ConnectMdmBucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#expose_headers ConnectMdmBucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#expose_headers ConnectMdmBucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#max_age_seconds ConnectMdmBucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#max_age_seconds ConnectMdmBucket#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -305,7 +305,7 @@ export class ConnectMdmBucketCorsConfigurationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket hsdp_connect_mdm_bucket}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket hsdp_connect_mdm_bucket}
 */
 export class ConnectMdmBucket extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class ConnectMdmBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectMdmBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmBucket to import
-  * @param importFromId The id of the existing ConnectMdmBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class ConnectMdmBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_bucket hsdp_connect_mdm_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_mdm_bucket hsdp_connect_mdm_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class ConnectMdmBucket extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_connect_mdm_bucket',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

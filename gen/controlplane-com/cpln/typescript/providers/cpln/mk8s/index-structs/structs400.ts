@@ -1,19 +1,597 @@
 import * as cdktf from 'cdktf';
+import { Mk8SPaperspaceProviderUnmanagedNodePoolTaint,
+mk8SPaperspaceProviderUnmanagedNodePoolTaintToTerraform,
+mk8SPaperspaceProviderUnmanagedNodePoolTaintToHclTerraform,
+Mk8SPaperspaceProviderUnmanagedNodePoolTaintList,
+Mk8SPaperspaceProviderAutoscaler,
+mk8SPaperspaceProviderAutoscalerToTerraform,
+mk8SPaperspaceProviderAutoscalerToHclTerraform,
+Mk8SPaperspaceProviderAutoscalerList,
+Mk8SPaperspaceProviderNodePool,
+mk8SPaperspaceProviderNodePoolToTerraform,
+mk8SPaperspaceProviderNodePoolToHclTerraform,
+Mk8SPaperspaceProviderNodePoolList } from './structs0'
+export interface Mk8SPaperspaceProviderUnmanagedNodePool {
+  /**
+  * Labels to attach to nodes of a node pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#labels Mk8S#labels}
+  */
+  readonly labels?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#name Mk8S#name}
+  */
+  readonly name: string;
+  /**
+  * taint block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#taint Mk8S#taint}
+  */
+  readonly taint?: Mk8SPaperspaceProviderUnmanagedNodePoolTaint[] | cdktf.IResolvable;
+}
+
+export function mk8SPaperspaceProviderUnmanagedNodePoolToTerraform(struct?: Mk8SPaperspaceProviderUnmanagedNodePool | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    name: cdktf.stringToTerraform(struct!.name),
+    taint: cdktf.listMapper(mk8SPaperspaceProviderUnmanagedNodePoolTaintToTerraform, true)(struct!.taint),
+  }
+}
+
+
+export function mk8SPaperspaceProviderUnmanagedNodePoolToHclTerraform(struct?: Mk8SPaperspaceProviderUnmanagedNodePool | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    labels: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    taint: {
+      value: cdktf.listMapperHcl(mk8SPaperspaceProviderUnmanagedNodePoolTaintToHclTerraform, true)(struct!.taint),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Mk8SPaperspaceProviderUnmanagedNodePoolTaintList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Mk8SPaperspaceProviderUnmanagedNodePoolOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Mk8SPaperspaceProviderUnmanagedNodePool | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._labels !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labels = this._labels;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._taint?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taint = this._taint?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Mk8SPaperspaceProviderUnmanagedNodePool | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._labels = undefined;
+      this._name = undefined;
+      this._taint.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._labels = value.labels;
+      this._name = value.name;
+      this._taint.internalValue = value.taint;
+    }
+  }
+
+  // labels - computed: false, optional: true, required: false
+  private _labels?: { [key: string]: string }; 
+  public get labels() {
+    return this.getStringMapAttribute('labels');
+  }
+  public set labels(value: { [key: string]: string }) {
+    this._labels = value;
+  }
+  public resetLabels() {
+    this._labels = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // taint - computed: false, optional: true, required: false
+  private _taint = new Mk8SPaperspaceProviderUnmanagedNodePoolTaintList(this, "taint", false);
+  public get taint() {
+    return this._taint;
+  }
+  public putTaint(value: Mk8SPaperspaceProviderUnmanagedNodePoolTaint[] | cdktf.IResolvable) {
+    this._taint.internalValue = value;
+  }
+  public resetTaint() {
+    this._taint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taintInput() {
+    return this._taint.internalValue;
+  }
+}
+
+export class Mk8SPaperspaceProviderUnmanagedNodePoolList extends cdktf.ComplexList {
+  public internalValue? : Mk8SPaperspaceProviderUnmanagedNodePool[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Mk8SPaperspaceProviderUnmanagedNodePoolOutputReference {
+    return new Mk8SPaperspaceProviderUnmanagedNodePoolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Mk8SPaperspaceProvider {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#network_id Mk8S#network_id}
+  */
+  readonly networkId: string;
+  /**
+  * Optional shell script that will be run before K8s is installed. Supports SSM.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#pre_install_script Mk8S#pre_install_script}
+  */
+  readonly preInstallScript?: string;
+  /**
+  * Region where the cluster nodes will live.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#region Mk8S#region}
+  */
+  readonly region: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#shared_drives Mk8S#shared_drives}
+  */
+  readonly sharedDrives?: string[];
+  /**
+  * Link to a secret holding Paperspace access key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#token_secret_link Mk8S#token_secret_link}
+  */
+  readonly tokenSecretLink: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#user_ids Mk8S#user_ids}
+  */
+  readonly userIds?: string[];
+  /**
+  * autoscaler block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#autoscaler Mk8S#autoscaler}
+  */
+  readonly autoscaler?: Mk8SPaperspaceProviderAutoscaler[] | cdktf.IResolvable;
+  /**
+  * node_pool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#node_pool Mk8S#node_pool}
+  */
+  readonly nodePool?: Mk8SPaperspaceProviderNodePool[] | cdktf.IResolvable;
+  /**
+  * unmanaged_node_pool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#unmanaged_node_pool Mk8S#unmanaged_node_pool}
+  */
+  readonly unmanagedNodePool?: Mk8SPaperspaceProviderUnmanagedNodePool[] | cdktf.IResolvable;
+}
+
+export function mk8SPaperspaceProviderToTerraform(struct?: Mk8SPaperspaceProvider | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network_id: cdktf.stringToTerraform(struct!.networkId),
+    pre_install_script: cdktf.stringToTerraform(struct!.preInstallScript),
+    region: cdktf.stringToTerraform(struct!.region),
+    shared_drives: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sharedDrives),
+    token_secret_link: cdktf.stringToTerraform(struct!.tokenSecretLink),
+    user_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.userIds),
+    autoscaler: cdktf.listMapper(mk8SPaperspaceProviderAutoscalerToTerraform, true)(struct!.autoscaler),
+    node_pool: cdktf.listMapper(mk8SPaperspaceProviderNodePoolToTerraform, true)(struct!.nodePool),
+    unmanaged_node_pool: cdktf.listMapper(mk8SPaperspaceProviderUnmanagedNodePoolToTerraform, true)(struct!.unmanagedNodePool),
+  }
+}
+
+
+export function mk8SPaperspaceProviderToHclTerraform(struct?: Mk8SPaperspaceProvider | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    network_id: {
+      value: cdktf.stringToHclTerraform(struct!.networkId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pre_install_script: {
+      value: cdktf.stringToHclTerraform(struct!.preInstallScript),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    region: {
+      value: cdktf.stringToHclTerraform(struct!.region),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    shared_drives: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sharedDrives),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    token_secret_link: {
+      value: cdktf.stringToHclTerraform(struct!.tokenSecretLink),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.userIds),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    autoscaler: {
+      value: cdktf.listMapperHcl(mk8SPaperspaceProviderAutoscalerToHclTerraform, true)(struct!.autoscaler),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Mk8SPaperspaceProviderAutoscalerList",
+    },
+    node_pool: {
+      value: cdktf.listMapperHcl(mk8SPaperspaceProviderNodePoolToHclTerraform, true)(struct!.nodePool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Mk8SPaperspaceProviderNodePoolList",
+    },
+    unmanaged_node_pool: {
+      value: cdktf.listMapperHcl(mk8SPaperspaceProviderUnmanagedNodePoolToHclTerraform, true)(struct!.unmanagedNodePool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Mk8SPaperspaceProviderUnmanagedNodePoolList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Mk8SPaperspaceProviderOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Mk8SPaperspaceProvider | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._networkId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkId = this._networkId;
+    }
+    if (this._preInstallScript !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preInstallScript = this._preInstallScript;
+    }
+    if (this._region !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.region = this._region;
+    }
+    if (this._sharedDrives !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sharedDrives = this._sharedDrives;
+    }
+    if (this._tokenSecretLink !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenSecretLink = this._tokenSecretLink;
+    }
+    if (this._userIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userIds = this._userIds;
+    }
+    if (this._autoscaler?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoscaler = this._autoscaler?.internalValue;
+    }
+    if (this._nodePool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePool = this._nodePool?.internalValue;
+    }
+    if (this._unmanagedNodePool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unmanagedNodePool = this._unmanagedNodePool?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Mk8SPaperspaceProvider | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._networkId = undefined;
+      this._preInstallScript = undefined;
+      this._region = undefined;
+      this._sharedDrives = undefined;
+      this._tokenSecretLink = undefined;
+      this._userIds = undefined;
+      this._autoscaler.internalValue = undefined;
+      this._nodePool.internalValue = undefined;
+      this._unmanagedNodePool.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._networkId = value.networkId;
+      this._preInstallScript = value.preInstallScript;
+      this._region = value.region;
+      this._sharedDrives = value.sharedDrives;
+      this._tokenSecretLink = value.tokenSecretLink;
+      this._userIds = value.userIds;
+      this._autoscaler.internalValue = value.autoscaler;
+      this._nodePool.internalValue = value.nodePool;
+      this._unmanagedNodePool.internalValue = value.unmanagedNodePool;
+    }
+  }
+
+  // network_id - computed: false, optional: false, required: true
+  private _networkId?: string; 
+  public get networkId() {
+    return this.getStringAttribute('network_id');
+  }
+  public set networkId(value: string) {
+    this._networkId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkIdInput() {
+    return this._networkId;
+  }
+
+  // pre_install_script - computed: false, optional: true, required: false
+  private _preInstallScript?: string; 
+  public get preInstallScript() {
+    return this.getStringAttribute('pre_install_script');
+  }
+  public set preInstallScript(value: string) {
+    this._preInstallScript = value;
+  }
+  public resetPreInstallScript() {
+    this._preInstallScript = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preInstallScriptInput() {
+    return this._preInstallScript;
+  }
+
+  // region - computed: false, optional: false, required: true
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
+  // shared_drives - computed: false, optional: true, required: false
+  private _sharedDrives?: string[]; 
+  public get sharedDrives() {
+    return cdktf.Fn.tolist(this.getListAttribute('shared_drives'));
+  }
+  public set sharedDrives(value: string[]) {
+    this._sharedDrives = value;
+  }
+  public resetSharedDrives() {
+    this._sharedDrives = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sharedDrivesInput() {
+    return this._sharedDrives;
+  }
+
+  // token_secret_link - computed: false, optional: false, required: true
+  private _tokenSecretLink?: string; 
+  public get tokenSecretLink() {
+    return this.getStringAttribute('token_secret_link');
+  }
+  public set tokenSecretLink(value: string) {
+    this._tokenSecretLink = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenSecretLinkInput() {
+    return this._tokenSecretLink;
+  }
+
+  // user_ids - computed: false, optional: true, required: false
+  private _userIds?: string[]; 
+  public get userIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('user_ids'));
+  }
+  public set userIds(value: string[]) {
+    this._userIds = value;
+  }
+  public resetUserIds() {
+    this._userIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userIdsInput() {
+    return this._userIds;
+  }
+
+  // autoscaler - computed: false, optional: true, required: false
+  private _autoscaler = new Mk8SPaperspaceProviderAutoscalerList(this, "autoscaler", false);
+  public get autoscaler() {
+    return this._autoscaler;
+  }
+  public putAutoscaler(value: Mk8SPaperspaceProviderAutoscaler[] | cdktf.IResolvable) {
+    this._autoscaler.internalValue = value;
+  }
+  public resetAutoscaler() {
+    this._autoscaler.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoscalerInput() {
+    return this._autoscaler.internalValue;
+  }
+
+  // node_pool - computed: false, optional: true, required: false
+  private _nodePool = new Mk8SPaperspaceProviderNodePoolList(this, "node_pool", false);
+  public get nodePool() {
+    return this._nodePool;
+  }
+  public putNodePool(value: Mk8SPaperspaceProviderNodePool[] | cdktf.IResolvable) {
+    this._nodePool.internalValue = value;
+  }
+  public resetNodePool() {
+    this._nodePool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolInput() {
+    return this._nodePool.internalValue;
+  }
+
+  // unmanaged_node_pool - computed: false, optional: true, required: false
+  private _unmanagedNodePool = new Mk8SPaperspaceProviderUnmanagedNodePoolList(this, "unmanaged_node_pool", false);
+  public get unmanagedNodePool() {
+    return this._unmanagedNodePool;
+  }
+  public putUnmanagedNodePool(value: Mk8SPaperspaceProviderUnmanagedNodePool[] | cdktf.IResolvable) {
+    this._unmanagedNodePool.internalValue = value;
+  }
+  public resetUnmanagedNodePool() {
+    this._unmanagedNodePool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get unmanagedNodePoolInput() {
+    return this._unmanagedNodePool.internalValue;
+  }
+}
+
+export class Mk8SPaperspaceProviderList extends cdktf.ComplexList {
+  public internalValue? : Mk8SPaperspaceProvider[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Mk8SPaperspaceProviderOutputReference {
+    return new Mk8SPaperspaceProviderOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface Mk8STritonProviderAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#expander Mk8S#expander}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#expander Mk8S#expander}
   */
   readonly expander?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#unneeded_time Mk8S#unneeded_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#unneeded_time Mk8S#unneeded_time}
   */
   readonly unneededTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#unready_time Mk8S#unready_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#unready_time Mk8S#unready_time}
   */
   readonly unreadyTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#utilization_threshold Mk8S#utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#utilization_threshold Mk8S#utilization_threshold}
   */
   readonly utilizationThreshold?: number;
 }
@@ -216,21 +794,21 @@ export class Mk8STritonProviderAutoscalerList extends cdktf.ComplexList {
 }
 export interface Mk8STritonProviderConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#account Mk8S#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#account Mk8S#account}
   */
   readonly account: string;
   /**
   * Link to a SSH or opaque secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#private_key_secret_link Mk8S#private_key_secret_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#private_key_secret_link Mk8S#private_key_secret_link}
   */
   readonly privateKeySecretLink: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#url Mk8S#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#url Mk8S#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#user Mk8S#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#user Mk8S#user}
   */
   readonly user?: string;
 }
@@ -505,11 +1083,11 @@ export class Mk8STritonProviderLoadBalancerGatewayList extends cdktf.ComplexList
 }
 export interface Mk8STritonProviderLoadBalancerManualLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#external_syslog Mk8S#external_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#external_syslog Mk8S#external_syslog}
   */
   readonly externalSyslog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#node_port Mk8S#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#node_port Mk8S#node_port}
   */
   readonly nodePort?: number;
 }
@@ -654,53 +1232,53 @@ export class Mk8STritonProviderLoadBalancerManualLoggingList extends cdktf.Compl
 }
 export interface Mk8STritonProviderLoadBalancerManual {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#cns_internal_domain Mk8S#cns_internal_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#cns_internal_domain Mk8S#cns_internal_domain}
   */
   readonly cnsInternalDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#cns_public_domain Mk8S#cns_public_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#cns_public_domain Mk8S#cns_public_domain}
   */
   readonly cnsPublicDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#count Mk8S#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#count Mk8S#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#image_id Mk8S#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#image_id Mk8S#image_id}
   */
   readonly imageId: string;
   /**
   * Extra tags to attach to instances from a node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#metadata Mk8S#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#metadata Mk8S#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#package_id Mk8S#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#package_id Mk8S#package_id}
   */
   readonly packageId: string;
   /**
   * If set, machine will also get a public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#private_network_ids Mk8S#private_network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#private_network_ids Mk8S#private_network_ids}
   */
   readonly privateNetworkIds: string[];
   /**
   * If set, machine will also get a public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#public_network_id Mk8S#public_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#public_network_id Mk8S#public_network_id}
   */
   readonly publicNetworkId: string;
   /**
   * Extra tags to attach to instances from a node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#tags Mk8S#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#tags Mk8S#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#logging Mk8S#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#logging Mk8S#logging}
   */
   readonly logging?: Mk8STritonProviderLoadBalancerManualLogging[] | cdktf.IResolvable;
 }
@@ -1142,19 +1720,19 @@ export interface Mk8STritonProviderLoadBalancer {
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#gateway Mk8S#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#gateway Mk8S#gateway}
   */
   readonly gateway?: Mk8STritonProviderLoadBalancerGateway[] | cdktf.IResolvable;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#manual Mk8S#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#manual Mk8S#manual}
   */
   readonly manual?: Mk8STritonProviderLoadBalancerManual[] | cdktf.IResolvable;
   /**
   * none block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#none Mk8S#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#none Mk8S#none}
   */
   readonly none?: Mk8STritonProviderLoadBalancerNone[] | cdktf.IResolvable;
 }
@@ -1330,19 +1908,19 @@ export interface Mk8STritonProviderNetworking {
   /**
   * DNS forwarder used by the cluster. Can be a space-delimited list of dns servers. Default is /etc/resolv.conf when not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#dns_forwarder Mk8S#dns_forwarder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#dns_forwarder Mk8S#dns_forwarder}
   */
   readonly dnsForwarder?: string;
   /**
   * The CIDR of the pod network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#pod_network Mk8S#pod_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#pod_network Mk8S#pod_network}
   */
   readonly podNetwork?: string;
   /**
   * The CIDR of the service network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#service_network Mk8S#service_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#service_network Mk8S#service_network}
   */
   readonly serviceNetwork?: string;
 }
@@ -1516,15 +2094,15 @@ export class Mk8STritonProviderNetworkingList extends cdktf.ComplexList {
 }
 export interface Mk8STritonProviderNodePoolTaint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#effect Mk8S#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#effect Mk8S#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#key Mk8S#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#key Mk8S#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#value Mk8S#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#value Mk8S#value}
   */
   readonly value?: string;
 }
@@ -1700,51 +2278,51 @@ export interface Mk8STritonProviderNodePool {
   /**
   * Labels to attach to nodes of a node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#labels Mk8S#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#labels Mk8S#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#max_size Mk8S#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#max_size Mk8S#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#min_size Mk8S#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#min_size Mk8S#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#name Mk8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#name Mk8S#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#override_image_id Mk8S#override_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#override_image_id Mk8S#override_image_id}
   */
   readonly overrideImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#package_id Mk8S#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#package_id Mk8S#package_id}
   */
   readonly packageId: string;
   /**
   * More private networks to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#private_network_ids Mk8S#private_network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#private_network_ids Mk8S#private_network_ids}
   */
   readonly privateNetworkIds?: string[];
   /**
   * If set, machine will also get a public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#public_network_id Mk8S#public_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#public_network_id Mk8S#public_network_id}
   */
   readonly publicNetworkId?: string;
   /**
   * Extra tags to attach to instances from a node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#triton_tags Mk8S#triton_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#triton_tags Mk8S#triton_tags}
   */
   readonly tritonTags?: { [key: string]: string };
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#taint Mk8S#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#taint Mk8S#taint}
   */
   readonly taint?: Mk8STritonProviderNodePoolTaint[] | cdktf.IResolvable;
 }
@@ -2117,67 +2695,67 @@ export interface Mk8STritonProvider {
   /**
   * Enable firewall for the instances deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#firewall_enabled Mk8S#firewall_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#firewall_enabled Mk8S#firewall_enabled}
   */
   readonly firewallEnabled?: boolean | cdktf.IResolvable;
   /**
   * Default image for all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#image_id Mk8S#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#image_id Mk8S#image_id}
   */
   readonly imageId: string;
   /**
   * Control Plane location that will host the K8s components. Prefer one that is closest to the Triton datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#location Mk8S#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#location Mk8S#location}
   */
   readonly location: string;
   /**
   * Optional shell script that will be run before K8s is installed. Supports SSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#pre_install_script Mk8S#pre_install_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#pre_install_script Mk8S#pre_install_script}
   */
   readonly preInstallScript?: string;
   /**
   * ID of the private Fabric/Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#private_network_id Mk8S#private_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#private_network_id Mk8S#private_network_id}
   */
   readonly privateNetworkId: string;
   /**
   * Extra SSH keys to provision for user root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#ssh_keys Mk8S#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#ssh_keys Mk8S#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#autoscaler Mk8S#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#autoscaler Mk8S#autoscaler}
   */
   readonly autoscaler?: Mk8STritonProviderAutoscaler[] | cdktf.IResolvable;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#connection Mk8S#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#connection Mk8S#connection}
   */
   readonly connection?: Mk8STritonProviderConnection[] | cdktf.IResolvable;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#load_balancer Mk8S#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#load_balancer Mk8S#load_balancer}
   */
   readonly loadBalancer?: Mk8STritonProviderLoadBalancer[] | cdktf.IResolvable;
   /**
   * networking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#networking Mk8S#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#networking Mk8S#networking}
   */
   readonly networking?: Mk8STritonProviderNetworking[] | cdktf.IResolvable;
   /**
   * node_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/mk8s#node_pool Mk8S#node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/mk8s#node_pool Mk8S#node_pool}
   */
   readonly nodePool?: Mk8STritonProviderNodePool[] | cdktf.IResolvable;
 }

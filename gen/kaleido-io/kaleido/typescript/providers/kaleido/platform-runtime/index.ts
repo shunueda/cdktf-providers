@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,75 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformRuntimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#config_json PlatformRuntime#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#config_json PlatformRuntime#config_json}
   */
   readonly configJson: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#dns_registrations PlatformRuntime#dns_registrations}
+  */
+  readonly dnsRegistrations?: string[];
+  /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#environment PlatformRuntime#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#environment PlatformRuntime#environment}
   */
   readonly environment: string;
   /**
   * Set to `true` when you plan to delete a protected runtime like a Besu signing node. You must apply the value before you can successfully `terraform destroy` the protected runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#force_delete PlatformRuntime#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#force_delete PlatformRuntime#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Log Level setting. Updating this field will prompt a runtime restart when applied. ERROR, DEBUG, TRACE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#log_level PlatformRuntime#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#log_level PlatformRuntime#log_level}
   */
   readonly logLevel?: string;
   /**
   * Runtime display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#name PlatformRuntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#name PlatformRuntime#name}
   */
   readonly name: string;
   /**
   * Specification for the runtime's size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#size PlatformRuntime#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#size PlatformRuntime#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#stack_id PlatformRuntime#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#stack_id PlatformRuntime#stack_id}
   */
   readonly stackId?: string;
   /**
   * Stops your runtime as long as this value is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#stopped PlatformRuntime#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#stopped PlatformRuntime#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#storage_size PlatformRuntime#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#storage_size PlatformRuntime#storage_size}
   */
   readonly storageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#storage_type PlatformRuntime#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#storage_type PlatformRuntime#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#sub_zone PlatformRuntime#sub_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#sub_zone PlatformRuntime#sub_zone}
   */
   readonly subZone?: string;
   /**
   * Runtime type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#type PlatformRuntime#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#type PlatformRuntime#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#zone PlatformRuntime#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#zone PlatformRuntime#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime kaleido_platform_runtime}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime kaleido_platform_runtime}
 */
 export class PlatformRuntime extends cdktf.TerraformResource {
 
@@ -92,7 +96,7 @@ export class PlatformRuntime extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformRuntime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformRuntime to import
-  * @param importFromId The id of the existing PlatformRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformRuntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +108,7 @@ export class PlatformRuntime extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_runtime kaleido_platform_runtime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_runtime kaleido_platform_runtime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +119,8 @@ export class PlatformRuntime extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_runtime',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,6 +131,7 @@ export class PlatformRuntime extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._configJson = config.configJson;
+    this._dnsRegistrations = config.dnsRegistrations;
     this._environment = config.environment;
     this._forceDelete = config.forceDelete;
     this._logLevel = config.logLevel;
@@ -156,6 +161,22 @@ export class PlatformRuntime extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get configJsonInput() {
     return this._configJson;
+  }
+
+  // dns_registrations - computed: false, optional: true, required: false
+  private _dnsRegistrations?: string[]; 
+  public get dnsRegistrations() {
+    return this.getListAttribute('dns_registrations');
+  }
+  public set dnsRegistrations(value: string[]) {
+    this._dnsRegistrations = value;
+  }
+  public resetDnsRegistrations() {
+    this._dnsRegistrations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsRegistrationsInput() {
+    return this._dnsRegistrations;
   }
 
   // environment - computed: false, optional: false, required: true
@@ -358,6 +379,7 @@ export class PlatformRuntime extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       config_json: cdktf.stringToTerraform(this._configJson),
+      dns_registrations: cdktf.listMapper(cdktf.stringToTerraform, false)(this._dnsRegistrations),
       environment: cdktf.stringToTerraform(this._environment),
       force_delete: cdktf.booleanToTerraform(this._forceDelete),
       log_level: cdktf.stringToTerraform(this._logLevel),
@@ -380,6 +402,12 @@ export class PlatformRuntime extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      dns_registrations: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._dnsRegistrations),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       environment: {
         value: cdktf.stringToHclTerraform(this._environment),

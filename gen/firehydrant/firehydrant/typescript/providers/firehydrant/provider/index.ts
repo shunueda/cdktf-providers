@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface FirehydrantProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs#api_key FirehydrantProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs#api_key FirehydrantProvider#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs#firehydrant_base_url FirehydrantProvider#firehydrant_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs#firehydrant_base_url FirehydrantProvider#firehydrant_base_url}
   */
   readonly firehydrantBaseUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs#alias FirehydrantProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs#alias FirehydrantProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs firehydrant}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs firehydrant}
 */
 export class FirehydrantProvider extends cdktf.TerraformProvider {
 
@@ -40,7 +40,7 @@ export class FirehydrantProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FirehydrantProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirehydrantProvider to import
-  * @param importFromId The id of the existing FirehydrantProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirehydrantProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirehydrantProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class FirehydrantProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs firehydrant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs firehydrant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class FirehydrantProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'firehydrant',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.12',
-        providerVersionConstraint: '0.14.12'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       terraformProviderSource: 'firehydrant/firehydrant'
     });

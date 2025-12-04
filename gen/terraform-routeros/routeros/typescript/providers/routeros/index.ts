@@ -99,6 +99,7 @@ export * as ipDhcpServerNetwork from './ip-dhcp-server-network';
 export * as ipDhcpServerOption from './ip-dhcp-server-option';
 export * as ipDhcpServerOptionMatcher from './ip-dhcp-server-option-matcher';
 export * as ipDhcpServerOptionSet from './ip-dhcp-server-option-set';
+export * as ipDhcpServerOptionSets from './ip-dhcp-server-option-sets';
 export * as ipDns from './ip-dns';
 export * as ipDnsAdlist from './ip-dns-adlist';
 export * as ipDnsForwarders from './ip-dns-forwarders';

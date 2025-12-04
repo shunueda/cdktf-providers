@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/proxy_agent
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/proxy_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranProxyAgentConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique identifier for the proxy within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/proxy_agent#id DataFivetranProxyAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/proxy_agent#id DataFivetranProxyAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFivetranProxyAgentConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/proxy_agent fivetran_proxy_agent}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/proxy_agent fivetran_proxy_agent}
 */
 export class DataFivetranProxyAgent extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataFivetranProxyAgent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranProxyAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranProxyAgent to import
-  * @param importFromId The id of the existing DataFivetranProxyAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/proxy_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranProxyAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/proxy_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranProxyAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataFivetranProxyAgent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/proxy_agent fivetran_proxy_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/proxy_agent fivetran_proxy_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataFivetranProxyAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_proxy_agent',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

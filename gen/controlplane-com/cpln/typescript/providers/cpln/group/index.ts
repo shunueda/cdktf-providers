@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * Name of the Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * List of service accounts that exists within the configured org. Group membership will fail if the service account does not exits within the org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#service_accounts Group#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#service_accounts Group#service_accounts}
   */
   readonly serviceAccounts?: string[];
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#tags Group#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#tags Group#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * List of either the user ID or email address for a user that exists within the configured org. Group membership will fail if the user ID / email does not exist within the org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#user_ids_and_emails Group#user_ids_and_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#user_ids_and_emails Group#user_ids_and_emails}
   */
   readonly userIdsAndEmails?: string[];
   /**
   * identity_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#identity_matcher Group#identity_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#identity_matcher Group#identity_matcher}
   */
   readonly identityMatcher?: GroupIdentityMatcher[] | cdktf.IResolvable;
   /**
   * member_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#member_query Group#member_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#member_query Group#member_query}
   */
   readonly memberQuery?: GroupMemberQuery[] | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface GroupIdentityMatcher {
   /**
   * Executes the expression against the users' claims to decide whether a user belongs to this group. This method is useful for managing the grouping of users logged in with SAML providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#expression Group#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#expression Group#expression}
   */
   readonly expression: string;
   /**
   * Language of the expression. Either `jmespath` or `javascript`. Default: `jmespath`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#language Group#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#language Group#language}
   */
   readonly language?: string;
 }
@@ -204,31 +204,31 @@ export interface GroupMemberQuerySpecTerms {
   /**
   * Type of query operation. Available values: `=`, `>`, `>=`, `<`, `<=`, `!=`, `exists`, `!exists`. Default: `=`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#op Group#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#op Group#op}
   */
   readonly op?: string;
   /**
   * Property to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#property Group#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#property Group#property}
   */
   readonly property?: string;
   /**
   * Relation to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#rel Group#rel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#rel Group#rel}
   */
   readonly rel?: string;
   /**
   * Tag key to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#tag Group#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#tag Group#tag}
   */
   readonly tag?: string;
   /**
   * Testing value for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#value Group#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#value Group#value}
   */
   readonly value?: string;
 }
@@ -462,13 +462,13 @@ export interface GroupMemberQuerySpec {
   /**
   * Type of match. Available values: `all`, `any`, `none`. Default: `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#match Group#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#match Group#match}
   */
   readonly match?: string;
   /**
   * terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#terms Group#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#terms Group#terms}
   */
   readonly terms?: GroupMemberQuerySpecTerms[] | cdktf.IResolvable;
 }
@@ -615,13 +615,13 @@ export interface GroupMemberQuery {
   /**
   * Type of fetch. Specify either: `links` or `items`. Default: `items`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#fetch Group#fetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#fetch Group#fetch}
   */
   readonly fetch?: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#spec Group#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#spec Group#spec}
   */
   readonly spec?: GroupMemberQuerySpec[] | cdktf.IResolvable;
 }
@@ -766,7 +766,7 @@ export class GroupMemberQueryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group cpln_group}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group cpln_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -782,7 +782,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -794,7 +794,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/group cpln_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/group cpln_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -805,8 +805,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_group',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.17',
-        providerVersionConstraint: '1.2.17'
+        providerVersion: '1.2.19',
+        providerVersionConstraint: '1.2.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

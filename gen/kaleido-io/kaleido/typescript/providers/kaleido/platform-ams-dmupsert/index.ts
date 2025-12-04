@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface PlatformAmsDmupsertConfig extends cdktf.TerraformMetaArguments 
   /**
   * This is a bulk upsert input payload in YAML/JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert#bulk_upsert_yaml PlatformAmsDmupsert#bulk_upsert_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert#bulk_upsert_yaml PlatformAmsDmupsert#bulk_upsert_yaml}
   */
   readonly bulkUpsertYaml: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert#environment PlatformAmsDmupsert#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert#environment PlatformAmsDmupsert#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert#service PlatformAmsDmupsert#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert#service PlatformAmsDmupsert#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert kaleido_platform_ams_dmupsert}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert kaleido_platform_ams_dmupsert}
 */
 export class PlatformAmsDmupsert extends cdktf.TerraformResource {
 
@@ -40,7 +40,7 @@ export class PlatformAmsDmupsert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformAmsDmupsert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformAmsDmupsert to import
-  * @param importFromId The id of the existing PlatformAmsDmupsert that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformAmsDmupsert that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformAmsDmupsert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class PlatformAmsDmupsert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_ams_dmupsert kaleido_platform_ams_dmupsert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_ams_dmupsert kaleido_platform_ams_dmupsert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class PlatformAmsDmupsert extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_ams_dmupsert',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

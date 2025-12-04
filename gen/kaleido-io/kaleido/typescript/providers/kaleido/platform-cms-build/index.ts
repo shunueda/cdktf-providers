@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,73 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformCmsBuildConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#description PlatformCmsBuild#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#description PlatformCmsBuild#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#environment PlatformCmsBuild#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#environment PlatformCmsBuild#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#evm_version PlatformCmsBuild#evm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#evm_version PlatformCmsBuild#evm_version}
   */
   readonly evmVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#github PlatformCmsBuild#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#github PlatformCmsBuild#github}
   */
   readonly github?: PlatformCmsBuildGithub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#name PlatformCmsBuild#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#ignore_destroy PlatformCmsBuild#ignore_destroy}
+  */
+  readonly ignoreDestroy?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#libraries_json PlatformCmsBuild#libraries_json}
+  */
+  readonly librariesJson?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#name PlatformCmsBuild#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#optimizer PlatformCmsBuild#optimizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#optimizer PlatformCmsBuild#optimizer}
   */
   readonly optimizer?: PlatformCmsBuildOptimizer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#path PlatformCmsBuild#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#path PlatformCmsBuild#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#precompiled PlatformCmsBuild#precompiled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#precompiled PlatformCmsBuild#precompiled}
   */
   readonly precompiled?: PlatformCmsBuildPrecompiled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#service PlatformCmsBuild#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#service PlatformCmsBuild#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#solc_version PlatformCmsBuild#solc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#solc_version PlatformCmsBuild#solc_version}
   */
   readonly solcVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#source_code PlatformCmsBuild#source_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#source_code PlatformCmsBuild#source_code}
   */
   readonly sourceCode?: PlatformCmsBuildSourceCode;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#type PlatformCmsBuild#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#type PlatformCmsBuild#type}
   */
   readonly type: string;
 }
 export interface PlatformCmsBuildGithub {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#auth_token PlatformCmsBuild#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#auth_token PlatformCmsBuild#auth_token}
   */
   readonly authToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#contract_name PlatformCmsBuild#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#contract_name PlatformCmsBuild#contract_name}
   */
   readonly contractName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#contract_url PlatformCmsBuild#contract_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#contract_url PlatformCmsBuild#contract_url}
   */
   readonly contractUrl: string;
 }
@@ -215,15 +223,15 @@ export class PlatformCmsBuildGithubOutputReference extends cdktf.ComplexObject {
 }
 export interface PlatformCmsBuildOptimizer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#enabled PlatformCmsBuild#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#enabled PlatformCmsBuild#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#runs PlatformCmsBuild#runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#runs PlatformCmsBuild#runs}
   */
   readonly runs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#via_ir PlatformCmsBuild#via_ir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#via_ir PlatformCmsBuild#via_ir}
   */
   readonly viaIr?: boolean | cdktf.IResolvable;
 }
@@ -375,15 +383,15 @@ export class PlatformCmsBuildOptimizerOutputReference extends cdktf.ComplexObjec
 }
 export interface PlatformCmsBuildPrecompiled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#abi PlatformCmsBuild#abi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#abi PlatformCmsBuild#abi}
   */
   readonly abi: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#bytecode PlatformCmsBuild#bytecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#bytecode PlatformCmsBuild#bytecode}
   */
   readonly bytecode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#dev_docs PlatformCmsBuild#dev_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#dev_docs PlatformCmsBuild#dev_docs}
   */
   readonly devDocs?: string;
 }
@@ -529,11 +537,11 @@ export class PlatformCmsBuildPrecompiledOutputReference extends cdktf.ComplexObj
 }
 export interface PlatformCmsBuildSourceCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#contract_name PlatformCmsBuild#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#contract_name PlatformCmsBuild#contract_name}
   */
   readonly contractName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#file_contents PlatformCmsBuild#file_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#file_contents PlatformCmsBuild#file_contents}
   */
   readonly fileContents?: string;
 }
@@ -653,7 +661,7 @@ export class PlatformCmsBuildSourceCodeOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build kaleido_platform_cms_build}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build kaleido_platform_cms_build}
 */
 export class PlatformCmsBuild extends cdktf.TerraformResource {
 
@@ -669,7 +677,7 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformCmsBuild resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformCmsBuild to import
-  * @param importFromId The id of the existing PlatformCmsBuild that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformCmsBuild that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformCmsBuild to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -681,7 +689,7 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_build kaleido_platform_cms_build} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_build kaleido_platform_cms_build} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -692,8 +700,8 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_cms_build',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -707,6 +715,8 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
     this._environment = config.environment;
     this._evmVersion = config.evmVersion;
     this._github.internalValue = config.github;
+    this._ignoreDestroy = config.ignoreDestroy;
+    this._librariesJson = config.librariesJson;
     this._name = config.name;
     this._optimizer.internalValue = config.optimizer;
     this._path = config.path;
@@ -734,6 +744,11 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
   // commit_hash - computed: true, optional: false, required: false
   public get commitHash() {
     return this.getStringAttribute('commit_hash');
+  }
+
+  // compilation_metadata_json - computed: true, optional: false, required: false
+  public get compilationMetadataJson() {
+    return this.getStringAttribute('compilation_metadata_json');
   }
 
   // description - computed: false, optional: true, required: false
@@ -805,6 +820,38 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ignore_destroy - computed: false, optional: true, required: false
+  private _ignoreDestroy?: boolean | cdktf.IResolvable; 
+  public get ignoreDestroy() {
+    return this.getBooleanAttribute('ignore_destroy');
+  }
+  public set ignoreDestroy(value: boolean | cdktf.IResolvable) {
+    this._ignoreDestroy = value;
+  }
+  public resetIgnoreDestroy() {
+    this._ignoreDestroy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreDestroyInput() {
+    return this._ignoreDestroy;
+  }
+
+  // libraries_json - computed: false, optional: true, required: false
+  private _librariesJson?: string; 
+  public get librariesJson() {
+    return this.getStringAttribute('libraries_json');
+  }
+  public set librariesJson(value: string) {
+    this._librariesJson = value;
+  }
+  public resetLibrariesJson() {
+    this._librariesJson = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get librariesJsonInput() {
+    return this._librariesJson;
   }
 
   // name - computed: false, optional: false, required: true
@@ -933,6 +980,8 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
       environment: cdktf.stringToTerraform(this._environment),
       evm_version: cdktf.stringToTerraform(this._evmVersion),
       github: platformCmsBuildGithubToTerraform(this._github.internalValue),
+      ignore_destroy: cdktf.booleanToTerraform(this._ignoreDestroy),
+      libraries_json: cdktf.stringToTerraform(this._librariesJson),
       name: cdktf.stringToTerraform(this._name),
       optimizer: platformCmsBuildOptimizerToTerraform(this._optimizer.internalValue),
       path: cdktf.stringToTerraform(this._path),
@@ -969,6 +1018,18 @@ export class PlatformCmsBuild extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "PlatformCmsBuildGithub",
+      },
+      ignore_destroy: {
+        value: cdktf.booleanToHclTerraform(this._ignoreDestroy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      libraries_json: {
+        value: cdktf.stringToHclTerraform(this._librariesJson),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

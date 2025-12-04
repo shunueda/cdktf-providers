@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFivetranUserConnectorMembershipsConfig extends cdktf.Terraf
   /**
   * The unique identifier for the user within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships#user_id DataFivetranUserConnectorMemberships#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships#user_id DataFivetranUserConnectorMemberships#user_id}
   */
   readonly userId: string;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships#connector DataFivetranUserConnectorMemberships#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships#connector DataFivetranUserConnectorMemberships#connector}
   */
   readonly connector?: DataFivetranUserConnectorMembershipsConnector[] | cdktf.IResolvable;
 }
@@ -118,7 +118,7 @@ export class DataFivetranUserConnectorMembershipsConnectorList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships fivetran_user_connector_memberships}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships fivetran_user_connector_memberships}
 */
 export class DataFivetranUserConnectorMemberships extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataFivetranUserConnectorMemberships extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataFivetranUserConnectorMemberships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranUserConnectorMemberships to import
-  * @param importFromId The id of the existing DataFivetranUserConnectorMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranUserConnectorMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranUserConnectorMemberships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataFivetranUserConnectorMemberships extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/user_connector_memberships fivetran_user_connector_memberships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/user_connector_memberships fivetran_user_connector_memberships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataFivetranUserConnectorMemberships extends cdktf.TerraformDataSou
       terraformResourceType: 'fivetran_user_connector_memberships',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

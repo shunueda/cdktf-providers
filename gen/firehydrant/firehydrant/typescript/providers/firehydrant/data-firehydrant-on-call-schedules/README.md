@@ -1,3 +1,3 @@
 # `data_firehydrant_on_call_schedules`
 
-Refer to the Terraform Registry for docs: [`data_firehydrant_on_call_schedules`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/on_call_schedules).
+Refer to the Terraform Registry for docs: [`data_firehydrant_on_call_schedules`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.15.0/docs/data-sources/on_call_schedules).

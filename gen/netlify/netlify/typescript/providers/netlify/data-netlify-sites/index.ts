@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/sites
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/sites
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataNetlifySitesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Required if a default team was not configured in the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/sites#team_slug DataNetlifySites#team_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/sites#team_slug DataNetlifySites#team_slug}
   */
   readonly teamSlug?: string;
 }
@@ -111,7 +111,7 @@ export class DataNetlifySitesSitesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/sites netlify_sites}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/sites netlify_sites}
 */
 export class DataNetlifySites extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataNetlifySites extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetlifySites resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetlifySites to import
-  * @param importFromId The id of the existing DataNetlifySites that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/sites#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetlifySites that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/sites#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetlifySites to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataNetlifySites extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/sites netlify_sites} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/sites netlify_sites} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,7 +150,8 @@ export class DataNetlifySites extends cdktf.TerraformDataSource {
       terraformResourceType: 'netlify_sites',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

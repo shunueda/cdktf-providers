@@ -1,3 +1,3 @@
 # `data_scaleway_function_namespace`
 
-Refer to the Terraform Registry for docs: [`data_scaleway_function_namespace`](https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/data-sources/function_namespace).
+Refer to the Terraform Registry for docs: [`data_scaleway_function_namespace`](https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/data-sources/function_namespace).

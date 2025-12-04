@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsoleKafkaClusterV2Config extends cdktf.TerraformMetaArgument
   /**
   * Kafka cluster labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#labels ConsoleKafkaClusterV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#labels ConsoleKafkaClusterV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Kafka cluster name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#name ConsoleKafkaClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#name ConsoleKafkaClusterV2#name}
   */
   readonly name: string;
   /**
   * Kafka cluster specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#spec ConsoleKafkaClusterV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#spec ConsoleKafkaClusterV2#spec}
   */
   readonly spec: ConsoleKafkaClusterV2Spec;
 }
@@ -30,19 +30,19 @@ export interface ConsoleKafkaClusterV2SpecKafkaFlavorAiven {
   /**
   * Aiven API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#api_token ConsoleKafkaClusterV2#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#api_token ConsoleKafkaClusterV2#api_token}
   */
   readonly apiToken: string;
   /**
   * Aiven project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#project ConsoleKafkaClusterV2#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#project ConsoleKafkaClusterV2#project}
   */
   readonly project: string;
   /**
   * Aiven service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#service_name ConsoleKafkaClusterV2#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#service_name ConsoleKafkaClusterV2#service_name}
   */
   readonly serviceName: string;
 }
@@ -187,25 +187,25 @@ export interface ConsoleKafkaClusterV2SpecKafkaFlavorConfluent {
   /**
   * Confluent cluster identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#confluent_cluster_id ConsoleKafkaClusterV2#confluent_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#confluent_cluster_id ConsoleKafkaClusterV2#confluent_cluster_id}
   */
   readonly confluentClusterId: string;
   /**
   * Confluent environment identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#confluent_environment_id ConsoleKafkaClusterV2#confluent_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#confluent_environment_id ConsoleKafkaClusterV2#confluent_environment_id}
   */
   readonly confluentEnvironmentId: string;
   /**
   * Confluent API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#key ConsoleKafkaClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#key ConsoleKafkaClusterV2#key}
   */
   readonly key: string;
   /**
   * Confluent API secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#secret ConsoleKafkaClusterV2#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#secret ConsoleKafkaClusterV2#secret}
   */
   readonly secret: string;
 }
@@ -376,31 +376,31 @@ export interface ConsoleKafkaClusterV2SpecKafkaFlavorGateway {
   /**
   * Ignore untrusted certificate for Gateway Admin API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
   */
   readonly ignoreUntrustedCertificate?: boolean | cdktf.IResolvable;
   /**
   * Conduktor Gateway Admin password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#password ConsoleKafkaClusterV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#password ConsoleKafkaClusterV2#password}
   */
   readonly password: string;
   /**
   * Conduktor Gateway Admin API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#url ConsoleKafkaClusterV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#url ConsoleKafkaClusterV2#url}
   */
   readonly url: string;
   /**
   * Conduktor Gateway Admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#user ConsoleKafkaClusterV2#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#user ConsoleKafkaClusterV2#user}
   */
   readonly user: string;
   /**
   * Conduktor Gateway Virtual cluster name (default `passthrough`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#virtual_cluster ConsoleKafkaClusterV2#virtual_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#virtual_cluster ConsoleKafkaClusterV2#virtual_cluster}
   */
   readonly virtualCluster?: string;
 }
@@ -603,19 +603,19 @@ export interface ConsoleKafkaClusterV2SpecKafkaFlavor {
   /**
   * Aiven Kafka flavor configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#aiven ConsoleKafkaClusterV2#aiven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#aiven ConsoleKafkaClusterV2#aiven}
   */
   readonly aiven?: ConsoleKafkaClusterV2SpecKafkaFlavorAiven;
   /**
   * Confluent Kafka flavor configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#confluent ConsoleKafkaClusterV2#confluent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#confluent ConsoleKafkaClusterV2#confluent}
   */
   readonly confluent?: ConsoleKafkaClusterV2SpecKafkaFlavorConfluent;
   /**
   * Conduktor Gateway Kafka flavor configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#gateway ConsoleKafkaClusterV2#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#gateway ConsoleKafkaClusterV2#gateway}
   */
   readonly gateway?: ConsoleKafkaClusterV2SpecKafkaFlavorGateway;
 }
@@ -769,13 +769,13 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurityBas
   /**
   * Schema registry basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#password ConsoleKafkaClusterV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#password ConsoleKafkaClusterV2#password}
   */
   readonly password: string;
   /**
   * Schema registry basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#username ConsoleKafkaClusterV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#username ConsoleKafkaClusterV2#username}
   */
   readonly username: string;
 }
@@ -894,7 +894,7 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurityBea
   /**
   * Schema registry bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#token ConsoleKafkaClusterV2#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#token ConsoleKafkaClusterV2#token}
   */
   readonly token: string;
 }
@@ -987,13 +987,13 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecuritySsl
   /**
   * Schema registry SSL auth certificate chain PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#certificate_chain ConsoleKafkaClusterV2#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#certificate_chain ConsoleKafkaClusterV2#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * Schema registry SSL auth private key PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#key ConsoleKafkaClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#key ConsoleKafkaClusterV2#key}
   */
   readonly key: string;
 }
@@ -1112,19 +1112,19 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurity {
   /**
   * Basic auth schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#basic_auth ConsoleKafkaClusterV2#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#basic_auth ConsoleKafkaClusterV2#basic_auth}
   */
   readonly basicAuth?: ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurityBasicAuth;
   /**
   * Bearer token schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#bearer_token ConsoleKafkaClusterV2#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#bearer_token ConsoleKafkaClusterV2#bearer_token}
   */
   readonly bearerToken?: ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurityBearerToken;
   /**
   * SSL auth (mTLS) schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#ssl_auth ConsoleKafkaClusterV2#ssl_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#ssl_auth ConsoleKafkaClusterV2#ssl_auth}
   */
   readonly sslAuth?: ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecuritySslAuth;
 }
@@ -1278,25 +1278,25 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLike {
   /**
   * Ignore untrusted certificate for schema registry. Only used if type is `ConfluentLike`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
   */
   readonly ignoreUntrustedCertificate?: boolean | cdktf.IResolvable;
   /**
   * Schema registry properties. Only used if type is `ConfluentLike`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#properties ConsoleKafkaClusterV2#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#properties ConsoleKafkaClusterV2#properties}
   */
   readonly properties?: string;
   /**
   * Confluent Schema registry security configuration. One of `basic_auth`, `bearer_token`, `ssl_auth`. If none provided, no security is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#security ConsoleKafkaClusterV2#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#security ConsoleKafkaClusterV2#security}
   */
   readonly security?: ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLikeSecurity;
   /**
   * Schema registry URL. Required if type is `ConfluentLike`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#url ConsoleKafkaClusterV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#url ConsoleKafkaClusterV2#url}
   */
   readonly url?: string;
 }
@@ -1479,13 +1479,13 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityCredentials 
   /**
   * Glue Schema registry AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#access_key_id ConsoleKafkaClusterV2#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#access_key_id ConsoleKafkaClusterV2#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Glue Schema registry AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#secret_key ConsoleKafkaClusterV2#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#secret_key ConsoleKafkaClusterV2#secret_key}
   */
   readonly secretKey: string;
 }
@@ -1604,7 +1604,7 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityFromContext 
   /**
   * Glue Schema registry AWS profile name. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#profile ConsoleKafkaClusterV2#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#profile ConsoleKafkaClusterV2#profile}
   */
   readonly profile: string;
 }
@@ -1697,7 +1697,7 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityFromRole {
   /**
   * Glue Schema registry AWS role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#role ConsoleKafkaClusterV2#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#role ConsoleKafkaClusterV2#role}
   */
   readonly role: string;
 }
@@ -1790,31 +1790,31 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityIamAnywhere 
   /**
   * Glue Schema registry AWS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#certificate ConsoleKafkaClusterV2#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#certificate ConsoleKafkaClusterV2#certificate}
   */
   readonly certificate: string;
   /**
   * Glue Schema registry AWS private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#private_key ConsoleKafkaClusterV2#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#private_key ConsoleKafkaClusterV2#private_key}
   */
   readonly privateKey: string;
   /**
   * Glue Schema registry AWS profile ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#profile_arn ConsoleKafkaClusterV2#profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#profile_arn ConsoleKafkaClusterV2#profile_arn}
   */
   readonly profileArn: string;
   /**
   * Glue Schema registry AWS role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#role_arn ConsoleKafkaClusterV2#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#role_arn ConsoleKafkaClusterV2#role_arn}
   */
   readonly roleArn: string;
   /**
   * Glue Schema registry AWS trust anchor ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#trust_anchor_arn ConsoleKafkaClusterV2#trust_anchor_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#trust_anchor_arn ConsoleKafkaClusterV2#trust_anchor_arn}
   */
   readonly trustAnchorArn: string;
 }
@@ -2011,25 +2011,25 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurity {
   /**
   * AWS credentials GLUE schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#credentials ConsoleKafkaClusterV2#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#credentials ConsoleKafkaClusterV2#credentials}
   */
   readonly credentials?: ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityCredentials;
   /**
   * AWS context GLUE schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#from_context ConsoleKafkaClusterV2#from_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#from_context ConsoleKafkaClusterV2#from_context}
   */
   readonly fromContext?: ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityFromContext;
   /**
   * AWS role GLUE schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#from_role ConsoleKafkaClusterV2#from_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#from_role ConsoleKafkaClusterV2#from_role}
   */
   readonly fromRole?: ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityFromRole;
   /**
   * AWS IAM Anywhere GLUE schema registry security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#iam_anywhere ConsoleKafkaClusterV2#iam_anywhere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#iam_anywhere ConsoleKafkaClusterV2#iam_anywhere}
   */
   readonly iamAnywhere?: ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurityIamAnywhere;
 }
@@ -2212,19 +2212,19 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistryGlue {
   /**
   * Glue Schema registry AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#region ConsoleKafkaClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#region ConsoleKafkaClusterV2#region}
   */
   readonly region?: string;
   /**
   * Glue Schema registry name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#registry_name ConsoleKafkaClusterV2#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#registry_name ConsoleKafkaClusterV2#registry_name}
   */
   readonly registryName?: string;
   /**
   * Schema registry configuration. One of `credentials`, `from_context`, `from_role`, `iam_anywhere`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#security ConsoleKafkaClusterV2#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#security ConsoleKafkaClusterV2#security}
   */
   readonly security: ConsoleKafkaClusterV2SpecSchemaRegistryGlueSecurity;
 }
@@ -2375,13 +2375,13 @@ export interface ConsoleKafkaClusterV2SpecSchemaRegistry {
   /**
   * Confluent like schema registry configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#confluent_like ConsoleKafkaClusterV2#confluent_like}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#confluent_like ConsoleKafkaClusterV2#confluent_like}
   */
   readonly confluentLike?: ConsoleKafkaClusterV2SpecSchemaRegistryConfluentLike;
   /**
   * AWS Glue schema registry configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#glue ConsoleKafkaClusterV2#glue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#glue ConsoleKafkaClusterV2#glue}
   */
   readonly glue?: ConsoleKafkaClusterV2SpecSchemaRegistryGlue;
 }
@@ -2506,49 +2506,49 @@ export interface ConsoleKafkaClusterV2Spec {
   /**
   * List of bootstrap servers for the Kafka cluster separated by comma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#bootstrap_servers ConsoleKafkaClusterV2#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#bootstrap_servers ConsoleKafkaClusterV2#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * Kafka cluster icon color in hexadecimal format like `#FF0000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#color ConsoleKafkaClusterV2#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#color ConsoleKafkaClusterV2#color}
   */
   readonly color?: string;
   /**
   * Kafka cluster display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#display_name ConsoleKafkaClusterV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#display_name ConsoleKafkaClusterV2#display_name}
   */
   readonly displayName: string;
   /**
   * Kafka cluster icon. List of available icons can be found [here](https://docs.conduktor.io/platform/reference/resource-reference/console/#icon-sets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#icon ConsoleKafkaClusterV2#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#icon ConsoleKafkaClusterV2#icon}
   */
   readonly icon?: string;
   /**
   * Ignore untrusted certificate for Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#ignore_untrusted_certificate ConsoleKafkaClusterV2#ignore_untrusted_certificate}
   */
   readonly ignoreUntrustedCertificate?: boolean | cdktf.IResolvable;
   /**
   * Kafka flavor configuration. One of `confluent`, `aiven`, `gateway`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#kafka_flavor ConsoleKafkaClusterV2#kafka_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#kafka_flavor ConsoleKafkaClusterV2#kafka_flavor}
   */
   readonly kafkaFlavor?: ConsoleKafkaClusterV2SpecKafkaFlavor;
   /**
   * Kafka cluster properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#properties ConsoleKafkaClusterV2#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#properties ConsoleKafkaClusterV2#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Schema registry configuration. One of `confluent_like`, `glue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#schema_registry ConsoleKafkaClusterV2#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#schema_registry ConsoleKafkaClusterV2#schema_registry}
   */
   readonly schemaRegistry?: ConsoleKafkaClusterV2SpecSchemaRegistry;
 }
@@ -2839,7 +2839,7 @@ export class ConsoleKafkaClusterV2SpecOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2 conduktor_console_kafka_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2 conduktor_console_kafka_cluster_v2}
 */
 export class ConsoleKafkaClusterV2 extends cdktf.TerraformResource {
 
@@ -2855,7 +2855,7 @@ export class ConsoleKafkaClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleKafkaClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleKafkaClusterV2 to import
-  * @param importFromId The id of the existing ConsoleKafkaClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleKafkaClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleKafkaClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2867,7 +2867,7 @@ export class ConsoleKafkaClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_cluster_v2 conduktor_console_kafka_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_cluster_v2 conduktor_console_kafka_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2878,8 +2878,8 @@ export class ConsoleKafkaClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_kafka_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

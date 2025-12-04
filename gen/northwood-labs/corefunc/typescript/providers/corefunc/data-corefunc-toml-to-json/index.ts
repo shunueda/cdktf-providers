@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/toml_to_json
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/toml_to_json
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCorefuncTomlToJsonConfig extends cdktf.TerraformMetaArgumen
   /**
   * The TOML string to convert to JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/toml_to_json#toml DataCorefuncTomlToJson#toml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/toml_to_json#toml DataCorefuncTomlToJson#toml}
   */
   readonly toml: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/toml_to_json corefunc_toml_to_json}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/toml_to_json corefunc_toml_to_json}
 */
 export class DataCorefuncTomlToJson extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCorefuncTomlToJson extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncTomlToJson resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncTomlToJson to import
-  * @param importFromId The id of the existing DataCorefuncTomlToJson that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/toml_to_json#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncTomlToJson that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/toml_to_json#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncTomlToJson to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCorefuncTomlToJson extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/toml_to_json corefunc_toml_to_json} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/toml_to_json corefunc_toml_to_json} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCorefuncTomlToJson extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_toml_to_json',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

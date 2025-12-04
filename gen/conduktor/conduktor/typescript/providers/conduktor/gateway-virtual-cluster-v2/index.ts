@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GatewayVirtualClusterV2Config extends cdktf.TerraformMetaArgume
   /**
   * The name of the virtual cluster, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#name GatewayVirtualClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#name GatewayVirtualClusterV2#name}
   */
   readonly name: string;
   /**
   * Virtual Cluster specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#spec GatewayVirtualClusterV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#spec GatewayVirtualClusterV2#spec}
   */
   readonly spec: GatewayVirtualClusterV2Spec;
 }
@@ -24,19 +24,19 @@ export interface GatewayVirtualClusterV2SpecAclsResourcePattern {
   /**
   * The name or pattern matching the name associated with the resource. Wildcards (e.g. `*`) are supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#name GatewayVirtualClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#name GatewayVirtualClusterV2#name}
   */
   readonly name: string;
   /**
   * Type of the pattern to apply ACL on. Valid values are: `ANY`, `LITERAL`, `MATCH`, `PREFIXED`, `UNKNOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#pattern_type GatewayVirtualClusterV2#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#pattern_type GatewayVirtualClusterV2#pattern_type}
   */
   readonly patternType: string;
   /**
   * Type of the resource to apply ACL on. Valid values are: `ANY`, `CLUSTER`, `DELEGATION_TOKEN`, `GROUP`, `TOPIC`, `TRANSACTIONAL_ID`, `UNKNOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#resource_type GatewayVirtualClusterV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#resource_type GatewayVirtualClusterV2#resource_type}
   */
   readonly resourceType: string;
 }
@@ -171,31 +171,31 @@ export interface GatewayVirtualClusterV2SpecAcls {
   /**
   * Host of the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#host GatewayVirtualClusterV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#host GatewayVirtualClusterV2#host}
   */
   readonly host: string;
   /**
   * Set of all operations to apply on the resource. Valid values are: `ALL`, `ALTER`, `ALTER_CONFIGS`, `CLUSTER_ACTION`, `CREATE`, `CREATE_TOKENS`, `DELETE`, `DESCRIBE`, `DESCRIBE_CONFIGS`, `DESCRIBE_TOKENS`, `IDEMPOTENT_WRITE`, `READ`, `UNKNOWN`, `WRITE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#operation GatewayVirtualClusterV2#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#operation GatewayVirtualClusterV2#operation}
   */
   readonly operation: string;
   /**
   * Permission Type for Access Control Entry. Valid values are: ALLOW, DENY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#permission_type GatewayVirtualClusterV2#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#permission_type GatewayVirtualClusterV2#permission_type}
   */
   readonly permissionType: string;
   /**
   * Who or what the ACL applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#principal GatewayVirtualClusterV2#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#principal GatewayVirtualClusterV2#principal}
   */
   readonly principal: string;
   /**
   * The resource pattern to apply the ACL to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#resource_pattern GatewayVirtualClusterV2#resource_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#resource_pattern GatewayVirtualClusterV2#resource_pattern}
   */
   readonly resourcePattern: GatewayVirtualClusterV2SpecAclsResourcePattern;
 }
@@ -414,31 +414,31 @@ export interface GatewayVirtualClusterV2Spec {
   /**
   * Enable ACL checks on all Kafka API calls to this virtual cluster. Depending on the value of the `acl_mode` field, acls are required to be set in different ways. See the `acl_mode` field for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#acl_enabled GatewayVirtualClusterV2#acl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#acl_enabled GatewayVirtualClusterV2#acl_enabled}
   */
   readonly aclEnabled?: boolean | cdktf.IResolvable;
   /**
   * The mode defines how the ACLs will be managed on the virtual cluster. Can only be either `KAFKA_API` or `REST_API`. See [documentation](https://docs.conduktor.io/guide/reference/gateway-reference#virtualcluster) for more information. NOTE: this field has been introduced with Gateway `3.11.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#acl_mode GatewayVirtualClusterV2#acl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#acl_mode GatewayVirtualClusterV2#acl_mode}
   */
   readonly aclMode?: string;
   /**
   * List of ACL bindings for the virtual cluster. Only required if `spec.acl_mode` is set to `REST_API`. See [documentation](https://docs.conduktor.io/guide/reference/gateway-reference#virtualcluster) for more information. NOTE: this field has been introduced with Gateway `3.11.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#acls GatewayVirtualClusterV2#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#acls GatewayVirtualClusterV2#acls}
   */
   readonly acls?: GatewayVirtualClusterV2SpecAcls[] | cdktf.IResolvable;
   /**
   * List of usernames for which the associated service accounts in this virtual cluster can bypass ACLs. Required only if `spec.acl_mode` is set to `KAFKA_API`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#super_users GatewayVirtualClusterV2#super_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#super_users GatewayVirtualClusterV2#super_users}
   */
   readonly superUsers?: string[];
   /**
   * The type of the virtual cluster. Can only be either `Standard` or `Partner`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#type GatewayVirtualClusterV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#type GatewayVirtualClusterV2#type}
   */
   readonly type?: string;
 }
@@ -659,7 +659,7 @@ export class GatewayVirtualClusterV2SpecOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2 conduktor_gateway_virtual_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2 conduktor_gateway_virtual_cluster_v2}
 */
 export class GatewayVirtualClusterV2 extends cdktf.TerraformResource {
 
@@ -675,7 +675,7 @@ export class GatewayVirtualClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayVirtualClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayVirtualClusterV2 to import
-  * @param importFromId The id of the existing GatewayVirtualClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayVirtualClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayVirtualClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -687,7 +687,7 @@ export class GatewayVirtualClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_virtual_cluster_v2 conduktor_gateway_virtual_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_virtual_cluster_v2 conduktor_gateway_virtual_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -698,8 +698,8 @@ export class GatewayVirtualClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_gateway_virtual_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,87 +10,87 @@ export interface SitePskConfig extends cdktf.TerraformMetaArguments {
   /**
   * email to send psk expiring notifications to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#email SitePsk#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#email SitePsk#email}
   */
   readonly email?: string;
   /**
   * Expire time for this PSK key (epoch time in seconds). Default `null` (as no expiration)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#expire_time SitePsk#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#expire_time SitePsk#expire_time}
   */
   readonly expireTime?: number;
   /**
   * Number of days before psk is expired. Used as to when to start sending reminder notification when the psk is about to expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#expiry_notification_time SitePsk#expiry_notification_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#expiry_notification_time SitePsk#expiry_notification_time}
   */
   readonly expiryNotificationTime?: number;
   /**
   * If `usage`==`single`, the mac that this PSK ties to, empty if `auto-binding`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#mac SitePsk#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#mac SitePsk#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#name SitePsk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#name SitePsk#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#note SitePsk#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#note SitePsk#note}
   */
   readonly note?: string;
   /**
   * If set to true, reminder notification will be sent when psk is about to expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#notify_expiry SitePsk#notify_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#notify_expiry SitePsk#notify_expiry}
   */
   readonly notifyExpiry?: boolean | cdktf.IResolvable;
   /**
   * If set to true, notification will be sent when psk is created or edited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#notify_on_create_or_edit SitePsk#notify_on_create_or_edit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#notify_on_create_or_edit SitePsk#notify_on_create_or_edit}
   */
   readonly notifyOnCreateOrEdit?: boolean | cdktf.IResolvable;
   /**
   * previous passphrase of the PSK if it has been rotated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#old_passphrase SitePsk#old_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#old_passphrase SitePsk#old_passphrase}
   */
   readonly oldPassphrase?: string;
   /**
   * passphrase of the PSK (8-63 character or 64 in hex)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#passphrase SitePsk#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#passphrase SitePsk#passphrase}
   */
   readonly passphrase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#role SitePsk#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#role SitePsk#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#site_id SitePsk#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#site_id SitePsk#site_id}
   */
   readonly siteId: string;
   /**
   * SSID this PSK should be applicable to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#ssid SitePsk#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#ssid SitePsk#ssid}
   */
   readonly ssid: string;
   /**
   * enum: `multi`, `single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#usage SitePsk#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#usage SitePsk#usage}
   */
   readonly usage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#vlan_id SitePsk#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#vlan_id SitePsk#vlan_id}
   */
   readonly vlanId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk mist_site_psk}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk mist_site_psk}
 */
 export class SitePsk extends cdktf.TerraformResource {
 
@@ -106,7 +106,7 @@ export class SitePsk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SitePsk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SitePsk to import
-  * @param importFromId The id of the existing SitePsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SitePsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SitePsk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class SitePsk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_psk mist_site_psk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_psk mist_site_psk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,8 +129,8 @@ export class SitePsk extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_psk',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

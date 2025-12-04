@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetlifyDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone#id DataNetlifyDnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone#id DataNetlifyDnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone#name DataNetlifyDnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone#name DataNetlifyDnsZone#name}
   */
   readonly name?: string;
 }
@@ -215,7 +215,7 @@ export class DataNetlifyDnsZoneRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone netlify_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone netlify_dns_zone}
 */
 export class DataNetlifyDnsZone extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataNetlifyDnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetlifyDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetlifyDnsZone to import
-  * @param importFromId The id of the existing DataNetlifyDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetlifyDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetlifyDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataNetlifyDnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/dns_zone netlify_dns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/dns_zone netlify_dns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,7 +254,8 @@ export class DataNetlifyDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'netlify_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

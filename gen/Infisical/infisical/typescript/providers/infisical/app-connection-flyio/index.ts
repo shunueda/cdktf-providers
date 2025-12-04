@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio
+// https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionFlyioConfig extends cdktf.TerraformMetaArguments {
   /**
   * The credentials for the Fly.io App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#credentials AppConnectionFlyio#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#credentials AppConnectionFlyio#credentials}
   */
   readonly credentials: AppConnectionFlyioCredentials;
   /**
   * An optional description for the Fly.io App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#description AppConnectionFlyio#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#description AppConnectionFlyio#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with Fly.io. Possible values are: access-token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#method AppConnectionFlyio#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#method AppConnectionFlyio#method}
   */
   readonly method: string;
   /**
   * The name of the Fly.io App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#name AppConnectionFlyio#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#name AppConnectionFlyio#name}
   */
   readonly name: string;
 }
@@ -36,7 +36,7 @@ export interface AppConnectionFlyioCredentials {
   /**
   * The Fly.io access token for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#access_token AppConnectionFlyio#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#access_token AppConnectionFlyio#access_token}
   */
   readonly accessToken: string;
 }
@@ -127,7 +127,7 @@ export class AppConnectionFlyioCredentialsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio infisical_app_connection_flyio}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio infisical_app_connection_flyio}
 */
 export class AppConnectionFlyio extends cdktf.TerraformResource {
 
@@ -143,7 +143,7 @@ export class AppConnectionFlyio extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionFlyio resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionFlyio to import
-  * @param importFromId The id of the existing AppConnectionFlyio that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionFlyio that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionFlyio to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class AppConnectionFlyio extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_flyio infisical_app_connection_flyio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_flyio infisical_app_connection_flyio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class AppConnectionFlyio extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_flyio',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.50',
-        providerVersionConstraint: '0.15.50'
+        providerVersion: '0.15.52',
+        providerVersionConstraint: '0.15.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

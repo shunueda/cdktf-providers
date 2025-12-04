@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ConsoleTopicV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Catalog visibility for the topic, valid values are: PRIVATE, PUBLIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#catalog_visibility ConsoleTopicV2#catalog_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#catalog_visibility ConsoleTopicV2#catalog_visibility}
   */
   readonly catalogVisibility?: string;
   /**
   * Kafka cluster name linked with Kafka topic. Must already exist in Conduktor Console. Any change will require the Topic to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#cluster ConsoleTopicV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#cluster ConsoleTopicV2#cluster}
   */
   readonly cluster: string;
   /**
   * Topic description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#description ConsoleTopicV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#description ConsoleTopicV2#description}
   */
   readonly description?: string;
   /**
   * is optional (defaults 'true'). Defines whether the description can be updated in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#description_is_editable ConsoleTopicV2#description_is_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#description_is_editable ConsoleTopicV2#description_is_editable}
   */
   readonly descriptionIsEditable?: boolean | cdktf.IResolvable;
   /**
   * Custom labels for the topic resource. Used in Conduktor's topic catalog and UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#labels ConsoleTopicV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#labels ConsoleTopicV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Topic name, must be unique, acts as an ID for import. Any change will require the Topic to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#name ConsoleTopicV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#name ConsoleTopicV2#name}
   */
   readonly name: string;
   /**
   * Topic specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#spec ConsoleTopicV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#spec ConsoleTopicV2#spec}
   */
   readonly spec: ConsoleTopicV2Spec;
   /**
   * Sql storage configuration. NOTE: this field has been introduced with Console `1.30.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#sql_storage ConsoleTopicV2#sql_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#sql_storage ConsoleTopicV2#sql_storage}
   */
   readonly sqlStorage?: ConsoleTopicV2SqlStorage;
 }
@@ -60,19 +60,19 @@ export interface ConsoleTopicV2Spec {
   /**
   * Must be valid Kafka Topic configs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#configs ConsoleTopicV2#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#configs ConsoleTopicV2#configs}
   */
   readonly configs?: { [key: string]: string };
   /**
   * Immutable field. Any change will require the Topic to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#partitions ConsoleTopicV2#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#partitions ConsoleTopicV2#partitions}
   */
   readonly partitions: number;
   /**
   * Immutable field. Any change will require the Topic to be destroyed and re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#replication_factor ConsoleTopicV2#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#replication_factor ConsoleTopicV2#replication_factor}
   */
   readonly replicationFactor: number;
 }
@@ -220,13 +220,13 @@ export interface ConsoleTopicV2SqlStorage {
   /**
   * Whether to store topic data in the database, to enable Conduktor SQL search of a topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#enabled ConsoleTopicV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#enabled ConsoleTopicV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When storing a topic's data for Conduktor SQL search, how long to retain the topic data in the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#retention_time_in_second ConsoleTopicV2#retention_time_in_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#retention_time_in_second ConsoleTopicV2#retention_time_in_second}
   */
   readonly retentionTimeInSecond: number;
 }
@@ -346,7 +346,7 @@ export class ConsoleTopicV2SqlStorageOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2 conduktor_console_topic_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2 conduktor_console_topic_v2}
 */
 export class ConsoleTopicV2 extends cdktf.TerraformResource {
 
@@ -362,7 +362,7 @@ export class ConsoleTopicV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleTopicV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleTopicV2 to import
-  * @param importFromId The id of the existing ConsoleTopicV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleTopicV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleTopicV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -374,7 +374,7 @@ export class ConsoleTopicV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_v2 conduktor_console_topic_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_v2 conduktor_console_topic_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,8 +385,8 @@ export class ConsoleTopicV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_topic_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

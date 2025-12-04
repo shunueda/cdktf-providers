@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PlatformApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the application you wish to create the API key under. Note that the application's access, determines the capabilities of the API keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key#application_id PlatformApiKey#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key#application_id PlatformApiKey#application_id}
   */
   readonly applicationId: string;
   /**
   * Expiration date formatted in RFC3339, Unix, or UnixNano
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key#expiry_date PlatformApiKey#expiry_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key#expiry_date PlatformApiKey#expiry_date}
   */
   readonly expiryDate?: string;
   /**
   * API Key Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key#name PlatformApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key#name PlatformApiKey#name}
   */
   readonly name: string;
   /**
   * Set to `true` for API keys that should never expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key#no_expiry PlatformApiKey#no_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key#no_expiry PlatformApiKey#no_expiry}
   */
   readonly noExpiry?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key kaleido_platform_api_key}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key kaleido_platform_api_key}
 */
 export class PlatformApiKey extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PlatformApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformApiKey to import
-  * @param importFromId The id of the existing PlatformApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PlatformApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_api_key kaleido_platform_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_api_key kaleido_platform_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PlatformApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_api_key',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

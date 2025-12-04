@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace
+// https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCorefuncStrIterativeReplaceConfig extends cdktf.TerraformMe
   /**
   * A list of maps. Each map has an `old` and `new` key. `old` represents the existing string to be replaced, and `new` represents the replacement string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace#replacements DataCorefuncStrIterativeReplace#replacements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace#replacements DataCorefuncStrIterativeReplace#replacements}
   */
   readonly replacements: DataCorefuncStrIterativeReplaceReplacements[] | cdktf.IResolvable;
   /**
   * The string upon which replacements should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace#string DataCorefuncStrIterativeReplace#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace#string DataCorefuncStrIterativeReplace#string}
   */
   readonly string: string;
 }
@@ -24,13 +24,13 @@ export interface DataCorefuncStrIterativeReplaceReplacements {
   /**
   * The replacement substring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace#new DataCorefuncStrIterativeReplace#new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace#new DataCorefuncStrIterativeReplace#new}
   */
   readonly new: string;
   /**
   * The substring to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace#old DataCorefuncStrIterativeReplace#old}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace#old DataCorefuncStrIterativeReplace#old}
   */
   readonly old: string;
 }
@@ -169,7 +169,7 @@ export class DataCorefuncStrIterativeReplaceReplacementsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace corefunc_str_iterative_replace}
+* Represents a {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace corefunc_str_iterative_replace}
 */
 export class DataCorefuncStrIterativeReplace extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataCorefuncStrIterativeReplace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCorefuncStrIterativeReplace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCorefuncStrIterativeReplace to import
-  * @param importFromId The id of the existing DataCorefuncStrIterativeReplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCorefuncStrIterativeReplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCorefuncStrIterativeReplace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataCorefuncStrIterativeReplace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.1.0/docs/data-sources/str_iterative_replace corefunc_str_iterative_replace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/northwood-labs/corefunc/2.2.1/docs/data-sources/str_iterative_replace corefunc_str_iterative_replace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataCorefuncStrIterativeReplace extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_str_iterative_replace',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0',
-        providerVersionConstraint: '2.1.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

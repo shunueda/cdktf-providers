@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConnectIotProvisioningOrgconfigurationConfig extends cdktf.Terr
   /**
   * The GUID of the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#organization_guid ConnectIotProvisioningOrgconfiguration#organization_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#organization_guid ConnectIotProvisioningOrgconfiguration#organization_guid}
   */
   readonly organizationGuid: string;
   /**
   * bootstrap_signature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#bootstrap_signature ConnectIotProvisioningOrgconfiguration#bootstrap_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#bootstrap_signature ConnectIotProvisioningOrgconfiguration#bootstrap_signature}
   */
   readonly bootstrapSignature: ConnectIotProvisioningOrgconfigurationBootstrapSignature;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account ConnectIotProvisioningOrgconfiguration#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account ConnectIotProvisioningOrgconfiguration#service_account}
   */
   readonly serviceAccount: ConnectIotProvisioningOrgconfigurationServiceAccount;
 }
@@ -30,19 +30,19 @@ export interface ConnectIotProvisioningOrgconfigurationBootstrapSignatureConfig 
   /**
   * Padding type (e.g., RSA_PKCS1_PSS_PADDING)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#padding ConnectIotProvisioningOrgconfiguration#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#padding ConnectIotProvisioningOrgconfiguration#padding}
   */
   readonly padding?: string;
   /**
   * Salt length (e.g., RSA_PSS_SALTLEN_MAX_SIGN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#salt_length ConnectIotProvisioningOrgconfiguration#salt_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#salt_length ConnectIotProvisioningOrgconfiguration#salt_length}
   */
   readonly saltLength?: string;
   /**
   * Signature type (RSA, ECC, DSA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#type ConnectIotProvisioningOrgconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#type ConnectIotProvisioningOrgconfiguration#type}
   */
   readonly type?: string;
 }
@@ -186,19 +186,19 @@ export interface ConnectIotProvisioningOrgconfigurationBootstrapSignature {
   /**
   * Signature algorithm (e.g., RSA-SHA256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#algorithm ConnectIotProvisioningOrgconfiguration#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#algorithm ConnectIotProvisioningOrgconfiguration#algorithm}
   */
   readonly algorithm: string;
   /**
   * Public key for bootstrap signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#public_key ConnectIotProvisioningOrgconfiguration#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#public_key ConnectIotProvisioningOrgconfiguration#public_key}
   */
   readonly publicKey: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#config ConnectIotProvisioningOrgconfiguration#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#config ConnectIotProvisioningOrgconfiguration#config}
   */
   readonly config?: ConnectIotProvisioningOrgconfigurationBootstrapSignatureConfig;
 }
@@ -336,13 +336,13 @@ export interface ConnectIotProvisioningOrgconfigurationServiceAccount {
   /**
   * Service account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account_id ConnectIotProvisioningOrgconfiguration#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account_id ConnectIotProvisioningOrgconfiguration#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Service account private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account_key ConnectIotProvisioningOrgconfiguration#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#service_account_key ConnectIotProvisioningOrgconfiguration#service_account_key}
   */
   readonly serviceAccountKey: string;
 }
@@ -449,7 +449,7 @@ export class ConnectIotProvisioningOrgconfigurationServiceAccountOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration}
 */
 export class ConnectIotProvisioningOrgconfiguration extends cdktf.TerraformResource {
 
@@ -465,7 +465,7 @@ export class ConnectIotProvisioningOrgconfiguration extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ConnectIotProvisioningOrgconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectIotProvisioningOrgconfiguration to import
-  * @param importFromId The id of the existing ConnectIotProvisioningOrgconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectIotProvisioningOrgconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectIotProvisioningOrgconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class ConnectIotProvisioningOrgconfiguration extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/connect_iot_provisioning_orgconfiguration hsdp_connect_iot_provisioning_orgconfiguration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class ConnectIotProvisioningOrgconfiguration extends cdktf.TerraformResou
       terraformResourceType: 'hsdp_connect_iot_provisioning_orgconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

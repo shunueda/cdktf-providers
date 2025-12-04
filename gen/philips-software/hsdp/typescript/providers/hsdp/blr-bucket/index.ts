@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface BlrBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#cache_control_age BlrBucket#cache_control_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#cache_control_age BlrBucket#cache_control_age}
   */
   readonly cacheControlAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#enable_cdn BlrBucket#enable_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#enable_cdn BlrBucket#enable_cdn}
   */
   readonly enableCdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#enable_create_or_delete_blob_meta BlrBucket#enable_create_or_delete_blob_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#enable_create_or_delete_blob_meta BlrBucket#enable_create_or_delete_blob_meta}
   */
   readonly enableCreateOrDeleteBlobMeta?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#enable_hsdp_domain BlrBucket#enable_hsdp_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#enable_hsdp_domain BlrBucket#enable_hsdp_domain}
   */
   readonly enableHsdpDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#id BlrBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#id BlrBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#name BlrBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#name BlrBucket#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#price_class BlrBucket#price_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#price_class BlrBucket#price_class}
   */
   readonly priceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#proposition_id BlrBucket#proposition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#proposition_id BlrBucket#proposition_id}
   */
   readonly propositionId: string;
   /**
   * cors_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#cors_configuration BlrBucket#cors_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#cors_configuration BlrBucket#cors_configuration}
   */
   readonly corsConfiguration?: BlrBucketCorsConfiguration;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#principal BlrBucket#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#principal BlrBucket#principal}
   */
   readonly principal?: BlrBucketPrincipal;
 }
 export interface BlrBucketCorsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#allowed_headers BlrBucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#allowed_headers BlrBucket#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#allowed_methods BlrBucket#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#allowed_methods BlrBucket#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#allowed_origins BlrBucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#allowed_origins BlrBucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#expose_headers BlrBucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#expose_headers BlrBucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#max_age_seconds BlrBucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#max_age_seconds BlrBucket#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -267,47 +267,47 @@ export class BlrBucketCorsConfigurationOutputReference extends cdktf.ComplexObje
 }
 export interface BlrBucketPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#endpoint BlrBucket#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#endpoint BlrBucket#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#environment BlrBucket#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#environment BlrBucket#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#oauth2_client_id BlrBucket#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#oauth2_client_id BlrBucket#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#oauth2_password BlrBucket#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#oauth2_password BlrBucket#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#password BlrBucket#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#password BlrBucket#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#region BlrBucket#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#region BlrBucket#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#service_id BlrBucket#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#service_id BlrBucket#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#service_private_key BlrBucket#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#service_private_key BlrBucket#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#uaa_password BlrBucket#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#uaa_password BlrBucket#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#uaa_username BlrBucket#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#uaa_username BlrBucket#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#username BlrBucket#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#username BlrBucket#username}
   */
   readonly username?: string;
 }
@@ -681,7 +681,7 @@ export class BlrBucketPrincipalOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket hsdp_blr_bucket}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket hsdp_blr_bucket}
 */
 export class BlrBucket extends cdktf.TerraformResource {
 
@@ -697,7 +697,7 @@ export class BlrBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlrBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlrBucket to import
-  * @param importFromId The id of the existing BlrBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlrBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlrBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -709,7 +709,7 @@ export class BlrBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/blr_bucket hsdp_blr_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/blr_bucket hsdp_blr_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,8 +720,8 @@ export class BlrBucket extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_blr_bucket',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

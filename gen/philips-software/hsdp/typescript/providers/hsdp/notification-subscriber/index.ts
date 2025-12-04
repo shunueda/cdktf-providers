@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationSubscriberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#description NotificationSubscriber#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#description NotificationSubscriber#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#id NotificationSubscriber#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#id NotificationSubscriber#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#managing_organization NotificationSubscriber#managing_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#managing_organization NotificationSubscriber#managing_organization}
   */
   readonly managingOrganization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#managing_organization_id NotificationSubscriber#managing_organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#managing_organization_id NotificationSubscriber#managing_organization_id}
   */
   readonly managingOrganizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#soft_delete NotificationSubscriber#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#soft_delete NotificationSubscriber#soft_delete}
   */
   readonly softDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#subscriber_product_name NotificationSubscriber#subscriber_product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#subscriber_product_name NotificationSubscriber#subscriber_product_name}
   */
   readonly subscriberProductName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#subscriber_service_base_url NotificationSubscriber#subscriber_service_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#subscriber_service_base_url NotificationSubscriber#subscriber_service_base_url}
   */
   readonly subscriberServiceBaseUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#subscriber_service_instance_name NotificationSubscriber#subscriber_service_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#subscriber_service_instance_name NotificationSubscriber#subscriber_service_instance_name}
   */
   readonly subscriberServiceInstanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#subscriber_service_name NotificationSubscriber#subscriber_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#subscriber_service_name NotificationSubscriber#subscriber_service_name}
   */
   readonly subscriberServiceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#subscriber_service_path_url NotificationSubscriber#subscriber_service_path_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#subscriber_service_path_url NotificationSubscriber#subscriber_service_path_url}
   */
   readonly subscriberServicePathUrl: string;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#principal NotificationSubscriber#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#principal NotificationSubscriber#principal}
   */
   readonly principal?: NotificationSubscriberPrincipal;
 }
 export interface NotificationSubscriberPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#endpoint NotificationSubscriber#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#endpoint NotificationSubscriber#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#environment NotificationSubscriber#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#environment NotificationSubscriber#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#oauth2_client_id NotificationSubscriber#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#oauth2_client_id NotificationSubscriber#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#oauth2_password NotificationSubscriber#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#oauth2_password NotificationSubscriber#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#password NotificationSubscriber#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#password NotificationSubscriber#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#region NotificationSubscriber#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#region NotificationSubscriber#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#service_id NotificationSubscriber#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#service_id NotificationSubscriber#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#service_private_key NotificationSubscriber#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#service_private_key NotificationSubscriber#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#uaa_password NotificationSubscriber#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#uaa_password NotificationSubscriber#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#uaa_username NotificationSubscriber#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#uaa_username NotificationSubscriber#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#username NotificationSubscriber#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#username NotificationSubscriber#username}
   */
   readonly username?: string;
 }
@@ -473,7 +473,7 @@ export class NotificationSubscriberPrincipalOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber hsdp_notification_subscriber}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber hsdp_notification_subscriber}
 */
 export class NotificationSubscriber extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class NotificationSubscriber extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationSubscriber resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationSubscriber to import
-  * @param importFromId The id of the existing NotificationSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationSubscriber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class NotificationSubscriber extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_subscriber hsdp_notification_subscriber} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/notification_subscriber hsdp_notification_subscriber} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class NotificationSubscriber extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_notification_subscriber',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

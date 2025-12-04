@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IamClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lifetime of the access token in seconds. If not specified, system default life time (1800 secs) will be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#access_token_lifetime IamClient#access_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#access_token_lifetime IamClient#access_token_lifetime}
   */
   readonly accessTokenLifetime?: number;
   /**
   * The application ID to attach this client to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#application_id IamClient#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#application_id IamClient#application_id}
   */
   readonly applicationId: string;
   /**
   * The client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#client_id IamClient#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#client_id IamClient#client_id}
   */
   readonly clientId: string;
   /**
   * Flag when enabled, the resource owner will not be asked for consent during authorization flows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#consent_implied IamClient#consent_implied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#consent_implied IamClient#consent_implied}
   */
   readonly consentImplied?: boolean | cdktf.IResolvable;
   /**
   * Default scopes. You do not have to specify these explicitly when requesting a token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#default_scopes IamClient#default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#default_scopes IamClient#default_scopes}
   */
   readonly defaultScopes: string[];
   /**
   * The description of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#description IamClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#description IamClient#description}
   */
   readonly description: string;
   /**
   * Reference identifier defined by the provisioning user. This reference Identifier will be carried over to identify the provisioned resource across deployment instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#global_reference_id IamClient#global_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#global_reference_id IamClient#global_reference_id}
   */
   readonly globalReferenceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#id IamClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#id IamClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface IamClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lifetime of the jwt token generated in case openid scope is enabled for the client. If not specified, system default life time (3600 secs) will be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#id_token_lifetime IamClient#id_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#id_token_lifetime IamClient#id_token_lifetime}
   */
   readonly idTokenLifetime?: number;
   /**
   * Name of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#name IamClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#name IamClient#name}
   */
   readonly name: string;
   /**
   * The password to use (8-16 chars, at least one capital, number, special char).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#password IamClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#password IamClient#password}
   */
   readonly password: string;
   /**
   * List of valid RedirectionURIs for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#redirection_uris IamClient#redirection_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#redirection_uris IamClient#redirection_uris}
   */
   readonly redirectionUris: string[];
   /**
   * Lifetime of the refresh token in seconds. If not specified, system default life time (2592000 secs) will be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#refresh_token_lifetime IamClient#refresh_token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#refresh_token_lifetime IamClient#refresh_token_lifetime}
   */
   readonly refreshTokenLifetime?: number;
   /**
   * Examples of response types are 'code id_token', 'token id_token', etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#response_types IamClient#response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#response_types IamClient#response_types}
   */
   readonly responseTypes: string[];
   /**
   * List of supported scopes for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#scopes IamClient#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#scopes IamClient#scopes}
   */
   readonly scopes: string[];
   /**
   * The type of the client. Either 'Public' or 'Confidential'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#type IamClient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#type IamClient#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client hsdp_iam_client}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client hsdp_iam_client}
 */
 export class IamClient extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class IamClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamClient to import
-  * @param importFromId The id of the existing IamClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class IamClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_client hsdp_iam_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_client hsdp_iam_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class IamClient extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_client',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

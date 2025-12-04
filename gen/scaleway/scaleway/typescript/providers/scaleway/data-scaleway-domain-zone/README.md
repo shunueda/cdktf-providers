@@ -1,3 +1,3 @@
 # `data_scaleway_domain_zone`
 
-Refer to the Terraform Registry for docs: [`data_scaleway_domain_zone`](https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/data-sources/domain_zone).
+Refer to the Terraform Registry for docs: [`data_scaleway_domain_zone`](https://registry.terraform.io/providers/scaleway/scaleway/2.64.0/docs/data-sources/domain_zone).

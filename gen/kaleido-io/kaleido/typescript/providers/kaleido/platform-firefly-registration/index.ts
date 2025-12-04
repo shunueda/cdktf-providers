@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PlatformFireflyRegistrationConfig extends cdktf.TerraformMetaAr
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration#environment PlatformFireflyRegistration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration#environment PlatformFireflyRegistration#environment}
   */
   readonly environment: string;
   /**
   * Firefly Service ID to register in the multiparty network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration#service PlatformFireflyRegistration#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration#service PlatformFireflyRegistration#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration kaleido_platform_firefly_registration}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration kaleido_platform_firefly_registration}
 */
 export class PlatformFireflyRegistration extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class PlatformFireflyRegistration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformFireflyRegistration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformFireflyRegistration to import
-  * @param importFromId The id of the existing PlatformFireflyRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformFireflyRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformFireflyRegistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class PlatformFireflyRegistration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_firefly_registration kaleido_platform_firefly_registration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_firefly_registration kaleido_platform_firefly_registration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class PlatformFireflyRegistration extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_firefly_registration',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

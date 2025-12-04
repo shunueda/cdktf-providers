@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface PkiTenantConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#iam_orgs PkiTenant#iam_orgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#iam_orgs PkiTenant#iam_orgs}
   */
   readonly iamOrgs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#id PkiTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#id PkiTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#organization_name PkiTenant#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#organization_name PkiTenant#organization_name}
   */
   readonly organizationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#space_name PkiTenant#space_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#space_name PkiTenant#space_name}
   */
   readonly spaceName: string;
   /**
   * A map of arbitrary strings that, when changed, will force the resource to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#triggers PkiTenant#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#triggers PkiTenant#triggers}
   */
   readonly triggers?: { [key: string]: string };
   /**
   * ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#ca PkiTenant#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#ca PkiTenant#ca}
   */
   readonly ca: PkiTenantCa;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#role PkiTenant#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#role PkiTenant#role}
   */
   readonly role: PkiTenantRole[] | cdktf.IResolvable;
 }
 export interface PkiTenantCa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#common_name PkiTenant#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#common_name PkiTenant#common_name}
   */
   readonly commonName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#ttl PkiTenant#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#ttl PkiTenant#ttl}
   */
   readonly ttl?: string;
 }
@@ -161,55 +161,55 @@ export class PkiTenantCaOutputReference extends cdktf.ComplexObject {
 }
 export interface PkiTenantRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allow_any_name PkiTenant#allow_any_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allow_any_name PkiTenant#allow_any_name}
   */
   readonly allowAnyName: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allow_ip_sans PkiTenant#allow_ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allow_ip_sans PkiTenant#allow_ip_sans}
   */
   readonly allowIpSans: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allow_subdomains PkiTenant#allow_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allow_subdomains PkiTenant#allow_subdomains}
   */
   readonly allowSubdomains: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allowed_domains PkiTenant#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allowed_domains PkiTenant#allowed_domains}
   */
   readonly allowedDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allowed_other_sans PkiTenant#allowed_other_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allowed_other_sans PkiTenant#allowed_other_sans}
   */
   readonly allowedOtherSans: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allowed_serial_numbers PkiTenant#allowed_serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allowed_serial_numbers PkiTenant#allowed_serial_numbers}
   */
   readonly allowedSerialNumbers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#allowed_uri_sans PkiTenant#allowed_uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#allowed_uri_sans PkiTenant#allowed_uri_sans}
   */
   readonly allowedUriSans: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#client_flag PkiTenant#client_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#client_flag PkiTenant#client_flag}
   */
   readonly clientFlag: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#enforce_hostnames PkiTenant#enforce_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#enforce_hostnames PkiTenant#enforce_hostnames}
   */
   readonly enforceHostnames?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#key_bits PkiTenant#key_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#key_bits PkiTenant#key_bits}
   */
   readonly keyBits: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#key_type PkiTenant#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#key_type PkiTenant#key_type}
   */
   readonly keyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#name PkiTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#name PkiTenant#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#server_flag PkiTenant#server_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#server_flag PkiTenant#server_flag}
   */
   readonly serverFlag: boolean | cdktf.IResolvable;
 }
@@ -643,7 +643,7 @@ export class PkiTenantRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant hsdp_pki_tenant}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant hsdp_pki_tenant}
 */
 export class PkiTenant extends cdktf.TerraformResource {
 
@@ -659,7 +659,7 @@ export class PkiTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PkiTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PkiTenant to import
-  * @param importFromId The id of the existing PkiTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PkiTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PkiTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -671,7 +671,7 @@ export class PkiTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/pki_tenant hsdp_pki_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/pki_tenant hsdp_pki_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -682,8 +682,8 @@ export class PkiTenant extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_pki_tenant',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

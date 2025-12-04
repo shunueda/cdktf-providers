@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface PraPortalControllerConfig extends cdktf.TerraformMetaArguments 
   /**
   * The unique identifier of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#certificate_id PraPortalController#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#certificate_id PraPortalController#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * The description of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#description PraPortalController#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#description PraPortalController#description}
   */
   readonly description?: string;
   /**
   * The domain of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#domain PraPortalController#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#domain PraPortalController#domain}
   */
   readonly domain?: string;
   /**
   * Whether or not the privileged portal is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#enabled PraPortalController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#enabled PraPortalController#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The external domain name prefix of the Browser Access application that is used for Zscaler-managed certificates when creating a privileged portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#ext_domain PraPortalController#ext_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#ext_domain PraPortalController#ext_domain}
   */
   readonly extDomain?: string;
   /**
   * The domain suffix for the privileged portal URL. This field must be one of the customer's authentication domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#ext_domain_name PraPortalController#ext_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#ext_domain_name PraPortalController#ext_domain_name}
   */
   readonly extDomainName?: string;
   /**
   * The translation of the external domain name prefix of the Browser Access application that is used for Zscaler-managed certificates when creating a privileged portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#ext_domain_translation PraPortalController#ext_domain_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#ext_domain_translation PraPortalController#ext_domain_translation}
   */
   readonly extDomainTranslation?: string;
   /**
   * The domain prefix for the privileged portal URL. The supported string can include numbers, lower case characters, and only supports a hyphen (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#ext_label PraPortalController#ext_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#ext_label PraPortalController#ext_label}
   */
   readonly extLabel?: string;
   /**
   * The unique identifier of the Microtenant for the ZPA tenant. If you are within the Default Microtenant, pass microtenantId as 0 when making requests to retrieve data from the Default Microtenant. Pass microtenantId as null to retrieve data from all customers associated with the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#microtenant_id PraPortalController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#microtenant_id PraPortalController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The name of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#name PraPortalController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#name PraPortalController#name}
   */
   readonly name?: string;
   /**
   * The notification message displayed in the banner of the privileged portallink, if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#user_notification PraPortalController#user_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#user_notification PraPortalController#user_notification}
   */
   readonly userNotification?: string;
   /**
   * Indicates if the Notification Banner is enabled (true) or disabled (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#user_notification_enabled PraPortalController#user_notification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#user_notification_enabled PraPortalController#user_notification_enabled}
   */
   readonly userNotificationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier of the user portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#user_portal_gid PraPortalController#user_portal_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#user_portal_gid PraPortalController#user_portal_gid}
   */
   readonly userPortalGid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller zpa_pra_portal_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller zpa_pra_portal_controller}
 */
 export class PraPortalController extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class PraPortalController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PraPortalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PraPortalController to import
-  * @param importFromId The id of the existing PraPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PraPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PraPortalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class PraPortalController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_portal_controller zpa_pra_portal_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_portal_controller zpa_pra_portal_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class PraPortalController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_pra_portal_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

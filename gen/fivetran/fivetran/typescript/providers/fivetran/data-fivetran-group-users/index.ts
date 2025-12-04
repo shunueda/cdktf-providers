@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranGroupUsersConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique identifier for the group within the Fivetran system. Data-source will represent a set of users who has membership in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users#id DataFivetranGroupUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users#id DataFivetranGroupUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFivetranGroupUsersConfig extends cdktf.TerraformMetaArgumen
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users#users DataFivetranGroupUsers#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users#users DataFivetranGroupUsers#users}
   */
   readonly users?: DataFivetranGroupUsersUsers[] | cdktf.IResolvable;
 }
@@ -27,13 +27,13 @@ export interface DataFivetranGroupUsersUsers {
   /**
   * The email address that the user has associated with their user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users#email DataFivetranGroupUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users#email DataFivetranGroupUsers#email}
   */
   readonly email: string;
   /**
   * The group role that you would like to assign this new user to. Supported group roles: ‘Manage Destination‘, ‘View Destination‘, ‘Edit Destination‘, ‘Create Connection‘, or a custom destination role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users#role DataFivetranGroupUsers#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users#role DataFivetranGroupUsers#role}
   */
   readonly role: string;
 }
@@ -217,7 +217,7 @@ export class DataFivetranGroupUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users fivetran_group_users}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users fivetran_group_users}
 */
 export class DataFivetranGroupUsers extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataFivetranGroupUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranGroupUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranGroupUsers to import
-  * @param importFromId The id of the existing DataFivetranGroupUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranGroupUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranGroupUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataFivetranGroupUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_users fivetran_group_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_users fivetran_group_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataFivetranGroupUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_group_users',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

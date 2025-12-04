@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConsoleServiceAccountV1Config extends cdktf.TerraformMetaArgume
   /**
   * Reference to the application instance this service account is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#app_instance ConsoleServiceAccountV1#app_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#app_instance ConsoleServiceAccountV1#app_instance}
   */
   readonly appInstance?: string;
   /**
   * Valid Kafka Cluster name linked with the Service Account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#cluster ConsoleServiceAccountV1#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#cluster ConsoleServiceAccountV1#cluster}
   */
   readonly cluster: string;
   /**
   * Custom labels for the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#labels ConsoleServiceAccountV1#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#labels ConsoleServiceAccountV1#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Service Account name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
   */
   readonly name: string;
   /**
   * Service Accoount specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#spec ConsoleServiceAccountV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#spec ConsoleServiceAccountV1#spec}
   */
   readonly spec: ConsoleServiceAccountV1Spec;
 }
@@ -42,19 +42,19 @@ export interface ConsoleServiceAccountV1SpecAuthorizationAivenAcls {
   /**
   * Aiven resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
   */
   readonly name: string;
   /**
   * Aiven resource permission. Valid values are: admin, read, readwrite, schema_registry_read, schema_registry_write, write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#permission ConsoleServiceAccountV1#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#permission ConsoleServiceAccountV1#permission}
   */
   readonly permission: string;
   /**
   * Aiven resource type. Valid values are: SCHEMA, TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#resource_type ConsoleServiceAccountV1#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#resource_type ConsoleServiceAccountV1#resource_type}
   */
   readonly resourceType: string;
 }
@@ -221,7 +221,7 @@ export interface ConsoleServiceAccountV1SpecAuthorizationAiven {
   /**
   * Set of the Aiven ACLs to apply on the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#acls ConsoleServiceAccountV1#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#acls ConsoleServiceAccountV1#acls}
   */
   readonly acls: ConsoleServiceAccountV1SpecAuthorizationAivenAcls[] | cdktf.IResolvable;
 }
@@ -314,43 +314,43 @@ export interface ConsoleServiceAccountV1SpecAuthorizationKafkaAcls {
   /**
   * Valid Kafka Connect Cluster refrence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#connect_cluster ConsoleServiceAccountV1#connect_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#connect_cluster ConsoleServiceAccountV1#connect_cluster}
   */
   readonly connectCluster?: string;
   /**
   * Host of the Kafka cluster. If not set it will default to '*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#host ConsoleServiceAccountV1#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#host ConsoleServiceAccountV1#host}
   */
   readonly host?: string;
   /**
   * Kafka resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#name ConsoleServiceAccountV1#name}
   */
   readonly name: string;
   /**
   * Set of all operations to apply on the resource. Valid values are: All, Alter, AlterConfigs, ClusterAction, Create, CreateTokens, Delete, Describe, DescribeConfigs, DescribeTokens, IdempotentWrite, Read, Unknown, Write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#operations ConsoleServiceAccountV1#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#operations ConsoleServiceAccountV1#operations}
   */
   readonly operations: string[];
   /**
   * Kafka resource pattern type. Valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#pattern_type ConsoleServiceAccountV1#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#pattern_type ConsoleServiceAccountV1#pattern_type}
   */
   readonly patternType: string;
   /**
   * Permission Type for Access Control Entry. Valid values are: Deny, Allow. If not set it will default to Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#permission ConsoleServiceAccountV1#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#permission ConsoleServiceAccountV1#permission}
   */
   readonly permission?: string;
   /**
   * Kafka resource type. Valid values are: CLUSTER, CONSUMER_GROUP, DELEGATION_TOKEN, TOPIC, TRANSACTIONAL_ID, UNKNOWN, USER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#type ConsoleServiceAccountV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#type ConsoleServiceAccountV1#type}
   */
   readonly type: string;
 }
@@ -630,7 +630,7 @@ export interface ConsoleServiceAccountV1SpecAuthorizationKafka {
   /**
   * Set of the Kafka ACLs to apply on the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#acls ConsoleServiceAccountV1#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#acls ConsoleServiceAccountV1#acls}
   */
   readonly acls: ConsoleServiceAccountV1SpecAuthorizationKafkaAcls[] | cdktf.IResolvable;
 }
@@ -723,13 +723,13 @@ export interface ConsoleServiceAccountV1SpecAuthorization {
   /**
   * Aiven type authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#aiven ConsoleServiceAccountV1#aiven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#aiven ConsoleServiceAccountV1#aiven}
   */
   readonly aiven?: ConsoleServiceAccountV1SpecAuthorizationAiven;
   /**
   * Kafka type authorization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#kafka ConsoleServiceAccountV1#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#kafka ConsoleServiceAccountV1#kafka}
   */
   readonly kafka?: ConsoleServiceAccountV1SpecAuthorizationKafka;
 }
@@ -854,7 +854,7 @@ export interface ConsoleServiceAccountV1Spec {
   /**
   * Service Account authorization. One of `aiven`, `kafka`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#authorization ConsoleServiceAccountV1#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#authorization ConsoleServiceAccountV1#authorization}
   */
   readonly authorization: ConsoleServiceAccountV1SpecAuthorization;
 }
@@ -945,7 +945,7 @@ export class ConsoleServiceAccountV1SpecOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1 conduktor_console_service_account_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1 conduktor_console_service_account_v1}
 */
 export class ConsoleServiceAccountV1 extends cdktf.TerraformResource {
 
@@ -961,7 +961,7 @@ export class ConsoleServiceAccountV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleServiceAccountV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleServiceAccountV1 to import
-  * @param importFromId The id of the existing ConsoleServiceAccountV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleServiceAccountV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleServiceAccountV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -973,7 +973,7 @@ export class ConsoleServiceAccountV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_service_account_v1 conduktor_console_service_account_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_service_account_v1 conduktor_console_service_account_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -984,8 +984,8 @@ export class ConsoleServiceAccountV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_service_account_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

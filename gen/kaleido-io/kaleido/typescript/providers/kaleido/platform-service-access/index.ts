@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PlatformServiceAccessConfig extends cdktf.TerraformMetaArgument
   /**
   * Application ID. Specify either group_id or application_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access#application_id PlatformServiceAccess#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access#application_id PlatformServiceAccess#application_id}
   */
   readonly applicationId?: string;
   /**
   * User Group ID. Specify either group_id or application_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access#group_id PlatformServiceAccess#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access#group_id PlatformServiceAccess#group_id}
   */
   readonly groupId?: string;
   /**
   * ID of Service to grant access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access#service_id PlatformServiceAccess#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access#service_id PlatformServiceAccess#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access kaleido_platform_service_access}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access kaleido_platform_service_access}
 */
 export class PlatformServiceAccess extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PlatformServiceAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformServiceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformServiceAccess to import
-  * @param importFromId The id of the existing PlatformServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformServiceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PlatformServiceAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_service_access kaleido_platform_service_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_service_access kaleido_platform_service_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PlatformServiceAccess extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_service_access',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpS3CredsPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#id DataHsdpS3CredsPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#id DataHsdpS3CredsPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#password DataHsdpS3CredsPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#password DataHsdpS3CredsPolicy#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#product_key DataHsdpS3CredsPolicy#product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#product_key DataHsdpS3CredsPolicy#product_key}
   */
   readonly productKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#username DataHsdpS3CredsPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#username DataHsdpS3CredsPolicy#username}
   */
   readonly username?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#filter DataHsdpS3CredsPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#filter DataHsdpS3CredsPolicy#filter}
   */
   readonly filter?: DataHsdpS3CredsPolicyFilter;
 }
 export interface DataHsdpS3CredsPolicyFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#group_name DataHsdpS3CredsPolicy#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#group_name DataHsdpS3CredsPolicy#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#id DataHsdpS3CredsPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#id DataHsdpS3CredsPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#managing_org DataHsdpS3CredsPolicy#managing_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#managing_org DataHsdpS3CredsPolicy#managing_org}
   */
   readonly managingOrg?: string;
 }
@@ -188,7 +188,7 @@ export class DataHsdpS3CredsPolicyFilterOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy hsdp_s3creds_policy}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy hsdp_s3creds_policy}
 */
 export class DataHsdpS3CredsPolicy extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataHsdpS3CredsPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpS3CredsPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpS3CredsPolicy to import
-  * @param importFromId The id of the existing DataHsdpS3CredsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpS3CredsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpS3CredsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataHsdpS3CredsPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/s3creds_policy hsdp_s3creds_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/s3creds_policy hsdp_s3creds_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataHsdpS3CredsPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_s3creds_policy',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "kaleido": "1.1.2"
+    "kaleido": "1.2.0"
   }
 }

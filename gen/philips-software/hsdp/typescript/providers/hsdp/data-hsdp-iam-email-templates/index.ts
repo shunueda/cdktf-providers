@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpIamEmailTemplatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates#id DataHsdpIamEmailTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates#id DataHsdpIamEmailTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates#locale DataHsdpIamEmailTemplates#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates#locale DataHsdpIamEmailTemplates#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates#organization_id DataHsdpIamEmailTemplates#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates#organization_id DataHsdpIamEmailTemplates#organization_id}
   */
   readonly organizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates#type DataHsdpIamEmailTemplates#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates#type DataHsdpIamEmailTemplates#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates hsdp_iam_email_templates}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates hsdp_iam_email_templates}
 */
 export class DataHsdpIamEmailTemplates extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataHsdpIamEmailTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpIamEmailTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpIamEmailTemplates to import
-  * @param importFromId The id of the existing DataHsdpIamEmailTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpIamEmailTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpIamEmailTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataHsdpIamEmailTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/iam_email_templates hsdp_iam_email_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/data-sources/iam_email_templates hsdp_iam_email_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataHsdpIamEmailTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_iam_email_templates',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

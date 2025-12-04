@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataZpaPraApprovalControllerConfig extends cdktf.TerraformMetaA
   /**
   * The email address of the user that you are assigning the privileged approval to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller#email_ids DataZpaPraApprovalController#email_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller#email_ids DataZpaPraApprovalController#email_ids}
   */
   readonly emailIds?: string[];
   /**
   * The unique identifier of the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller#id DataZpaPraApprovalController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller#id DataZpaPraApprovalController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,7 +205,7 @@ export class DataZpaPraApprovalControllerWorkingHoursList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller zpa_pra_approval_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller zpa_pra_approval_controller}
 */
 export class DataZpaPraApprovalController extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataZpaPraApprovalController extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaPraApprovalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaPraApprovalController to import
-  * @param importFromId The id of the existing DataZpaPraApprovalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaPraApprovalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaPraApprovalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataZpaPraApprovalController extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_approval_controller zpa_pra_approval_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_approval_controller zpa_pra_approval_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataZpaPraApprovalController extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_pra_approval_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

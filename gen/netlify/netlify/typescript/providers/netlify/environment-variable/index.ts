@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentVariableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#key EnvironmentVariable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#key EnvironmentVariable#key}
   */
   readonly key: string;
   /**
@@ -16,41 +16,41 @@ export interface EnvironmentVariableConfig extends cdktf.TerraformMetaArguments 
   * 
   * Customizing scopes is not supported on free plans. However, free plan users managing a secret environment variable can and must explicitly set this to `["builds", "functions", "runtime"]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#scopes EnvironmentVariable#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#scopes EnvironmentVariable#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#secret_values EnvironmentVariable#secret_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#secret_values EnvironmentVariable#secret_values}
   */
   readonly secretValues?: EnvironmentVariableSecretValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#site_id EnvironmentVariable#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#site_id EnvironmentVariable#site_id}
   */
   readonly siteId?: string;
   /**
   * Required if a default team was not configured in the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#team_id EnvironmentVariable#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#team_id EnvironmentVariable#team_id}
   */
   readonly teamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#values EnvironmentVariable#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#values EnvironmentVariable#values}
   */
   readonly values?: EnvironmentVariableValues[] | cdktf.IResolvable;
 }
 export interface EnvironmentVariableSecretValues {
   /**
-  * One of all, dev, branch-deploy, deploy-preview, production, or branch
+  * One of all, dev, dev-server, branch-deploy, deploy-preview, production, or branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#context EnvironmentVariable#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#context EnvironmentVariable#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#context_parameter EnvironmentVariable#context_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#context_parameter EnvironmentVariable#context_parameter}
   */
   readonly contextParameter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#value EnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#value EnvironmentVariable#value}
   */
   readonly value: string;
 }
@@ -218,17 +218,17 @@ export class EnvironmentVariableSecretValuesList extends cdktf.ComplexList {
 }
 export interface EnvironmentVariableValues {
   /**
-  * One of all, dev, branch-deploy, deploy-preview, production, or branch
+  * One of all, dev, dev-server, branch-deploy, deploy-preview, production, or branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#context EnvironmentVariable#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#context EnvironmentVariable#context}
   */
   readonly context: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#context_parameter EnvironmentVariable#context_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#context_parameter EnvironmentVariable#context_parameter}
   */
   readonly contextParameter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#value EnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#value EnvironmentVariable#value}
   */
   readonly value: string;
 }
@@ -396,7 +396,7 @@ export class EnvironmentVariableValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable netlify_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable netlify_environment_variable}
 */
 export class EnvironmentVariable extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentVariable to import
-  * @param importFromId The id of the existing EnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/environment_variable netlify_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/environment_variable netlify_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,7 +435,8 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

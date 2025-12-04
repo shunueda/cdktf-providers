@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsoleApplicationInstanceV1Config extends cdktf.TerraformMetaA
   /**
   * Reference to the application this instance belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#application ConsoleApplicationInstanceV1#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#application ConsoleApplicationInstanceV1#application}
   */
   readonly application: string;
   /**
   * Application Instance name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#name ConsoleApplicationInstanceV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#name ConsoleApplicationInstanceV1#name}
   */
   readonly name: string;
   /**
   * Application Instance specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#spec ConsoleApplicationInstanceV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#spec ConsoleApplicationInstanceV1#spec}
   */
   readonly spec: ConsoleApplicationInstanceV1Spec;
 }
@@ -30,31 +30,31 @@ export interface ConsoleApplicationInstanceV1SpecResources {
   /**
   * Valid Connect Cluster linked to the Kafka Cluster `spec.cluster`. Only mandatory when type is CONNECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#connect_cluster ConsoleApplicationInstanceV1#connect_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#connect_cluster ConsoleApplicationInstanceV1#connect_cluster}
   */
   readonly connectCluster?: string;
   /**
   * Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#name ConsoleApplicationInstanceV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#name ConsoleApplicationInstanceV1#name}
   */
   readonly name: string;
   /**
   * Ownership mode for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#ownership_mode ConsoleApplicationInstanceV1#ownership_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#ownership_mode ConsoleApplicationInstanceV1#ownership_mode}
   */
   readonly ownershipMode?: string;
   /**
   * Pattern type for the resource, valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#pattern_type ConsoleApplicationInstanceV1#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#pattern_type ConsoleApplicationInstanceV1#pattern_type}
   */
   readonly patternType: string;
   /**
   * Type of the resource, valid values are: TOPIC, CONSUMER_GROUP, SUBJECT, CONNECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#type ConsoleApplicationInstanceV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#type ConsoleApplicationInstanceV1#type}
   */
   readonly type: string;
 }
@@ -279,43 +279,43 @@ export interface ConsoleApplicationInstanceV1Spec {
   /**
   * If set to true, the service account ACLs will be managed by the Application owners directly instead of being synchronized by the ApplicationInstance component. See [documentation](https://docs.conduktor.io/platform/reference/resource-reference/self-service/#application-managed-service-account) for more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#application_managed_service_account ConsoleApplicationInstanceV1#application_managed_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#application_managed_service_account ConsoleApplicationInstanceV1#application_managed_service_account}
   */
   readonly applicationManagedServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * Valid Console Cluster. It's immutable (update will require the resource to be recreated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#cluster ConsoleApplicationInstanceV1#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#cluster ConsoleApplicationInstanceV1#cluster}
   */
   readonly cluster: string;
   /**
   * Default catalog visibility for the application instance, valid values are: PRIVATE, PUBLIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#default_catalog_visibility ConsoleApplicationInstanceV1#default_catalog_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#default_catalog_visibility ConsoleApplicationInstanceV1#default_catalog_visibility}
   */
   readonly defaultCatalogVisibility?: string;
   /**
   * Reference to the resource policy to apply to this instance. NOTE: this field has been introduced with Console `1.34.0` and it will not work with previous versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#policy_ref ConsoleApplicationInstanceV1#policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#policy_ref ConsoleApplicationInstanceV1#policy_ref}
   */
   readonly policyRef?: string[];
   /**
   * Set of all resources associated with this application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#resources ConsoleApplicationInstanceV1#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#resources ConsoleApplicationInstanceV1#resources}
   */
   readonly resources?: ConsoleApplicationInstanceV1SpecResources[] | cdktf.IResolvable;
   /**
   * Service account associated with this application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#service_account ConsoleApplicationInstanceV1#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#service_account ConsoleApplicationInstanceV1#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Reference to the topic policy to apply to this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#topic_policy_ref ConsoleApplicationInstanceV1#topic_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#topic_policy_ref ConsoleApplicationInstanceV1#topic_policy_ref}
   */
   readonly topicPolicyRef?: string[];
 }
@@ -580,7 +580,7 @@ export class ConsoleApplicationInstanceV1SpecOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1 conduktor_console_application_instance_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1 conduktor_console_application_instance_v1}
 */
 export class ConsoleApplicationInstanceV1 extends cdktf.TerraformResource {
 
@@ -596,7 +596,7 @@ export class ConsoleApplicationInstanceV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleApplicationInstanceV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleApplicationInstanceV1 to import
-  * @param importFromId The id of the existing ConsoleApplicationInstanceV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleApplicationInstanceV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleApplicationInstanceV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -608,7 +608,7 @@ export class ConsoleApplicationInstanceV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_v1 conduktor_console_application_instance_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_v1 conduktor_console_application_instance_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -619,8 +619,8 @@ export class ConsoleApplicationInstanceV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_application_instance_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

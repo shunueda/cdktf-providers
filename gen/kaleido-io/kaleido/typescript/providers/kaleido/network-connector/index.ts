@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#environment NetworkConnector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#environment NetworkConnector#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#name NetworkConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#name NetworkConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#network NetworkConnector#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#network NetworkConnector#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#permitted_json NetworkConnector#permitted_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#permitted_json NetworkConnector#permitted_json}
   */
   readonly permittedJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#platform_acceptor NetworkConnector#platform_acceptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#platform_acceptor NetworkConnector#platform_acceptor}
   */
   readonly platformAcceptor?: NetworkConnectorPlatformAcceptor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#platform_requestor NetworkConnector#platform_requestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#platform_requestor NetworkConnector#platform_requestor}
   */
   readonly platformRequestor?: NetworkConnectorPlatformRequestor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#type NetworkConnector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#type NetworkConnector#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#zone NetworkConnector#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#zone NetworkConnector#zone}
   */
   readonly zone: string;
 }
 export interface NetworkConnectorPlatformAcceptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_account_id NetworkConnector#target_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_account_id NetworkConnector#target_account_id}
   */
   readonly targetAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_connector_id NetworkConnector#target_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_connector_id NetworkConnector#target_connector_id}
   */
   readonly targetConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_environment_id NetworkConnector#target_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_environment_id NetworkConnector#target_environment_id}
   */
   readonly targetEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_network_id NetworkConnector#target_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_network_id NetworkConnector#target_network_id}
   */
   readonly targetNetworkId: string;
 }
@@ -223,15 +223,15 @@ export class NetworkConnectorPlatformAcceptorOutputReference extends cdktf.Compl
 }
 export interface NetworkConnectorPlatformRequestor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_account_id NetworkConnector#target_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_account_id NetworkConnector#target_account_id}
   */
   readonly targetAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_environment_id NetworkConnector#target_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_environment_id NetworkConnector#target_environment_id}
   */
   readonly targetEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#target_network_id NetworkConnector#target_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#target_network_id NetworkConnector#target_network_id}
   */
   readonly targetNetworkId: string;
 }
@@ -379,7 +379,7 @@ export class NetworkConnectorPlatformRequestorOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector kaleido_network_connector}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector kaleido_network_connector}
 */
 export class NetworkConnector extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class NetworkConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkConnector to import
-  * @param importFromId The id of the existing NetworkConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class NetworkConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/network_connector kaleido_network_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/network_connector kaleido_network_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class NetworkConnector extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_network_connector',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

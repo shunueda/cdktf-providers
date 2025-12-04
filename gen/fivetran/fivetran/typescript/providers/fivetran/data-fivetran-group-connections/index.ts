@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranGroupConnectionsConfig extends cdktf.TerraformMetaA
   /**
   * The ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#id DataFivetranGroupConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#id DataFivetranGroupConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataFivetranGroupConnectionsConfig extends cdktf.TerraformMetaA
   /**
   * Optional filter. When defined, the data source will only contain information for the connection with the specified schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#schema DataFivetranGroupConnections#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#schema DataFivetranGroupConnections#schema}
   */
   readonly schema?: string;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#connections DataFivetranGroupConnections#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#connections DataFivetranGroupConnections#connections}
   */
   readonly connections?: DataFivetranGroupConnectionsConnections[] | cdktf.IResolvable;
 }
@@ -215,13 +215,13 @@ export interface DataFivetranGroupConnectionsConnectionsStatus {
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#tasks DataFivetranGroupConnections#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#tasks DataFivetranGroupConnections#tasks}
   */
   readonly tasks?: DataFivetranGroupConnectionsConnectionsStatusTasks[] | cdktf.IResolvable;
   /**
   * warnings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#warnings DataFivetranGroupConnections#warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#warnings DataFivetranGroupConnections#warnings}
   */
   readonly warnings?: DataFivetranGroupConnectionsConnectionsStatusWarnings[] | cdktf.IResolvable;
 }
@@ -366,7 +366,7 @@ export interface DataFivetranGroupConnectionsConnections {
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#status DataFivetranGroupConnections#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#status DataFivetranGroupConnections#status}
   */
   readonly status?: DataFivetranGroupConnectionsConnectionsStatus;
 }
@@ -542,7 +542,7 @@ export class DataFivetranGroupConnectionsConnectionsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections fivetran_group_connections}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections fivetran_group_connections}
 */
 export class DataFivetranGroupConnections extends cdktf.TerraformDataSource {
 
@@ -558,7 +558,7 @@ export class DataFivetranGroupConnections extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranGroupConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranGroupConnections to import
-  * @param importFromId The id of the existing DataFivetranGroupConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranGroupConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranGroupConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class DataFivetranGroupConnections extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/group_connections fivetran_group_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/group_connections fivetran_group_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class DataFivetranGroupConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_group_connections',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

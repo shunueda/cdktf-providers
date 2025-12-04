@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,133 +8,133 @@ import * as cdktf from 'cdktf';
 
 export interface OrgNetworktemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acl_policies OrgNetworktemplate#acl_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acl_policies OrgNetworktemplate#acl_policies}
   */
   readonly aclPolicies?: OrgNetworktemplateAclPolicies[] | cdktf.IResolvable;
   /**
   * ACL Tags to identify traffic source or destination. Key name is the tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acl_tags OrgNetworktemplate#acl_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acl_tags OrgNetworktemplate#acl_tags}
   */
   readonly aclTags?: { [key: string]: OrgNetworktemplateAclTags } | cdktf.IResolvable;
   /**
   * additional CLI commands to append to the generated Junos config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#additional_config_cmds OrgNetworktemplate#additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#additional_config_cmds OrgNetworktemplate#additional_config_cmds}
   */
   readonly additionalConfigCmds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dhcp_snooping OrgNetworktemplate#dhcp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dhcp_snooping OrgNetworktemplate#dhcp_snooping}
   */
   readonly dhcpSnooping?: OrgNetworktemplateDhcpSnooping;
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dns_servers OrgNetworktemplate#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dns_servers OrgNetworktemplate#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dns_suffix OrgNetworktemplate#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dns_suffix OrgNetworktemplate#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#extra_routes OrgNetworktemplate#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#extra_routes OrgNetworktemplate#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: OrgNetworktemplateExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#extra_routes6 OrgNetworktemplate#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#extra_routes6 OrgNetworktemplate#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: OrgNetworktemplateExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Enable mist_nac to use RadSec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mist_nac OrgNetworktemplate#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mist_nac OrgNetworktemplate#mist_nac}
   */
   readonly mistNac?: OrgNetworktemplateMistNac;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name: string;
   /**
   * Property key is network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
   */
   readonly networks?: { [key: string]: OrgNetworktemplateNetworks } | cdktf.IResolvable;
   /**
   * List of NTP servers specific to this device. By default, those in Site Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ntp_servers OrgNetworktemplate#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ntp_servers OrgNetworktemplate#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#org_id OrgNetworktemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#org_id OrgNetworktemplate#org_id}
   */
   readonly orgId: string;
   /**
   * Junos OSPF areas. Property key is the OSPF Area (Area should be a number (0-255) / IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ospf_areas OrgNetworktemplate#ospf_areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ospf_areas OrgNetworktemplate#ospf_areas}
   */
   readonly ospfAreas?: { [key: string]: OrgNetworktemplateOspfAreas } | cdktf.IResolvable;
   /**
   * Property key is the port mirroring instance name. `port_mirroring` can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 mirroring ports is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_mirroring OrgNetworktemplate#port_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_mirroring OrgNetworktemplate#port_mirroring}
   */
   readonly portMirroring?: { [key: string]: OrgNetworktemplatePortMirroring } | cdktf.IResolvable;
   /**
   * Property key is the port usage name. Defines the profiles of port configuration configured on the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_usages OrgNetworktemplate#port_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_usages OrgNetworktemplate#port_usages}
   */
   readonly portUsages?: { [key: string]: OrgNetworktemplatePortUsages } | cdktf.IResolvable;
   /**
   * Junos Radius config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#radius_config OrgNetworktemplate#radius_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#radius_config OrgNetworktemplate#radius_config}
   */
   readonly radiusConfig?: OrgNetworktemplateRadiusConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#remote_syslog OrgNetworktemplate#remote_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#remote_syslog OrgNetworktemplate#remote_syslog}
   */
   readonly remoteSyslog?: OrgNetworktemplateRemoteSyslog;
   /**
   * By default, only the configuration generated by Mist is cleaned up during the configuration process. If `true`, all the existing configuration will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#remove_existing_configs OrgNetworktemplate#remove_existing_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#remove_existing_configs OrgNetworktemplate#remove_existing_configs}
   */
   readonly removeExistingConfigs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#snmp_config OrgNetworktemplate#snmp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#snmp_config OrgNetworktemplate#snmp_config}
   */
   readonly snmpConfig?: OrgNetworktemplateSnmpConfig;
   /**
   * Defines custom switch configuration based on different criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#switch_matching OrgNetworktemplate#switch_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#switch_matching OrgNetworktemplate#switch_matching}
   */
   readonly switchMatching?: OrgNetworktemplateSwitchMatching;
   /**
   * Switch settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#switch_mgmt OrgNetworktemplate#switch_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#switch_mgmt OrgNetworktemplate#switch_mgmt}
   */
   readonly switchMgmt?: OrgNetworktemplateSwitchMgmt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#vrf_config OrgNetworktemplate#vrf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#vrf_config OrgNetworktemplate#vrf_config}
   */
   readonly vrfConfig?: OrgNetworktemplateVrfConfig;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#vrf_instances OrgNetworktemplate#vrf_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#vrf_instances OrgNetworktemplate#vrf_instances}
   */
   readonly vrfInstances?: { [key: string]: OrgNetworktemplateVrfInstances } | cdktf.IResolvable;
 }
@@ -142,11 +142,11 @@ export interface OrgNetworktemplateAclPoliciesActions {
   /**
   * enum: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#action OrgNetworktemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#action OrgNetworktemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dst_tag OrgNetworktemplate#dst_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dst_tag OrgNetworktemplate#dst_tag}
   */
   readonly dstTag: string;
 }
@@ -292,11 +292,11 @@ export interface OrgNetworktemplateAclPolicies {
   *   - for GBP-based policy, all src_tags and dst_tags have to be gbp-based
   *   - for ACL-based policy, `network` is required in either the source or destination so that we know where to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#actions OrgNetworktemplate#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#actions OrgNetworktemplate#actions}
   */
   readonly actions?: OrgNetworktemplateAclPoliciesActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name?: string;
   /**
@@ -304,7 +304,7 @@ export interface OrgNetworktemplateAclPolicies {
   *   - for GBP-based policy, all src_tags and dst_tags have to be gbp-based
   *   - for ACL-based policy, `network` is required in either the source or destination so that we know where to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#src_tags OrgNetworktemplate#src_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#src_tags OrgNetworktemplate#src_tags}
   */
   readonly srcTags?: string[];
 }
@@ -480,13 +480,13 @@ export interface OrgNetworktemplateAclTagsSpecs {
   /**
   * Matched dst port, "0" means any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_range OrgNetworktemplate#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_range OrgNetworktemplate#port_range}
   */
   readonly portRange?: string;
   /**
   * `tcp` / `udp` / `icmp` / `icmp6` / `gre` / `any` / `:protocol_number`, `protocol_number` is between 1-254, default is `any` `protocol_number` is between 1-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
   */
   readonly protocol?: string;
 }
@@ -631,9 +631,9 @@ export class OrgNetworktemplateAclTagsSpecsList extends cdktf.ComplexList {
 }
 export interface OrgNetworktemplateAclTags {
   /**
-  * Can only be used under dst tags.
+  * ARP / IPv6. Default is `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ether_types OrgNetworktemplate#ether_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ether_types OrgNetworktemplate#ether_types}
   */
   readonly etherTypes?: string[];
   /**
@@ -642,7 +642,7 @@ export interface OrgNetworktemplateAclTags {
   *   - `type`==`gbp_resource`
   *   - `type`==`static_gbp` (applying gbp tag against matching conditions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#gbp_tag OrgNetworktemplate#gbp_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#gbp_tag OrgNetworktemplate#gbp_tag}
   */
   readonly gbpTag?: number;
   /**
@@ -650,7 +650,7 @@ export interface OrgNetworktemplateAclTags {
   * - `type`==`mac`
   * - `type`==`static_gbp` if from matching mac
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#macs OrgNetworktemplate#macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#macs OrgNetworktemplate#macs}
   */
   readonly macs?: string[];
   /**
@@ -661,13 +661,13 @@ export interface OrgNetworktemplateAclTags {
   *   * `type`==`resource` (optional. default is `any`)
   *   * `type`==`static_gbp` if from matching network (vlan)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
   * Required if `type`==`port_usage`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_usage OrgNetworktemplate#port_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_usage OrgNetworktemplate#port_usage}
   */
   readonly portUsage?: string;
   /**
@@ -676,13 +676,13 @@ export interface OrgNetworktemplateAclTags {
   *   * `type`==`static_gbp`
   * if from matching radius_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#radius_group OrgNetworktemplate#radius_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#radius_group OrgNetworktemplate#radius_group}
   */
   readonly radiusGroup?: string;
   /**
   * If `type`==`resource`, `type`==`radius_group`, `type`==`port_usage` or `type`==`gbp_resource`. Empty means unrestricted, i.e. any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#specs OrgNetworktemplate#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#specs OrgNetworktemplate#specs}
   */
   readonly specs?: OrgNetworktemplateAclTagsSpecs[] | cdktf.IResolvable;
   /**
@@ -691,7 +691,7 @@ export interface OrgNetworktemplateAclTags {
   * - `type`==`resource` (optional. default is `any`)
   * - `type`==`static_gbp` if from matching subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#subnets OrgNetworktemplate#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#subnets OrgNetworktemplate#subnets}
   */
   readonly subnets?: string[];
   /**
@@ -707,7 +707,7 @@ export interface OrgNetworktemplateAclTags {
   *   * `static_gbp`: applying gbp tag against matching conditions
   *   * `subnet`'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type: string;
 }
@@ -1050,29 +1050,29 @@ export class OrgNetworktemplateAclTagsMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworktemplateDhcpSnooping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#all_networks OrgNetworktemplate#all_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#all_networks OrgNetworktemplate#all_networks}
   */
   readonly allNetworks?: boolean | cdktf.IResolvable;
   /**
   * Enable for dynamic ARP inspection check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable_arp_spoof_check OrgNetworktemplate#enable_arp_spoof_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable_arp_spoof_check OrgNetworktemplate#enable_arp_spoof_check}
   */
   readonly enableArpSpoofCheck?: boolean | cdktf.IResolvable;
   /**
   * Enable for check for forging source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable_ip_source_guard OrgNetworktemplate#enable_ip_source_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable_ip_source_guard OrgNetworktemplate#enable_ip_source_guard}
   */
   readonly enableIpSourceGuard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If `all_networks`==`false`, list of network with DHCP snooping enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
   */
   readonly networks?: string[];
 }
@@ -1282,11 +1282,11 @@ export class OrgNetworktemplateDhcpSnoopingOutputReference extends cdktf.Complex
 }
 export interface OrgNetworktemplateExtraRoutesNextQualified {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
   */
   readonly preference?: number;
 }
@@ -1431,29 +1431,29 @@ export interface OrgNetworktemplateExtraRoutes {
   /**
   * This takes precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#discard OrgNetworktemplate#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#discard OrgNetworktemplate#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#next_qualified OrgNetworktemplate#next_qualified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#next_qualified OrgNetworktemplate#next_qualified}
   */
   readonly nextQualified?: { [key: string]: OrgNetworktemplateExtraRoutesNextQualified } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_resolve OrgNetworktemplate#no_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_resolve OrgNetworktemplate#no_resolve}
   */
   readonly noResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
   */
   readonly preference?: number;
   /**
   * Next-hop IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
   */
   readonly via: string;
 }
@@ -1709,11 +1709,11 @@ export class OrgNetworktemplateExtraRoutesMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworktemplateExtraRoutes6NextQualified {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
   */
   readonly preference?: number;
 }
@@ -1858,29 +1858,29 @@ export interface OrgNetworktemplateExtraRoutes6 {
   /**
   * This takes precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#discard OrgNetworktemplate#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#discard OrgNetworktemplate#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#next_qualified OrgNetworktemplate#next_qualified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#next_qualified OrgNetworktemplate#next_qualified}
   */
   readonly nextQualified?: { [key: string]: OrgNetworktemplateExtraRoutes6NextQualified } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_resolve OrgNetworktemplate#no_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_resolve OrgNetworktemplate#no_resolve}
   */
   readonly noResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#preference OrgNetworktemplate#preference}
   */
   readonly preference?: number;
   /**
   * Next-hop IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
   */
   readonly via: string;
 }
@@ -2136,11 +2136,11 @@ export class OrgNetworktemplateExtraRoutes6Map extends cdktf.ComplexMap {
 }
 export interface OrgNetworktemplateMistNac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
 }
@@ -2265,39 +2265,39 @@ export interface OrgNetworktemplateNetworks {
   /**
   * Only required for EVPN-VXLAN networks, IPv4 Virtual Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#gateway OrgNetworktemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#gateway OrgNetworktemplate#gateway}
   */
   readonly gateway?: string;
   /**
   * Only required for EVPN-VXLAN networks, IPv6 Virtual Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#gateway6 OrgNetworktemplate#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#gateway6 OrgNetworktemplate#gateway6}
   */
   readonly gateway6?: string;
   /**
   * whether to stop clients to talk to each other, default is false (when enabled, a unique isolation_vlan_id is required). NOTE: this features requires uplink device to also a be Juniper device and `inter_switch_link` to be set. See also `inter_isolation_network_link` and `community_vlan_id` in port_usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#isolation OrgNetworktemplate#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#isolation OrgNetworktemplate#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#isolation_vlan_id OrgNetworktemplate#isolation_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#isolation_vlan_id OrgNetworktemplate#isolation_vlan_id}
   */
   readonly isolationVlanId?: string;
   /**
   * Optional for pure switching, required when L3 / routing features are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#subnet OrgNetworktemplate#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#subnet OrgNetworktemplate#subnet}
   */
   readonly subnet?: string;
   /**
   * Optional for pure switching, required when L3 / routing features are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#subnet6 OrgNetworktemplate#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#subnet6 OrgNetworktemplate#subnet6}
   */
   readonly subnet6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#vlan_id OrgNetworktemplate#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#vlan_id OrgNetworktemplate#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -2584,61 +2584,61 @@ export interface OrgNetworktemplateOspfAreasNetworks {
   /**
   * Required if `auth_type`==`md5`. Property key is the key number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_keys OrgNetworktemplate#auth_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_keys OrgNetworktemplate#auth_keys}
   */
   readonly authKeys?: { [key: string]: string };
   /**
   * Required if `auth_type`==`password`, the password, max length is 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_password OrgNetworktemplate#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_password OrgNetworktemplate#auth_password}
   */
   readonly authPassword?: string;
   /**
   * auth type. enum: `md5`, `none`, `password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_type OrgNetworktemplate#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_type OrgNetworktemplate#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#bfd_minimum_interval OrgNetworktemplate#bfd_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#bfd_minimum_interval OrgNetworktemplate#bfd_minimum_interval}
   */
   readonly bfdMinimumInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dead_interval OrgNetworktemplate#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dead_interval OrgNetworktemplate#dead_interval}
   */
   readonly deadInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#export_policy OrgNetworktemplate#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#export_policy OrgNetworktemplate#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#hello_interval OrgNetworktemplate#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#hello_interval OrgNetworktemplate#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#import_policy OrgNetworktemplate#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#import_policy OrgNetworktemplate#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * interface type (nbma = non-broadcast multi-access). enum: `broadcast`, `nbma`, `p2mp`, `p2p`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#interface_type OrgNetworktemplate#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#interface_type OrgNetworktemplate#interface_type}
   */
   readonly interfaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#metric OrgNetworktemplate#metric}
   */
   readonly metric?: number;
   /**
   * By default, we'll re-advertise all learned OSPF routes toward overlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_readvertise_to_overlay OrgNetworktemplate#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_readvertise_to_overlay OrgNetworktemplate#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * Whether to send OSPF-Hello
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#passive OrgNetworktemplate#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#passive OrgNetworktemplate#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
 }
@@ -3071,17 +3071,17 @@ export class OrgNetworktemplateOspfAreasNetworksMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworktemplateOspfAreas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#include_loopback OrgNetworktemplate#include_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#include_loopback OrgNetworktemplate#include_loopback}
   */
   readonly includeLoopback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
   */
   readonly networks: { [key: string]: OrgNetworktemplateOspfAreasNetworks } | cdktf.IResolvable;
   /**
   * OSPF type. enum: `default`, `nssa`, `stub`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type?: string;
 }
@@ -3252,37 +3252,37 @@ export interface OrgNetworktemplatePortMirroring {
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_networks_ingress OrgNetworktemplate#input_networks_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_networks_ingress OrgNetworktemplate#input_networks_ingress}
   */
   readonly inputNetworksIngress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_port_ids_egress OrgNetworktemplate#input_port_ids_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_port_ids_egress OrgNetworktemplate#input_port_ids_egress}
   */
   readonly inputPortIdsEgress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_port_ids_ingress OrgNetworktemplate#input_port_ids_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_port_ids_ingress OrgNetworktemplate#input_port_ids_ingress}
   */
   readonly inputPortIdsIngress?: string[];
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_ip_address OrgNetworktemplate#output_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_ip_address OrgNetworktemplate#output_ip_address}
   */
   readonly outputIpAddress?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_network OrgNetworktemplate#output_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_network OrgNetworktemplate#output_network}
   */
   readonly outputNetwork?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_port_id OrgNetworktemplate#output_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_port_id OrgNetworktemplate#output_port_id}
   */
   readonly outputPortId?: string;
 }
@@ -3541,13 +3541,13 @@ export class OrgNetworktemplatePortMirroringMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworktemplatePortUsagesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#equals OrgNetworktemplate#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#equals OrgNetworktemplate#equals}
   */
   readonly equalTo?: string;
   /**
   * Use `equals_any` to match any item in a list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#equals_any OrgNetworktemplate#equals_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#equals_any OrgNetworktemplate#equals_any}
   */
   readonly equalsAny?: string[];
   /**
@@ -3555,19 +3555,19 @@ export interface OrgNetworktemplatePortUsagesRules {
   * "split(.)[1]": "a.b.c" -> "b"
   * "split(-)[1][0:3]: "a1234-b5678-c90" -> "b56"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#expression OrgNetworktemplate#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#expression OrgNetworktemplate#expression}
   */
   readonly expression?: string;
   /**
-  * enum: `link_peermac`, `lldp_chassis_id`, `lldp_hardware_revision`, `lldp_manufacturer_name`, `lldp_oui`, `lldp_serial_number`, `lldp_system_name`, `radius_dynamicfilter`, `radius_usermac`, `radius_username`
+  * enum: `link_peermac`, `lldp_chassis_id`, `lldp_hardware_revision`, `lldp_manufacturer_name`, `lldp_oui`, `lldp_serial_number`, `lldp_system_description`, `lldp_system_name`, `radius_dynamicfilter`, `radius_usermac`, `radius_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#src OrgNetworktemplate#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#src OrgNetworktemplate#src}
   */
   readonly src: string;
   /**
   * `port_usage` name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#usage OrgNetworktemplate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#usage OrgNetworktemplate#usage}
   */
   readonly usage?: string;
 }
@@ -3798,37 +3798,37 @@ export interface OrgNetworktemplatePortUsagesStormControl {
   /**
   * Whether to disable the port when storm control is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#disable_port OrgNetworktemplate#disable_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#disable_port OrgNetworktemplate#disable_port}
   */
   readonly disablePort?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on broadcast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_broadcast OrgNetworktemplate#no_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_broadcast OrgNetworktemplate#no_broadcast}
   */
   readonly noBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_multicast OrgNetworktemplate#no_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_multicast OrgNetworktemplate#no_multicast}
   */
   readonly noMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on registered multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_registered_multicast OrgNetworktemplate#no_registered_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_registered_multicast OrgNetworktemplate#no_registered_multicast}
   */
   readonly noRegisteredMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on unknown unicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_unknown_unicast OrgNetworktemplate#no_unknown_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_unknown_unicast OrgNetworktemplate#no_unknown_unicast}
   */
   readonly noUnknownUnicast?: boolean | cdktf.IResolvable;
   /**
   * Bandwidth-percentage, configures the storm control level as a percentage of the available bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#percentage OrgNetworktemplate#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#percentage OrgNetworktemplate#percentage}
   */
   readonly percentage?: number;
 }
@@ -4069,253 +4069,265 @@ export interface OrgNetworktemplatePortUsages {
   /**
   * Only if `mode`==`trunk`. Whether to trunk all network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#all_networks OrgNetworktemplate#all_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#all_networks OrgNetworktemplate#all_networks}
   */
   readonly allNetworks?: boolean | cdktf.IResolvable;
   /**
-  * Only if `mode`!=`dynamic`. If DHCP snooping is enabled, whether DHCP server is allowed on the interfaces with. All the interfaces from port configs using this port usage are effected. Please notice that allow_dhcpd is a tri_state. When it is not defined, it means using the system's default setting which depends on whether the port is an access or trunk port.
+  * Only applies when `mode`!=`dynamic`. Controls whether DHCP server traffic is allowed on ports using this configuration if DHCP snooping is enabled. This is a tri-state setting; true: ports become trusted ports allowing DHCP server traffic, false: ports become untrusted blocking DHCP server traffic, undefined: use system defaults (access ports default to untrusted, trunk ports default to trusted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#allow_dhcpd OrgNetworktemplate#allow_dhcpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#allow_dhcpd OrgNetworktemplate#allow_dhcpd}
   */
   readonly allowDhcpd?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#allow_multiple_supplicants OrgNetworktemplate#allow_multiple_supplicants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#allow_multiple_supplicants OrgNetworktemplate#allow_multiple_supplicants}
   */
   readonly allowMultipleSupplicants?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Bypass auth for known clients if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#bypass_auth_when_server_down OrgNetworktemplate#bypass_auth_when_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#bypass_auth_when_server_down OrgNetworktemplate#bypass_auth_when_server_down}
   */
   readonly bypassAuthWhenServerDown?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`=`dot1x`. Bypass auth for all (including unknown clients) if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#bypass_auth_when_server_down_for_unknown_client OrgNetworktemplate#bypass_auth_when_server_down_for_unknown_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#bypass_auth_when_server_down_for_unknown_client OrgNetworktemplate#bypass_auth_when_server_down_for_unknown_client}
   */
   readonly bypassAuthWhenServerDownForUnknownClient?: boolean | cdktf.IResolvable;
   /**
+  * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Bypass auth for VOIP if set to true when RADIUS server is down
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#bypass_auth_when_server_down_for_voip OrgNetworktemplate#bypass_auth_when_server_down_for_voip}
+  */
+  readonly bypassAuthWhenServerDownForVoip?: boolean | cdktf.IResolvable;
+  /**
   * Only if `mode`!=`dynamic`. To be used together with `isolation` under networks. Signaling that this port connects to the networks isolated but wired clients belong to the same community can talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#community_vlan_id OrgNetworktemplate#community_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#community_vlan_id OrgNetworktemplate#community_vlan_id}
   */
   readonly communityVlanId?: number;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
   */
   readonly description?: string;
   /**
   * Only if `mode`!=`dynamic`. If speed and duplex are specified, whether to disable autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#disable_autoneg OrgNetworktemplate#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#disable_autoneg OrgNetworktemplate#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether the port is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#disabled OrgNetworktemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#disabled OrgNetworktemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Link connection mode. enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#duplex OrgNetworktemplate#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#duplex OrgNetworktemplate#duplex}
   */
   readonly duplex?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`, if dynamic vlan is used, specify the possible networks/vlans RADIUS can return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dynamic_vlan_networks OrgNetworktemplate#dynamic_vlan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dynamic_vlan_networks OrgNetworktemplate#dynamic_vlan_networks}
   */
   readonly dynamicVlanNetworks?: string[];
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Whether to enable MAC Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable_mac_auth OrgNetworktemplate#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable_mac_auth OrgNetworktemplate#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable_qos OrgNetworktemplate#enable_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable_qos OrgNetworktemplate#enable_qos}
   */
   readonly enableQos?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Which network to put the device into if the device cannot do dot1x. default is null (i.e. not allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#guest_network OrgNetworktemplate#guest_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#guest_network OrgNetworktemplate#guest_network}
   */
   readonly guestNetwork?: string;
   /**
-  * Only if `mode`!=`dynamic`. `inter_switch_link` is used together with `isolation` under networks. NOTE: `inter_switch_link` works only between Juniper device. This has to be applied to both ports connected together
+  * Only if `mode`!=`dynamic`. `inter_isolation_network_link` is used together with `isolation` under networks, signaling that this port connects to isolated networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#inter_isolation_network_link OrgNetworktemplate#inter_isolation_network_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#inter_isolation_network_link OrgNetworktemplate#inter_isolation_network_link}
   */
   readonly interIsolationNetworkLink?: boolean | cdktf.IResolvable;
   /**
-  * Only if `mode`!=`dynamic`. `inter_switch_link` is used together with `isolation` under networks. NOTE: inter_switch_link works only between Juniper device. This has to be applied to both ports connected together
+  * Only if `mode`!=`dynamic`. `inter_switch_link` is used together with `isolation` under networks. NOTE: `inter_switch_link` works only between Juniper devices. This has to be applied to both ports connected together
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#inter_switch_link OrgNetworktemplate#inter_switch_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#inter_switch_link OrgNetworktemplate#inter_switch_link}
   */
   readonly interSwitchLink?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `enable_mac_auth`==`true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mac_auth_only OrgNetworktemplate#mac_auth_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mac_auth_only OrgNetworktemplate#mac_auth_only}
   */
   readonly macAuthOnly?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` + `enable_mac_auth`==`true` + `mac_auth_only`==`false`, dot1x will be given priority then mac_auth. Enable this to prefer mac_auth over dot1x.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mac_auth_preferred OrgNetworktemplate#mac_auth_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mac_auth_preferred OrgNetworktemplate#mac_auth_preferred}
   */
   readonly macAuthPreferred?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `enable_mac_auth` ==`true`. This type is ignored if mist_nac is enabled. enum: `eap-md5`, `eap-peap`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mac_auth_protocol OrgNetworktemplate#mac_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mac_auth_protocol OrgNetworktemplate#mac_auth_protocol}
   */
   readonly macAuthProtocol?: string;
   /**
   * Only if `mode`!=`dynamic` max number of mac addresses, default is 0 for unlimited, otherwise range is 1 to 16383 (upper bound constrained by platform)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mac_limit OrgNetworktemplate#mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mac_limit OrgNetworktemplate#mac_limit}
   */
   readonly macLimit?: string;
   /**
   * `mode`==`dynamic` must only be used if the port usage name is `dynamic`. enum: `access`, `dynamic`, `inet`, `trunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mode OrgNetworktemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mode OrgNetworktemplate#mode}
   */
   readonly mode?: string;
   /**
   * Only if `mode`!=`dynamic` media maximum transmission unit (MTU) is the largest data unit that can be forwarded without fragmentation. Value between 256 and 9216, default value is 1514.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mtu OrgNetworktemplate#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mtu OrgNetworktemplate#mtu}
   */
   readonly mtu?: string;
   /**
   * Only if `mode`==`trunk`, the list of network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
   */
   readonly networks?: string[];
   /**
   * Only if `mode`==`access` and `port_auth`!=`dot1x`. Whether the port should retain dynamically learned MAC addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#persist_mac OrgNetworktemplate#persist_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#persist_mac OrgNetworktemplate#persist_mac}
   */
   readonly persistMac?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether PoE capabilities are disabled for a port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#poe_disabled OrgNetworktemplate#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#poe_disabled OrgNetworktemplate#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
+  * PoE priority. enum: `low`, `high`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#poe_priority OrgNetworktemplate#poe_priority}
+  */
+  readonly poePriority?: string;
+  /**
   * Only if `mode`!=`dynamic`. If dot1x is desired, set to dot1x. enum: `dot1x`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_auth OrgNetworktemplate#port_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_auth OrgNetworktemplate#port_auth}
   */
   readonly portAuth?: string;
   /**
   * Only if `mode`!=`dynamic`. Native network/vlan for untagged traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_network OrgNetworktemplate#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_network OrgNetworktemplate#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`=`dot1x` reauthentication interval range between 10 and 65535 (default: 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#reauth_interval OrgNetworktemplate#reauth_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#reauth_interval OrgNetworktemplate#reauth_interval}
   */
   readonly reauthInterval?: string;
   /**
   * Only if `mode`==`dynamic` Control when the DPC port should be changed to the default port usage. enum: `link_down`, `none` (let the DPC port keep at the current port usage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#reset_default_when OrgNetworktemplate#reset_default_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#reset_default_when OrgNetworktemplate#reset_default_when}
   */
   readonly resetDefaultWhen?: string;
   /**
   * Only if `mode`==`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#rules OrgNetworktemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#rules OrgNetworktemplate#rules}
   */
   readonly rules?: OrgNetworktemplatePortUsagesRules[] | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Sets server fail fallback vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#server_fail_network OrgNetworktemplate#server_fail_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#server_fail_network OrgNetworktemplate#server_fail_network}
   */
   readonly serverFailNetwork?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. When radius server reject / fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#server_reject_network OrgNetworktemplate#server_reject_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#server_reject_network OrgNetworktemplate#server_reject_network}
   */
   readonly serverRejectNetwork?: string;
   /**
   * Only if `mode`!=`dynamic`, Port speed, default is auto to automatically negotiate speed enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#speed OrgNetworktemplate#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#speed OrgNetworktemplate#speed}
   */
   readonly speed?: string;
   /**
   * Switch storm control. Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#storm_control OrgNetworktemplate#storm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#storm_control OrgNetworktemplate#storm_control}
   */
   readonly stormControl?: OrgNetworktemplatePortUsagesStormControl;
   /**
   * Only if `mode`!=`dynamic` and `stp_required`==`false`. Drop bridge protocol data units (BPDUs ) that enter any interface or a specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_disable OrgNetworktemplate#stp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_disable OrgNetworktemplate#stp_disable}
   */
   readonly stpDisable?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. When enabled, the port is not expected to receive BPDU frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_edge OrgNetworktemplate#stp_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_edge OrgNetworktemplate#stp_edge}
   */
   readonly stpEdge?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_no_root_port OrgNetworktemplate#stp_no_root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_no_root_port OrgNetworktemplate#stp_no_root_port}
   */
   readonly stpNoRootPort?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_p2p OrgNetworktemplate#stp_p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_p2p OrgNetworktemplate#stp_p2p}
   */
   readonly stpP2P?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether to remain in block state if no BPDU is received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_required OrgNetworktemplate#stp_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_required OrgNetworktemplate#stp_required}
   */
   readonly stpRequired?: boolean | cdktf.IResolvable;
   /**
   * Optional for Campus Fabric Core-Distribution ESI-LAG profile. Helper used by the UI to select this port profile as the ESI-Lag between Distribution and Access switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ui_evpntopo_id OrgNetworktemplate#ui_evpntopo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ui_evpntopo_id OrgNetworktemplate#ui_evpntopo_id}
   */
   readonly uiEvpntopoId?: string;
   /**
   * If this is connected to a vstp network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#use_vstp OrgNetworktemplate#use_vstp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#use_vstp OrgNetworktemplate#use_vstp}
   */
   readonly useVstp?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Network/vlan for voip traffic, must also set port_network. to authenticate device, set port_auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#voip_network OrgNetworktemplate#voip_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#voip_network OrgNetworktemplate#voip_network}
   */
   readonly voipNetwork?: string;
 }
@@ -4331,6 +4343,7 @@ export function orgNetworktemplatePortUsagesToTerraform(struct?: OrgNetworktempl
     allow_multiple_supplicants: cdktf.booleanToTerraform(struct!.allowMultipleSupplicants),
     bypass_auth_when_server_down: cdktf.booleanToTerraform(struct!.bypassAuthWhenServerDown),
     bypass_auth_when_server_down_for_unknown_client: cdktf.booleanToTerraform(struct!.bypassAuthWhenServerDownForUnknownClient),
+    bypass_auth_when_server_down_for_voip: cdktf.booleanToTerraform(struct!.bypassAuthWhenServerDownForVoip),
     community_vlan_id: cdktf.numberToTerraform(struct!.communityVlanId),
     description: cdktf.stringToTerraform(struct!.description),
     disable_autoneg: cdktf.booleanToTerraform(struct!.disableAutoneg),
@@ -4351,6 +4364,7 @@ export function orgNetworktemplatePortUsagesToTerraform(struct?: OrgNetworktempl
     networks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.networks),
     persist_mac: cdktf.booleanToTerraform(struct!.persistMac),
     poe_disabled: cdktf.booleanToTerraform(struct!.poeDisabled),
+    poe_priority: cdktf.stringToTerraform(struct!.poePriority),
     port_auth: cdktf.stringToTerraform(struct!.portAuth),
     port_network: cdktf.stringToTerraform(struct!.portNetwork),
     reauth_interval: cdktf.stringToTerraform(struct!.reauthInterval),
@@ -4404,6 +4418,12 @@ export function orgNetworktemplatePortUsagesToHclTerraform(struct?: OrgNetworkte
     },
     bypass_auth_when_server_down_for_unknown_client: {
       value: cdktf.booleanToHclTerraform(struct!.bypassAuthWhenServerDownForUnknownClient),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    bypass_auth_when_server_down_for_voip: {
+      value: cdktf.booleanToHclTerraform(struct!.bypassAuthWhenServerDownForVoip),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4527,6 +4547,12 @@ export function orgNetworktemplatePortUsagesToHclTerraform(struct?: OrgNetworkte
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    poe_priority: {
+      value: cdktf.stringToHclTerraform(struct!.poePriority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     port_auth: {
       value: cdktf.stringToHclTerraform(struct!.portAuth),
@@ -4675,6 +4701,10 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.bypassAuthWhenServerDownForUnknownClient = this._bypassAuthWhenServerDownForUnknownClient;
     }
+    if (this._bypassAuthWhenServerDownForVoip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassAuthWhenServerDownForVoip = this._bypassAuthWhenServerDownForVoip;
+    }
     if (this._communityVlanId !== undefined) {
       hasAnyValues = true;
       internalValueResult.communityVlanId = this._communityVlanId;
@@ -4754,6 +4784,10 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
     if (this._poeDisabled !== undefined) {
       hasAnyValues = true;
       internalValueResult.poeDisabled = this._poeDisabled;
+    }
+    if (this._poePriority !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poePriority = this._poePriority;
     }
     if (this._portAuth !== undefined) {
       hasAnyValues = true;
@@ -4835,6 +4869,7 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
       this._allowMultipleSupplicants = undefined;
       this._bypassAuthWhenServerDown = undefined;
       this._bypassAuthWhenServerDownForUnknownClient = undefined;
+      this._bypassAuthWhenServerDownForVoip = undefined;
       this._communityVlanId = undefined;
       this._description = undefined;
       this._disableAutoneg = undefined;
@@ -4855,6 +4890,7 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
       this._networks = undefined;
       this._persistMac = undefined;
       this._poeDisabled = undefined;
+      this._poePriority = undefined;
       this._portAuth = undefined;
       this._portNetwork = undefined;
       this._reauthInterval = undefined;
@@ -4885,6 +4921,7 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
       this._allowMultipleSupplicants = value.allowMultipleSupplicants;
       this._bypassAuthWhenServerDown = value.bypassAuthWhenServerDown;
       this._bypassAuthWhenServerDownForUnknownClient = value.bypassAuthWhenServerDownForUnknownClient;
+      this._bypassAuthWhenServerDownForVoip = value.bypassAuthWhenServerDownForVoip;
       this._communityVlanId = value.communityVlanId;
       this._description = value.description;
       this._disableAutoneg = value.disableAutoneg;
@@ -4905,6 +4942,7 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
       this._networks = value.networks;
       this._persistMac = value.persistMac;
       this._poeDisabled = value.poeDisabled;
+      this._poePriority = value.poePriority;
       this._portAuth = value.portAuth;
       this._portNetwork = value.portNetwork;
       this._reauthInterval = value.reauthInterval;
@@ -5003,6 +5041,22 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get bypassAuthWhenServerDownForUnknownClientInput() {
     return this._bypassAuthWhenServerDownForUnknownClient;
+  }
+
+  // bypass_auth_when_server_down_for_voip - computed: true, optional: true, required: false
+  private _bypassAuthWhenServerDownForVoip?: boolean | cdktf.IResolvable; 
+  public get bypassAuthWhenServerDownForVoip() {
+    return this.getBooleanAttribute('bypass_auth_when_server_down_for_voip');
+  }
+  public set bypassAuthWhenServerDownForVoip(value: boolean | cdktf.IResolvable) {
+    this._bypassAuthWhenServerDownForVoip = value;
+  }
+  public resetBypassAuthWhenServerDownForVoip() {
+    this._bypassAuthWhenServerDownForVoip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassAuthWhenServerDownForVoipInput() {
+    return this._bypassAuthWhenServerDownForVoip;
   }
 
   // community_vlan_id - computed: false, optional: true, required: false
@@ -5325,6 +5379,22 @@ export class OrgNetworktemplatePortUsagesOutputReference extends cdktf.ComplexOb
     return this._poeDisabled;
   }
 
+  // poe_priority - computed: false, optional: true, required: false
+  private _poePriority?: string; 
+  public get poePriority() {
+    return this.getStringAttribute('poe_priority');
+  }
+  public set poePriority(value: string) {
+    this._poePriority = value;
+  }
+  public resetPoePriority() {
+    this._poePriority = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poePriorityInput() {
+    return this._poePriority;
+  }
+
   // port_auth - computed: false, optional: true, required: false
   private _portAuth?: string; 
   public get portAuth() {
@@ -5620,35 +5690,35 @@ export interface OrgNetworktemplateRadiusConfigAcctServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_enabled OrgNetworktemplate#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_enabled OrgNetworktemplate#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_format OrgNetworktemplate#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_format OrgNetworktemplate#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_kek OrgNetworktemplate#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_kek OrgNetworktemplate#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_mack OrgNetworktemplate#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_mack OrgNetworktemplate#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
   */
   readonly secret: string;
 }
@@ -5934,41 +6004,41 @@ export interface OrgNetworktemplateRadiusConfigAuthServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_enabled OrgNetworktemplate#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_enabled OrgNetworktemplate#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_format OrgNetworktemplate#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_format OrgNetworktemplate#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_kek OrgNetworktemplate#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_kek OrgNetworktemplate#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#keywrap_mack OrgNetworktemplate#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#keywrap_mack OrgNetworktemplate#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
   * Whether to require Message-Authenticator in requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#require_message_authenticator OrgNetworktemplate#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#require_message_authenticator OrgNetworktemplate#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: boolean | cdktf.IResolvable;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
   */
   readonly secret: string;
 }
@@ -6281,63 +6351,63 @@ export class OrgNetworktemplateRadiusConfigAuthServersList extends cdktf.Complex
 }
 export interface OrgNetworktemplateRadiusConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acct_immediate_update OrgNetworktemplate#acct_immediate_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acct_immediate_update OrgNetworktemplate#acct_immediate_update}
   */
   readonly acctImmediateUpdate?: boolean | cdktf.IResolvable;
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from RADIUS Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acct_interim_interval OrgNetworktemplate#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acct_interim_interval OrgNetworktemplate#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acct_servers OrgNetworktemplate#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acct_servers OrgNetworktemplate#acct_servers}
   */
   readonly acctServers?: OrgNetworktemplateRadiusConfigAcctServers[] | cdktf.IResolvable;
   /**
   * enum: `ordered`, `unordered`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_server_selection OrgNetworktemplate#auth_server_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_server_selection OrgNetworktemplate#auth_server_selection}
   */
   readonly authServerSelection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_servers OrgNetworktemplate#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_servers OrgNetworktemplate#auth_servers}
   */
   readonly authServers?: OrgNetworktemplateRadiusConfigAuthServers[] | cdktf.IResolvable;
   /**
   * Radius auth session retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_servers_retries OrgNetworktemplate#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_servers_retries OrgNetworktemplate#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#auth_servers_timeout OrgNetworktemplate#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#auth_servers_timeout OrgNetworktemplate#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#coa_enabled OrgNetworktemplate#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#coa_enabled OrgNetworktemplate#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#coa_port OrgNetworktemplate#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#coa_port OrgNetworktemplate#coa_port}
   */
   readonly coaPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#fast_dot1x_timers OrgNetworktemplate#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#fast_dot1x_timers OrgNetworktemplate#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Use `network`or `source_ip`. Which network the RADIUS server resides, if there's static IP for this network, we'd use it as source-ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
   * Use `network`or `source_ip`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#source_ip OrgNetworktemplate#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#source_ip OrgNetworktemplate#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -6750,11 +6820,11 @@ export class OrgNetworktemplateRadiusConfigOutputReference extends cdktf.Complex
 }
 export interface OrgNetworktemplateRemoteSyslogArchive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
   */
   readonly files?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#size OrgNetworktemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#size OrgNetworktemplate#size}
   */
   readonly size?: string;
 }
@@ -6879,13 +6949,13 @@ export interface OrgNetworktemplateRemoteSyslogConsoleContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
   */
   readonly severity?: string;
 }
@@ -7030,7 +7100,7 @@ export class OrgNetworktemplateRemoteSyslogConsoleContentsList extends cdktf.Com
 }
 export interface OrgNetworktemplateRemoteSyslogConsole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
   */
   readonly contents?: OrgNetworktemplateRemoteSyslogConsoleContents[] | cdktf.IResolvable;
 }
@@ -7124,11 +7194,11 @@ export class OrgNetworktemplateRemoteSyslogConsoleOutputReference extends cdktf.
 }
 export interface OrgNetworktemplateRemoteSyslogFilesArchive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
   */
   readonly files?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#size OrgNetworktemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#size OrgNetworktemplate#size}
   */
   readonly size?: string;
 }
@@ -7253,13 +7323,13 @@ export interface OrgNetworktemplateRemoteSyslogFilesContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
   */
   readonly severity?: string;
 }
@@ -7404,33 +7474,33 @@ export class OrgNetworktemplateRemoteSyslogFilesContentsList extends cdktf.Compl
 }
 export interface OrgNetworktemplateRemoteSyslogFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#archive OrgNetworktemplate#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#archive OrgNetworktemplate#archive}
   */
   readonly archive?: OrgNetworktemplateRemoteSyslogFilesArchive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
   */
   readonly contents?: OrgNetworktemplateRemoteSyslogFilesContents[] | cdktf.IResolvable;
   /**
   * Only if `protocol`==`tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable_tls OrgNetworktemplate#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable_tls OrgNetworktemplate#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#explicit_priority OrgNetworktemplate#explicit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#explicit_priority OrgNetworktemplate#explicit_priority}
   */
   readonly explicitPriority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#file OrgNetworktemplate#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#file OrgNetworktemplate#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#structured_data OrgNetworktemplate#structured_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#structured_data OrgNetworktemplate#structured_data}
   */
   readonly structuredData?: boolean | cdktf.IResolvable;
 }
@@ -7722,13 +7792,13 @@ export interface OrgNetworktemplateRemoteSyslogServersContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
   */
   readonly severity?: string;
 }
@@ -7873,65 +7943,65 @@ export class OrgNetworktemplateRemoteSyslogServersContentsList extends cdktf.Com
 }
 export interface OrgNetworktemplateRemoteSyslogServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
   */
   readonly contents?: OrgNetworktemplateRemoteSyslogServersContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#explicit_priority OrgNetworktemplate#explicit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#explicit_priority OrgNetworktemplate#explicit_priority}
   */
   readonly explicitPriority?: boolean | cdktf.IResolvable;
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
   * enum: `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#routing_instance OrgNetworktemplate#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#routing_instance OrgNetworktemplate#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Name of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#server_name OrgNetworktemplate#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#server_name OrgNetworktemplate#server_name}
   */
   readonly serverName?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
   */
   readonly severity?: string;
   /**
   * If source_address is configured, will use the vlan firstly otherwise use source_ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#source_address OrgNetworktemplate#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#source_address OrgNetworktemplate#source_address}
   */
   readonly sourceAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#structured_data OrgNetworktemplate#structured_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#structured_data OrgNetworktemplate#structured_data}
   */
   readonly structuredData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#tag OrgNetworktemplate#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#tag OrgNetworktemplate#tag}
   */
   readonly tag?: string;
 }
@@ -8397,13 +8467,13 @@ export interface OrgNetworktemplateRemoteSyslogUsersContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#facility OrgNetworktemplate#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#severity OrgNetworktemplate#severity}
   */
   readonly severity?: string;
 }
@@ -8548,15 +8618,15 @@ export class OrgNetworktemplateRemoteSyslogUsersContentsList extends cdktf.Compl
 }
 export interface OrgNetworktemplateRemoteSyslogUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
   */
   readonly contents?: OrgNetworktemplateRemoteSyslogUsersContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match OrgNetworktemplate#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#user OrgNetworktemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#user OrgNetworktemplate#user}
   */
   readonly user?: string;
 }
@@ -8730,47 +8800,47 @@ export class OrgNetworktemplateRemoteSyslogUsersList extends cdktf.ComplexList {
 }
 export interface OrgNetworktemplateRemoteSyslog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#archive OrgNetworktemplate#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#archive OrgNetworktemplate#archive}
   */
   readonly archive?: OrgNetworktemplateRemoteSyslogArchive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#cacerts OrgNetworktemplate#cacerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#cacerts OrgNetworktemplate#cacerts}
   */
   readonly cacerts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#console OrgNetworktemplate#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#console OrgNetworktemplate#console}
   */
   readonly console?: OrgNetworktemplateRemoteSyslogConsole;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#files OrgNetworktemplate#files}
   */
   readonly files?: OrgNetworktemplateRemoteSyslogFiles[] | cdktf.IResolvable;
   /**
   * If source_address is configured, will use the vlan firstly otherwise use source_ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#send_to_all_servers OrgNetworktemplate#send_to_all_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#send_to_all_servers OrgNetworktemplate#send_to_all_servers}
   */
   readonly sendToAllServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#servers OrgNetworktemplate#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#servers OrgNetworktemplate#servers}
   */
   readonly servers?: OrgNetworktemplateRemoteSyslogServers[] | cdktf.IResolvable;
   /**
   * enum: `millisecond`, `year`, `year millisecond`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#time_format OrgNetworktemplate#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#time_format OrgNetworktemplate#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#users OrgNetworktemplate#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#users OrgNetworktemplate#users}
   */
   readonly users?: OrgNetworktemplateRemoteSyslogUsers[] | cdktf.IResolvable;
 }
@@ -9125,11 +9195,11 @@ export class OrgNetworktemplateRemoteSyslogOutputReference extends cdktf.Complex
 }
 export interface OrgNetworktemplateSnmpConfigClientListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#client_list_name OrgNetworktemplate#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#client_list_name OrgNetworktemplate#client_list_name}
   */
   readonly clientListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#clients OrgNetworktemplate#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#clients OrgNetworktemplate#clients}
   */
   readonly clients?: string[];
 }
@@ -9274,23 +9344,23 @@ export class OrgNetworktemplateSnmpConfigClientListStructList extends cdktf.Comp
 }
 export interface OrgNetworktemplateSnmpConfigTrapGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#categories OrgNetworktemplate#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#categories OrgNetworktemplate#categories}
   */
   readonly categories?: string[];
   /**
   * Categories list can refer to https://www.juniper.net/documentation/software/topics/task/configuration/snmp_trap-groups-configuring-junos-nm.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#group_name OrgNetworktemplate#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#group_name OrgNetworktemplate#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#targets OrgNetworktemplate#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#targets OrgNetworktemplate#targets}
   */
   readonly targets?: string[];
   /**
   * enum: `all`, `v1`, `v2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#version OrgNetworktemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#version OrgNetworktemplate#version}
   */
   readonly version?: string;
 }
@@ -9493,23 +9563,23 @@ export class OrgNetworktemplateSnmpConfigTrapGroupsList extends cdktf.ComplexLis
 }
 export interface OrgNetworktemplateSnmpConfigV2CConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#authorization OrgNetworktemplate#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#authorization OrgNetworktemplate#authorization}
   */
   readonly authorization?: string;
   /**
   * Client_list_name here should refer to client_list above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#client_list_name OrgNetworktemplate#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#client_list_name OrgNetworktemplate#client_list_name}
   */
   readonly clientListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#community_name OrgNetworktemplate#community_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#community_name OrgNetworktemplate#community_name}
   */
   readonly communityName?: string;
   /**
   * View name here should be defined in views above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#view OrgNetworktemplate#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#view OrgNetworktemplate#view}
   */
   readonly view?: string;
 }
@@ -9712,17 +9782,17 @@ export class OrgNetworktemplateSnmpConfigV2CConfigList extends cdktf.ComplexList
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigNotify {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#tag OrgNetworktemplate#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#tag OrgNetworktemplate#tag}
   */
   readonly tag: string;
   /**
   * enum: `inform`, `trap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type: string;
 }
@@ -9887,11 +9957,11 @@ export class OrgNetworktemplateSnmpConfigV3ConfigNotifyList extends cdktf.Comple
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigNotifyFilterContents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#include OrgNetworktemplate#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#include OrgNetworktemplate#include}
   */
   readonly include?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#oid OrgNetworktemplate#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#oid OrgNetworktemplate#oid}
   */
   readonly oid: string;
 }
@@ -10033,11 +10103,11 @@ export class OrgNetworktemplateSnmpConfigV3ConfigNotifyFilterContentsList extend
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigNotifyFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contents OrgNetworktemplate#contents}
   */
   readonly contents?: OrgNetworktemplateSnmpConfigV3ConfigNotifyFilterContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#profile_name OrgNetworktemplate#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#profile_name OrgNetworktemplate#profile_name}
   */
   readonly profileName?: string;
 }
@@ -10182,31 +10252,31 @@ export class OrgNetworktemplateSnmpConfigV3ConfigNotifyFilterList extends cdktf.
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigTargetAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#address OrgNetworktemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#address OrgNetworktemplate#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#address_mask OrgNetworktemplate#address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#address_mask OrgNetworktemplate#address_mask}
   */
   readonly addressMask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
   * Refer to notify tag, can be multiple with blank
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#tag_list OrgNetworktemplate#tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#tag_list OrgNetworktemplate#tag_list}
   */
   readonly tagList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#target_address_name OrgNetworktemplate#target_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#target_address_name OrgNetworktemplate#target_address_name}
   */
   readonly targetAddressName: string;
   /**
   * Refer to notify target parameters name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#target_parameters OrgNetworktemplate#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#target_parameters OrgNetworktemplate#target_parameters}
   */
   readonly targetParameters?: string;
 }
@@ -10460,35 +10530,35 @@ export interface OrgNetworktemplateSnmpConfigV3ConfigTargetParameters {
   /**
   * enum: `v1`, `v2c`, `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#message_processing_model OrgNetworktemplate#message_processing_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#message_processing_model OrgNetworktemplate#message_processing_model}
   */
   readonly messageProcessingModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name: string;
   /**
   * Refer to profile-name in notify_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#notify_filter OrgNetworktemplate#notify_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#notify_filter OrgNetworktemplate#notify_filter}
   */
   readonly notifyFilter?: string;
   /**
   * enum: `authentication`, `none`, `privacy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_level OrgNetworktemplate#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_level OrgNetworktemplate#security_level}
   */
   readonly securityLevel?: string;
   /**
   * enum: `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
   */
   readonly securityModel?: string;
   /**
   * Refer to security_name in usm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_name OrgNetworktemplate#security_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_name OrgNetworktemplate#security_name}
   */
   readonly securityName?: string;
 }
@@ -10745,29 +10815,29 @@ export interface OrgNetworktemplateSnmpConfigV3ConfigUsmUsers {
   /**
   * Not required if `authentication_type`==`authentication-none`. Include alphabetic, numeric, and special characters, but it cannot include control characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#authentication_password OrgNetworktemplate#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#authentication_password OrgNetworktemplate#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * sha224, sha256, sha384, sha512 are supported in 21.1 and newer release. enum: `authentication-md5`, `authentication-none`, `authentication-sha`, `authentication-sha224`, `authentication-sha256`, `authentication-sha384`, `authentication-sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#authentication_type OrgNetworktemplate#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#authentication_type OrgNetworktemplate#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Not required if `encryption_type`==`privacy-none`. Include alphabetic, numeric, and special characters, but it cannot include control characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#encryption_password OrgNetworktemplate#encryption_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#encryption_password OrgNetworktemplate#encryption_password}
   */
   readonly encryptionPassword?: string;
   /**
   * enum: `privacy-3des`, `privacy-aes128`, `privacy-des`, `privacy-none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#encryption_type OrgNetworktemplate#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#encryption_type OrgNetworktemplate#encryption_type}
   */
   readonly encryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name?: string;
 }
@@ -11001,17 +11071,17 @@ export interface OrgNetworktemplateSnmpConfigV3ConfigUsm {
   /**
   * enum: `local_engine`, `remote_engine`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#engine_type OrgNetworktemplate#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#engine_type OrgNetworktemplate#engine_type}
   */
   readonly engineType: string;
   /**
   * Required only if `engine_type`==`remote_engine`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#remote_engine_id OrgNetworktemplate#remote_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#remote_engine_id OrgNetworktemplate#remote_engine_id}
   */
   readonly remoteEngineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#users OrgNetworktemplate#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#users OrgNetworktemplate#users}
   */
   readonly users?: OrgNetworktemplateSnmpConfigV3ConfigUsmUsers[] | cdktf.IResolvable;
 }
@@ -11184,43 +11254,43 @@ export interface OrgNetworktemplateSnmpConfigV3ConfigVacmAccessPrefixListStruct 
   /**
   * Only required if `type`==`context_prefix`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#context_prefix OrgNetworktemplate#context_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#context_prefix OrgNetworktemplate#context_prefix}
   */
   readonly contextPrefix?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#notify_view OrgNetworktemplate#notify_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#notify_view OrgNetworktemplate#notify_view}
   */
   readonly notifyView?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#read_view OrgNetworktemplate#read_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#read_view OrgNetworktemplate#read_view}
   */
   readonly readView?: string;
   /**
   * enum: `authentication`, `none`, `privacy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_level OrgNetworktemplate#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_level OrgNetworktemplate#security_level}
   */
   readonly securityLevel?: string;
   /**
   * enum: `any`, `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
   */
   readonly securityModel?: string;
   /**
   * enum: `context_prefix`, `default_context_prefix`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#write_view OrgNetworktemplate#write_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#write_view OrgNetworktemplate#write_view}
   */
   readonly writeView?: string;
 }
@@ -11510,11 +11580,11 @@ export class OrgNetworktemplateSnmpConfigV3ConfigVacmAccessPrefixListStructList 
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigVacmAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#group_name OrgNetworktemplate#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#group_name OrgNetworktemplate#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#prefix_list OrgNetworktemplate#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#prefix_list OrgNetworktemplate#prefix_list}
   */
   readonly prefixList?: OrgNetworktemplateSnmpConfigV3ConfigVacmAccessPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -11661,11 +11731,11 @@ export interface OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroupContent 
   /**
   * Refer to group_name under access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#group OrgNetworktemplate#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#group OrgNetworktemplate#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_name OrgNetworktemplate#security_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_name OrgNetworktemplate#security_name}
   */
   readonly securityName?: string;
 }
@@ -11810,13 +11880,13 @@ export class OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroupContentList 
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#content OrgNetworktemplate#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#content OrgNetworktemplate#content}
   */
   readonly content?: OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroupContent[] | cdktf.IResolvable;
   /**
   * enum: `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_model OrgNetworktemplate#security_model}
   */
   readonly securityModel?: string;
 }
@@ -11939,11 +12009,11 @@ export class OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroupOutputRefere
 }
 export interface OrgNetworktemplateSnmpConfigV3ConfigVacm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#access OrgNetworktemplate#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#access OrgNetworktemplate#access}
   */
   readonly access?: OrgNetworktemplateSnmpConfigV3ConfigVacmAccess[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#security_to_group OrgNetworktemplate#security_to_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#security_to_group OrgNetworktemplate#security_to_group}
   */
   readonly securityToGroup?: OrgNetworktemplateSnmpConfigV3ConfigVacmSecurityToGroup;
 }
@@ -12066,27 +12136,27 @@ export class OrgNetworktemplateSnmpConfigV3ConfigVacmOutputReference extends cdk
 }
 export interface OrgNetworktemplateSnmpConfigV3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#notify OrgNetworktemplate#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#notify OrgNetworktemplate#notify}
   */
   readonly notify?: OrgNetworktemplateSnmpConfigV3ConfigNotify[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#notify_filter OrgNetworktemplate#notify_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#notify_filter OrgNetworktemplate#notify_filter}
   */
   readonly notifyFilter?: OrgNetworktemplateSnmpConfigV3ConfigNotifyFilter[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#target_address OrgNetworktemplate#target_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#target_address OrgNetworktemplate#target_address}
   */
   readonly targetAddress?: OrgNetworktemplateSnmpConfigV3ConfigTargetAddress[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#target_parameters OrgNetworktemplate#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#target_parameters OrgNetworktemplate#target_parameters}
   */
   readonly targetParameters?: OrgNetworktemplateSnmpConfigV3ConfigTargetParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#usm OrgNetworktemplate#usm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#usm OrgNetworktemplate#usm}
   */
   readonly usm?: OrgNetworktemplateSnmpConfigV3ConfigUsm[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#vacm OrgNetworktemplate#vacm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#vacm OrgNetworktemplate#vacm}
   */
   readonly vacm?: OrgNetworktemplateSnmpConfigV3ConfigVacm;
 }
@@ -12327,15 +12397,15 @@ export interface OrgNetworktemplateSnmpConfigViews {
   /**
   * If the root oid configured is included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#include OrgNetworktemplate#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#include OrgNetworktemplate#include}
   */
   readonly include?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#oid OrgNetworktemplate#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#oid OrgNetworktemplate#oid}
   */
   readonly oid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#view_name OrgNetworktemplate#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#view_name OrgNetworktemplate#view_name}
   */
   readonly viewName?: string;
 }
@@ -12509,57 +12579,57 @@ export class OrgNetworktemplateSnmpConfigViewsList extends cdktf.ComplexList {
 }
 export interface OrgNetworktemplateSnmpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#client_list OrgNetworktemplate#client_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#client_list OrgNetworktemplate#client_list}
   */
   readonly clientList?: OrgNetworktemplateSnmpConfigClientListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#contact OrgNetworktemplate#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#contact OrgNetworktemplate#contact}
   */
   readonly contact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#engine_id OrgNetworktemplate#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#engine_id OrgNetworktemplate#engine_id}
   */
   readonly engineId?: string;
   /**
   * enum: `local`, `use_mac_address`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#engine_id_type OrgNetworktemplate#engine_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#engine_id_type OrgNetworktemplate#engine_id_type}
   */
   readonly engineIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#location OrgNetworktemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#location OrgNetworktemplate#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#trap_groups OrgNetworktemplate#trap_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#trap_groups OrgNetworktemplate#trap_groups}
   */
   readonly trapGroups?: OrgNetworktemplateSnmpConfigTrapGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#v2c_config OrgNetworktemplate#v2c_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#v2c_config OrgNetworktemplate#v2c_config}
   */
   readonly v2CConfig?: OrgNetworktemplateSnmpConfigV2CConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#v3_config OrgNetworktemplate#v3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#v3_config OrgNetworktemplate#v3_config}
   */
   readonly v3Config?: OrgNetworktemplateSnmpConfigV3Config;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#views OrgNetworktemplate#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#views OrgNetworktemplate#views}
   */
   readonly views?: OrgNetworktemplateSnmpConfigViews[] | cdktf.IResolvable;
 }
@@ -13003,13 +13073,13 @@ export interface OrgNetworktemplateSwitchMatchingRulesIpConfig {
   /**
   * VLAN Name for the management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type?: string;
 }
@@ -13134,19 +13204,19 @@ export interface OrgNetworktemplateSwitchMatchingRulesOobIpConfig {
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#type OrgNetworktemplate#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#use_mgmt_vrf OrgNetworktemplate#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#use_mgmt_vrf OrgNetworktemplate#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * For host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#use_mgmt_vrf_for_host_out OrgNetworktemplate#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#use_mgmt_vrf_for_host_out OrgNetworktemplate#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
 }
@@ -13300,89 +13370,89 @@ export interface OrgNetworktemplateSwitchMatchingRulesPortConfig {
   /**
   * To disable LACP support for the AE interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ae_disable_lacp OrgNetworktemplate#ae_disable_lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ae_disable_lacp OrgNetworktemplate#ae_disable_lacp}
   */
   readonly aeDisableLacp?: boolean | cdktf.IResolvable;
   /**
   * Users could force to use the designated AE name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ae_idx OrgNetworktemplate#ae_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ae_idx OrgNetworktemplate#ae_idx}
   */
   readonly aeIdx?: number;
   /**
   * To use fast timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ae_lacp_slow OrgNetworktemplate#ae_lacp_slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ae_lacp_slow OrgNetworktemplate#ae_lacp_slow}
   */
   readonly aeLacpSlow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#aggregated OrgNetworktemplate#aggregated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#aggregated OrgNetworktemplate#aggregated}
   */
   readonly aggregated?: boolean | cdktf.IResolvable;
   /**
   * To generate port up/down alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#critical OrgNetworktemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#critical OrgNetworktemplate#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#description OrgNetworktemplate#description}
   */
   readonly description?: string;
   /**
   * If `speed` and `duplex` are specified, whether to disable autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#disable_autoneg OrgNetworktemplate#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#disable_autoneg OrgNetworktemplate#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#duplex OrgNetworktemplate#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#duplex OrgNetworktemplate#duplex}
   */
   readonly duplex?: string;
   /**
   * Enable dynamic usage for this port. Set to `dynamic` to enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dynamic_usage OrgNetworktemplate#dynamic_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dynamic_usage OrgNetworktemplate#dynamic_usage}
   */
   readonly dynamicUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#esilag OrgNetworktemplate#esilag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#esilag OrgNetworktemplate#esilag}
   */
   readonly esilag?: boolean | cdktf.IResolvable;
   /**
   * Media maximum transmission unit (MTU) is the largest data unit that can be forwarded without fragmentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mtu OrgNetworktemplate#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mtu OrgNetworktemplate#mtu}
   */
   readonly mtu?: number;
   /**
   * Prevent helpdesk to override the port config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#no_local_overwrite OrgNetworktemplate#no_local_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#no_local_overwrite OrgNetworktemplate#no_local_overwrite}
   */
   readonly noLocalOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#poe_disabled OrgNetworktemplate#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#poe_disabled OrgNetworktemplate#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * Required if `usage`==`vlan_tunnel`. Q-in-Q tunneling using All-in-one bundling. This also enables standard L2PT for interfaces that are not encapsulation tunnel interfaces and uses MAC rewrite operation. [View more information](https://www.juniper.net/documentation/us/en/software/junos/multicast-l2/topics/topic-map/q-in-q.html#id-understanding-qinq-tunneling-and-vlan-translation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_network OrgNetworktemplate#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_network OrgNetworktemplate#port_network}
   */
   readonly portNetwork?: string;
   /**
   * enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#speed OrgNetworktemplate#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#speed OrgNetworktemplate#speed}
   */
   readonly speed?: string;
   /**
   * Port usage name. For Q-in-Q, use `vlan_tunnel`. If EVPN is used, use `evpn_uplink`or `evpn_downlink`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#usage OrgNetworktemplate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#usage OrgNetworktemplate#usage}
   */
   readonly usage: string;
 }
@@ -13930,37 +14000,37 @@ export interface OrgNetworktemplateSwitchMatchingRulesPortMirroring {
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_networks_ingress OrgNetworktemplate#input_networks_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_networks_ingress OrgNetworktemplate#input_networks_ingress}
   */
   readonly inputNetworksIngress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_port_ids_egress OrgNetworktemplate#input_port_ids_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_port_ids_egress OrgNetworktemplate#input_port_ids_egress}
   */
   readonly inputPortIdsEgress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#input_port_ids_ingress OrgNetworktemplate#input_port_ids_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#input_port_ids_ingress OrgNetworktemplate#input_port_ids_ingress}
   */
   readonly inputPortIdsIngress?: string[];
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_ip_address OrgNetworktemplate#output_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_ip_address OrgNetworktemplate#output_ip_address}
   */
   readonly outputIpAddress?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_network OrgNetworktemplate#output_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_network OrgNetworktemplate#output_network}
   */
   readonly outputNetwork?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#output_port_id OrgNetworktemplate#output_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#output_port_id OrgNetworktemplate#output_port_id}
   */
   readonly outputPortId?: string;
 }
@@ -14221,7 +14291,7 @@ export interface OrgNetworktemplateSwitchMatchingRulesStpConfig {
   /**
   * Switch STP priority. Range [0, 4k, 8k.. 60k] in steps of 4k. Bridge priority applies to both VSTP and RSTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#bridge_priority OrgNetworktemplate#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#bridge_priority OrgNetworktemplate#bridge_priority}
   */
   readonly bridgePriority?: string;
 }
@@ -14317,65 +14387,65 @@ export interface OrgNetworktemplateSwitchMatchingRules {
   /**
   * additional CLI commands to append to the generated Junos config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#additional_config_cmds OrgNetworktemplate#additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#additional_config_cmds OrgNetworktemplate#additional_config_cmds}
   */
   readonly additionalConfigCmds?: string[];
   /**
   * In-Band Management interface configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ip_config OrgNetworktemplate#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ip_config OrgNetworktemplate#ip_config}
   */
   readonly ipConfig?: OrgNetworktemplateSwitchMatchingRulesIpConfig;
   /**
   * string the switch model must start with to use this rule. It is possible to combine with the `match_name` and `match_role` attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match_model OrgNetworktemplate#match_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match_model OrgNetworktemplate#match_model}
   */
   readonly matchModel?: string;
   /**
   * string the switch name must start with to use this rule. Use the `match_name_offset` to indicate the first character of the switch name to compare to. It is possible to combine with the `match_model` and `match_role` attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match_name OrgNetworktemplate#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match_name OrgNetworktemplate#match_name}
   */
   readonly matchName?: string;
   /**
   * first character of the switch name to compare to the `match_name` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match_name_offset OrgNetworktemplate#match_name_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match_name_offset OrgNetworktemplate#match_name_offset}
   */
   readonly matchNameOffset?: number;
   /**
   * string the switch role must start with to use this rule. It is possible to combine with the `match_name` and `match_model` attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#match_role OrgNetworktemplate#match_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#match_role OrgNetworktemplate#match_role}
   */
   readonly matchRole?: string;
   /**
   * Rule name. WARNING: the name `default` is reserved and can only be used for the last rule in the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#name OrgNetworktemplate#name}
   */
   readonly name?: string;
   /**
   * Out-of-Band Management interface configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#oob_ip_config OrgNetworktemplate#oob_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#oob_ip_config OrgNetworktemplate#oob_ip_config}
   */
   readonly oobIpConfig?: OrgNetworktemplateSwitchMatchingRulesOobIpConfig;
   /**
   * Property key is the port name or range (e.g. "ge-0/0/0-10")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_config OrgNetworktemplate#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_config OrgNetworktemplate#port_config}
   */
   readonly portConfig?: { [key: string]: OrgNetworktemplateSwitchMatchingRulesPortConfig } | cdktf.IResolvable;
   /**
   * Property key is the port mirroring instance name. `port_mirroring` can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 mirroring ports is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_mirroring OrgNetworktemplate#port_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_mirroring OrgNetworktemplate#port_mirroring}
   */
   readonly portMirroring?: { [key: string]: OrgNetworktemplateSwitchMatchingRulesPortMirroring } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#stp_config OrgNetworktemplate#stp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#stp_config OrgNetworktemplate#stp_config}
   */
   readonly stpConfig?: OrgNetworktemplateSwitchMatchingRulesStpConfig;
 }
@@ -14781,13 +14851,13 @@ export class OrgNetworktemplateSwitchMatchingRulesList extends cdktf.ComplexList
 }
 export interface OrgNetworktemplateSwitchMatching {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enable OrgNetworktemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enable OrgNetworktemplate#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * list of rules to define custom switch configuration based on different criteria. Each list must have at least one of `match_model`, `match_name` or `match_role` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#rules OrgNetworktemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#rules OrgNetworktemplate#rules}
   */
   readonly rules?: OrgNetworktemplateSwitchMatchingRules[] | cdktf.IResolvable;
 }
@@ -14910,13 +14980,13 @@ export class OrgNetworktemplateSwitchMatchingOutputReference extends cdktf.Compl
 }
 export interface OrgNetworktemplateSwitchMgmtLocalAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#password OrgNetworktemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#password OrgNetworktemplate#password}
   */
   readonly password?: string;
   /**
   * enum: `admin`, `helpdesk`, `none`, `read`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#role OrgNetworktemplate#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#role OrgNetworktemplate#role}
   */
   readonly role?: string;
 }
@@ -15061,17 +15131,17 @@ export interface OrgNetworktemplateSwitchMgmtProtectReCustom {
   /**
   * matched dst port, "0" means any. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port_range OrgNetworktemplate#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port_range OrgNetworktemplate#port_range}
   */
   readonly portRange?: string;
   /**
   * enum: `any`, `icmp`, `tcp`, `udp`. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#protocol OrgNetworktemplate#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#subnets OrgNetworktemplate#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#subnets OrgNetworktemplate#subnets}
   */
   readonly subnets: string[];
 }
@@ -15244,11 +15314,11 @@ export interface OrgNetworktemplateSwitchMgmtProtectRe {
   /**
   * optionally, services we'll allow. enum: `icmp`, `ssh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#allowed_services OrgNetworktemplate#allowed_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#allowed_services OrgNetworktemplate#allowed_services}
   */
   readonly allowedServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#custom OrgNetworktemplate#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#custom OrgNetworktemplate#custom}
   */
   readonly custom?: OrgNetworktemplateSwitchMgmtProtectReCustom[] | cdktf.IResolvable;
   /**
@@ -15256,19 +15326,19 @@ export interface OrgNetworktemplateSwitchMgmtProtectRe {
   * e.g. ntp / dns / traffic to mist will be allowed by default
   *      if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable hit count for Protect_RE policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#hit_count OrgNetworktemplate#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#hit_count OrgNetworktemplate#hit_count}
   */
   readonly hitCount?: boolean | cdktf.IResolvable;
   /**
   * host/subnets we'll allow traffic to/from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#trusted_hosts OrgNetworktemplate#trusted_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#trusted_hosts OrgNetworktemplate#trusted_hosts}
   */
   readonly trustedHosts?: string[];
 }
@@ -15478,19 +15548,19 @@ export class OrgNetworktemplateSwitchMgmtProtectReOutputReference extends cdktf.
 }
 export interface OrgNetworktemplateSwitchMgmtTacacsAcctServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#timeout OrgNetworktemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#timeout OrgNetworktemplate#timeout}
   */
   readonly timeout?: number;
 }
@@ -15693,19 +15763,19 @@ export class OrgNetworktemplateSwitchMgmtTacacsAcctServersList extends cdktf.Com
 }
 export interface OrgNetworktemplateSwitchMgmtTacacsTacplusServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#host OrgNetworktemplate#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#port OrgNetworktemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#secret OrgNetworktemplate#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#timeout OrgNetworktemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#timeout OrgNetworktemplate#timeout}
   */
   readonly timeout?: number;
 }
@@ -15908,27 +15978,27 @@ export class OrgNetworktemplateSwitchMgmtTacacsTacplusServersList extends cdktf.
 }
 export interface OrgNetworktemplateSwitchMgmtTacacs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#acct_servers OrgNetworktemplate#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#acct_servers OrgNetworktemplate#acct_servers}
   */
   readonly acctServers?: OrgNetworktemplateSwitchMgmtTacacsAcctServers[] | cdktf.IResolvable;
   /**
   * enum: `admin`, `helpdesk`, `none`, `read`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#default_role OrgNetworktemplate#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#default_role OrgNetworktemplate#default_role}
   */
   readonly defaultRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Which network the TACACS server resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#network OrgNetworktemplate#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#tacplus_servers OrgNetworktemplate#tacplus_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#tacplus_servers OrgNetworktemplate#tacplus_servers}
   */
   readonly tacplusServers?: OrgNetworktemplateSwitchMgmtTacacsTacplusServers[] | cdktf.IResolvable;
 }
@@ -16140,57 +16210,57 @@ export interface OrgNetworktemplateSwitchMgmt {
   /**
   * AP_affinity_threshold ap_affinity_threshold can be added as a field under site/setting. By default, this value is set to 12. If the field is set in both site/setting and org/setting, the value from site/setting will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#ap_affinity_threshold OrgNetworktemplate#ap_affinity_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#ap_affinity_threshold OrgNetworktemplate#ap_affinity_threshold}
   */
   readonly apAffinityThreshold?: number;
   /**
   * Set Banners for switches. Allows markup formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#cli_banner OrgNetworktemplate#cli_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#cli_banner OrgNetworktemplate#cli_banner}
   */
   readonly cliBanner?: string;
   /**
   * Sets timeout for switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#cli_idle_timeout OrgNetworktemplate#cli_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#cli_idle_timeout OrgNetworktemplate#cli_idle_timeout}
   */
   readonly cliIdleTimeout?: number;
   /**
   * Rollback timer for commit confirmed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#config_revert_timer OrgNetworktemplate#config_revert_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#config_revert_timer OrgNetworktemplate#config_revert_timer}
   */
   readonly configRevertTimer?: number;
   /**
   * Enable to provide the FQDN with DHCP option 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#dhcp_option_fqdn OrgNetworktemplate#dhcp_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#dhcp_option_fqdn OrgNetworktemplate#dhcp_option_fqdn}
   */
   readonly dhcpOptionFqdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#disable_oob_down_alarm OrgNetworktemplate#disable_oob_down_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#disable_oob_down_alarm OrgNetworktemplate#disable_oob_down_alarm}
   */
   readonly disableOobDownAlarm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#fips_enabled OrgNetworktemplate#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#fips_enabled OrgNetworktemplate#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Property key is the user name. For Local user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#local_accounts OrgNetworktemplate#local_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#local_accounts OrgNetworktemplate#local_accounts}
   */
   readonly localAccounts?: { [key: string]: OrgNetworktemplateSwitchMgmtLocalAccounts } | cdktf.IResolvable;
   /**
   * IP Address or FQDN of the Mist Edge used to proxy the switch management traffic to the Mist Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mxedge_proxy_host OrgNetworktemplate#mxedge_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mxedge_proxy_host OrgNetworktemplate#mxedge_proxy_host}
   */
   readonly mxedgeProxyHost?: string;
   /**
   * Mist Edge port used to proxy the switch management traffic to the Mist Cloud. Value in range 1-65535
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#mxedge_proxy_port OrgNetworktemplate#mxedge_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#mxedge_proxy_port OrgNetworktemplate#mxedge_proxy_port}
   */
   readonly mxedgeProxyPort?: string;
   /**
@@ -16198,27 +16268,27 @@ export interface OrgNetworktemplateSwitchMgmt {
   * when enabled, all traffic that is not essential to our operation will be dropped 
   * e.g. ntp / dns / traffic to mist will be allowed by default, if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#protect_re OrgNetworktemplate#protect_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#protect_re OrgNetworktemplate#protect_re}
   */
   readonly protectRe?: OrgNetworktemplateSwitchMgmtProtectRe;
   /**
   * By default, only the configuration generated by Mist is cleaned up during the configuration process. If `true`, all the existing configuration will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#remove_existing_configs OrgNetworktemplate#remove_existing_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#remove_existing_configs OrgNetworktemplate#remove_existing_configs}
   */
   readonly removeExistingConfigs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#root_password OrgNetworktemplate#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#root_password OrgNetworktemplate#root_password}
   */
   readonly rootPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#tacacs OrgNetworktemplate#tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#tacacs OrgNetworktemplate#tacacs}
   */
   readonly tacacs?: OrgNetworktemplateSwitchMgmtTacacs;
   /**
   * To use mxedge as proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#use_mxedge_proxy OrgNetworktemplate#use_mxedge_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#use_mxedge_proxy OrgNetworktemplate#use_mxedge_proxy}
   */
   readonly useMxedgeProxy?: boolean | cdktf.IResolvable;
 }
@@ -16720,7 +16790,7 @@ export interface OrgNetworktemplateVrfConfig {
   /**
   * Whether to enable VRF (when supported on the device)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#enabled OrgNetworktemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -16816,7 +16886,7 @@ export interface OrgNetworktemplateVrfInstancesExtraRoutes {
   /**
   * Next-hop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
   */
   readonly via: string;
 }
@@ -16929,7 +16999,7 @@ export interface OrgNetworktemplateVrfInstancesExtraRoutes6 {
   /**
   * Next-hop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#via OrgNetworktemplate#via}
   */
   readonly via?: string;
 }
@@ -17043,27 +17113,27 @@ export class OrgNetworktemplateVrfInstancesExtraRoutes6Map extends cdktf.Complex
 }
 export interface OrgNetworktemplateVrfInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#evpn_auto_loopback_subnet OrgNetworktemplate#evpn_auto_loopback_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#evpn_auto_loopback_subnet OrgNetworktemplate#evpn_auto_loopback_subnet}
   */
   readonly evpnAutoLoopbackSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#evpn_auto_loopback_subnet6 OrgNetworktemplate#evpn_auto_loopback_subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#evpn_auto_loopback_subnet6 OrgNetworktemplate#evpn_auto_loopback_subnet6}
   */
   readonly evpnAutoLoopbackSubnet6?: string;
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#extra_routes OrgNetworktemplate#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#extra_routes OrgNetworktemplate#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: OrgNetworktemplateVrfInstancesExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#extra_routes6 OrgNetworktemplate#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#extra_routes6 OrgNetworktemplate#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: OrgNetworktemplateVrfInstancesExtraRoutes6 } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#networks OrgNetworktemplate#networks}
   */
   readonly networks?: string[];
 }
@@ -17293,7 +17363,7 @@ export class OrgNetworktemplateVrfInstancesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate mist_org_networktemplate}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate mist_org_networktemplate}
 */
 export class OrgNetworktemplate extends cdktf.TerraformResource {
 
@@ -17309,7 +17379,7 @@ export class OrgNetworktemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgNetworktemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgNetworktemplate to import
-  * @param importFromId The id of the existing OrgNetworktemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgNetworktemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgNetworktemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17321,7 +17391,7 @@ export class OrgNetworktemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_networktemplate mist_org_networktemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_networktemplate mist_org_networktemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17332,8 +17402,8 @@ export class OrgNetworktemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_networktemplate',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

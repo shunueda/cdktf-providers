@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,11 +14,11 @@ export interface OrgInventoryConfig extends cdktf.TerraformMetaArguments {
   * 
   *     >
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory#inventory OrgInventory#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory#inventory OrgInventory#inventory}
   */
   readonly inventory?: { [key: string]: OrgInventoryInventory } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory#org_id OrgInventory#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory#org_id OrgInventory#org_id}
   */
   readonly orgId: string;
 }
@@ -26,13 +26,13 @@ export interface OrgInventoryInventory {
   /**
   * Site ID. Used to assign device to a Site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory#site_id OrgInventory#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory#site_id OrgInventory#site_id}
   */
   readonly siteId?: string;
   /**
   * Unclaim the device from the Mist Organization when removed from the provider inventory. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory#unclaim_when_destroyed OrgInventory#unclaim_when_destroyed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory#unclaim_when_destroyed OrgInventory#unclaim_when_destroyed}
   */
   readonly unclaimWhenDestroyed?: boolean | cdktf.IResolvable;
 }
@@ -225,7 +225,7 @@ export class OrgInventoryInventoryMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory mist_org_inventory}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory mist_org_inventory}
 */
 export class OrgInventory extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class OrgInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgInventory to import
-  * @param importFromId The id of the existing OrgInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class OrgInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_inventory mist_org_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_inventory mist_org_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class OrgInventory extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_inventory',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

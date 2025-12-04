@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GatewayServiceAccountV2Config extends cdktf.TerraformMetaArgume
   /**
   * The name of the service account, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#name GatewayServiceAccountV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#name GatewayServiceAccountV2#name}
   */
   readonly name: string;
   /**
   * Service account specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#spec GatewayServiceAccountV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#spec GatewayServiceAccountV2#spec}
   */
   readonly spec: GatewayServiceAccountV2Spec;
   /**
   * The name of the virtual cluster the service account belongs to. If not provided, the service account will be created in the default passthrough virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#vcluster GatewayServiceAccountV2#vcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#vcluster GatewayServiceAccountV2#vcluster}
   */
   readonly vcluster?: string;
 }
@@ -30,13 +30,13 @@ export interface GatewayServiceAccountV2Spec {
   /**
   * Set of the external names of the service account. Required if spec.type is set to EXTERNAL. An external service account should have exactly one external name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#external_names GatewayServiceAccountV2#external_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#external_names GatewayServiceAccountV2#external_names}
   */
   readonly externalNames?: string[];
   /**
   * The type of the Service Account. Can only be either LOCAL or EXTERNAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#type GatewayServiceAccountV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#type GatewayServiceAccountV2#type}
   */
   readonly type: string;
 }
@@ -156,7 +156,7 @@ export class GatewayServiceAccountV2SpecOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2 conduktor_gateway_service_account_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2 conduktor_gateway_service_account_v2}
 */
 export class GatewayServiceAccountV2 extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class GatewayServiceAccountV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayServiceAccountV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayServiceAccountV2 to import
-  * @param importFromId The id of the existing GatewayServiceAccountV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayServiceAccountV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayServiceAccountV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class GatewayServiceAccountV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_service_account_v2 conduktor_gateway_service_account_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_service_account_v2 conduktor_gateway_service_account_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class GatewayServiceAccountV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_gateway_service_account_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

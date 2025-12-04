@@ -132,6 +132,7 @@ export * as webhosting from './webhosting';
 export * as dataScalewayAccountProject from './data-scaleway-account-project';
 export * as dataScalewayAccountProjects from './data-scaleway-account-projects';
 export * as dataScalewayAccountSshKey from './data-scaleway-account-ssh-key';
+export * as dataScalewayAuditTrailEvent from './data-scaleway-audit-trail-event';
 export * as dataScalewayAvailabilityZones from './data-scaleway-availability-zones';
 export * as dataScalewayBaremetalOffer from './data-scaleway-baremetal-offer';
 export * as dataScalewayBaremetalOption from './data-scaleway-baremetal-option';

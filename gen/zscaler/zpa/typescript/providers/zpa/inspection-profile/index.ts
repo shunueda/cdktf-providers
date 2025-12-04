@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,95 +8,95 @@ import * as cdktf from 'cdktf';
 
 export interface InspectionProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#api_profile InspectionProfile#api_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#api_profile InspectionProfile#api_profile}
   */
   readonly apiProfile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#associate_all_controls InspectionProfile#associate_all_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#associate_all_controls InspectionProfile#associate_all_controls}
   */
   readonly associateAllControls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#common_global_override_actions_config InspectionProfile#common_global_override_actions_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#common_global_override_actions_config InspectionProfile#common_global_override_actions_config}
   */
   readonly commonGlobalOverrideActionsConfig?: { [key: string]: string };
   /**
   * The description of the AppProtection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#description InspectionProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#description InspectionProfile#description}
   */
   readonly description?: string;
   /**
   * The actions of the predefined, custom, or override controls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#global_control_actions InspectionProfile#global_control_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#global_control_actions InspectionProfile#global_control_actions}
   */
   readonly globalControlActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#name InspectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#name InspectionProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#override_action InspectionProfile#override_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#override_action InspectionProfile#override_action}
   */
   readonly overrideAction?: string;
   /**
   * The OWASP Predefined Paranoia Level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#paranoia_level InspectionProfile#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#paranoia_level InspectionProfile#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
   * The protocol for the AppProtection application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#predefined_controls_version InspectionProfile#predefined_controls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#predefined_controls_version InspectionProfile#predefined_controls_version}
   */
   readonly predefinedControlsVersion?: string;
   /**
   * Indicates the user's choice for the ThreatLabZ Controls. Supported values: ALL and SPECIFIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#zs_defined_control_choice InspectionProfile#zs_defined_control_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#zs_defined_control_choice InspectionProfile#zs_defined_control_choice}
   */
   readonly zsDefinedControlChoice?: string;
   /**
   * controls_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#controls_info InspectionProfile#controls_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#controls_info InspectionProfile#controls_info}
   */
   readonly controlsInfo?: InspectionProfileControlsInfo[] | cdktf.IResolvable;
   /**
   * custom_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#custom_controls InspectionProfile#custom_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#custom_controls InspectionProfile#custom_controls}
   */
   readonly customControls?: InspectionProfileCustomControls[] | cdktf.IResolvable;
   /**
   * predefined_api_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#predefined_api_controls InspectionProfile#predefined_api_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#predefined_api_controls InspectionProfile#predefined_api_controls}
   */
   readonly predefinedApiControls?: InspectionProfilePredefinedApiControls[] | cdktf.IResolvable;
   /**
   * predefined_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#predefined_controls InspectionProfile#predefined_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#predefined_controls InspectionProfile#predefined_controls}
   */
   readonly predefinedControls?: InspectionProfilePredefinedControls[] | cdktf.IResolvable;
   /**
   * threat_labz_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#threat_labz_controls InspectionProfile#threat_labz_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#threat_labz_controls InspectionProfile#threat_labz_controls}
   */
   readonly threatLabzControls?: InspectionProfileThreatLabzControls[] | cdktf.IResolvable;
   /**
   * websocket_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#websocket_controls InspectionProfile#websocket_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#websocket_controls InspectionProfile#websocket_controls}
   */
   readonly websocketControls?: InspectionProfileWebsocketControls[] | cdktf.IResolvable;
 }
 export interface InspectionProfileControlsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#control_type InspectionProfile#control_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#control_type InspectionProfile#control_type}
   */
   readonly controlType?: string;
 }
@@ -214,19 +214,19 @@ export interface InspectionProfileCustomControls {
   /**
   * The action of the custom control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action InspectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action InspectionProfile#action}
   */
   readonly action?: string;
   /**
   * Denotes the action. Supports any string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
   */
   readonly actionValue?: string;
   /**
   * The unique identifier of the custom control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#id InspectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#id InspectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -400,15 +400,15 @@ export class InspectionProfileCustomControlsList extends cdktf.ComplexList {
 }
 export interface InspectionProfilePredefinedApiControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action InspectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action InspectionProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
   */
   readonly actionValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#id InspectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#id InspectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,15 +585,15 @@ export class InspectionProfilePredefinedApiControlsList extends cdktf.ComplexLis
 }
 export interface InspectionProfilePredefinedControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action InspectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action InspectionProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
   */
   readonly actionValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#id InspectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#id InspectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -770,15 +770,15 @@ export class InspectionProfilePredefinedControlsList extends cdktf.ComplexList {
 }
 export interface InspectionProfileThreatLabzControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action InspectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action InspectionProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
   */
   readonly actionValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#id InspectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#id InspectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -955,15 +955,15 @@ export class InspectionProfileThreatLabzControlsList extends cdktf.ComplexList {
 }
 export interface InspectionProfileWebsocketControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action InspectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action InspectionProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#action_value InspectionProfile#action_value}
   */
   readonly actionValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#id InspectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#id InspectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1140,7 +1140,7 @@ export class InspectionProfileWebsocketControlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile zpa_inspection_profile}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile zpa_inspection_profile}
 */
 export class InspectionProfile extends cdktf.TerraformResource {
 
@@ -1156,7 +1156,7 @@ export class InspectionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InspectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InspectionProfile to import
-  * @param importFromId The id of the existing InspectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InspectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InspectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1168,7 +1168,7 @@ export class InspectionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_profile zpa_inspection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/inspection_profile zpa_inspection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1179,8 +1179,8 @@ export class InspectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_inspection_profile',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

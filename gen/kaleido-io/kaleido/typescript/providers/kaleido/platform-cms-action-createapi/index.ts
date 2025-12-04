@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformCmsActionCreateapiConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#api_name PlatformCmsActionCreateapi#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#api_name PlatformCmsActionCreateapi#api_name}
   */
   readonly apiName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#build PlatformCmsActionCreateapi#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#build PlatformCmsActionCreateapi#build}
   */
   readonly buildAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#contract_address PlatformCmsActionCreateapi#contract_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#contract_address PlatformCmsActionCreateapi#contract_address}
   */
   readonly contractAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#description PlatformCmsActionCreateapi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#description PlatformCmsActionCreateapi#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#environment PlatformCmsActionCreateapi#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#environment PlatformCmsActionCreateapi#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#firefly_namespace PlatformCmsActionCreateapi#firefly_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#firefly_namespace PlatformCmsActionCreateapi#firefly_namespace}
   */
   readonly fireflyNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#name PlatformCmsActionCreateapi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#ignore_destroy PlatformCmsActionCreateapi#ignore_destroy}
+  */
+  readonly ignoreDestroy?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#name PlatformCmsActionCreateapi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#service PlatformCmsActionCreateapi#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#publish PlatformCmsActionCreateapi#publish}
+  */
+  readonly publish?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#service PlatformCmsActionCreateapi#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi kaleido_platform_cms_action_createapi}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi kaleido_platform_cms_action_createapi}
 */
 export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
 
@@ -58,7 +66,7 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformCmsActionCreateapi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformCmsActionCreateapi to import
-  * @param importFromId The id of the existing PlatformCmsActionCreateapi that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformCmsActionCreateapi that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformCmsActionCreateapi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +78,7 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_cms_action_createapi kaleido_platform_cms_action_createapi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_cms_action_createapi kaleido_platform_cms_action_createapi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +89,8 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_cms_action_createapi',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,7 +106,9 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
     this._description = config.description;
     this._environment = config.environment;
     this._fireflyNamespace = config.fireflyNamespace;
+    this._ignoreDestroy = config.ignoreDestroy;
     this._name = config.name;
+    this._publish = config.publish;
     this._service = config.service;
   }
 
@@ -200,6 +210,22 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // ignore_destroy - computed: false, optional: true, required: false
+  private _ignoreDestroy?: boolean | cdktf.IResolvable; 
+  public get ignoreDestroy() {
+    return this.getBooleanAttribute('ignore_destroy');
+  }
+  public set ignoreDestroy(value: boolean | cdktf.IResolvable) {
+    this._ignoreDestroy = value;
+  }
+  public resetIgnoreDestroy() {
+    this._ignoreDestroy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreDestroyInput() {
+    return this._ignoreDestroy;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -211,6 +237,22 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // publish - computed: false, optional: true, required: false
+  private _publish?: string; 
+  public get publish() {
+    return this.getStringAttribute('publish');
+  }
+  public set publish(value: string) {
+    this._publish = value;
+  }
+  public resetPublish() {
+    this._publish = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publishInput() {
+    return this._publish;
   }
 
   // service - computed: false, optional: false, required: true
@@ -238,7 +280,9 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       environment: cdktf.stringToTerraform(this._environment),
       firefly_namespace: cdktf.stringToTerraform(this._fireflyNamespace),
+      ignore_destroy: cdktf.booleanToTerraform(this._ignoreDestroy),
       name: cdktf.stringToTerraform(this._name),
+      publish: cdktf.stringToTerraform(this._publish),
       service: cdktf.stringToTerraform(this._service),
     };
   }
@@ -281,8 +325,20 @@ export class PlatformCmsActionCreateapi extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ignore_destroy: {
+        value: cdktf.booleanToHclTerraform(this._ignoreDestroy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      publish: {
+        value: cdktf.stringToHclTerraform(this._publish),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

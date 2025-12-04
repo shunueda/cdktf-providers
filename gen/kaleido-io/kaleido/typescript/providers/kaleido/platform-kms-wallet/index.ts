@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PlatformKmsWalletConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional JSON object containing configuration applicable to the wallet type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#config_json PlatformKmsWallet#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#config_json PlatformKmsWallet#config_json}
   */
   readonly configJson?: string;
   /**
   * Optional JSON object containing credentials applicable to the wallet type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#creds_json PlatformKmsWallet#creds_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#creds_json PlatformKmsWallet#creds_json}
   */
   readonly credsJson?: string;
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#environment PlatformKmsWallet#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#environment PlatformKmsWallet#environment}
   */
   readonly environment: string;
   /**
   * Wallet Display Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#name PlatformKmsWallet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#name PlatformKmsWallet#name}
   */
   readonly name: string;
   /**
   * Key Manager Service ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#service PlatformKmsWallet#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#service PlatformKmsWallet#service}
   */
   readonly service: string;
   /**
   * Wallet Type. Options include `hdwallet`, `awscloudhsm`, `awsKms`, `azurekeyvault`, `fireblocks`, `gcpKms`, `hashicorp`, and `remotemodule`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#type PlatformKmsWallet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#type PlatformKmsWallet#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet kaleido_platform_kms_wallet}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet kaleido_platform_kms_wallet}
 */
 export class PlatformKmsWallet extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PlatformKmsWallet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformKmsWallet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformKmsWallet to import
-  * @param importFromId The id of the existing PlatformKmsWallet that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformKmsWallet that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformKmsWallet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PlatformKmsWallet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_kms_wallet kaleido_platform_kms_wallet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_kms_wallet kaleido_platform_kms_wallet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PlatformKmsWallet extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_kms_wallet',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

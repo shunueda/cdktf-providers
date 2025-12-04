@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GenericConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource parent cluster (if any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#cluster Generic#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#cluster Generic#cluster}
   */
   readonly cluster?: string;
   /**
   * Resource kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#kind Generic#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#kind Generic#kind}
   */
   readonly kind: string;
   /**
   * Resource manifest in yaml format. Use `yamlencode`/`yamldecode` function to normalize input and avoid dirty plan. See [reference documentation](https://docs.conduktor.io/platform/reference/resource-reference/console/#manifests) for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#manifest Generic#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#manifest Generic#manifest}
   */
   readonly manifest: string;
   /**
   * Resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#name Generic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#name Generic#name}
   */
   readonly name: string;
   /**
   * Resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#version Generic#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#version Generic#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic conduktor_generic}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic conduktor_generic}
 */
 export class Generic extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Generic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Generic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Generic to import
-  * @param importFromId The id of the existing Generic that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Generic that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Generic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Generic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/generic conduktor_generic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/generic conduktor_generic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Generic extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_generic',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

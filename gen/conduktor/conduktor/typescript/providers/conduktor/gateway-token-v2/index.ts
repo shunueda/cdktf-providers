@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GatewayTokenV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The life time of the token in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2#lifetime_seconds GatewayTokenV2#lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2#lifetime_seconds GatewayTokenV2#lifetime_seconds}
   */
   readonly lifetimeSeconds: number;
   /**
   * The username of the local service account to create the token for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2#username GatewayTokenV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2#username GatewayTokenV2#username}
   */
   readonly username: string;
   /**
   * The name of the virtual cluster to create the token for. If not provided, the token will be created in the default passthrough virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2#vcluster GatewayTokenV2#vcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2#vcluster GatewayTokenV2#vcluster}
   */
   readonly vcluster?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2 conduktor_gateway_token_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2 conduktor_gateway_token_v2}
 */
 export class GatewayTokenV2 extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GatewayTokenV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayTokenV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayTokenV2 to import
-  * @param importFromId The id of the existing GatewayTokenV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayTokenV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayTokenV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GatewayTokenV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/gateway_token_v2 conduktor_gateway_token_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/gateway_token_v2 conduktor_gateway_token_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class GatewayTokenV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_gateway_token_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

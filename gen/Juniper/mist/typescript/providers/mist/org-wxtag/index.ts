@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface OrgWxtagConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `type`==`client`, Client MAC Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#mac OrgWxtag#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#mac OrgWxtag#mac}
   */
   readonly mac?: string;
   /**
   * required if `type`==`match`. enum: `ap_id`, `app`, `asset_mac`, `client_mac`, `hostname`, `ip_range_subnet`, `port`, `psk_name`, `psk_role`, `radius_attr`, `radius_class`, `radius_group`, `radius_username`, `sdkclient_uuid`, `wlan_id`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#match OrgWxtag#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#match OrgWxtag#match}
   */
   readonly match?: string;
   /**
   * The name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#name OrgWxtag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#name OrgWxtag#name}
   */
   readonly name: string;
   /**
   * required if `type`==`match`, type of tag (inclusive/exclusive). enum: `in`, `not_in`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#op OrgWxtag#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#op OrgWxtag#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#org_id OrgWxtag#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#org_id OrgWxtag#org_id}
   */
   readonly orgId: string;
   /**
   * If `type`==`spec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#specs OrgWxtag#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#specs OrgWxtag#specs}
   */
   readonly specs?: OrgWxtagSpecs[] | cdktf.IResolvable;
   /**
   * enum: `client`, `match`, `resource`, `spec`, `subnet`, `vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#type OrgWxtag#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#type OrgWxtag#type}
   */
   readonly type: string;
   /**
@@ -68,11 +68,11 @@ export interface OrgWxtagConfig extends cdktf.TerraformMetaArguments {
   * **Notes**:
   * Variables are not allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#values OrgWxtag#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#values OrgWxtag#values}
   */
   readonly values?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#vlan_id OrgWxtag#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#vlan_id OrgWxtag#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -80,19 +80,19 @@ export interface OrgWxtagSpecs {
   /**
   * Matched destination port, "0" means any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#port_range OrgWxtag#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#port_range OrgWxtag#port_range}
   */
   readonly portRange?: string;
   /**
   * tcp / udp / icmp / gre / any / ":protocol_number", `protocol_number` is between 1-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#protocol OrgWxtag#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#protocol OrgWxtag#protocol}
   */
   readonly protocol?: string;
   /**
   * Matched destination subnets and/or IP Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#subnets OrgWxtag#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#subnets OrgWxtag#subnets}
   */
   readonly subnets?: string[];
 }
@@ -266,7 +266,7 @@ export class OrgWxtagSpecsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag mist_org_wxtag}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag mist_org_wxtag}
 */
 export class OrgWxtag extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class OrgWxtag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgWxtag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgWxtag to import
-  * @param importFromId The id of the existing OrgWxtag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgWxtag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgWxtag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class OrgWxtag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_wxtag mist_org_wxtag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_wxtag mist_org_wxtag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class OrgWxtag extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_wxtag',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

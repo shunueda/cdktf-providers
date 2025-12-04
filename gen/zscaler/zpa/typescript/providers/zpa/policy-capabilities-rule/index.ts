@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface PolicyCapabilitiesRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#action PolicyCapabilitiesRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#action PolicyCapabilitiesRule#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#description PolicyCapabilitiesRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#description PolicyCapabilitiesRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#microtenant_id PolicyCapabilitiesRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#microtenant_id PolicyCapabilitiesRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#name PolicyCapabilitiesRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#name PolicyCapabilitiesRule#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#conditions PolicyCapabilitiesRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#conditions PolicyCapabilitiesRule#conditions}
   */
   readonly conditions?: PolicyCapabilitiesRuleConditions[] | cdktf.IResolvable;
   /**
   * privileged_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#privileged_capabilities PolicyCapabilitiesRule#privileged_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#privileged_capabilities PolicyCapabilitiesRule#privileged_capabilities}
   */
   readonly privilegedCapabilities?: PolicyCapabilitiesRulePrivilegedCapabilities;
 }
 export interface PolicyCapabilitiesRuleConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#lhs PolicyCapabilitiesRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#lhs PolicyCapabilitiesRule#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#rhs PolicyCapabilitiesRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#rhs PolicyCapabilitiesRule#rhs}
   */
   readonly rhs?: string;
 }
@@ -195,19 +195,19 @@ export interface PolicyCapabilitiesRuleConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#object_type PolicyCapabilitiesRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#object_type PolicyCapabilitiesRule#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#values PolicyCapabilitiesRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#values PolicyCapabilitiesRule#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#entry_values PolicyCapabilitiesRule#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#entry_values PolicyCapabilitiesRule#entry_values}
   */
   readonly entryValues?: PolicyCapabilitiesRuleConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -381,13 +381,13 @@ export class PolicyCapabilitiesRuleConditionsOperandsList extends cdktf.ComplexL
 }
 export interface PolicyCapabilitiesRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#operator PolicyCapabilitiesRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#operator PolicyCapabilitiesRule#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#operands PolicyCapabilitiesRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#operands PolicyCapabilitiesRule#operands}
   */
   readonly operands?: PolicyCapabilitiesRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -539,55 +539,55 @@ export interface PolicyCapabilitiesRulePrivilegedCapabilities {
   /**
   * Indicates the PRA Clipboard Copy function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#clipboard_copy PolicyCapabilitiesRule#clipboard_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#clipboard_copy PolicyCapabilitiesRule#clipboard_copy}
   */
   readonly clipboardCopy?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA Clipboard Paste function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#clipboard_paste PolicyCapabilitiesRule#clipboard_paste}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#clipboard_paste PolicyCapabilitiesRule#clipboard_paste}
   */
   readonly clipboardPaste?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA File Transfer capabilities that enables the File Download function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#file_download PolicyCapabilitiesRule#file_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#file_download PolicyCapabilitiesRule#file_download}
   */
   readonly fileDownload?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA File Transfer capabilities that enables the File Upload function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#file_upload PolicyCapabilitiesRule#file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#file_upload PolicyCapabilitiesRule#file_upload}
   */
   readonly fileUpload?: boolean | cdktf.IResolvable;
   /**
   * Inspects the file via ZIA sandbox (if you have set up the ZIA cloud and the Integrations settings) and downloads the file following the inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#inspect_file_download PolicyCapabilitiesRule#inspect_file_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#inspect_file_download PolicyCapabilitiesRule#inspect_file_download}
   */
   readonly inspectFileDownload?: boolean | cdktf.IResolvable;
   /**
   * Inspects the file via ZIA sandbox (if you have set up the ZIA cloud and the Integrations settings) and uploads the file following the inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#inspect_file_upload PolicyCapabilitiesRule#inspect_file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#inspect_file_upload PolicyCapabilitiesRule#inspect_file_upload}
   */
   readonly inspectFileUpload?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA Monitoring Capabilities to enable the PRA Session Monitoring function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#monitor_session PolicyCapabilitiesRule#monitor_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#monitor_session PolicyCapabilitiesRule#monitor_session}
   */
   readonly monitorSession?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA Session Recording capabilities to enable PRA Session Recording
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#record_session PolicyCapabilitiesRule#record_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#record_session PolicyCapabilitiesRule#record_session}
   */
   readonly recordSession?: boolean | cdktf.IResolvable;
   /**
   * Indicates the PRA Session Control and Monitoring capabilities to enable PRA Session Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#share_session PolicyCapabilitiesRule#share_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#share_session PolicyCapabilitiesRule#share_session}
   */
   readonly shareSession?: boolean | cdktf.IResolvable;
 }
@@ -903,7 +903,7 @@ export class PolicyCapabilitiesRulePrivilegedCapabilitiesOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule zpa_policy_capabilities_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule zpa_policy_capabilities_rule}
 */
 export class PolicyCapabilitiesRule extends cdktf.TerraformResource {
 
@@ -919,7 +919,7 @@ export class PolicyCapabilitiesRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyCapabilitiesRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyCapabilitiesRule to import
-  * @param importFromId The id of the existing PolicyCapabilitiesRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyCapabilitiesRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyCapabilitiesRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -931,7 +931,7 @@ export class PolicyCapabilitiesRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_capabilities_rule zpa_policy_capabilities_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_capabilities_rule zpa_policy_capabilities_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -942,8 +942,8 @@ export class PolicyCapabilitiesRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_capabilities_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

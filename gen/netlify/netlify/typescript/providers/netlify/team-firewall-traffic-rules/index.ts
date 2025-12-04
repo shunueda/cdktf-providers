@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface TeamFirewallTrafficRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#published TeamFirewallTrafficRules#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#published TeamFirewallTrafficRules#published}
   */
   readonly published: TeamFirewallTrafficRulesPublished;
   /**
   * Required if a default team was not configured in the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#team_id TeamFirewallTrafficRules#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#team_id TeamFirewallTrafficRules#team_id}
   */
   readonly teamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#unpublished TeamFirewallTrafficRules#unpublished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#unpublished TeamFirewallTrafficRules#unpublished}
   */
   readonly unpublished: TeamFirewallTrafficRulesUnpublished;
 }
 export interface TeamFirewallTrafficRulesPublishedGeoExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
   */
   readonly countries: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
   */
   readonly subregions?: string[];
 }
@@ -200,15 +200,15 @@ export class TeamFirewallTrafficRulesPublishedGeoExceptionsList extends cdktf.Co
 }
 export interface TeamFirewallTrafficRulesPublishedGeoRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
   */
   readonly countries: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
   */
   readonly subregions?: string[];
 }
@@ -376,11 +376,11 @@ export class TeamFirewallTrafficRulesPublishedGeoRestrictionsList extends cdktf.
 }
 export interface TeamFirewallTrafficRulesPublishedIpExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
 }
@@ -519,11 +519,11 @@ export class TeamFirewallTrafficRulesPublishedIpExceptionsList extends cdktf.Com
 }
 export interface TeamFirewallTrafficRulesPublishedIpRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
 }
@@ -664,23 +664,23 @@ export interface TeamFirewallTrafficRulesPublished {
   /**
   * One of allow or deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#default_action TeamFirewallTrafficRules#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#default_action TeamFirewallTrafficRules#default_action}
   */
   readonly defaultAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#geo_exceptions TeamFirewallTrafficRules#geo_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#geo_exceptions TeamFirewallTrafficRules#geo_exceptions}
   */
   readonly geoExceptions?: TeamFirewallTrafficRulesPublishedGeoExceptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#geo_restrictions TeamFirewallTrafficRules#geo_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#geo_restrictions TeamFirewallTrafficRules#geo_restrictions}
   */
   readonly geoRestrictions?: TeamFirewallTrafficRulesPublishedGeoRestrictions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#ip_exceptions TeamFirewallTrafficRules#ip_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#ip_exceptions TeamFirewallTrafficRules#ip_exceptions}
   */
   readonly ipExceptions?: TeamFirewallTrafficRulesPublishedIpExceptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#ip_restrictions TeamFirewallTrafficRules#ip_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#ip_restrictions TeamFirewallTrafficRules#ip_restrictions}
   */
   readonly ipRestrictions?: TeamFirewallTrafficRulesPublishedIpRestrictions[] | cdktf.IResolvable;
 }
@@ -887,15 +887,15 @@ export class TeamFirewallTrafficRulesPublishedOutputReference extends cdktf.Comp
 }
 export interface TeamFirewallTrafficRulesUnpublishedGeoExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
   */
   readonly countries: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
   */
   readonly subregions?: string[];
 }
@@ -1063,15 +1063,15 @@ export class TeamFirewallTrafficRulesUnpublishedGeoExceptionsList extends cdktf.
 }
 export interface TeamFirewallTrafficRulesUnpublishedGeoRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#countries TeamFirewallTrafficRules#countries}
   */
   readonly countries: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#subregions TeamFirewallTrafficRules#subregions}
   */
   readonly subregions?: string[];
 }
@@ -1239,11 +1239,11 @@ export class TeamFirewallTrafficRulesUnpublishedGeoRestrictionsList extends cdkt
 }
 export interface TeamFirewallTrafficRulesUnpublishedIpExceptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
 }
@@ -1382,11 +1382,11 @@ export class TeamFirewallTrafficRulesUnpublishedIpExceptionsList extends cdktf.C
 }
 export interface TeamFirewallTrafficRulesUnpublishedIpRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#addresses TeamFirewallTrafficRules#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#description TeamFirewallTrafficRules#description}
   */
   readonly description: string;
 }
@@ -1527,23 +1527,23 @@ export interface TeamFirewallTrafficRulesUnpublished {
   /**
   * One of allow or deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#default_action TeamFirewallTrafficRules#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#default_action TeamFirewallTrafficRules#default_action}
   */
   readonly defaultAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#geo_exceptions TeamFirewallTrafficRules#geo_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#geo_exceptions TeamFirewallTrafficRules#geo_exceptions}
   */
   readonly geoExceptions?: TeamFirewallTrafficRulesUnpublishedGeoExceptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#geo_restrictions TeamFirewallTrafficRules#geo_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#geo_restrictions TeamFirewallTrafficRules#geo_restrictions}
   */
   readonly geoRestrictions?: TeamFirewallTrafficRulesUnpublishedGeoRestrictions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#ip_exceptions TeamFirewallTrafficRules#ip_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#ip_exceptions TeamFirewallTrafficRules#ip_exceptions}
   */
   readonly ipExceptions?: TeamFirewallTrafficRulesUnpublishedIpExceptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#ip_restrictions TeamFirewallTrafficRules#ip_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#ip_restrictions TeamFirewallTrafficRules#ip_restrictions}
   */
   readonly ipRestrictions?: TeamFirewallTrafficRulesUnpublishedIpRestrictions[] | cdktf.IResolvable;
 }
@@ -1750,7 +1750,7 @@ export class TeamFirewallTrafficRulesUnpublishedOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules netlify_team_firewall_traffic_rules}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules netlify_team_firewall_traffic_rules}
 */
 export class TeamFirewallTrafficRules extends cdktf.TerraformResource {
 
@@ -1766,7 +1766,7 @@ export class TeamFirewallTrafficRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamFirewallTrafficRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamFirewallTrafficRules to import
-  * @param importFromId The id of the existing TeamFirewallTrafficRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamFirewallTrafficRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamFirewallTrafficRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1778,7 +1778,7 @@ export class TeamFirewallTrafficRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/team_firewall_traffic_rules netlify_team_firewall_traffic_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/team_firewall_traffic_rules netlify_team_firewall_traffic_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1789,7 +1789,8 @@ export class TeamFirewallTrafficRules extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_team_firewall_traffic_rules',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

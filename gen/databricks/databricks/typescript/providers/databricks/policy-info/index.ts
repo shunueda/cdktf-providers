@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info
+// https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#column_mask PolicyInfo#column_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#column_mask PolicyInfo#column_mask}
   */
   readonly columnMask?: PolicyInfoColumnMask;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#comment PolicyInfo#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#comment PolicyInfo#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#except_principals PolicyInfo#except_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#except_principals PolicyInfo#except_principals}
   */
   readonly exceptPrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#for_securable_type PolicyInfo#for_securable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#for_securable_type PolicyInfo#for_securable_type}
   */
   readonly forSecurableType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#match_columns PolicyInfo#match_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#match_columns PolicyInfo#match_columns}
   */
   readonly matchColumns?: PolicyInfoMatchColumns[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#name PolicyInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#name PolicyInfo#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#on_securable_fullname PolicyInfo#on_securable_fullname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#on_securable_fullname PolicyInfo#on_securable_fullname}
   */
   readonly onSecurableFullname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#on_securable_type PolicyInfo#on_securable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#on_securable_type PolicyInfo#on_securable_type}
   */
   readonly onSecurableType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#policy_type PolicyInfo#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#policy_type PolicyInfo#policy_type}
   */
   readonly policyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#row_filter PolicyInfo#row_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#row_filter PolicyInfo#row_filter}
   */
   readonly rowFilter?: PolicyInfoRowFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#to_principals PolicyInfo#to_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#to_principals PolicyInfo#to_principals}
   */
   readonly toPrincipals: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#when_condition PolicyInfo#when_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#when_condition PolicyInfo#when_condition}
   */
   readonly whenCondition?: string;
 }
 export interface PolicyInfoColumnMaskUsing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#alias PolicyInfo#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#alias PolicyInfo#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#constant PolicyInfo#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#constant PolicyInfo#constant}
   */
   readonly constant?: string;
 }
@@ -207,15 +207,15 @@ export class PolicyInfoColumnMaskUsingList extends cdktf.ComplexList {
 }
 export interface PolicyInfoColumnMask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#function_name PolicyInfo#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#function_name PolicyInfo#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#on_column PolicyInfo#on_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#on_column PolicyInfo#on_column}
   */
   readonly onColumn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#using PolicyInfo#using}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#using PolicyInfo#using}
   */
   readonly using?: PolicyInfoColumnMaskUsing[] | cdktf.IResolvable;
 }
@@ -361,11 +361,11 @@ export class PolicyInfoColumnMaskOutputReference extends cdktf.ComplexObject {
 }
 export interface PolicyInfoMatchColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#alias PolicyInfo#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#alias PolicyInfo#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#condition PolicyInfo#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#condition PolicyInfo#condition}
   */
   readonly condition?: string;
 }
@@ -510,11 +510,11 @@ export class PolicyInfoMatchColumnsList extends cdktf.ComplexList {
 }
 export interface PolicyInfoRowFilterUsing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#alias PolicyInfo#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#alias PolicyInfo#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#constant PolicyInfo#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#constant PolicyInfo#constant}
   */
   readonly constant?: string;
 }
@@ -659,11 +659,11 @@ export class PolicyInfoRowFilterUsingList extends cdktf.ComplexList {
 }
 export interface PolicyInfoRowFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#function_name PolicyInfo#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#function_name PolicyInfo#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#using PolicyInfo#using}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#using PolicyInfo#using}
   */
   readonly using?: PolicyInfoRowFilterUsing[] | cdktf.IResolvable;
 }
@@ -783,7 +783,7 @@ export class PolicyInfoRowFilterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info databricks_policy_info}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info databricks_policy_info}
 */
 export class PolicyInfo extends cdktf.TerraformResource {
 
@@ -799,7 +799,7 @@ export class PolicyInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyInfo to import
-  * @param importFromId The id of the existing PolicyInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -811,7 +811,7 @@ export class PolicyInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.97.0/docs/resources/policy_info databricks_policy_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/policy_info databricks_policy_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -822,8 +822,8 @@ export class PolicyInfo extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_policy_info',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0',
-        providerVersionConstraint: '1.97.0'
+        providerVersion: '1.98.0',
+        providerVersionConstraint: '1.98.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

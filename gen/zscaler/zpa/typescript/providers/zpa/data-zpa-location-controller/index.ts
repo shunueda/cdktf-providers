@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataZpaLocationControllerConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller#name DataZpaLocationController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller#name DataZpaLocationController#name}
   */
   readonly name: string;
   /**
   * Name of the extranet resource partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller#zia_er_name DataZpaLocationController#zia_er_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller#zia_er_name DataZpaLocationController#zia_er_name}
   */
   readonly ziaErName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller zpa_location_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller zpa_location_controller}
 */
 export class DataZpaLocationController extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataZpaLocationController extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaLocationController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaLocationController to import
-  * @param importFromId The id of the existing DataZpaLocationController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaLocationController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaLocationController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataZpaLocationController extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/location_controller zpa_location_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/location_controller zpa_location_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataZpaLocationController extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_location_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.3',
-        providerVersionConstraint: '4.3.3'
+        providerVersion: '4.3.4',
+        providerVersionConstraint: '4.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

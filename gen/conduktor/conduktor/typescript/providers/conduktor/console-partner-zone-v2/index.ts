@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConsolePartnerZoneV2Config extends cdktf.TerraformMetaArguments
   /**
   * Custom labels for the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#labels ConsolePartnerZoneV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#labels ConsolePartnerZoneV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Partner Zone name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
   */
   readonly name: string;
   /**
   * Partner Zone specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#spec ConsolePartnerZoneV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#spec ConsolePartnerZoneV2#spec}
   */
   readonly spec: ConsolePartnerZoneV2Spec;
 }
@@ -30,13 +30,13 @@ export interface ConsolePartnerZoneV2SpecAuthenticationMode {
   /**
   * Must be a Local Gateway Service Account. It doesn't need to exist before creating the Partner Zone. The service account will be created automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#service_account ConsolePartnerZoneV2#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#service_account ConsolePartnerZoneV2#service_account}
   */
   readonly serviceAccount: string;
   /**
   * Authentication type for the partner zone. Valid values are: MTLS, OAUTHBEARER, PLAIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#type ConsolePartnerZoneV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#type ConsolePartnerZoneV2#type}
   */
   readonly type: string;
 }
@@ -155,19 +155,19 @@ export interface ConsolePartnerZoneV2SpecHeadersAddOnProduce {
   /**
   * Key to add to the request headers when producing messages to the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#key ConsolePartnerZoneV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#key ConsolePartnerZoneV2#key}
   */
   readonly key: string;
   /**
   * If set to true, the header will override any existing header with the same key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#override_if_exists ConsolePartnerZoneV2#override_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#override_if_exists ConsolePartnerZoneV2#override_if_exists}
   */
   readonly overrideIfExists: boolean | cdktf.IResolvable;
   /**
   * Value to add to the request headers when producing messages to the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#value ConsolePartnerZoneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#value ConsolePartnerZoneV2#value}
   */
   readonly value: string;
 }
@@ -334,7 +334,7 @@ export interface ConsolePartnerZoneV2SpecHeadersRemoveOnConsume {
   /**
   * Must be a valid java regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#key_regex ConsolePartnerZoneV2#key_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#key_regex ConsolePartnerZoneV2#key_regex}
   */
   readonly keyRegex: string;
 }
@@ -449,13 +449,13 @@ export interface ConsolePartnerZoneV2SpecHeaders {
   /**
   * Sets a key-value pair to be added when producing to the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#add_on_produce ConsolePartnerZoneV2#add_on_produce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#add_on_produce ConsolePartnerZoneV2#add_on_produce}
   */
   readonly addOnProduce?: ConsolePartnerZoneV2SpecHeadersAddOnProduce[] | cdktf.IResolvable;
   /**
   * Regular expression for finding the keys of headers to be removed on consume of the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#remove_on_consume ConsolePartnerZoneV2#remove_on_consume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#remove_on_consume ConsolePartnerZoneV2#remove_on_consume}
   */
   readonly removeOnConsume?: ConsolePartnerZoneV2SpecHeadersRemoveOnConsume[] | cdktf.IResolvable;
 }
@@ -580,25 +580,25 @@ export interface ConsolePartnerZoneV2SpecPartner {
   /**
   * Email of the Partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#email ConsolePartnerZoneV2#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#email ConsolePartnerZoneV2#email}
   */
   readonly email?: string;
   /**
   * Name of the Partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
   */
   readonly name: string;
   /**
   * Phone number of the Partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#phone ConsolePartnerZoneV2#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#phone ConsolePartnerZoneV2#phone}
   */
   readonly phone?: string;
   /**
   * Role of the Partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#role ConsolePartnerZoneV2#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#role ConsolePartnerZoneV2#role}
   */
   readonly role?: string;
 }
@@ -778,19 +778,19 @@ export interface ConsolePartnerZoneV2SpecTopics {
   /**
   * Internal name of the topic that you want to share with your partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#backing_topic ConsolePartnerZoneV2#backing_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#backing_topic ConsolePartnerZoneV2#backing_topic}
   */
   readonly backingTopic: string;
   /**
   * Name of the topic as it should appear to your partner. This can be different from backing_topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#name ConsolePartnerZoneV2#name}
   */
   readonly name: string;
   /**
   * Permission to apply on the topic for the partner. Valid values are: READ, WRITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#permission ConsolePartnerZoneV2#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#permission ConsolePartnerZoneV2#permission}
   */
   readonly permission: string;
 }
@@ -957,19 +957,19 @@ export interface ConsolePartnerZoneV2SpecTrafficControlPolicies {
   /**
   * Sets the maximum number of commits requests (in requests/minute) that the partner can make per Gateway node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#limit_commit_offset ConsolePartnerZoneV2#limit_commit_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#limit_commit_offset ConsolePartnerZoneV2#limit_commit_offset}
   */
   readonly limitCommitOffset?: number;
   /**
   * Sets the maximum rate (in bytes/s) at which the partner can consume messages from the topics per Gateway node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#max_consume_rate ConsolePartnerZoneV2#max_consume_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#max_consume_rate ConsolePartnerZoneV2#max_consume_rate}
   */
   readonly maxConsumeRate?: number;
   /**
   * Sets the maximum rate (in bytes/s) at which the partner can produce messages to the topics per Gateway node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#max_produce_rate ConsolePartnerZoneV2#max_produce_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#max_produce_rate ConsolePartnerZoneV2#max_produce_rate}
   */
   readonly maxProduceRate?: number;
 }
@@ -1121,55 +1121,55 @@ export class ConsolePartnerZoneV2SpecTrafficControlPoliciesOutputReference exten
 }
 export interface ConsolePartnerZoneV2Spec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#authentication_mode ConsolePartnerZoneV2#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#authentication_mode ConsolePartnerZoneV2#authentication_mode}
   */
   readonly authenticationMode: ConsolePartnerZoneV2SpecAuthenticationMode;
   /**
   * Cluster name linked with the partner zone. Must be a valid Console cluster with the Provider configured as Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#cluster ConsolePartnerZoneV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#cluster ConsolePartnerZoneV2#cluster}
   */
   readonly cluster: string;
   /**
   * Description of the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#description ConsolePartnerZoneV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#description ConsolePartnerZoneV2#description}
   */
   readonly description?: string;
   /**
   * Display name of the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#display_name ConsolePartnerZoneV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#display_name ConsolePartnerZoneV2#display_name}
   */
   readonly displayName?: string;
   /**
   * Key-Value HTTP headers to add to requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#headers ConsolePartnerZoneV2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#headers ConsolePartnerZoneV2#headers}
   */
   readonly headers?: ConsolePartnerZoneV2SpecHeaders;
   /**
   * Partner information for the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#partner ConsolePartnerZoneV2#partner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#partner ConsolePartnerZoneV2#partner}
   */
   readonly partner?: ConsolePartnerZoneV2SpecPartner;
   /**
   * Set of all topics to be exposed in the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#topics ConsolePartnerZoneV2#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#topics ConsolePartnerZoneV2#topics}
   */
   readonly topics: ConsolePartnerZoneV2SpecTopics[] | cdktf.IResolvable;
   /**
   * Traffic control policies for the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#traffic_control_policies ConsolePartnerZoneV2#traffic_control_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#traffic_control_policies ConsolePartnerZoneV2#traffic_control_policies}
   */
   readonly trafficControlPolicies?: ConsolePartnerZoneV2SpecTrafficControlPolicies;
   /**
   * URL of the partner zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#url ConsolePartnerZoneV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#url ConsolePartnerZoneV2#url}
   */
   readonly url?: string;
 }
@@ -1486,7 +1486,7 @@ export class ConsolePartnerZoneV2SpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2 conduktor_console_partner_zone_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2 conduktor_console_partner_zone_v2}
 */
 export class ConsolePartnerZoneV2 extends cdktf.TerraformResource {
 
@@ -1502,7 +1502,7 @@ export class ConsolePartnerZoneV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsolePartnerZoneV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsolePartnerZoneV2 to import
-  * @param importFromId The id of the existing ConsolePartnerZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsolePartnerZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsolePartnerZoneV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1514,7 +1514,7 @@ export class ConsolePartnerZoneV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_partner_zone_v2 conduktor_console_partner_zone_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_partner_zone_v2 conduktor_console_partner_zone_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1525,8 +1525,8 @@ export class ConsolePartnerZoneV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_partner_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

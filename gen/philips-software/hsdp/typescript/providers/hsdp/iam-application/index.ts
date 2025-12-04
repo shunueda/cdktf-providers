@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IamApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#description IamApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#description IamApplication#description}
   */
   readonly description: string;
   /**
   * Reference identifier defined by the provisioning user. Recommend to not set this and let Terraform generate a UUID for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#global_reference_id IamApplication#global_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#global_reference_id IamApplication#global_reference_id}
   */
   readonly globalReferenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#id IamApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#id IamApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface IamApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#name IamApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#name IamApplication#name}
   */
   readonly name: string;
   /**
   * The proposition ID (GUID) to attach this a application to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#proposition_id IamApplication#proposition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#proposition_id IamApplication#proposition_id}
   */
   readonly propositionId: string;
   /**
   * Blocks until the application delete has completed. Default: false. The application delete process can take some time as all its associated resources like services and clients are removed recursively. This option is useful for ephemeral environments where the same application might be recreated shortly after a destroy operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#wait_for_delete IamApplication#wait_for_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#wait_for_delete IamApplication#wait_for_delete}
   */
   readonly waitForDelete?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application hsdp_iam_application}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application hsdp_iam_application}
 */
 export class IamApplication extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IamApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamApplication to import
-  * @param importFromId The id of the existing IamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IamApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_application hsdp_iam_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/iam_application hsdp_iam_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IamApplication extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_application',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

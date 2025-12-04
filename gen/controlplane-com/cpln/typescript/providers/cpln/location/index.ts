@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indication if location is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location#enabled Location#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location#enabled Location#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location#name Location#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location#name Location#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location#tags Location#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location#tags Location#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -128,7 +128,7 @@ export class LocationGeoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location cpln_location}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location cpln_location}
 */
 export class Location extends cdktf.TerraformResource {
 
@@ -144,7 +144,7 @@ export class Location extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Location resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Location to import
-  * @param importFromId The id of the existing Location that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Location that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Location to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class Location extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/resources/location cpln_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/location cpln_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class Location extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_location',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.17',
-        providerVersionConstraint: '1.2.17'
+        providerVersion: '1.2.19',
+        providerVersionConstraint: '1.2.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

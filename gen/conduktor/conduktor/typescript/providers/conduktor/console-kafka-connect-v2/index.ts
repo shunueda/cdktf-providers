@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConsoleKafkaConnectV2Config extends cdktf.TerraformMetaArgument
   /**
   * Kafka cluster name linked with the current Kafka connect server. Must already exist in Conduktor Console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#cluster ConsoleKafkaConnectV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#cluster ConsoleKafkaConnectV2#cluster}
   */
   readonly cluster: string;
   /**
   * Kafka connect server labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#labels ConsoleKafkaConnectV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#labels ConsoleKafkaConnectV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Kafka connect server name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#name ConsoleKafkaConnectV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#name ConsoleKafkaConnectV2#name}
   */
   readonly name: string;
   /**
   * Kafka connect server specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#spec ConsoleKafkaConnectV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#spec ConsoleKafkaConnectV2#spec}
   */
   readonly spec: ConsoleKafkaConnectV2Spec;
 }
@@ -36,13 +36,13 @@ export interface ConsoleKafkaConnectV2SpecSecurityBasicAuth {
   /**
   * Kafka connect server basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#password ConsoleKafkaConnectV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#password ConsoleKafkaConnectV2#password}
   */
   readonly password: string;
   /**
   * Kafka connect server basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#username ConsoleKafkaConnectV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#username ConsoleKafkaConnectV2#username}
   */
   readonly username: string;
 }
@@ -161,7 +161,7 @@ export interface ConsoleKafkaConnectV2SpecSecurityBearerToken {
   /**
   * Kafka connect server bearer token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#token ConsoleKafkaConnectV2#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#token ConsoleKafkaConnectV2#token}
   */
   readonly token: string;
 }
@@ -254,13 +254,13 @@ export interface ConsoleKafkaConnectV2SpecSecuritySslAuth {
   /**
   * Kafka connect server mTLS auth certificate chain PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#certificate_chain ConsoleKafkaConnectV2#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#certificate_chain ConsoleKafkaConnectV2#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * Kafka connect server mTLS auth private key PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#key ConsoleKafkaConnectV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#key ConsoleKafkaConnectV2#key}
   */
   readonly key: string;
 }
@@ -379,19 +379,19 @@ export interface ConsoleKafkaConnectV2SpecSecurity {
   /**
   * Basic auth for Kafka connect server security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#basic_auth ConsoleKafkaConnectV2#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#basic_auth ConsoleKafkaConnectV2#basic_auth}
   */
   readonly basicAuth?: ConsoleKafkaConnectV2SpecSecurityBasicAuth;
   /**
   * Bearer token for Kafka connect server security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#bearer_token ConsoleKafkaConnectV2#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#bearer_token ConsoleKafkaConnectV2#bearer_token}
   */
   readonly bearerToken?: ConsoleKafkaConnectV2SpecSecurityBearerToken;
   /**
   * SSL auth (mTLS) for Kafka connect server security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#ssl_auth ConsoleKafkaConnectV2#ssl_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#ssl_auth ConsoleKafkaConnectV2#ssl_auth}
   */
   readonly sslAuth?: ConsoleKafkaConnectV2SpecSecuritySslAuth;
 }
@@ -545,31 +545,31 @@ export interface ConsoleKafkaConnectV2Spec {
   /**
   * Kafka connect server display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#display_name ConsoleKafkaConnectV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#display_name ConsoleKafkaConnectV2#display_name}
   */
   readonly displayName: string;
   /**
   * Key-Value HTTP headers to add to requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#headers ConsoleKafkaConnectV2#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#headers ConsoleKafkaConnectV2#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Ignore untrusted certificate for Kafka connect server requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#ignore_untrusted_certificate ConsoleKafkaConnectV2#ignore_untrusted_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#ignore_untrusted_certificate ConsoleKafkaConnectV2#ignore_untrusted_certificate}
   */
   readonly ignoreUntrustedCertificate?: boolean | cdktf.IResolvable;
   /**
   * Kafka connect server security configuration. One of `basic_auth`, `bearer_token`, `ssl_auth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#security ConsoleKafkaConnectV2#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#security ConsoleKafkaConnectV2#security}
   */
   readonly security?: ConsoleKafkaConnectV2SpecSecurity;
   /**
   * URL of a Kafka Connect cluster. **Multiple URLs are not supported for now**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#urls ConsoleKafkaConnectV2#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#urls ConsoleKafkaConnectV2#urls}
   */
   readonly urls: string;
 }
@@ -773,7 +773,7 @@ export class ConsoleKafkaConnectV2SpecOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2 conduktor_console_kafka_connect_v2}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2 conduktor_console_kafka_connect_v2}
 */
 export class ConsoleKafkaConnectV2 extends cdktf.TerraformResource {
 
@@ -789,7 +789,7 @@ export class ConsoleKafkaConnectV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleKafkaConnectV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleKafkaConnectV2 to import
-  * @param importFromId The id of the existing ConsoleKafkaConnectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleKafkaConnectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleKafkaConnectV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -801,7 +801,7 @@ export class ConsoleKafkaConnectV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_kafka_connect_v2 conduktor_console_kafka_connect_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_kafka_connect_v2 conduktor_console_kafka_connect_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -812,8 +812,8 @@ export class ConsoleKafkaConnectV2 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_kafka_connect_v2',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

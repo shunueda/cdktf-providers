@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConsoleTopicPolicyV1Config extends cdktf.TerraformMetaArguments
   /**
   * Topic Policy name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#name ConsoleTopicPolicyV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#name ConsoleTopicPolicyV1#name}
   */
   readonly name: string;
   /**
   * Topic Policy specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#spec ConsoleTopicPolicyV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#spec ConsoleTopicPolicyV1#spec}
   */
   readonly spec: ConsoleTopicPolicyV1Spec;
 }
 export interface ConsoleTopicPolicyV1SpecPoliciesAllowedKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#keys ConsoleTopicPolicyV1#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#keys ConsoleTopicPolicyV1#keys}
   */
   readonly keys: string[];
   /**
   * If set to true, the policy is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -150,11 +150,11 @@ export interface ConsoleTopicPolicyV1SpecPoliciesMatch {
   /**
   * If set to true, the policy is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#pattern ConsoleTopicPolicyV1#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#pattern ConsoleTopicPolicyV1#pattern}
   */
   readonly pattern: string;
 }
@@ -276,11 +276,11 @@ export interface ConsoleTopicPolicyV1SpecPoliciesNoneOf {
   /**
   * If set to true, the policy is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#values ConsoleTopicPolicyV1#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#values ConsoleTopicPolicyV1#values}
   */
   readonly values: string[];
 }
@@ -402,11 +402,11 @@ export interface ConsoleTopicPolicyV1SpecPoliciesOneOf {
   /**
   * If set to true, the policy is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#values ConsoleTopicPolicyV1#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#values ConsoleTopicPolicyV1#values}
   */
   readonly values: string[];
 }
@@ -526,17 +526,17 @@ export class ConsoleTopicPolicyV1SpecPoliciesOneOfOutputReference extends cdktf.
 }
 export interface ConsoleTopicPolicyV1SpecPoliciesRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#max ConsoleTopicPolicyV1#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#max ConsoleTopicPolicyV1#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#min ConsoleTopicPolicyV1#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#min ConsoleTopicPolicyV1#min}
   */
   readonly min: number;
   /**
   * If set to true, the policy is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#optional ConsoleTopicPolicyV1#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -684,31 +684,31 @@ export interface ConsoleTopicPolicyV1SpecPolicies {
   /**
   * Validates the keys are within an allowed key list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#allowed_keys ConsoleTopicPolicyV1#allowed_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#allowed_keys ConsoleTopicPolicyV1#allowed_keys}
   */
   readonly allowedKeys?: ConsoleTopicPolicyV1SpecPoliciesAllowedKeys;
   /**
   * Validates using Regular Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#match ConsoleTopicPolicyV1#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#match ConsoleTopicPolicyV1#match}
   */
   readonly match?: ConsoleTopicPolicyV1SpecPoliciesMatch;
   /**
   * Validates against a list of predefined options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#none_of ConsoleTopicPolicyV1#none_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#none_of ConsoleTopicPolicyV1#none_of}
   */
   readonly noneOf?: ConsoleTopicPolicyV1SpecPoliciesNoneOf;
   /**
   * Validates against a list of predefined options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#one_of ConsoleTopicPolicyV1#one_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#one_of ConsoleTopicPolicyV1#one_of}
   */
   readonly oneOf?: ConsoleTopicPolicyV1SpecPoliciesOneOf;
   /**
   * Validates a range of numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#range ConsoleTopicPolicyV1#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#range ConsoleTopicPolicyV1#range}
   */
   readonly range?: ConsoleTopicPolicyV1SpecPoliciesRange;
 }
@@ -940,7 +940,7 @@ export interface ConsoleTopicPolicyV1Spec {
   /**
   * Map of policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#policies ConsoleTopicPolicyV1#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#policies ConsoleTopicPolicyV1#policies}
   */
   readonly policies: { [key: string]: ConsoleTopicPolicyV1SpecPolicies } | cdktf.IResolvable;
 }
@@ -1031,7 +1031,7 @@ export class ConsoleTopicPolicyV1SpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1 conduktor_console_topic_policy_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1 conduktor_console_topic_policy_v1}
 */
 export class ConsoleTopicPolicyV1 extends cdktf.TerraformResource {
 
@@ -1047,7 +1047,7 @@ export class ConsoleTopicPolicyV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsoleTopicPolicyV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleTopicPolicyV1 to import
-  * @param importFromId The id of the existing ConsoleTopicPolicyV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleTopicPolicyV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleTopicPolicyV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1059,7 +1059,7 @@ export class ConsoleTopicPolicyV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_topic_policy_v1 conduktor_console_topic_policy_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_topic_policy_v1 conduktor_console_topic_policy_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1070,8 +1070,8 @@ export class ConsoleTopicPolicyV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_topic_policy_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

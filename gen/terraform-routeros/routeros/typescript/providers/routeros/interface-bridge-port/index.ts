@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface InterfaceBridgePortConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#___path___ InterfaceBridgePort#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#___path___ InterfaceBridgePort#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#___skip___ InterfaceBridgePort#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#___skip___ InterfaceBridgePort#___skip___}
   */
   readonly skip?: string;
   /**
   * When enabled, prevents a port moving from discarding into forwarding state if no BPDUs are received from the neighboring bridge. The port will change into a forwarding state only when a BPDU is received. This property only has an effect when protocol-mode is set to rstp or mstp and edge is set to no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#auto_isolate InterfaceBridgePort#auto_isolate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#auto_isolate InterfaceBridgePort#auto_isolate}
   */
   readonly autoIsolate?: boolean | cdktf.IResolvable;
   /**
   * This property has no effect when protocol-mode is set to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#bpdu_guard InterfaceBridgePort#bpdu_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#bpdu_guard InterfaceBridgePort#bpdu_guard}
   */
   readonly bpduGuard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#bridge InterfaceBridgePort#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#bridge InterfaceBridgePort#bridge}
   */
   readonly bridge: string;
   /**
   * When enabled, bridge floods broadcast traffic to all bridge egress ports. When disabled, drops broadcast traffic on egress ports. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#broadcast_flood InterfaceBridgePort#broadcast_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#broadcast_flood InterfaceBridgePort#broadcast_flood}
   */
   readonly broadcastFlood?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#comment InterfaceBridgePort#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#comment InterfaceBridgePort#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#disabled InterfaceBridgePort#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#disabled InterfaceBridgePort#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Set port as edge port or non-edge port, or enable edge discovery. Edge ports are connected to a LAN that has no other bridges attached. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#edge InterfaceBridgePort#edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#edge InterfaceBridgePort#edge}
   */
   readonly edge?: string;
   /**
   * Enables IGMP Fast leave feature on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#fast_leave InterfaceBridgePort#fast_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#fast_leave InterfaceBridgePort#fast_leave}
   */
   readonly fastLeave?: boolean | cdktf.IResolvable;
   /**
   * Specifies allowed ingress frame types on a bridge port. This property only has effect when vlan-filtering is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#frame_types InterfaceBridgePort#frame_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#frame_types InterfaceBridgePort#frame_types}
   */
   readonly frameTypes?: string;
   /**
   * Use split horizon bridging to prevent bridging loops. Set the same value for group of ports, to prevent them from sending data to ports with the same horizon value. Split horizon is a software feature that disables hardware offloading. This value is integer '0'..'429496729' or 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#horizon InterfaceBridgePort#horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#horizon InterfaceBridgePort#horizon}
   */
   readonly horizon?: string;
   /**
   * Enable or disable Hardware Offloading of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#hw InterfaceBridgePort#hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#hw InterfaceBridgePort#hw}
   */
   readonly hw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#id InterfaceBridgePort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#id InterfaceBridgePort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,109 +89,109 @@ export interface InterfaceBridgePortConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enables or disables VLAN ingress filtering, which checks if the ingress port is a member of the received VLAN ID in the bridge VLAN table. Should be used with frame-types to specify if the ingress traffic should be tagged or untagged. This property only has effect when vlan-filtering is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#ingress_filtering InterfaceBridgePort#ingress_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#ingress_filtering InterfaceBridgePort#ingress_filtering}
   */
   readonly ingressFiltering?: boolean | cdktf.IResolvable;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#interface InterfaceBridgePort#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#interface InterfaceBridgePort#interface}
   */
   readonly interface: string;
   /**
   * Path cost to the interface for MSTI0 inside a region. This property only has effect when protocol-mode is set to mstp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#internal_path_cost InterfaceBridgePort#internal_path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#internal_path_cost InterfaceBridgePort#internal_path_cost}
   */
   readonly internalPathCost?: number;
   /**
   * Changes MAC learning behaviour on a bridge port 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#learn InterfaceBridgePort#learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#learn InterfaceBridgePort#learn}
   */
   readonly learn?: string;
   /**
   * Changes the state of a bridge port whether IGMP membership reports are going to be forwarded to this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#multicast_router InterfaceBridgePort#multicast_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#multicast_router InterfaceBridgePort#multicast_router}
   */
   readonly multicastRouter?: string;
   /**
   * MVRP applicant options (available since RouterOS 7.15): - non-participant - port does not send any MRP messages; - normal-participant - port participates normally in MRP exchanges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#mvrp_applicant_state InterfaceBridgePort#mvrp_applicant_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#mvrp_applicant_state InterfaceBridgePort#mvrp_applicant_state}
   */
   readonly mvrpApplicantState?: string;
   /**
   * MVRP registrar options (available since RouterOS 7.15): - fixed - port ignores all MRP messages, and remains Registered (IN) in all configured vlans. - normal - port receives MRP messages and handles them according to the standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#mvrp_registrar_state InterfaceBridgePort#mvrp_registrar_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#mvrp_registrar_state InterfaceBridgePort#mvrp_registrar_state}
   */
   readonly mvrpRegistrarState?: string;
   /**
   * Path cost to the interface, used by STP to determine the "best" path, used by MSTP todetermine "best" path between regions. This property has no effect when protocol-mode is set to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#path_cost InterfaceBridgePort#path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#path_cost InterfaceBridgePort#path_cost}
   */
   readonly pathCost?: string;
   /**
   * Specifies if a bridge port is connected to a bridge using a point-to-point link for faster convergence in case of failure. This property has no effect when protocol-mode is set to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#point_to_point InterfaceBridgePort#point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#point_to_point InterfaceBridgePort#point_to_point}
   */
   readonly pointToPoint?: string;
   /**
   * The priority of the interface, used by STP to determine the root port, used by MSTP to determine root port between regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#priority InterfaceBridgePort#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#priority InterfaceBridgePort#priority}
   */
   readonly priority?: string;
   /**
   * ort VLAN ID (pvid) specifies which VLAN the untagged ingress traffic is assigned to. This property only has effect when vlan-filtering is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#pvid InterfaceBridgePort#pvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#pvid InterfaceBridgePort#pvid}
   */
   readonly pvid?: number;
   /**
   * Enable the restricted role on a port, used by STP to forbid a port becoming a root port. This property only has effect when protocol-mode is set to mstp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#restricted_role InterfaceBridgePort#restricted_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#restricted_role InterfaceBridgePort#restricted_role}
   */
   readonly restrictedRole?: boolean | cdktf.IResolvable;
   /**
   * Disable topology change notification (TCN) sending on a port, used by STP to forbid network topology changes to propagate. This property only has effect when protocol-mode is set to mstp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#restricted_tcn InterfaceBridgePort#restricted_tcn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#restricted_tcn InterfaceBridgePort#restricted_tcn}
   */
   readonly restrictedTcn?: boolean | cdktf.IResolvable;
   /**
   * Forces all packets to be treated as untagged packets. Packets on ingress port will be tagged with another VLAN tag regardless if a VLAN tag already exists, packets will be tagged with a VLAN ID that matches the pvid value and will use EtherType that is specified in ether-type. This property only has effect when vlan-filtering is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#tag_stacking InterfaceBridgePort#tag_stacking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#tag_stacking InterfaceBridgePort#tag_stacking}
   */
   readonly tagStacking?: boolean | cdktf.IResolvable;
   /**
   * When enabled, it allows to forward DHCP packets towards DHCP server through this port. Mainly used to limit unauthorized servers to provide malicious information for users. This property only has effect when dhcp-snooping is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#trusted InterfaceBridgePort#trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#trusted InterfaceBridgePort#trusted}
   */
   readonly trusted?: boolean | cdktf.IResolvable;
   /**
   * When enabled, bridge floods unknown multicast traffic to all bridge egress ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#unknown_multicast_flood InterfaceBridgePort#unknown_multicast_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#unknown_multicast_flood InterfaceBridgePort#unknown_multicast_flood}
   */
   readonly unknownMulticastFlood?: boolean | cdktf.IResolvable;
   /**
   * When enabled, bridge floods unknown unicast traffic to all bridge egress ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#unknown_unicast_flood InterfaceBridgePort#unknown_unicast_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#unknown_unicast_flood InterfaceBridgePort#unknown_unicast_flood}
   */
   readonly unknownUnicastFlood?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port routeros_interface_bridge_port}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port routeros_interface_bridge_port}
 */
 export class InterfaceBridgePort extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class InterfaceBridgePort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceBridgePort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceBridgePort to import
-  * @param importFromId The id of the existing InterfaceBridgePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceBridgePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceBridgePort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class InterfaceBridgePort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_port routeros_interface_bridge_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/interface_bridge_port routeros_interface_bridge_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class InterfaceBridgePort extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_bridge_port',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

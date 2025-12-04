@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranExternalLoggingConfig extends cdktf.TerraformMetaAr
   /**
   * The unique identifier for the log service within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#id DataFivetranExternalLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#id DataFivetranExternalLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataFivetranExternalLoggingConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies whether the setup tests should be run automatically. The default value is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#run_setup_tests DataFivetranExternalLogging#run_setup_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#run_setup_tests DataFivetranExternalLogging#run_setup_tests}
   */
   readonly runSetupTests?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#config DataFivetranExternalLogging#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#config DataFivetranExternalLogging#config}
   */
   readonly config?: DataFivetranExternalLoggingConfigA;
 }
@@ -33,91 +33,91 @@ export interface DataFivetranExternalLoggingConfigA {
   /**
   * API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#api_key DataFivetranExternalLogging#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#api_key DataFivetranExternalLogging#api_key}
   */
   readonly apiKey?: string;
   /**
   * Channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#channel DataFivetranExternalLogging#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#channel DataFivetranExternalLogging#channel}
   */
   readonly channel?: string;
   /**
   * Enable SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#enable_ssl DataFivetranExternalLogging#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#enable_ssl DataFivetranExternalLogging#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
   * external_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#external_id DataFivetranExternalLogging#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#external_id DataFivetranExternalLogging#external_id}
   */
   readonly externalId?: string;
   /**
   * Server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#host DataFivetranExternalLogging#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#host DataFivetranExternalLogging#host}
   */
   readonly host?: string;
   /**
   * Server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#hostname DataFivetranExternalLogging#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#hostname DataFivetranExternalLogging#hostname}
   */
   readonly hostname?: string;
   /**
   * Log Group Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#log_group_name DataFivetranExternalLogging#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#log_group_name DataFivetranExternalLogging#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#port DataFivetranExternalLogging#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#port DataFivetranExternalLogging#port}
   */
   readonly port?: number;
   /**
   * Primary Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#primary_key DataFivetranExternalLogging#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#primary_key DataFivetranExternalLogging#primary_key}
   */
   readonly primaryKey?: string;
   /**
   * Project Id for Google Cloud Logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#project_id DataFivetranExternalLogging#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#project_id DataFivetranExternalLogging#project_id}
   */
   readonly projectId?: string;
   /**
   * Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#region DataFivetranExternalLogging#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#region DataFivetranExternalLogging#region}
   */
   readonly region?: string;
   /**
   * Role Arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#role_arn DataFivetranExternalLogging#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#role_arn DataFivetranExternalLogging#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Sub Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#sub_domain DataFivetranExternalLogging#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#sub_domain DataFivetranExternalLogging#sub_domain}
   */
   readonly subDomain?: string;
   /**
   * Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#token DataFivetranExternalLogging#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#token DataFivetranExternalLogging#token}
   */
   readonly token?: string;
   /**
   * Workspace ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#workspace_id DataFivetranExternalLogging#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#workspace_id DataFivetranExternalLogging#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -617,7 +617,7 @@ export class DataFivetranExternalLoggingConfigAOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging fivetran_external_logging}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging fivetran_external_logging}
 */
 export class DataFivetranExternalLogging extends cdktf.TerraformDataSource {
 
@@ -633,7 +633,7 @@ export class DataFivetranExternalLogging extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranExternalLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranExternalLogging to import
-  * @param importFromId The id of the existing DataFivetranExternalLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranExternalLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranExternalLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -645,7 +645,7 @@ export class DataFivetranExternalLogging extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logging fivetran_external_logging} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/external_logging fivetran_external_logging} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,8 +656,8 @@ export class DataFivetranExternalLogging extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_external_logging',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

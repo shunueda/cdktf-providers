@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface SiteCollaborationSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings#netlify_drawer_in_branch_deploys SiteCollaborationSettings#netlify_drawer_in_branch_deploys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings#netlify_drawer_in_branch_deploys SiteCollaborationSettings#netlify_drawer_in_branch_deploys}
   */
   readonly netlifyDrawerInBranchDeploys: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings#netlify_drawer_in_deploy_previews SiteCollaborationSettings#netlify_drawer_in_deploy_previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings#netlify_drawer_in_deploy_previews SiteCollaborationSettings#netlify_drawer_in_deploy_previews}
   */
   readonly netlifyDrawerInDeployPreviews: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings#netlify_heads_up_display SiteCollaborationSettings#netlify_heads_up_display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings#netlify_heads_up_display SiteCollaborationSettings#netlify_heads_up_display}
   */
   readonly netlifyHeadsUpDisplay: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings#site_id SiteCollaborationSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings#site_id SiteCollaborationSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings netlify_site_collaboration_settings}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings netlify_site_collaboration_settings}
 */
 export class SiteCollaborationSettings extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class SiteCollaborationSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteCollaborationSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteCollaborationSettings to import
-  * @param importFromId The id of the existing SiteCollaborationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteCollaborationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteCollaborationSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class SiteCollaborationSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_collaboration_settings netlify_site_collaboration_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_collaboration_settings netlify_site_collaboration_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,8 @@ export class SiteCollaborationSettings extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_site_collaboration_settings',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

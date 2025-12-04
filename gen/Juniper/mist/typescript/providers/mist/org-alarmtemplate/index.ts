@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OrgAlarmtemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delivery object to configure the alarm delivery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#delivery OrgAlarmtemplate#delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#delivery OrgAlarmtemplate#delivery}
   */
   readonly delivery: OrgAlarmtemplateDelivery;
   /**
   * Some string to name the alarm template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#name OrgAlarmtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#name OrgAlarmtemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#org_id OrgAlarmtemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#org_id OrgAlarmtemplate#org_id}
   */
   readonly orgId: string;
   /**
   * Alarm Rules object to configure the individual alarm keys/types. Property key is the alarm name (list available with the `mist_const_alarms` data source).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#rules OrgAlarmtemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#rules OrgAlarmtemplate#rules}
   */
   readonly rules: { [key: string]: OrgAlarmtemplateRules } | cdktf.IResolvable;
 }
@@ -34,25 +34,25 @@ export interface OrgAlarmtemplateDelivery {
   /**
   * List of additional email string to deliver the alarms via emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#additional_emails OrgAlarmtemplate#additional_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#additional_emails OrgAlarmtemplate#additional_emails}
   */
   readonly additionalEmails?: string[];
   /**
   * Whether to enable the alarm delivery via emails or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Whether to deliver the alarms via emails to Org admins or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#to_org_admins OrgAlarmtemplate#to_org_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#to_org_admins OrgAlarmtemplate#to_org_admins}
   */
   readonly toOrgAdmins?: boolean | cdktf.IResolvable;
   /**
   * Whether to deliver the alarms via emails to Site admins or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#to_site_admins OrgAlarmtemplate#to_site_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#to_site_admins OrgAlarmtemplate#to_site_admins}
   */
   readonly toSiteAdmins?: boolean | cdktf.IResolvable;
 }
@@ -232,25 +232,25 @@ export interface OrgAlarmtemplateRulesDelivery {
   /**
   * List of additional email string to deliver the alarms via emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#additional_emails OrgAlarmtemplate#additional_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#additional_emails OrgAlarmtemplate#additional_emails}
   */
   readonly additionalEmails?: string[];
   /**
   * Whether to enable the alarm delivery via emails or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Whether to deliver the alarms via emails to Org admins or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#to_org_admins OrgAlarmtemplate#to_org_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#to_org_admins OrgAlarmtemplate#to_org_admins}
   */
   readonly toOrgAdmins?: boolean | cdktf.IResolvable;
   /**
   * Whether to deliver the alarms via emails to Site admins or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#to_site_admins OrgAlarmtemplate#to_site_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#to_site_admins OrgAlarmtemplate#to_site_admins}
   */
   readonly toSiteAdmins?: boolean | cdktf.IResolvable;
 }
@@ -430,11 +430,11 @@ export interface OrgAlarmtemplateRules {
   /**
   * Delivery object to configure the alarm delivery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#delivery OrgAlarmtemplate#delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#delivery OrgAlarmtemplate#delivery}
   */
   readonly delivery?: OrgAlarmtemplateRulesDelivery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#enabled OrgAlarmtemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -577,7 +577,7 @@ export class OrgAlarmtemplateRulesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate mist_org_alarmtemplate}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate mist_org_alarmtemplate}
 */
 export class OrgAlarmtemplate extends cdktf.TerraformResource {
 
@@ -593,7 +593,7 @@ export class OrgAlarmtemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgAlarmtemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgAlarmtemplate to import
-  * @param importFromId The id of the existing OrgAlarmtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgAlarmtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgAlarmtemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -605,7 +605,7 @@ export class OrgAlarmtemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_alarmtemplate mist_org_alarmtemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_alarmtemplate mist_org_alarmtemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,8 +616,8 @@ export class OrgAlarmtemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_alarmtemplate',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

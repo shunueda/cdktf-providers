@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface OrgVpnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#name OrgVpn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#name OrgVpn#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#org_id OrgVpn#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#org_id OrgVpn#org_id}
   */
   readonly orgId?: string;
   /**
   * Only if `type`==`hub_spoke`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#path_selection OrgVpn#path_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#path_selection OrgVpn#path_selection}
   */
   readonly pathSelection?: OrgVpnPathSelection;
   /**
   * For `type`==`hub_spoke`, Property key is the VPN name. For `type`==`mesh`, Property key is the Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#paths OrgVpn#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#paths OrgVpn#paths}
   */
   readonly paths: { [key: string]: OrgVpnPaths } | cdktf.IResolvable;
   /**
   * enum: `hub_spoke`, `mesh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#type OrgVpn#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#type OrgVpn#type}
   */
   readonly type?: string;
 }
@@ -38,7 +38,7 @@ export interface OrgVpnPathSelection {
   /**
   * enum: `disabled`, `simple`, `manual`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#strategy OrgVpn#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#strategy OrgVpn#strategy}
   */
   readonly strategy?: string;
 }
@@ -132,7 +132,7 @@ export class OrgVpnPathSelectionOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgVpnPathsPeerPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#preference OrgVpn#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#preference OrgVpn#preference}
   */
   readonly preference?: number;
 }
@@ -248,15 +248,15 @@ export interface OrgVpnPathsTrafficShaping {
   /**
   * percentages for different class of traffic: high / medium / low / best-effort adding up to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#class_percentage OrgVpn#class_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#class_percentage OrgVpn#class_percentage}
   */
   readonly classPercentage?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#enabled OrgVpn#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#enabled OrgVpn#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#max_tx_kbps OrgVpn#max_tx_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#max_tx_kbps OrgVpn#max_tx_kbps}
   */
   readonly maxTxKbps?: number;
 }
@@ -410,33 +410,33 @@ export interface OrgVpnPaths {
   /**
   * enum: `broadband`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#bfd_profile OrgVpn#bfd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#bfd_profile OrgVpn#bfd_profile}
   */
   readonly bfdProfile?: string;
   /**
   * If `type`==`mesh` and for SSR only, whether to use tunnel mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#bfd_use_tunnel_mode OrgVpn#bfd_use_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#bfd_use_tunnel_mode OrgVpn#bfd_use_tunnel_mode}
   */
   readonly bfdUseTunnelMode?: boolean | cdktf.IResolvable;
   /**
   * If different from the wan port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#ip OrgVpn#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#ip OrgVpn#ip}
   */
   readonly ip?: string;
   /**
   * If `type`==`mesh`, Property key is the Peer Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#peer_paths OrgVpn#peer_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#peer_paths OrgVpn#peer_paths}
   */
   readonly peerPaths?: { [key: string]: OrgVpnPathsPeerPaths } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#pod OrgVpn#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#pod OrgVpn#pod}
   */
   readonly pod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#traffic_shaping OrgVpn#traffic_shaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#traffic_shaping OrgVpn#traffic_shaping}
   */
   readonly trafficShaping?: OrgVpnPathsTrafficShaping;
 }
@@ -695,7 +695,7 @@ export class OrgVpnPathsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn mist_org_vpn}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn mist_org_vpn}
 */
 export class OrgVpn extends cdktf.TerraformResource {
 
@@ -711,7 +711,7 @@ export class OrgVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgVpn to import
-  * @param importFromId The id of the existing OrgVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -723,7 +723,7 @@ export class OrgVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_vpn mist_org_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_vpn mist_org_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -734,8 +734,8 @@ export class OrgVpn extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_vpn',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

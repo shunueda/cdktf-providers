@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ToolEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#___path___ ToolEmail#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#___path___ ToolEmail#___path___}
   */
   readonly path?: string;
   /**
   * Name or email address that will be shown as a receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#from ToolEmail#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#from ToolEmail#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#id ToolEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#id ToolEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ToolEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password used for authenticating to an SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#password ToolEmail#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#password ToolEmail#password}
   */
   readonly password?: string;
   /**
   * SMTP server's port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#port ToolEmail#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#port ToolEmail#port}
   */
   readonly port?: string;
   /**
   * SMTP server's IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#server ToolEmail#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#server ToolEmail#server}
   */
   readonly server?: string;
   /**
@@ -50,25 +50,25 @@ export interface ToolEmailConfig extends cdktf.TerraformMetaArguments {
   *   * no - do not send STARTTLS
   *   * starttls - sends STARTTLS and continue without TLS if a server responds that TLS is not available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#tls ToolEmail#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#tls ToolEmail#tls}
   */
   readonly tls?: string;
   /**
   * The username used for authenticating to an SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#user ToolEmail#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#user ToolEmail#user}
   */
   readonly user?: string;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#vrf ToolEmail#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#vrf ToolEmail#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email routeros_tool_email}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email routeros_tool_email}
 */
 export class ToolEmail extends cdktf.TerraformResource {
 
@@ -84,7 +84,7 @@ export class ToolEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ToolEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ToolEmail to import
-  * @param importFromId The id of the existing ToolEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ToolEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ToolEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -96,7 +96,7 @@ export class ToolEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_email routeros_tool_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/tool_email routeros_tool_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -107,8 +107,8 @@ export class ToolEmail extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_tool_email',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

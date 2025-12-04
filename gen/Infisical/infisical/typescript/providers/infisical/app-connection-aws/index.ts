@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws
+// https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppConnectionAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The credentials for the AWS App Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#credentials AppConnectionAws#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#credentials AppConnectionAws#credentials}
   */
   readonly credentials: AppConnectionAwsCredentials;
   /**
   * An optional description for the AWS App Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#description AppConnectionAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#description AppConnectionAws#description}
   */
   readonly description?: string;
   /**
   * The method used to authenticate with AWS. Possible values are: assume-role, access-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#method AppConnectionAws#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#method AppConnectionAws#method}
   */
   readonly method: string;
   /**
   * The name of the AWS App Connection to create. Must be slug-friendly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#name AppConnectionAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#name AppConnectionAws#name}
   */
   readonly name: string;
 }
@@ -36,19 +36,19 @@ export interface AppConnectionAwsCredentials {
   /**
   * The AWS Access Key ID used to authenticate requests to AWS services. Required for access-key access method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/aws#access-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#access_key_id AppConnectionAws#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#access_key_id AppConnectionAws#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role to assume for performing operations. Infisical will assume this role using AWS Security Token Service (STS). Required for assume-role access method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/aws#assume-role-recommended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#role_arn AppConnectionAws#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#role_arn AppConnectionAws#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The AWS Secret Access Key associated with the Access Key ID to authenticate requests to AWS services. Required for access-key access method. For more details, refer to the documentation here infisical.com/docs/integrations/app-connections/aws#access-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#secret_access_key AppConnectionAws#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#secret_access_key AppConnectionAws#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
@@ -200,7 +200,7 @@ export class AppConnectionAwsCredentialsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws infisical_app_connection_aws}
+* Represents a {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws infisical_app_connection_aws}
 */
 export class AppConnectionAws extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class AppConnectionAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectionAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectionAws to import
-  * @param importFromId The id of the existing AppConnectionAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectionAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectionAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class AppConnectionAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.50/docs/resources/app_connection_aws infisical_app_connection_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/app_connection_aws infisical_app_connection_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class AppConnectionAws extends cdktf.TerraformResource {
       terraformResourceType: 'infisical_app_connection_aws',
       terraformGeneratorMetadata: {
         providerName: 'infisical',
-        providerVersion: '0.15.50',
-        providerVersionConstraint: '0.15.50'
+        providerVersion: '0.15.52',
+        providerVersionConstraint: '0.15.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

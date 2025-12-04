@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NetlifyProviderConfig {
   /**
   * The default team ID to use for resources that require a team ID or a team slug. Warning: Changing this value may not trigger recreation of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#default_team_id NetlifyProvider#default_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#default_team_id NetlifyProvider#default_team_id}
   */
   readonly defaultTeamId?: string;
   /**
   * The default team slug to use for resources that require a team ID or a team slug. Warning: Changing this value may not trigger recreation of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#default_team_slug NetlifyProvider#default_team_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#default_team_slug NetlifyProvider#default_team_slug}
   */
   readonly defaultTeamSlug?: string;
   /**
   * Defaults to: https://api.netlify.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#endpoint NetlifyProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#endpoint NetlifyProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Read: https://docs.netlify.com/api/get-started/#authentication , will use the `NETLIFY_API_TOKEN` environment variable if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#token NetlifyProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#token NetlifyProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#alias NetlifyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#alias NetlifyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs netlify}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs netlify}
 */
 export class NetlifyProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class NetlifyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NetlifyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetlifyProvider to import
-  * @param importFromId The id of the existing NetlifyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetlifyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetlifyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class NetlifyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs netlify} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs netlify} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class NetlifyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netlify',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'netlify/netlify'
     });

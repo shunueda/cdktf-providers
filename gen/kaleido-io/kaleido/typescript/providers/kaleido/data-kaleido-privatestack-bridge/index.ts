@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataKaleidoPrivatestackBridgeConfig extends cdktf.TerraformMeta
   /**
   * Optionally provide an application credential to inject into the downloaded config, making it ready for use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#appcred_id DataKaleidoPrivatestackBridge#appcred_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#appcred_id DataKaleidoPrivatestackBridge#appcred_id}
   */
   readonly appcredId?: string;
   /**
   * Optionally provide an application credential to inject into the downloaded config, making it ready for use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#appcred_secret DataKaleidoPrivatestackBridge#appcred_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#appcred_secret DataKaleidoPrivatestackBridge#appcred_secret}
   */
   readonly appcredSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#consortium_id DataKaleidoPrivatestackBridge#consortium_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#consortium_id DataKaleidoPrivatestackBridge#consortium_id}
   */
   readonly consortiumId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#environment_id DataKaleidoPrivatestackBridge#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#environment_id DataKaleidoPrivatestackBridge#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#service_id DataKaleidoPrivatestackBridge#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#service_id DataKaleidoPrivatestackBridge#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge kaleido_privatestack_bridge}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge kaleido_privatestack_bridge}
 */
 export class DataKaleidoPrivatestackBridge extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataKaleidoPrivatestackBridge extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKaleidoPrivatestackBridge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKaleidoPrivatestackBridge to import
-  * @param importFromId The id of the existing DataKaleidoPrivatestackBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKaleidoPrivatestackBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKaleidoPrivatestackBridge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataKaleidoPrivatestackBridge extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/privatestack_bridge kaleido_privatestack_bridge} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/privatestack_bridge kaleido_privatestack_bridge} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataKaleidoPrivatestackBridge extends cdktf.TerraformDataSource {
       terraformResourceType: 'kaleido_privatestack_bridge',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

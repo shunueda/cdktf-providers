@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1
+// https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConsoleApplicationInstancePermissionV1Config extends cdktf.Terr
   /**
   * Reference to the application instance this permission belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#app_instance ConsoleApplicationInstancePermissionV1#app_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#app_instance ConsoleApplicationInstancePermissionV1#app_instance}
   */
   readonly appInstance: string;
   /**
   * Reference to the application this permission belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#application ConsoleApplicationInstancePermissionV1#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#application ConsoleApplicationInstancePermissionV1#application}
   */
   readonly application: string;
   /**
   * Application Instance Permission name, must be unique, acts as an ID for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#name ConsoleApplicationInstancePermissionV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#name ConsoleApplicationInstancePermissionV1#name}
   */
   readonly name: string;
   /**
   * Application Instance specification. It's immutable (update will require the resource to be recreated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#spec ConsoleApplicationInstancePermissionV1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#spec ConsoleApplicationInstancePermissionV1#spec}
   */
   readonly spec: ConsoleApplicationInstancePermissionV1Spec;
 }
@@ -36,25 +36,25 @@ export interface ConsoleApplicationInstancePermissionV1SpecResource {
   /**
   * Valid Kafka Connect Cluster refrence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#connect_cluster ConsoleApplicationInstancePermissionV1#connect_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#connect_cluster ConsoleApplicationInstancePermissionV1#connect_cluster}
   */
   readonly connectCluster?: string;
   /**
   * Name of the resource. Must reference any sub-resource of app_instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#name ConsoleApplicationInstancePermissionV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#name ConsoleApplicationInstancePermissionV1#name}
   */
   readonly name: string;
   /**
   * Pattern type for the resource, valid values are: LITERAL, PREFIXED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#pattern_type ConsoleApplicationInstancePermissionV1#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#pattern_type ConsoleApplicationInstancePermissionV1#pattern_type}
   */
   readonly patternType: string;
   /**
   * Type of the resource, valid values are: TOPIC, CONSUMER_GROUP, SUBJECT, CONNECTOR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#type ConsoleApplicationInstancePermissionV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#type ConsoleApplicationInstancePermissionV1#type}
   */
   readonly type: string;
 }
@@ -228,25 +228,25 @@ export interface ConsoleApplicationInstancePermissionV1Spec {
   /**
   * Reference to an application instance. Must be on the same Kafka cluster as app_instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#granted_to ConsoleApplicationInstancePermissionV1#granted_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#granted_to ConsoleApplicationInstancePermissionV1#granted_to}
   */
   readonly grantedTo: string;
   /**
   * Resources associated with this application instance permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#resource ConsoleApplicationInstancePermissionV1#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#resource ConsoleApplicationInstancePermissionV1#resource}
   */
   readonly resource?: ConsoleApplicationInstancePermissionV1SpecResource;
   /**
   * Permission applied to the service account, valid values are: NONE, READ, WRITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#service_account_permission ConsoleApplicationInstancePermissionV1#service_account_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#service_account_permission ConsoleApplicationInstancePermissionV1#service_account_permission}
   */
   readonly serviceAccountPermission: string;
   /**
   * Permission applied to the user, valid values are: NONE, READ, WRITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#user_permission ConsoleApplicationInstancePermissionV1#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#user_permission ConsoleApplicationInstancePermissionV1#user_permission}
   */
   readonly userPermission: string;
 }
@@ -418,7 +418,7 @@ export class ConsoleApplicationInstancePermissionV1SpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1 conduktor_console_application_instance_permission_v1}
+* Represents a {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1 conduktor_console_application_instance_permission_v1}
 */
 export class ConsoleApplicationInstancePermissionV1 extends cdktf.TerraformResource {
 
@@ -434,7 +434,7 @@ export class ConsoleApplicationInstancePermissionV1 extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ConsoleApplicationInstancePermissionV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsoleApplicationInstancePermissionV1 to import
-  * @param importFromId The id of the existing ConsoleApplicationInstancePermissionV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsoleApplicationInstancePermissionV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsoleApplicationInstancePermissionV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class ConsoleApplicationInstancePermissionV1 extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.0/docs/resources/console_application_instance_permission_v1 conduktor_console_application_instance_permission_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/conduktor/conduktor/1.0.1/docs/resources/console_application_instance_permission_v1 conduktor_console_application_instance_permission_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class ConsoleApplicationInstancePermissionV1 extends cdktf.TerraformResou
       terraformResourceType: 'conduktor_console_application_instance_permission_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

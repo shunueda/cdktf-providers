@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DestinationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Shift my UTC offset with daylight savings time (US Only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#daylight_saving_time_enabled Destination#daylight_saving_time_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#daylight_saving_time_enabled Destination#daylight_saving_time_enabled}
   */
   readonly daylightSavingTimeEnabled?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier for the Group within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#group_id Destination#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#group_id Destination#group_id}
   */
   readonly groupId: string;
   /**
   * The hybrid deployment agent ID that refers to the controller created for the group the connection belongs to. If the value is specified, the system will try to associate the connection with an existing agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#hybrid_deployment_agent_id Destination#hybrid_deployment_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#hybrid_deployment_agent_id Destination#hybrid_deployment_agent_id}
   */
   readonly hybridDeploymentAgentId?: string;
   /**
   * Possible values: Directly, SshTunnel, ProxyAgent, PrivateLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#networking_method Destination#networking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#networking_method Destination#networking_method}
   */
   readonly networkingMethod?: string;
   /**
   * The private link ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#private_link_id Destination#private_link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#private_link_id Destination#private_link_id}
   */
   readonly privateLinkId?: string;
   /**
   * Data processing location. This is where Fivetran will operate and run computation on data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#region Destination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#region Destination#region}
   */
   readonly region: string;
   /**
   * Specifies whether the setup tests should be run automatically. The default value is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#run_setup_tests Destination#run_setup_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#run_setup_tests Destination#run_setup_tests}
   */
   readonly runSetupTests?: boolean | cdktf.IResolvable;
   /**
   * The destination type id within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#service Destination#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#service Destination#service}
   */
   readonly service: string;
   /**
   * Determines the time zone for the Fivetran sync schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#time_zone_offset Destination#time_zone_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#time_zone_offset Destination#time_zone_offset}
   */
   readonly timeZoneOffset: string;
   /**
   * Specifies whether we should trust the certificate automatically. The default value is FALSE. If a certificate is not trusted automatically, it has to be approved with [Certificates Management API Approve a destination certificate](https://fivetran.com/docs/rest-api/certificates#approveadestinationcertificate).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#trust_certificates Destination#trust_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#trust_certificates Destination#trust_certificates}
   */
   readonly trustCertificates?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether we should trust the SSH fingerprint automatically. The default value is FALSE. If a fingerprint is not trusted automatically, it has to be approved with [Certificates Management API Approve a destination fingerprint](https://fivetran.com/docs/rest-api/certificates#approveadestinationfingerprint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#trust_fingerprints Destination#trust_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#trust_fingerprints Destination#trust_fingerprints}
   */
   readonly trustFingerprints?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#config Destination#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#config Destination#config}
   */
   readonly config?: DestinationConfigA;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#timeouts Destination#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#timeouts Destination#timeouts}
   */
   readonly timeouts?: DestinationTimeouts;
 }
@@ -112,21 +112,21 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Specifies whether TLS is required. Must be populated if `connection_type` is set to `SshTunnel`.
   * 	- Service `sql_server_warehouse`: Specifies whether TLS is required. Must be populated if `connection_type` is set to `SshTunnel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#always_encrypted Destination#always_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#always_encrypted Destination#always_encrypted}
   */
   readonly alwaysEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Application ID of your app created in Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#application_id Destination#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#application_id Destination#application_id}
   */
   readonly applicationId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Password-based or key-based authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#auth Destination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#auth Destination#auth}
   */
   readonly auth?: string;
   /**
@@ -138,7 +138,7 @@ export interface DestinationConfigA {
   * 	- Service `onelake`: Authentication type
   * 	- Service `redshift`: Authentication type. Default value: `PASSWORD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#auth_type Destination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#auth_type Destination#auth_type}
   */
   readonly authType?: string;
   /**
@@ -148,14 +148,14 @@ export interface DestinationConfigA {
   * 	- Service `redshift`: The unique access key ID of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment.
   * 	- Service `snowflake`: The unique access key ID of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment, want to use an S3 bucket to stage your data, and `awsBucketAuthType` is set to `IAM_USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#aws_access_key_id Destination#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#aws_access_key_id Destination#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Type of authentication configured for the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an S3 bucket to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#aws_bucket_auth_type Destination#aws_bucket_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#aws_bucket_auth_type Destination#aws_bucket_auth_type}
   */
   readonly awsBucketAuthType?: string;
   /**
@@ -165,21 +165,21 @@ export interface DestinationConfigA {
   * 	- Service `redshift`: The secret access key of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment.
   * 	- Service `snowflake`: The secret access key of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment , want to use an S3 bucket to stage your data, and `awsBucketAuthType` is set to `IAM_USER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#aws_secret_access_key Destination#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#aws_secret_access_key Destination#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Authentication method for the Azure container you want to use as the external staging for Hybrid Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#azure_storage_account_auth_type Destination#azure_storage_account_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#azure_storage_account_auth_type Destination#azure_storage_account_auth_type}
   */
   readonly azureStorageAccountAuthType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Comma-separated list of Confluent Cloud servers in the `server:port` format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#bootstrap_servers Destination#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#bootstrap_servers Destination#bootstrap_servers}
   */
   readonly bootstrapServers?: string[];
   /**
@@ -193,7 +193,7 @@ export interface DestinationConfigA {
   * 	- Service `redshift`: The name of the storage bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment.
   * 	- Service `snowflake`: The name of the storage bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an S3 or GCS bucket to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#bucket Destination#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#bucket Destination#bucket}
   */
   readonly bucket?: string;
   /**
@@ -202,7 +202,7 @@ export interface DestinationConfigA {
   * 	- Service `redshift`: The AWS Region of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment.
   * 	- Service `snowflake`: The AWS Region of the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an S3 bucket to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#bucket_region Destination#bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#bucket_region Destination#bucket_region}
   */
   readonly bucketRegion?: string;
   /**
@@ -213,7 +213,7 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Catalog name
   * 	- Service `onelake`: Catalog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#catalog Destination#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#catalog Destination#catalog}
   */
   readonly catalog?: string;
   /**
@@ -222,14 +222,14 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: Client ID of the service principal you created for Fivetran. Use this parameter only if you want to deploy your data lake on ADLS.
   * 	- Service `onelake`: Client ID of service principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#client_id Destination#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#client_id Destination#client_id}
   */
   readonly clientId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Databricks deployment cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#cloud_provider Destination#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#cloud_provider Destination#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
@@ -238,7 +238,7 @@ export interface DestinationConfigA {
   * 	- Service `periscope_warehouse`: Cluster ID.
   * 	- Service `redshift`: Cluster ID. Must be populated if `connection_type` is set to `SshTunnel` and `auth_type` is set to `IAM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#cluster_id Destination#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#cluster_id Destination#cluster_id}
   */
   readonly clusterId?: string;
   /**
@@ -247,11 +247,11 @@ export interface DestinationConfigA {
   * 	- Service `periscope_warehouse`: Cluster region.
   * 	- Service `redshift`: Cluster region. Must be populated if `connection_type` is set to `SshTunnel` and `auth_type` is set to `IAM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#cluster_region Destination#cluster_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#cluster_region Destination#cluster_region}
   */
   readonly clusterRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#connection_method Destination#connection_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#connection_method Destination#connection_method}
   */
   readonly connectionMethod?: string;
   /**
@@ -283,7 +283,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Connection method. Default value: `Directly`.
   * 	- Service `sql_server_warehouse`: Connection method. Default value: `Directly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#connection_type Destination#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#connection_type Destination#connection_type}
   */
   readonly connectionType?: string;
   /**
@@ -292,32 +292,32 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: (Immutable) Name of the ADLS container you want to use to store your data. Use this parameter only if you want to deploy your data lake on ADLS.
   * 	- Service `onelake`: Workspace name to store delta table files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#container_name Destination#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#container_name Destination#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#controller_id Destination#controller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#controller_id Destination#controller_id}
   */
   readonly controllerId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Whether to create external tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#create_external_tables Destination#create_external_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#create_external_tables Destination#create_external_tables}
   */
   readonly createExternalTables?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Specifies whether you want Fivetran to create external volumes for unstructured data files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#create_external_volumes Destination#create_external_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#create_external_volumes Destination#create_external_volumes}
   */
   readonly createExternalVolumes?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Confluent Cloud message format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#data_format Destination#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#data_format Destination#data_format}
   */
   readonly dataFormat?: string;
   /**
@@ -326,7 +326,7 @@ export interface DestinationConfigA {
   * 	- Service `big_query_dts`: Data location. Datasets will reside in this location.
   * 	- Service `managed_big_query`: Data location. Datasets will reside in this location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#data_set_location Destination#data_set_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#data_set_location Destination#data_set_location}
   */
   readonly dataSetLocation?: string;
   /**
@@ -355,7 +355,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Database name
   * 	- Service `sql_server_warehouse`: Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#database Destination#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#database Destination#database}
   */
   readonly database?: string;
   /**
@@ -365,96 +365,96 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Databricks Connection method. Default value: `Directly`.
   * 	- Service `onelake`: Databricks Connection method. Default value: `Directly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#databricks_connection_type Destination#databricks_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#databricks_connection_type Destination#databricks_connection_type}
   */
   readonly databricksConnectionType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Tenant ID of your app created in Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#directory_id Destination#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#directory_id Destination#directory_id}
   */
   readonly directoryId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Specifies whether you want Fivetran to disable Vacuum operations on Delta tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#disable_vacuum Destination#disable_vacuum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#disable_vacuum Destination#disable_vacuum}
   */
   readonly disableVacuum?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Set to `true` if you want to enable external storage for unstructured files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#enable_external_storage_for_unstructured_files Destination#enable_external_storage_for_unstructured_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#enable_external_storage_for_unstructured_files Destination#enable_external_storage_for_unstructured_files}
   */
   readonly enableExternalStorageForUnstructuredFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#enable_remote_execution Destination#enable_remote_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#enable_remote_execution Destination#enable_remote_execution}
   */
   readonly enableRemoteExecution?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Populate all tables in a single topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#enable_single_topic Destination#enable_single_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#enable_single_topic Destination#enable_single_topic}
   */
   readonly enableSingleTopic?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `redshift`: Enable to convert JSON data type to SUPER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#enable_super_type Destination#enable_super_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#enable_super_type Destination#enable_super_type}
   */
   readonly enableSuperType?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: External location to store Delta tables. Default value: `""`  (null). By default, the external tables will reside in the `/{schema}/{table}` path, and if you specify an external location in the `{externalLocation}/{schema}/{table}` path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_location Destination#external_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_location Destination#external_location}
   */
   readonly externalLocation?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: External stage storage provider[Internal, S3, Azure,GCS]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_stage_storage_provider Destination#external_stage_storage_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_stage_storage_provider Destination#external_stage_storage_provider}
   */
   readonly externalStageStorageProvider?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: The cloud service provider you want to use for staging data. Use this parameter only if you are using Hybrid Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_storage_cloud_provider Destination#external_storage_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_storage_cloud_provider Destination#external_storage_cloud_provider}
   */
   readonly externalStorageCloudProvider?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: External storage integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_storage_integration Destination#external_storage_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_storage_integration Destination#external_storage_integration}
   */
   readonly externalStorageIntegration?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: External storage parent folder URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_storage_parent_folder_uri Destination#external_storage_parent_folder_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_storage_parent_folder_uri Destination#external_storage_parent_folder_uri}
   */
   readonly externalStorageParentFolderUri?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `databricks`: Specifies the external volume path where you want Fivetran to create the unstructured files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#external_volume_location Destination#external_volume_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#external_volume_location Destination#external_volume_location}
   */
   readonly externalVolumeLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#fivetran_glue_role_arn Destination#fivetran_glue_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#fivetran_glue_role_arn Destination#fivetran_glue_role_arn}
   */
   readonly fivetranGlueRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#fivetran_msk_role_arn Destination#fivetran_msk_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#fivetran_msk_role_arn Destination#fivetran_msk_role_arn}
   */
   readonly fivetranMskRoleArn?: string;
   /**
@@ -462,14 +462,14 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: (Immutable) ARN of the IAM role you created for the IAM policy associated with your S3 bucket or Glue catalog. Use this parameter only if you want to deploy your data lake on AWS.
   * 	- Service `new_s3_datalake`: ARN of the role which you created with different required policy mentioned in our setup guide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#fivetran_role_arn Destination#fivetran_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#fivetran_role_arn Destination#fivetran_role_arn}
   */
   readonly fivetranRoleArn?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: The path to the JSON file that contains the service account credentials for the GCS bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use a GCS bucket to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#gcs_service_account_credentials_path Destination#gcs_service_account_credentials_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#gcs_service_account_credentials_path Destination#gcs_service_account_credentials_path}
   */
   readonly gcsServiceAccountCredentialsPath?: string;
   /**
@@ -498,7 +498,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Server name
   * 	- Service `sql_server_warehouse`: Server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#host Destination#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#host Destination#host}
   */
   readonly host?: string;
   /**
@@ -509,28 +509,28 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: HTTP path
   * 	- Service `onelake`: HTTP path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#http_path Destination#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#http_path Destination#http_path}
   */
   readonly httpPath?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Indicates that a private key is encrypted. The default value: `false`. The field can be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#is_private_key_encrypted Destination#is_private_key_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#is_private_key_encrypted Destination#is_private_key_encrypted}
   */
   readonly isPrivateKeyEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `new_s3_datalake`: We use PrivateLink by default if your s3 bucket is in the same region as Fivetran. Turning on this toggle ensures that Fivetran always connects to s3 bucket over PrivateLink. Learn more in our [PrivateLink documentation](https://fivetran.com/docs/connectors/databases/connection-options/aws-private-link).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#is_private_link_required Destination#is_private_link_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#is_private_link_required Destination#is_private_link_required}
   */
   readonly isPrivateLinkRequired?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `redshift`: Is your destination Redshift Serverless
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#is_redshift_serverless Destination#is_redshift_serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#is_redshift_serverless Destination#is_redshift_serverless}
   */
   readonly isRedshiftServerless?: boolean | cdktf.IResolvable;
   /**
@@ -538,25 +538,25 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: (Immutable) OneLake lakehouse GUID
   * 	- Service `onelake`: (Immutable) OneLake lakehouse GUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#lakehouse_guid Destination#lakehouse_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#lakehouse_guid Destination#lakehouse_guid}
   */
   readonly lakehouseGuid?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `onelake`: (Immutable) Name of your lakehouse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#lakehouse_name Destination#lakehouse_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#lakehouse_name Destination#lakehouse_name}
   */
   readonly lakehouseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#msk_sts_region Destination#msk_sts_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#msk_sts_region Destination#msk_sts_region}
   */
   readonly mskStsRegion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Number of partitions per topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#num_of_partitions Destination#num_of_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#num_of_partitions Destination#num_of_partitions}
   */
   readonly numOfPartitions?: number;
   /**
@@ -567,7 +567,7 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: OAuth 2.0 client ID
   * 	- Service `onelake`: OAuth 2.0 client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#oauth2_client_id Destination#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#oauth2_client_id Destination#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
@@ -578,14 +578,14 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: OAuth 2.0 secret
   * 	- Service `onelake`: OAuth 2.0 secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#oauth2_secret Destination#oauth2_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#oauth2_secret Destination#oauth2_secret}
   */
   readonly oauth2Secret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: In case private key is encrypted, you are required to enter passphrase that was used to encrypt the private key. The field can be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#passphrase Destination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#passphrase Destination#passphrase}
   */
   readonly passphrase?: string;
   /**
@@ -614,7 +614,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Database user password
   * 	- Service `sql_server_warehouse`: Database user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#password Destination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#password Destination#password}
   */
   readonly password?: string;
   /**
@@ -625,7 +625,7 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Personal access token
   * 	- Service `onelake`: Personal access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#personal_access_token Destination#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#personal_access_token Destination#personal_access_token}
   */
   readonly personalAccessToken?: string;
   /**
@@ -659,7 +659,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Server port number
   * 	- Service `sql_server_warehouse`: Server port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#port Destination#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#port Destination#port}
   */
   readonly port?: number;
   /**
@@ -669,21 +669,21 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: (Immutable) Prefix path of the bucket for which you have configured access policy. It is not required if access has been granted to entire Bucket in the access policy
   * 	- Service `onelake`: (Immutable) path/to/data within your lakehouse inside the Files directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#prefix_path Destination#prefix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#prefix_path Destination#prefix_path}
   */
   readonly prefixPath?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Private access key.  The field should be specified if authentication type is `KEY_PAIR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#private_key Destination#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#private_key Destination#private_key}
   */
   readonly privateKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `big_query`: BigQuery project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#project_id Destination#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#project_id Destination#project_id}
   */
   readonly projectId?: string;
   /**
@@ -691,22 +691,22 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: (Immutable) AWS Region of your S3 bucket. Use this parameter only if you want to deploy your data lake on AWS.
   * 	- Service `new_s3_datalake`: Region of your AWS S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#region Destination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#region Destination#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#registry_name Destination#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#registry_name Destination#registry_name}
   */
   readonly registryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#registry_sts_region Destination#registry_sts_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#registry_sts_region Destination#registry_sts_region}
   */
   readonly registryStsRegion?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Replication factor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#replication_factor Destination#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#replication_factor Destination#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
@@ -732,21 +732,21 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Field to test Self serve Private Link
   * 	- Service `sql_server_warehouse`: Field to test Self serve Private Link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#resource_id Destination#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#resource_id Destination#resource_id}
   */
   readonly resourceId?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: If not specified, Fivetran will use the user's default role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#role Destination#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#role Destination#role}
   */
   readonly role?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `redshift`: Role ARN with Redshift permissions. Required if authentication type is `IAM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#role_arn Destination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#role_arn Destination#role_arn}
   */
   readonly roleArn?: string;
   /**
@@ -754,60 +754,60 @@ export interface DestinationConfigA {
   * 	- Service `databricks`: Authentication method for the S3 bucket you want to use as the external staging for Hybrid Deployment.
   * 	- Service `redshift`: Type of authentication configured for the S3 bucket you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#s3_bucket_auth_type Destination#s3_bucket_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#s3_bucket_auth_type Destination#s3_bucket_auth_type}
   */
   readonly s3BucketAuthType?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Security protocol for Confluent Cloud interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#sasl_mechanism Destination#sasl_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#sasl_mechanism Destination#sasl_mechanism}
   */
   readonly saslMechanism?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Confluent Cloud SASL key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#sasl_plain_key Destination#sasl_plain_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#sasl_plain_key Destination#sasl_plain_key}
   */
   readonly saslPlainKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Confluent Cloud SASL secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#sasl_plain_secret Destination#sasl_plain_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#sasl_plain_secret Destination#sasl_plain_secret}
   */
   readonly saslPlainSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#schema_compatibility Destination#schema_compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#schema_compatibility Destination#schema_compatibility}
   */
   readonly schemaCompatibility?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Schema Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#schema_registry Destination#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#schema_registry Destination#schema_registry}
   */
   readonly schemaRegistry?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Schema registry API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#schema_registry_api_key Destination#schema_registry_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#schema_registry_api_key Destination#schema_registry_api_key}
   */
   readonly schemaRegistryApiKey?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Schema registry API secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#schema_registry_api_secret Destination#schema_registry_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#schema_registry_api_secret Destination#schema_registry_api_secret}
   */
   readonly schemaRegistryApiSecret?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Schema registry URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#schema_registry_url Destination#schema_registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#schema_registry_url Destination#schema_registry_url}
   */
   readonly schemaRegistryUrl?: string;
   /**
@@ -816,7 +816,7 @@ export interface DestinationConfigA {
   * 	- Service `big_query_dts`: Private key of the customer service account. If specified, your service account will be used to process the data instead of the Fivetran-managed service account.
   * 	- Service `managed_big_query`: Private key of the customer service account. If specified, your service account will be used to process the data instead of the Fivetran-managed service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#secret_key Destination#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#secret_key Destination#secret_key}
   */
   readonly secretKey?: string;
   /**
@@ -825,14 +825,14 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: Secret value of the service principal you created for Fivetran. Use this parameter only if you want to deploy your data lake on ADLS.
   * 	- Service `onelake`: Secret value for service principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#secret_value Destination#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#secret_value Destination#secret_value}
   */
   readonly secretValue?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `confluent_cloud_wh`: Security protocol for Confluent Cloud interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#security_protocol Destination#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#security_protocol Destination#security_protocol}
   */
   readonly securityProtocol?: string;
   /**
@@ -843,7 +843,7 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Server host name
   * 	- Service `onelake`: Server Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#server_host_name Destination#server_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#server_host_name Destination#server_host_name}
   */
   readonly serverHostName?: string;
   /**
@@ -853,14 +853,14 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Should maintain tables in Databricks 
   * 	- Service `onelake`: Should maintain tables in Databricks 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#should_maintain_tables_in_databricks Destination#should_maintain_tables_in_databricks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#should_maintain_tables_in_databricks Destination#should_maintain_tables_in_databricks}
   */
   readonly shouldMaintainTablesInDatabricks?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `managed_data_lake`: Specifies whether you want to manage your Iceberg tables in AWS Glue. Use this parameter only if you want to deploy your data lake on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#should_maintain_tables_in_glue Destination#should_maintain_tables_in_glue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#should_maintain_tables_in_glue Destination#should_maintain_tables_in_glue}
   */
   readonly shouldMaintainTablesInGlue?: boolean | cdktf.IResolvable;
   /**
@@ -870,15 +870,15 @@ export interface DestinationConfigA {
   * 	- Service `new_s3_datalake`: Snapshots older than the retention period are deleted every week. Default value: `ONE_WEEK`.
   * 	- Service `onelake`: Snapshots older than the retention period are deleted every week. Default value: `ONE_WEEK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#snapshot_retention_period Destination#snapshot_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#snapshot_retention_period Destination#snapshot_retention_period}
   */
   readonly snapshotRetentionPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#snowflake_cloud Destination#snowflake_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#snowflake_cloud Destination#snowflake_cloud}
   */
   readonly snowflakeCloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#snowflake_region Destination#snowflake_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#snowflake_region Destination#snowflake_region}
   */
   readonly snowflakeRegion?: string;
   /**
@@ -887,7 +887,7 @@ export interface DestinationConfigA {
   * 	- Service `databricks`: Your storage account key
   * 	- Service `snowflake`: The access key of the Azure storage account you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an Azure Blob storage container to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#storage_account_key Destination#storage_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#storage_account_key Destination#storage_account_key}
   */
   readonly storageAccountKey?: string;
   /**
@@ -899,14 +899,14 @@ export interface DestinationConfigA {
   * 	- Service `onelake`: (Immutable) Storage account for Azure Data Lake Storage Gen2 name
   * 	- Service `snowflake`: The name of the Azure storage account you want to use to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an Azure Blob storage container to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#storage_account_name Destination#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#storage_account_name Destination#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `managed_data_lake`: The cloud storage provider you want to use for your data lake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#storage_provider Destination#storage_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#storage_provider Destination#storage_provider}
   */
   readonly storageProvider?: string;
   /**
@@ -915,14 +915,14 @@ export interface DestinationConfigA {
   * 	- Service `big_query_dts`: Stores JSON columns as JSON instead of STRING. This parameter is applicable only to destinations created before August 1, 2025.
   * 	- Service `managed_big_query`: Stores JSON columns as JSON instead of STRING. This parameter is applicable only to destinations created before August 1, 2025.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#support_json_type Destination#support_json_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#support_json_type Destination#support_json_type}
   */
   readonly supportJsonType?: boolean | cdktf.IResolvable;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `new_s3_datalake`: (Immutable) The table format in which you want to sync your tables. Valid values are ICEBERG and DELTA_LAKE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#table_format Destination#table_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#table_format Destination#table_format}
   */
   readonly tableFormat?: string;
   /**
@@ -931,7 +931,7 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: Tenant ID of the service principal you created for Fivetran. Use this parameter only if you want to deploy your data lake on ADLS.
   * 	- Service `onelake`: Tenant ID of service principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#tenant_id Destination#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#tenant_id Destination#tenant_id}
   */
   readonly tenantId?: string;
   /**
@@ -959,7 +959,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: SSH server name. Must be populated if `connection_type` is set to `SshTunnel`.
   * 	- Service `sql_server_warehouse`: SSH server name. Must be populated if `connection_type` is set to `SshTunnel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#tunnel_host Destination#tunnel_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#tunnel_host Destination#tunnel_host}
   */
   readonly tunnelHost?: string;
   /**
@@ -987,7 +987,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: SSH server port name. Must be populated if `connection_type` is set to `SshTunnel`.
   * 	- Service `sql_server_warehouse`: SSH server port name. Must be populated if `connection_type` is set to `SshTunnel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#tunnel_port Destination#tunnel_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#tunnel_port Destination#tunnel_port}
   */
   readonly tunnelPort?: number;
   /**
@@ -1015,14 +1015,14 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: SSH user name. Must be populated if `connection_type` is set to `SshTunnel`.
   * 	- Service `sql_server_warehouse`: SSH user name. Must be populated if `connection_type` is set to `SshTunnel`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#tunnel_user Destination#tunnel_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#tunnel_user Destination#tunnel_user}
   */
   readonly tunnelUser?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `snowflake`: Set to `true` if you want to use an S3 bucket to stage your data. Use this parameter only if you are using Hybrid Deployment and want to use an S3 bucket to stage your data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#use_customer_staging Destination#use_customer_staging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#use_customer_staging Destination#use_customer_staging}
   */
   readonly useCustomerStaging?: boolean | cdktf.IResolvable;
   /**
@@ -1051,7 +1051,7 @@ export interface DestinationConfigA {
   * 	- Service `sql_server_rds_warehouse`: Database user name
   * 	- Service `sql_server_warehouse`: Database user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#user Destination#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#user Destination#user}
   */
   readonly user?: string;
   /**
@@ -1059,14 +1059,14 @@ export interface DestinationConfigA {
   * 	- Service `managed_data_lake`: (Immutable) OneLake workspace GUID
   * 	- Service `onelake`: (Immutable) OneLake workspace GUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#workspace_guid Destination#workspace_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#workspace_guid Destination#workspace_guid}
   */
   readonly workspaceGuid?: string;
   /**
   * Field usage depends on `service` value: 
   * 	- Service `onelake`: OneLake workspace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#workspace_name Destination#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#workspace_name Destination#workspace_name}
   */
   readonly workspaceName?: string;
 }
@@ -3985,13 +3985,13 @@ export interface DestinationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#create Destination#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#create Destination#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#update Destination#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#update Destination#update}
   */
   readonly update?: string;
 }
@@ -4114,7 +4114,7 @@ export class DestinationTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination fivetran_destination}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination fivetran_destination}
 */
 export class Destination extends cdktf.TerraformResource {
 
@@ -4130,7 +4130,7 @@ export class Destination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Destination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Destination to import
-  * @param importFromId The id of the existing Destination that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Destination that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Destination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4142,7 +4142,7 @@ export class Destination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination fivetran_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination fivetran_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4153,8 +4153,8 @@ export class Destination extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_destination',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

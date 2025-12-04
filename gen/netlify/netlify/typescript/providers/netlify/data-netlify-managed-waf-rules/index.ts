@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/managed_waf_rules
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/managed_waf_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetlifyManagedWafRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/managed_waf_rules#team_id DataNetlifyManagedWafRules#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/managed_waf_rules#team_id DataNetlifyManagedWafRules#team_id}
   */
   readonly teamId: string;
 }
@@ -253,7 +253,7 @@ export class DataNetlifyManagedWafRulesRuleSetsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/managed_waf_rules netlify_managed_waf_rules}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/managed_waf_rules netlify_managed_waf_rules}
 */
 export class DataNetlifyManagedWafRules extends cdktf.TerraformDataSource {
 
@@ -269,7 +269,7 @@ export class DataNetlifyManagedWafRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetlifyManagedWafRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetlifyManagedWafRules to import
-  * @param importFromId The id of the existing DataNetlifyManagedWafRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/managed_waf_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetlifyManagedWafRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/managed_waf_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetlifyManagedWafRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DataNetlifyManagedWafRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/data-sources/managed_waf_rules netlify_managed_waf_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/data-sources/managed_waf_rules netlify_managed_waf_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,7 +292,8 @@ export class DataNetlifyManagedWafRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'netlify_managed_waf_rules',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

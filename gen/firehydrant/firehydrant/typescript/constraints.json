@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "firehydrant": "0.14.12"
+    "firehydrant": "0.15.0"
   }
 }

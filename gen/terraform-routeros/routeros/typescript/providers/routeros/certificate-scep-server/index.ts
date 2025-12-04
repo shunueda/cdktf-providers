@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface CertificateScepServerConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the CA certificate to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#ca_cert CertificateScepServer#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#ca_cert CertificateScepServer#ca_cert}
   */
   readonly caCert: string;
   /**
   * The number of days to sign certificates for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#days_valid CertificateScepServer#days_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#days_valid CertificateScepServer#days_valid}
   */
   readonly daysValid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#disabled CertificateScepServer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#disabled CertificateScepServer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#id CertificateScepServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#id CertificateScepServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,25 +33,25 @@ export interface CertificateScepServerConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the next CA certificate or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#next_ca_cert CertificateScepServer#next_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#next_ca_cert CertificateScepServer#next_ca_cert}
   */
   readonly nextCaCert?: string;
   /**
   * HTTP path starting with `/scep/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#path CertificateScepServer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#path CertificateScepServer#path}
   */
   readonly path: string;
   /**
   * Request lifetime (5m minimum).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#request_lifetime CertificateScepServer#request_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#request_lifetime CertificateScepServer#request_lifetime}
   */
   readonly requestLifetime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server routeros_certificate_scep_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server routeros_certificate_scep_server}
 */
 export class CertificateScepServer extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class CertificateScepServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateScepServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateScepServer to import
-  * @param importFromId The id of the existing CertificateScepServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateScepServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateScepServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class CertificateScepServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/certificate_scep_server routeros_certificate_scep_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.97.0/docs/resources/certificate_scep_server routeros_certificate_scep_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class CertificateScepServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_certificate_scep_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.96.0',
-        providerVersionConstraint: '1.96.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

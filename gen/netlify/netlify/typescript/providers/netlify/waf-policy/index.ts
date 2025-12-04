@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface WafPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#description WafPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#description WafPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#name WafPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#name WafPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#rule_sets WafPolicy#rule_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#rule_sets WafPolicy#rule_sets}
   */
   readonly ruleSets: WafPolicyRuleSets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#team_id WafPolicy#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#team_id WafPolicy#team_id}
   */
   readonly teamId: string;
 }
@@ -28,7 +28,7 @@ export interface WafPolicyRuleSetsRuleOverrides {
   /**
   * log_only or none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#action WafPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#action WafPolicy#action}
   */
   readonly action: string;
 }
@@ -141,31 +141,31 @@ export interface WafPolicyRuleSets {
   /**
   * Thresholds for each category, e.g. fixation, injection-generic, injection-java, injection-php, lfi, protocol, rce, reputation-scanner, rfi, sqli, ssrf, xss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#category_thresholds WafPolicy#category_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#category_thresholds WafPolicy#category_thresholds}
   */
   readonly categoryThresholds?: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#excluded_patterns WafPolicy#excluded_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#excluded_patterns WafPolicy#excluded_patterns}
   */
   readonly excludedPatterns?: string[];
   /**
   * The managed ID of the rule set. Currently, only crs-basic is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#managed_id WafPolicy#managed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#managed_id WafPolicy#managed_id}
   */
   readonly managedId: string;
   /**
   * Recommended default value is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#overall_threshold WafPolicy#overall_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#overall_threshold WafPolicy#overall_threshold}
   */
   readonly overallThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#passive_mode WafPolicy#passive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#passive_mode WafPolicy#passive_mode}
   */
   readonly passiveMode: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#rule_overrides WafPolicy#rule_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#rule_overrides WafPolicy#rule_overrides}
   */
   readonly ruleOverrides?: { [key: string]: WafPolicyRuleSetsRuleOverrides } | cdktf.IResolvable;
 }
@@ -417,7 +417,7 @@ export class WafPolicyRuleSetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy netlify_waf_policy}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy netlify_waf_policy}
 */
 export class WafPolicy extends cdktf.TerraformResource {
 
@@ -433,7 +433,7 @@ export class WafPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafPolicy to import
-  * @param importFromId The id of the existing WafPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -445,7 +445,7 @@ export class WafPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/waf_policy netlify_waf_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/waf_policy netlify_waf_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,7 +456,8 @@ export class WafPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_waf_policy',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

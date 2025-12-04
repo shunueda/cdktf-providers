@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DestinationCertificatesConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the target destination within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates#destination_id DestinationCertificates#destination_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates#destination_id DestinationCertificates#destination_id}
   */
   readonly destinationId: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates#certificate DestinationCertificates#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates#certificate DestinationCertificates#certificate}
   */
   readonly certificate?: DestinationCertificatesCertificate[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface DestinationCertificatesCertificate {
   /**
   * Base64 encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates#encoded_cert DestinationCertificates#encoded_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates#encoded_cert DestinationCertificates#encoded_cert}
   */
   readonly encodedCert: string;
   /**
   * Hash of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates#hash DestinationCertificates#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates#hash DestinationCertificates#hash}
   */
   readonly hash: string;
 }
@@ -204,7 +204,7 @@ export class DestinationCertificatesCertificateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates fivetran_destination_certificates}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates fivetran_destination_certificates}
 */
 export class DestinationCertificates extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class DestinationCertificates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationCertificates to import
-  * @param importFromId The id of the existing DestinationCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DestinationCertificates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_certificates fivetran_destination_certificates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/destination_certificates fivetran_destination_certificates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DestinationCertificates extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_destination_certificates',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

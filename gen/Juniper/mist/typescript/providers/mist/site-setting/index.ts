@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,253 +8,253 @@ import * as cdktf from 'cdktf';
 
 export interface SiteSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#analytic SiteSetting#analytic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#analytic SiteSetting#analytic}
   */
   readonly analytic?: SiteSettingAnalytic;
   /**
   * Enable threshold-based device down delivery for AP devices only. When configured it takes effect for AP devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ap_updown_threshold SiteSetting#ap_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ap_updown_threshold SiteSetting#ap_updown_threshold}
   */
   readonly apUpdownThreshold?: number;
   /**
   * Auto Upgrade Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
   */
   readonly autoUpgrade?: SiteSettingAutoUpgrade;
   /**
   * auto upgrade AP ESL. When both firmware and ESL auto-upgrade are enabled, ESL upgrade will be done only after firmware upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_upgrade_esl SiteSetting#auto_upgrade_esl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_upgrade_esl SiteSetting#auto_upgrade_esl}
   */
   readonly autoUpgradeEsl?: SiteSettingAutoUpgradeEsl;
   /**
   * enable threshold-based bgp neighbor down delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#bgp_neighbor_updown_threshold SiteSetting#bgp_neighbor_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#bgp_neighbor_updown_threshold SiteSetting#bgp_neighbor_updown_threshold}
   */
   readonly bgpNeighborUpdownThreshold?: number;
   /**
   * BLE AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ble_config SiteSetting#ble_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ble_config SiteSetting#ble_config}
   */
   readonly bleConfig?: SiteSettingBleConfig;
   /**
   * Whether to enable ap auto config revert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#config_auto_revert SiteSetting#config_auto_revert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#config_auto_revert SiteSetting#config_auto_revert}
   */
   readonly configAutoRevert?: boolean | cdktf.IResolvable;
   /**
   * Mist also uses some heuristic rules to prevent destructive configs from being pushed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#config_push_policy SiteSetting#config_push_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#config_push_policy SiteSetting#config_push_policy}
   */
   readonly configPushPolicy?: SiteSettingConfigPushPolicy;
   /**
   * You can define some URLs that's critical to site operations the latency will be captured and considered for site health
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#critical_url_monitoring SiteSetting#critical_url_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#critical_url_monitoring SiteSetting#critical_url_monitoring}
   */
   readonly criticalUrlMonitoring?: SiteSettingCriticalUrlMonitoring;
   /**
   * Port usage to assign to switch ports without any port usage assigned. Default: `default` to preserve default behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#default_port_usage SiteSetting#default_port_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#default_port_usage SiteSetting#default_port_usage}
   */
   readonly defaultPortUsage?: string;
   /**
   * By default, device_updown_threshold, if set, will apply to all devices types if different values for specific device type is desired, use the following
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#device_updown_threshold SiteSetting#device_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#device_updown_threshold SiteSetting#device_updown_threshold}
   */
   readonly deviceUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enable_unii_4 SiteSetting#enable_unii_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enable_unii_4 SiteSetting#enable_unii_4}
   */
   readonly enableUnii4?: boolean | cdktf.IResolvable;
   /**
   * **Note**: if hours does not exist, it's treated as everyday of the week, 00:00-23:59. Currently, we don't allow multiple ranges for the same day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#engagement SiteSetting#engagement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#engagement SiteSetting#engagement}
   */
   readonly engagement?: SiteSettingEngagement;
   /**
   * Gateway Site settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#gateway_mgmt SiteSetting#gateway_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#gateway_mgmt SiteSetting#gateway_mgmt}
   */
   readonly gatewayMgmt?: SiteSettingGatewayMgmt;
   /**
   * Enable threshold-based device down delivery for Gateway devices only. When configured it takes effect for GW devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#gateway_updown_threshold SiteSetting#gateway_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#gateway_updown_threshold SiteSetting#gateway_updown_threshold}
   */
   readonly gatewayUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#juniper_srx SiteSetting#juniper_srx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#juniper_srx SiteSetting#juniper_srx}
   */
   readonly juniperSrx?: SiteSettingJuniperSrx;
   /**
   * LED AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#led SiteSetting#led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#led SiteSetting#led}
   */
   readonly led?: SiteSettingLed;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#marvis SiteSetting#marvis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#marvis SiteSetting#marvis}
   */
   readonly marvis?: SiteSettingMarvis;
   /**
   * Occupancy Analytics settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#occupancy SiteSetting#occupancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#occupancy SiteSetting#occupancy}
   */
   readonly occupancy?: SiteSettingOccupancy;
   /**
   * Whether to store the config on AP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#persist_config_on_device SiteSetting#persist_config_on_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#persist_config_on_device SiteSetting#persist_config_on_device}
   */
   readonly persistConfigOnDevice?: boolean | cdktf.IResolvable;
   /**
   * Proxy Configuration to talk to Mist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#proxy SiteSetting#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#proxy SiteSetting#proxy}
   */
   readonly proxy?: SiteSettingProxy;
   /**
   * By default, only the configuration generated by Mist is cleaned up during the configuration process. If `true`, all the existing configuration will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#remove_existing_configs SiteSetting#remove_existing_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#remove_existing_configs SiteSetting#remove_existing_configs}
   */
   readonly removeExistingConfigs?: boolean | cdktf.IResolvable;
   /**
   * Whether AP should periodically connect to BLE devices and report GATT device info (device name, manufacturer name, serial number, battery %, temperature, humidity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#report_gatt SiteSetting#report_gatt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#report_gatt SiteSetting#report_gatt}
   */
   readonly reportGatt?: boolean | cdktf.IResolvable;
   /**
   * Rogue site settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#rogue SiteSetting#rogue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#rogue SiteSetting#rogue}
   */
   readonly rogue?: SiteSettingRogue;
   /**
   * Managed mobility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#rtsa SiteSetting#rtsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#rtsa SiteSetting#rtsa}
   */
   readonly rtsa?: SiteSettingRtsa;
   /**
   * Set of heuristic rules will be enabled when marvis subscription is not available. It triggers when, in a Z minute window, there are more than Y distinct client encountering over X failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#simple_alert SiteSetting#simple_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#simple_alert SiteSetting#simple_alert}
   */
   readonly simpleAlert?: SiteSettingSimpleAlert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#site_id SiteSetting#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#site_id SiteSetting#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#skyatp SiteSetting#skyatp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#skyatp SiteSetting#skyatp}
   */
   readonly skyatp?: SiteSettingSkyatp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sle_thresholds SiteSetting#sle_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sle_thresholds SiteSetting#sle_thresholds}
   */
   readonly sleThresholds?: SiteSettingSleThresholds;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#srx_app SiteSetting#srx_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#srx_app SiteSetting#srx_app}
   */
   readonly srxApp?: SiteSettingSrxApp;
   /**
   * When limit_ssh_access = true in Org Setting, list of SSH public keys provided by Mist Support to install onto APs (see Org:Setting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ssh_keys SiteSetting#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ssh_keys SiteSetting#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ssr SiteSetting#ssr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ssr SiteSetting#ssr}
   */
   readonly ssr?: SiteSettingSsr;
   /**
   * Enable threshold-based device down delivery for Switch devices only. When configured it takes effect for SW devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#switch_updown_threshold SiteSetting#switch_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#switch_updown_threshold SiteSetting#switch_updown_threshold}
   */
   readonly switchUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#synthetic_test SiteSetting#synthetic_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#synthetic_test SiteSetting#synthetic_test}
   */
   readonly syntheticTest?: SiteSettingSyntheticTest;
   /**
   * Whether to track anonymous BLE assets (requires ‘track_asset’  enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#track_anonymous_devices SiteSetting#track_anonymous_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#track_anonymous_devices SiteSetting#track_anonymous_devices}
   */
   readonly trackAnonymousDevices?: boolean | cdktf.IResolvable;
   /**
   * AP Uplink port configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#uplink_port_config SiteSetting#uplink_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#uplink_port_config SiteSetting#uplink_port_config}
   */
   readonly uplinkPortConfig?: SiteSettingUplinkPortConfig;
   /**
   * Dictionary of name->value, the vars can then be used in Wlans. This can overwrite those from Site Vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vars SiteSetting#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vars SiteSetting#vars}
   */
   readonly vars?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vna SiteSetting#vna}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vna SiteSetting#vna}
   */
   readonly vna?: SiteSettingVna;
   /**
   * enable threshold-based vpn path down delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vpn_path_updown_threshold SiteSetting#vpn_path_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vpn_path_updown_threshold SiteSetting#vpn_path_updown_threshold}
   */
   readonly vpnPathUpdownThreshold?: number;
   /**
   * enable threshold-based vpn peer down delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vpn_peer_updown_threshold SiteSetting#vpn_peer_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vpn_peer_updown_threshold SiteSetting#vpn_peer_updown_threshold}
   */
   readonly vpnPeerUpdownThreshold?: number;
   /**
   * Optional, for EX9200 only to segregate virtual-switches. Property key is the instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vs_instance SiteSetting#vs_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vs_instance SiteSetting#vs_instance}
   */
   readonly vsInstance?: { [key: string]: SiteSettingVsInstance } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wan_vna SiteSetting#wan_vna}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wan_vna SiteSetting#wan_vna}
   */
   readonly wanVna?: SiteSettingWanVna;
   /**
   * WIDS site settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wids SiteSetting#wids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wids SiteSetting#wids}
   */
   readonly wids?: SiteSettingWids;
   /**
   * Wi-Fi site settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wifi SiteSetting#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wifi SiteSetting#wifi}
   */
   readonly wifi?: SiteSettingWifi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wired_vna SiteSetting#wired_vna}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wired_vna SiteSetting#wired_vna}
   */
   readonly wiredVna?: SiteSettingWiredVna;
   /**
   * Zone Occupancy alert site settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#zone_occupancy_alert SiteSetting#zone_occupancy_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#zone_occupancy_alert SiteSetting#zone_occupancy_alert}
   */
   readonly zoneOccupancyAlert?: SiteSettingZoneOccupancyAlert;
 }
@@ -262,7 +262,7 @@ export interface SiteSettingAnalytic {
   /**
   * Enable Advanced Analytic feature (using SUB-ANA license)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -358,31 +358,31 @@ export interface SiteSettingAutoUpgrade {
   /**
   * Custom versions for different models. Property key is the model name (e.g. "AP41")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
   * enum: `any`, `fri`, `mon`, `sat`, `sun`, `thu`, `tue`, `wed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Whether auto upgrade should happen (Note that Mist may auto-upgrade if the version is not supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * `any` / HH:MM (24-hour format), upgrade will happen within up to 1-hour from this time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
   */
   readonly timeOfDay?: string;
   /**
   * desired version. enum: `beta`, `custom`, `stable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#version SiteSetting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#version SiteSetting#version}
   */
   readonly version?: string;
 }
@@ -594,35 +594,35 @@ export interface SiteSettingAutoUpgradeEsl {
   /**
   * If true, it will allow downgrade to a lower version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#allow_downgrade SiteSetting#allow_downgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#allow_downgrade SiteSetting#allow_downgrade}
   */
   readonly allowDowngrade?: boolean | cdktf.IResolvable;
   /**
   * Custom versions for different models. Property key is the model name (e.g. "AP41")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
   * enum: `any`, `fri`, `mon`, `sat`, `sun`, `thu`, `tue`, `wed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Whether auto upgrade should happen (Note that Mist may auto-upgrade if the version is not supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * `any` / HH:MM (24-hour format), upgrade will happen within up to 1-hour from this time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
   */
   readonly timeOfDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#version SiteSetting#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#version SiteSetting#version}
   */
   readonly version?: string;
 }
@@ -863,157 +863,157 @@ export interface SiteSettingBleConfig {
   /**
   * Whether Mist beacons is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#beacon_enabled SiteSetting#beacon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#beacon_enabled SiteSetting#beacon_enabled}
   */
   readonly beaconEnabled?: boolean | cdktf.IResolvable;
   /**
   * Required if `beacon_rate_mode`==`custom`, 1-10, in number-beacons-per-second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#beacon_rate SiteSetting#beacon_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#beacon_rate SiteSetting#beacon_rate}
   */
   readonly beaconRate?: number;
   /**
   * enum: `custom`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#beacon_rate_mode SiteSetting#beacon_rate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#beacon_rate_mode SiteSetting#beacon_rate_mode}
   */
   readonly beaconRateMode?: string;
   /**
   * List of AP BLE location beam numbers (1-8) which should be disabled at the AP and not transmit location information (where beam 1 is oriented at the top the AP, growing counter-clock-wise, with 9 being the omni BLE beam)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#beam_disabled SiteSetting#beam_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#beam_disabled SiteSetting#beam_disabled}
   */
   readonly beamDisabled?: number[];
   /**
   * Can be enabled if `beacon_enabled`==`true`, whether to send custom packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_ble_packet_enabled SiteSetting#custom_ble_packet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_ble_packet_enabled SiteSetting#custom_ble_packet_enabled}
   */
   readonly customBlePacketEnabled?: boolean | cdktf.IResolvable;
   /**
   * The custom frame to be sent out in this beacon. The frame must be a hexstring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_ble_packet_frame SiteSetting#custom_ble_packet_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_ble_packet_frame SiteSetting#custom_ble_packet_frame}
   */
   readonly customBlePacketFrame?: string;
   /**
   * Frequency (msec) of data emitted by custom ble beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_ble_packet_freq_msec SiteSetting#custom_ble_packet_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_ble_packet_freq_msec SiteSetting#custom_ble_packet_freq_msec}
   */
   readonly customBlePacketFreqMsec?: number;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_adv_power SiteSetting#eddystone_uid_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_adv_power SiteSetting#eddystone_uid_adv_power}
   */
   readonly eddystoneUidAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_beams SiteSetting#eddystone_uid_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_beams SiteSetting#eddystone_uid_beams}
   */
   readonly eddystoneUidBeams?: string;
   /**
   * Only if `beacon_enabled`==`false`, Whether Eddystone-UID beacon is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_enabled SiteSetting#eddystone_uid_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_enabled SiteSetting#eddystone_uid_enabled}
   */
   readonly eddystoneUidEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit by Eddystone-UID beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_freq_msec SiteSetting#eddystone_uid_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_freq_msec SiteSetting#eddystone_uid_freq_msec}
   */
   readonly eddystoneUidFreqMsec?: number;
   /**
   * Eddystone-UID instance for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_instance SiteSetting#eddystone_uid_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_instance SiteSetting#eddystone_uid_instance}
   */
   readonly eddystoneUidInstance?: string;
   /**
   * Eddystone-UID namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_uid_namespace SiteSetting#eddystone_uid_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_uid_namespace SiteSetting#eddystone_uid_namespace}
   */
   readonly eddystoneUidNamespace?: string;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_url_adv_power SiteSetting#eddystone_url_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_url_adv_power SiteSetting#eddystone_url_adv_power}
   */
   readonly eddystoneUrlAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_url_beams SiteSetting#eddystone_url_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_url_beams SiteSetting#eddystone_url_beams}
   */
   readonly eddystoneUrlBeams?: string;
   /**
   * Only if `beacon_enabled`==`false`, Whether Eddystone-URL beacon is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_url_enabled SiteSetting#eddystone_url_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_url_enabled SiteSetting#eddystone_url_enabled}
   */
   readonly eddystoneUrlEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit by Eddystone-UID beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_url_freq_msec SiteSetting#eddystone_url_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_url_freq_msec SiteSetting#eddystone_url_freq_msec}
   */
   readonly eddystoneUrlFreqMsec?: number;
   /**
   * URL pointed by Eddystone-URL beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#eddystone_url_url SiteSetting#eddystone_url_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#eddystone_url_url SiteSetting#eddystone_url_url}
   */
   readonly eddystoneUrlUrl?: string;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_adv_power SiteSetting#ibeacon_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_adv_power SiteSetting#ibeacon_adv_power}
   */
   readonly ibeaconAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_beams SiteSetting#ibeacon_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_beams SiteSetting#ibeacon_beams}
   */
   readonly ibeaconBeams?: string;
   /**
   * Can be enabled if `beacon_enabled`==`true`, whether to send iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_enabled SiteSetting#ibeacon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_enabled SiteSetting#ibeacon_enabled}
   */
   readonly ibeaconEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_freq_msec SiteSetting#ibeacon_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_freq_msec SiteSetting#ibeacon_freq_msec}
   */
   readonly ibeaconFreqMsec?: number;
   /**
   * Major number for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_major SiteSetting#ibeacon_major}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_major SiteSetting#ibeacon_major}
   */
   readonly ibeaconMajor?: number;
   /**
   * Minor number for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_minor SiteSetting#ibeacon_minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_minor SiteSetting#ibeacon_minor}
   */
   readonly ibeaconMinor?: number;
   /**
   * Optional, if not specified, the same UUID as the beacon will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#ibeacon_uuid SiteSetting#ibeacon_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ibeacon_uuid SiteSetting#ibeacon_uuid}
   */
   readonly ibeaconUuid?: string;
   /**
   * Required if `power_mode`==`custom`; else use `power_mode` as default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#power SiteSetting#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#power SiteSetting#power}
   */
   readonly power?: number;
   /**
   * enum: `custom`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#power_mode SiteSetting#power_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#power_mode SiteSetting#power_mode}
   */
   readonly powerMode?: string;
 }
@@ -1863,43 +1863,43 @@ export interface SiteSettingConfigPushPolicyPushWindowHours {
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#fri SiteSetting#fri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#fri SiteSetting#fri}
   */
   readonly fri?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mon SiteSetting#mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mon SiteSetting#mon}
   */
   readonly mon?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sat SiteSetting#sat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sat SiteSetting#sat}
   */
   readonly sat?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sun SiteSetting#sun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sun SiteSetting#sun}
   */
   readonly sun?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#thu SiteSetting#thu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#thu SiteSetting#thu}
   */
   readonly thu?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#tue SiteSetting#tue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#tue SiteSetting#tue}
   */
   readonly tue?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wed SiteSetting#wed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wed SiteSetting#wed}
   */
   readonly wed?: string;
 }
@@ -2167,13 +2167,13 @@ export class SiteSettingConfigPushPolicyPushWindowHoursOutputReference extends c
 }
 export interface SiteSettingConfigPushPolicyPushWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Days/Hours of operation filter, the available days (mon, tue, wed, thu, fri, sat, sun)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#hours SiteSetting#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#hours SiteSetting#hours}
   */
   readonly hours?: SiteSettingConfigPushPolicyPushWindowHours;
 }
@@ -2298,13 +2298,13 @@ export interface SiteSettingConfigPushPolicy {
   /**
   * Stop any new config from being pushed to the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#no_push SiteSetting#no_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#no_push SiteSetting#no_push}
   */
   readonly noPush?: boolean | cdktf.IResolvable;
   /**
   * If enabled, new config will only be pushed to device within the specified time window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#push_window SiteSetting#push_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#push_window SiteSetting#push_window}
   */
   readonly pushWindow?: SiteSettingConfigPushPolicyPushWindow;
 }
@@ -2427,11 +2427,11 @@ export class SiteSettingConfigPushPolicyOutputReference extends cdktf.ComplexObj
 }
 export interface SiteSettingCriticalUrlMonitoringMonitors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#url SiteSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#url SiteSetting#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vlan_id SiteSetting#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vlan_id SiteSetting#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -2576,11 +2576,11 @@ export class SiteSettingCriticalUrlMonitoringMonitorsList extends cdktf.ComplexL
 }
 export interface SiteSettingCriticalUrlMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#monitors SiteSetting#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#monitors SiteSetting#monitors}
   */
   readonly monitors?: SiteSettingCriticalUrlMonitoringMonitors[] | cdktf.IResolvable;
 }
@@ -2705,25 +2705,25 @@ export interface SiteSettingEngagementDwellTagNames {
   /**
   * Default to `Visitor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#bounce SiteSetting#bounce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#bounce SiteSetting#bounce}
   */
   readonly bounce?: string;
   /**
   * Default to `Associates`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#engaged SiteSetting#engaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#engaged SiteSetting#engaged}
   */
   readonly engaged?: string;
   /**
   * Default to `Passerby`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#passerby SiteSetting#passerby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#passerby SiteSetting#passerby}
   */
   readonly passerby?: string;
   /**
   * Default to `Assets`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#stationed SiteSetting#stationed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#stationed SiteSetting#stationed}
   */
   readonly stationed?: string;
 }
@@ -2906,25 +2906,25 @@ export interface SiteSettingEngagementDwellTags {
   /**
   * Default to `301-14400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#bounce SiteSetting#bounce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#bounce SiteSetting#bounce}
   */
   readonly bounce?: string;
   /**
   * Default to `14401-28800`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#engaged SiteSetting#engaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#engaged SiteSetting#engaged}
   */
   readonly engaged?: string;
   /**
   * Default to `1-300`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#passerby SiteSetting#passerby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#passerby SiteSetting#passerby}
   */
   readonly passerby?: string;
   /**
   * Default to `28801-42000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#stationed SiteSetting#stationed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#stationed SiteSetting#stationed}
   */
   readonly stationed?: string;
 }
@@ -3107,43 +3107,43 @@ export interface SiteSettingEngagementHours {
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#fri SiteSetting#fri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#fri SiteSetting#fri}
   */
   readonly fri?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mon SiteSetting#mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mon SiteSetting#mon}
   */
   readonly mon?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sat SiteSetting#sat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sat SiteSetting#sat}
   */
   readonly sat?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sun SiteSetting#sun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sun SiteSetting#sun}
   */
   readonly sun?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#thu SiteSetting#thu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#thu SiteSetting#thu}
   */
   readonly thu?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#tue SiteSetting#tue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#tue SiteSetting#tue}
   */
   readonly tue?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wed SiteSetting#wed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wed SiteSetting#wed}
   */
   readonly wed?: string;
 }
@@ -3413,31 +3413,31 @@ export interface SiteSettingEngagement {
   /**
   * Name associated to each tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#dwell_tag_names SiteSetting#dwell_tag_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#dwell_tag_names SiteSetting#dwell_tag_names}
   */
   readonly dwellTagNames?: SiteSettingEngagementDwellTagNames;
   /**
   * add tags to visits within the duration (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#dwell_tags SiteSetting#dwell_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#dwell_tags SiteSetting#dwell_tags}
   */
   readonly dwellTags?: SiteSettingEngagementDwellTags;
   /**
   * Days/Hours of operation filter, the available days (mon, tue, wed, thu, fri, sat, sun)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#hours SiteSetting#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#hours SiteSetting#hours}
   */
   readonly hours?: SiteSettingEngagementHours;
   /**
   * Max time, default is 43200(12h), max is 68400 (18h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#max_dwell SiteSetting#max_dwell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#max_dwell SiteSetting#max_dwell}
   */
   readonly maxDwell?: number;
   /**
   * min time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_dwell SiteSetting#min_dwell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_dwell SiteSetting#min_dwell}
   */
   readonly minDwell?: number;
 }
@@ -3647,7 +3647,7 @@ export class SiteSettingEngagementOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingGatewayMgmtAppProbingCustomApps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#app_type SiteSetting#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#app_type SiteSetting#app_type}
   */
   readonly appType?: string;
   /**
@@ -3655,31 +3655,31 @@ export interface SiteSettingGatewayMgmtAppProbingCustomApps {
   *     * if `protocol`==`http`: URL (e.g. `http://test.com` or `https://test.com`)
   *     * if `protocol`==`icmp`: IP Address (e.g. `1.2.3.4`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#hostnames SiteSetting#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#hostnames SiteSetting#hostnames}
   */
   readonly hostnames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#name SiteSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#name SiteSetting#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#network SiteSetting#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#network SiteSetting#network}
   */
   readonly network?: string;
   /**
   * If `protocol`==`icmp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#packet_size SiteSetting#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#packet_size SiteSetting#packet_size}
   */
   readonly packetSize?: number;
   /**
   * enum: `http`, `icmp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#protocol SiteSetting#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#protocol SiteSetting#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vrf SiteSetting#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vrf SiteSetting#vrf}
   */
   readonly vrf?: string;
 }
@@ -3977,15 +3977,15 @@ export interface SiteSettingGatewayMgmtAppProbing {
   /**
   * APp-keys from [List Applications]($e/Constants%20Definitions/listApplications)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#apps SiteSetting#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#apps SiteSetting#apps}
   */
   readonly apps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_apps SiteSetting#custom_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_apps SiteSetting#custom_apps}
   */
   readonly customApps?: SiteSettingGatewayMgmtAppProbingCustomApps[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4139,17 +4139,17 @@ export interface SiteSettingGatewayMgmtAutoSignatureUpdate {
   /**
   * enum: `any`, `fri`, `mon`, `sat`, `sun`, `thu`, `tue`, `wed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#day_of_week SiteSetting#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enable SiteSetting#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enable SiteSetting#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Optional, Mist will decide the timing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
   */
   readonly timeOfDay?: string;
 }
@@ -4303,17 +4303,17 @@ export interface SiteSettingGatewayMgmtProtectReCustom {
   /**
   * matched dst port, "0" means any. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#port_range SiteSetting#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#port_range SiteSetting#port_range}
   */
   readonly portRange?: string;
   /**
   * enum: `any`, `icmp`, `tcp`, `udp`. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#protocol SiteSetting#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#protocol SiteSetting#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#subnets SiteSetting#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#subnets SiteSetting#subnets}
   */
   readonly subnets: string[];
 }
@@ -4486,11 +4486,11 @@ export interface SiteSettingGatewayMgmtProtectRe {
   /**
   * optionally, services we'll allow. enum: `icmp`, `ssh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#allowed_services SiteSetting#allowed_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#allowed_services SiteSetting#allowed_services}
   */
   readonly allowedServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom SiteSetting#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom SiteSetting#custom}
   */
   readonly custom?: SiteSettingGatewayMgmtProtectReCustom[] | cdktf.IResolvable;
   /**
@@ -4498,19 +4498,19 @@ export interface SiteSettingGatewayMgmtProtectRe {
   * e.g. ntp / dns / traffic to mist will be allowed by default
   *      if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable hit count for Protect_RE policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#hit_count SiteSetting#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#hit_count SiteSetting#hit_count}
   */
   readonly hitCount?: boolean | cdktf.IResolvable;
   /**
   * host/subnets we'll allow traffic to/from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#trusted_hosts SiteSetting#trusted_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#trusted_hosts SiteSetting#trusted_hosts}
   */
   readonly trustedHosts?: string[];
 }
@@ -4722,57 +4722,57 @@ export interface SiteSettingGatewayMgmt {
   /**
   * For SSR only, as direct root access is not allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#admin_sshkeys SiteSetting#admin_sshkeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#admin_sshkeys SiteSetting#admin_sshkeys}
   */
   readonly adminSshkeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#app_probing SiteSetting#app_probing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#app_probing SiteSetting#app_probing}
   */
   readonly appProbing?: SiteSettingGatewayMgmtAppProbing;
   /**
   * Consumes uplink bandwidth, requires WA license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#app_usage SiteSetting#app_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#app_usage SiteSetting#app_usage}
   */
   readonly appUsage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_signature_update SiteSetting#auto_signature_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_signature_update SiteSetting#auto_signature_update}
   */
   readonly autoSignatureUpdate?: SiteSettingGatewayMgmtAutoSignatureUpdate;
   /**
   * Rollback timer for commit confirmed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#config_revert_timer SiteSetting#config_revert_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#config_revert_timer SiteSetting#config_revert_timer}
   */
   readonly configRevertTimer?: number;
   /**
   * For SSR and SRX, disable console port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_console SiteSetting#disable_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_console SiteSetting#disable_console}
   */
   readonly disableConsole?: boolean | cdktf.IResolvable;
   /**
   * For SSR and SRX, disable management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_oob SiteSetting#disable_oob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_oob SiteSetting#disable_oob}
   */
   readonly disableOob?: boolean | cdktf.IResolvable;
   /**
   * For SSR and SRX, disable usb interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_usb SiteSetting#disable_usb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_usb SiteSetting#disable_usb}
   */
   readonly disableUsb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#fips_enabled SiteSetting#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#fips_enabled SiteSetting#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#probe_hosts SiteSetting#probe_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#probe_hosts SiteSetting#probe_hosts}
   */
   readonly probeHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#probe_hostsv6 SiteSetting#probe_hostsv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#probe_hostsv6 SiteSetting#probe_hostsv6}
   */
   readonly probeHostsv6?: string[];
   /**
@@ -4780,21 +4780,21 @@ export interface SiteSettingGatewayMgmt {
   * when enabled, all traffic that is not essential to our operation will be dropped 
   * e.g. ntp / dns / traffic to mist will be allowed by default, if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#protect_re SiteSetting#protect_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#protect_re SiteSetting#protect_re}
   */
   readonly protectRe?: SiteSettingGatewayMgmtProtectRe;
   /**
-  * For SRX only
+  * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#root_password SiteSetting#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#root_password SiteSetting#root_password}
   */
   readonly rootPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#security_log_source_address SiteSetting#security_log_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#security_log_source_address SiteSetting#security_log_source_address}
   */
   readonly securityLogSourceAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#security_log_source_interface SiteSetting#security_log_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#security_log_source_interface SiteSetting#security_log_source_interface}
   */
   readonly securityLogSourceInterface?: string;
 }
@@ -5296,15 +5296,15 @@ export interface SiteSettingJuniperSrxAutoUpgrade {
   /**
   * Property key is the SRX Hardware model (e.g. "SRX4600")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#snapshot SiteSetting#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#snapshot SiteSetting#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
 }
@@ -5456,15 +5456,15 @@ export class SiteSettingJuniperSrxAutoUpgradeOutputReference extends cdktf.Compl
 }
 export interface SiteSettingJuniperSrxGateways {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#api_key SiteSetting#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#api_key SiteSetting#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#api_password SiteSetting#api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#api_password SiteSetting#api_password}
   */
   readonly apiPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#api_url SiteSetting#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#api_url SiteSetting#api_url}
   */
   readonly apiUrl?: string;
 }
@@ -5640,15 +5640,15 @@ export interface SiteSettingJuniperSrx {
   /**
   * auto_upgrade device first time it is onboarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
   */
   readonly autoUpgrade?: SiteSettingJuniperSrxAutoUpgrade;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#gateways SiteSetting#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#gateways SiteSetting#gateways}
   */
   readonly gateways?: SiteSettingJuniperSrxGateways[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#send_mist_nac_user_info SiteSetting#send_mist_nac_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#send_mist_nac_user_info SiteSetting#send_mist_nac_user_info}
   */
   readonly sendMistNacUserInfo?: boolean | cdktf.IResolvable;
 }
@@ -5800,11 +5800,11 @@ export class SiteSettingJuniperSrxOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingLed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#brightness SiteSetting#brightness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#brightness SiteSetting#brightness}
   */
   readonly brightness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -5927,17 +5927,41 @@ export class SiteSettingLedOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingMarvisAutoOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#bounce_port_for_abnormal_poe_client SiteSetting#bounce_port_for_abnormal_poe_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ap_insufficient_capacity SiteSetting#ap_insufficient_capacity}
+  */
+  readonly apInsufficientCapacity?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ap_loop SiteSetting#ap_loop}
+  */
+  readonly apLoop?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#ap_non_compliant SiteSetting#ap_non_compliant}
+  */
+  readonly apNonCompliant?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#bounce_port_for_abnormal_poe_client SiteSetting#bounce_port_for_abnormal_poe_client}
   */
   readonly bouncePortForAbnormalPoeClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_port_when_ddos_protocol_violation SiteSetting#disable_port_when_ddos_protocol_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_port_when_ddos_protocol_violation SiteSetting#disable_port_when_ddos_protocol_violation}
   */
   readonly disablePortWhenDdosProtocolViolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_port_when_rogue_dhcp_server_detected SiteSetting#disable_port_when_rogue_dhcp_server_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_port_when_rogue_dhcp_server_detected SiteSetting#disable_port_when_rogue_dhcp_server_detected}
   */
   readonly disablePortWhenRogueDhcpServerDetected?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#gateway_non_compliant SiteSetting#gateway_non_compliant}
+  */
+  readonly gatewayNonCompliant?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#switch_misconfigured_port SiteSetting#switch_misconfigured_port}
+  */
+  readonly switchMisconfiguredPort?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#switch_port_stuck SiteSetting#switch_port_stuck}
+  */
+  readonly switchPortStuck?: boolean | cdktf.IResolvable;
 }
 
 export function siteSettingMarvisAutoOperationsToTerraform(struct?: SiteSettingMarvisAutoOperations | cdktf.IResolvable): any {
@@ -5946,9 +5970,15 @@ export function siteSettingMarvisAutoOperationsToTerraform(struct?: SiteSettingM
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    ap_insufficient_capacity: cdktf.booleanToTerraform(struct!.apInsufficientCapacity),
+    ap_loop: cdktf.booleanToTerraform(struct!.apLoop),
+    ap_non_compliant: cdktf.booleanToTerraform(struct!.apNonCompliant),
     bounce_port_for_abnormal_poe_client: cdktf.booleanToTerraform(struct!.bouncePortForAbnormalPoeClient),
     disable_port_when_ddos_protocol_violation: cdktf.booleanToTerraform(struct!.disablePortWhenDdosProtocolViolation),
     disable_port_when_rogue_dhcp_server_detected: cdktf.booleanToTerraform(struct!.disablePortWhenRogueDhcpServerDetected),
+    gateway_non_compliant: cdktf.booleanToTerraform(struct!.gatewayNonCompliant),
+    switch_misconfigured_port: cdktf.booleanToTerraform(struct!.switchMisconfiguredPort),
+    switch_port_stuck: cdktf.booleanToTerraform(struct!.switchPortStuck),
   }
 }
 
@@ -5959,6 +5989,24 @@ export function siteSettingMarvisAutoOperationsToHclTerraform(struct?: SiteSetti
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    ap_insufficient_capacity: {
+      value: cdktf.booleanToHclTerraform(struct!.apInsufficientCapacity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ap_loop: {
+      value: cdktf.booleanToHclTerraform(struct!.apLoop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ap_non_compliant: {
+      value: cdktf.booleanToHclTerraform(struct!.apNonCompliant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     bounce_port_for_abnormal_poe_client: {
       value: cdktf.booleanToHclTerraform(struct!.bouncePortForAbnormalPoeClient),
       isBlock: false,
@@ -5973,6 +6021,24 @@ export function siteSettingMarvisAutoOperationsToHclTerraform(struct?: SiteSetti
     },
     disable_port_when_rogue_dhcp_server_detected: {
       value: cdktf.booleanToHclTerraform(struct!.disablePortWhenRogueDhcpServerDetected),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    gateway_non_compliant: {
+      value: cdktf.booleanToHclTerraform(struct!.gatewayNonCompliant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    switch_misconfigured_port: {
+      value: cdktf.booleanToHclTerraform(struct!.switchMisconfiguredPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    switch_port_stuck: {
+      value: cdktf.booleanToHclTerraform(struct!.switchPortStuck),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6001,6 +6067,18 @@ export class SiteSettingMarvisAutoOperationsOutputReference extends cdktf.Comple
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._apInsufficientCapacity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apInsufficientCapacity = this._apInsufficientCapacity;
+    }
+    if (this._apLoop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apLoop = this._apLoop;
+    }
+    if (this._apNonCompliant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apNonCompliant = this._apNonCompliant;
+    }
     if (this._bouncePortForAbnormalPoeClient !== undefined) {
       hasAnyValues = true;
       internalValueResult.bouncePortForAbnormalPoeClient = this._bouncePortForAbnormalPoeClient;
@@ -6013,6 +6091,18 @@ export class SiteSettingMarvisAutoOperationsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.disablePortWhenRogueDhcpServerDetected = this._disablePortWhenRogueDhcpServerDetected;
     }
+    if (this._gatewayNonCompliant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gatewayNonCompliant = this._gatewayNonCompliant;
+    }
+    if (this._switchMisconfiguredPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.switchMisconfiguredPort = this._switchMisconfiguredPort;
+    }
+    if (this._switchPortStuck !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.switchPortStuck = this._switchPortStuck;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -6020,9 +6110,15 @@ export class SiteSettingMarvisAutoOperationsOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._apInsufficientCapacity = undefined;
+      this._apLoop = undefined;
+      this._apNonCompliant = undefined;
       this._bouncePortForAbnormalPoeClient = undefined;
       this._disablePortWhenDdosProtocolViolation = undefined;
       this._disablePortWhenRogueDhcpServerDetected = undefined;
+      this._gatewayNonCompliant = undefined;
+      this._switchMisconfiguredPort = undefined;
+      this._switchPortStuck = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -6031,10 +6127,64 @@ export class SiteSettingMarvisAutoOperationsOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._apInsufficientCapacity = value.apInsufficientCapacity;
+      this._apLoop = value.apLoop;
+      this._apNonCompliant = value.apNonCompliant;
       this._bouncePortForAbnormalPoeClient = value.bouncePortForAbnormalPoeClient;
       this._disablePortWhenDdosProtocolViolation = value.disablePortWhenDdosProtocolViolation;
       this._disablePortWhenRogueDhcpServerDetected = value.disablePortWhenRogueDhcpServerDetected;
+      this._gatewayNonCompliant = value.gatewayNonCompliant;
+      this._switchMisconfiguredPort = value.switchMisconfiguredPort;
+      this._switchPortStuck = value.switchPortStuck;
     }
+  }
+
+  // ap_insufficient_capacity - computed: true, optional: true, required: false
+  private _apInsufficientCapacity?: boolean | cdktf.IResolvable; 
+  public get apInsufficientCapacity() {
+    return this.getBooleanAttribute('ap_insufficient_capacity');
+  }
+  public set apInsufficientCapacity(value: boolean | cdktf.IResolvable) {
+    this._apInsufficientCapacity = value;
+  }
+  public resetApInsufficientCapacity() {
+    this._apInsufficientCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apInsufficientCapacityInput() {
+    return this._apInsufficientCapacity;
+  }
+
+  // ap_loop - computed: true, optional: true, required: false
+  private _apLoop?: boolean | cdktf.IResolvable; 
+  public get apLoop() {
+    return this.getBooleanAttribute('ap_loop');
+  }
+  public set apLoop(value: boolean | cdktf.IResolvable) {
+    this._apLoop = value;
+  }
+  public resetApLoop() {
+    this._apLoop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apLoopInput() {
+    return this._apLoop;
+  }
+
+  // ap_non_compliant - computed: true, optional: true, required: false
+  private _apNonCompliant?: boolean | cdktf.IResolvable; 
+  public get apNonCompliant() {
+    return this.getBooleanAttribute('ap_non_compliant');
+  }
+  public set apNonCompliant(value: boolean | cdktf.IResolvable) {
+    this._apNonCompliant = value;
+  }
+  public resetApNonCompliant() {
+    this._apNonCompliant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apNonCompliantInput() {
+    return this._apNonCompliant;
   }
 
   // bounce_port_for_abnormal_poe_client - computed: true, optional: true, required: false
@@ -6084,10 +6234,58 @@ export class SiteSettingMarvisAutoOperationsOutputReference extends cdktf.Comple
   public get disablePortWhenRogueDhcpServerDetectedInput() {
     return this._disablePortWhenRogueDhcpServerDetected;
   }
+
+  // gateway_non_compliant - computed: true, optional: true, required: false
+  private _gatewayNonCompliant?: boolean | cdktf.IResolvable; 
+  public get gatewayNonCompliant() {
+    return this.getBooleanAttribute('gateway_non_compliant');
+  }
+  public set gatewayNonCompliant(value: boolean | cdktf.IResolvable) {
+    this._gatewayNonCompliant = value;
+  }
+  public resetGatewayNonCompliant() {
+    this._gatewayNonCompliant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayNonCompliantInput() {
+    return this._gatewayNonCompliant;
+  }
+
+  // switch_misconfigured_port - computed: true, optional: true, required: false
+  private _switchMisconfiguredPort?: boolean | cdktf.IResolvable; 
+  public get switchMisconfiguredPort() {
+    return this.getBooleanAttribute('switch_misconfigured_port');
+  }
+  public set switchMisconfiguredPort(value: boolean | cdktf.IResolvable) {
+    this._switchMisconfiguredPort = value;
+  }
+  public resetSwitchMisconfiguredPort() {
+    this._switchMisconfiguredPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get switchMisconfiguredPortInput() {
+    return this._switchMisconfiguredPort;
+  }
+
+  // switch_port_stuck - computed: true, optional: true, required: false
+  private _switchPortStuck?: boolean | cdktf.IResolvable; 
+  public get switchPortStuck() {
+    return this.getBooleanAttribute('switch_port_stuck');
+  }
+  public set switchPortStuck(value: boolean | cdktf.IResolvable) {
+    this._switchPortStuck = value;
+  }
+  public resetSwitchPortStuck() {
+    this._switchPortStuck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get switchPortStuckInput() {
+    return this._switchPortStuck;
+  }
 }
 export interface SiteSettingMarvis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_operations SiteSetting#auto_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_operations SiteSetting#auto_operations}
   */
   readonly autoOperations?: SiteSettingMarvisAutoOperations;
 }
@@ -6183,31 +6381,31 @@ export interface SiteSettingOccupancy {
   /**
   * Indicate whether named BLE assets should be included in the zone occupancy calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#assets_enabled SiteSetting#assets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#assets_enabled SiteSetting#assets_enabled}
   */
   readonly assetsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether connected Wi-Fi clients should be included in the zone occupancy calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#clients_enabled SiteSetting#clients_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#clients_enabled SiteSetting#clients_enabled}
   */
   readonly clientsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_duration SiteSetting#min_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_duration SiteSetting#min_duration}
   */
   readonly minDuration?: number;
   /**
   * Indicate whether SDK clients should be included in the zone occupancy calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#sdkclients_enabled SiteSetting#sdkclients_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#sdkclients_enabled SiteSetting#sdkclients_enabled}
   */
   readonly sdkclientsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicate whether unconnected Wi-Fi clients should be included in the zone occupancy calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#unconnected_clients_enabled SiteSetting#unconnected_clients_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#unconnected_clients_enabled SiteSetting#unconnected_clients_enabled}
   */
   readonly unconnectedClientsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -6417,7 +6615,11 @@ export class SiteSettingOccupancyOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#url SiteSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disabled SiteSetting#disabled}
+  */
+  readonly disabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#url SiteSetting#url}
   */
   readonly url?: string;
 }
@@ -6428,6 +6630,7 @@ export function siteSettingProxyToTerraform(struct?: SiteSettingProxy | cdktf.IR
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disabled: cdktf.booleanToTerraform(struct!.disabled),
     url: cdktf.stringToTerraform(struct!.url),
   }
 }
@@ -6439,6 +6642,12 @@ export function siteSettingProxyToHclTerraform(struct?: SiteSettingProxy | cdktf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disabled: {
+      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     url: {
       value: cdktf.stringToHclTerraform(struct!.url),
       isBlock: false,
@@ -6469,6 +6678,10 @@ export class SiteSettingProxyOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disabled = this._disabled;
+    }
     if (this._url !== undefined) {
       hasAnyValues = true;
       internalValueResult.url = this._url;
@@ -6480,6 +6693,7 @@ export class SiteSettingProxyOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disabled = undefined;
       this._url = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -6489,8 +6703,25 @@ export class SiteSettingProxyOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disabled = value.disabled;
       this._url = value.url;
     }
+  }
+
+  // disabled - computed: true, optional: true, required: false
+  private _disabled?: boolean | cdktf.IResolvable; 
+  public get disabled() {
+    return this.getBooleanAttribute('disabled');
+  }
+  public set disabled(value: boolean | cdktf.IResolvable) {
+    this._disabled = value;
+  }
+  public resetDisabled() {
+    this._disabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disabledInput() {
+    return this._disabled;
   }
 
   // url - computed: false, optional: true, required: false
@@ -6513,55 +6744,55 @@ export interface SiteSettingRogue {
   /**
   * list of VLAN IDs on which rogue APs are ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#allowed_vlan_ids SiteSetting#allowed_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#allowed_vlan_ids SiteSetting#allowed_vlan_ids}
   */
   readonly allowedVlanIds?: number[];
   /**
   * Whether rogue detection is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether honeypot detection is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#honeypot_enabled SiteSetting#honeypot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#honeypot_enabled SiteSetting#honeypot_enabled}
   */
   readonly honeypotEnabled?: boolean | cdktf.IResolvable;
   /**
   * Minimum duration for a bssid to be considered neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_duration SiteSetting#min_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_duration SiteSetting#min_duration}
   */
   readonly minDuration?: number;
   /**
   * Minimum duration for a bssid to be considered rogue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_rogue_duration SiteSetting#min_rogue_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_rogue_duration SiteSetting#min_rogue_duration}
   */
   readonly minRogueDuration?: number;
   /**
   * Minimum RSSI for an AP to be considered rogue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_rogue_rssi SiteSetting#min_rogue_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_rogue_rssi SiteSetting#min_rogue_rssi}
   */
   readonly minRogueRssi?: number;
   /**
   * Minimum RSSI for an AP to be considered neighbor (ignoring APs that’s far away)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#min_rssi SiteSetting#min_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#min_rssi SiteSetting#min_rssi}
   */
   readonly minRssi?: number;
   /**
   * list of BSSIDs to whitelist. Ex: "cc-:8e-:6f-:d4-:bf-:16", "cc-8e-6f-d4-bf-16", "cc-73-*", "cc:82:*"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#whitelisted_bssids SiteSetting#whitelisted_bssids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#whitelisted_bssids SiteSetting#whitelisted_bssids}
   */
   readonly whitelistedBssids?: string[];
   /**
   * List of SSIDs to whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#whitelisted_ssids SiteSetting#whitelisted_ssids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#whitelisted_ssids SiteSetting#whitelisted_ssids}
   */
   readonly whitelistedSsids?: string[];
 }
@@ -6887,25 +7118,25 @@ export class SiteSettingRogueOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingRtsa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#app_waking SiteSetting#app_waking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#app_waking SiteSetting#app_waking}
   */
   readonly appWaking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_dead_reckoning SiteSetting#disable_dead_reckoning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_dead_reckoning SiteSetting#disable_dead_reckoning}
   */
   readonly disableDeadReckoning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_pressure_sensor SiteSetting#disable_pressure_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_pressure_sensor SiteSetting#disable_pressure_sensor}
   */
   readonly disablePressureSensor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Asset tracking related
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#track_asset SiteSetting#track_asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#track_asset SiteSetting#track_asset}
   */
   readonly trackAsset?: boolean | cdktf.IResolvable;
 }
@@ -7115,17 +7346,17 @@ export class SiteSettingRtsaOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingSimpleAlertArpFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#client_count SiteSetting#client_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#client_count SiteSetting#client_count}
   */
   readonly clientCount?: number;
   /**
   * failing within minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#duration SiteSetting#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#duration SiteSetting#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#incident_count SiteSetting#incident_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#incident_count SiteSetting#incident_count}
   */
   readonly incidentCount?: number;
 }
@@ -7277,17 +7508,17 @@ export class SiteSettingSimpleAlertArpFailureOutputReference extends cdktf.Compl
 }
 export interface SiteSettingSimpleAlertDhcpFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#client_count SiteSetting#client_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#client_count SiteSetting#client_count}
   */
   readonly clientCount?: number;
   /**
   * failing within minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#duration SiteSetting#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#duration SiteSetting#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#incident_count SiteSetting#incident_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#incident_count SiteSetting#incident_count}
   */
   readonly incidentCount?: number;
 }
@@ -7439,17 +7670,17 @@ export class SiteSettingSimpleAlertDhcpFailureOutputReference extends cdktf.Comp
 }
 export interface SiteSettingSimpleAlertDnsFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#client_count SiteSetting#client_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#client_count SiteSetting#client_count}
   */
   readonly clientCount?: number;
   /**
   * failing within minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#duration SiteSetting#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#duration SiteSetting#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#incident_count SiteSetting#incident_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#incident_count SiteSetting#incident_count}
   */
   readonly incidentCount?: number;
 }
@@ -7601,15 +7832,15 @@ export class SiteSettingSimpleAlertDnsFailureOutputReference extends cdktf.Compl
 }
 export interface SiteSettingSimpleAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#arp_failure SiteSetting#arp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#arp_failure SiteSetting#arp_failure}
   */
   readonly arpFailure?: SiteSettingSimpleAlertArpFailure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#dhcp_failure SiteSetting#dhcp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#dhcp_failure SiteSetting#dhcp_failure}
   */
   readonly dhcpFailure?: SiteSettingSimpleAlertDhcpFailure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#dns_failure SiteSetting#dns_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#dns_failure SiteSetting#dns_failure}
   */
   readonly dnsFailure?: SiteSettingSimpleAlertDnsFailure;
 }
@@ -7761,13 +7992,13 @@ export class SiteSettingSimpleAlertOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingSkyatp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to send IP-MAC mapping to SkyATP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#send_ip_mac_mapping SiteSetting#send_ip_mac_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#send_ip_mac_mapping SiteSetting#send_ip_mac_mapping}
   */
   readonly sendIpMacMapping?: boolean | cdktf.IResolvable;
 }
@@ -7892,25 +8123,25 @@ export interface SiteSettingSleThresholds {
   /**
   * Capacity, in %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#capacity SiteSetting#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#capacity SiteSetting#capacity}
   */
   readonly capacity?: number;
   /**
   * Coverage, in dBm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#coverage SiteSetting#coverage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#coverage SiteSetting#coverage}
   */
   readonly coverage?: number;
   /**
   * Throughput, in Mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#throughput SiteSetting#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#throughput SiteSetting#throughput}
   */
   readonly throughput?: number;
   /**
   * Time to connect, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#timetoconnect SiteSetting#timetoconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#timetoconnect SiteSetting#timetoconnect}
   */
   readonly timetoconnect?: number;
 }
@@ -8091,7 +8322,7 @@ export class SiteSettingSleThresholdsOutputReference extends cdktf.ComplexObject
 }
 export interface SiteSettingSrxApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8187,17 +8418,17 @@ export interface SiteSettingSsrAutoUpgrade {
   /**
   * upgrade channel to follow. enum: `alpha`, `beta`, `stable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#channel SiteSetting#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#channel SiteSetting#channel}
   */
   readonly channel?: string;
   /**
   * Property key is the SSR model (e.g. "SSR130").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_versions SiteSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8349,7 +8580,11 @@ export class SiteSettingSsrAutoUpgradeOutputReference extends cdktf.ComplexObjec
 }
 export interface SiteSettingSsrProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#url SiteSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disabled SiteSetting#disabled}
+  */
+  readonly disabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#url SiteSetting#url}
   */
   readonly url?: string;
 }
@@ -8360,6 +8595,7 @@ export function siteSettingSsrProxyToTerraform(struct?: SiteSettingSsrProxy | cd
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disabled: cdktf.booleanToTerraform(struct!.disabled),
     url: cdktf.stringToTerraform(struct!.url),
   }
 }
@@ -8371,6 +8607,12 @@ export function siteSettingSsrProxyToHclTerraform(struct?: SiteSettingSsrProxy |
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disabled: {
+      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     url: {
       value: cdktf.stringToHclTerraform(struct!.url),
       isBlock: false,
@@ -8401,6 +8643,10 @@ export class SiteSettingSsrProxyOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disabled = this._disabled;
+    }
     if (this._url !== undefined) {
       hasAnyValues = true;
       internalValueResult.url = this._url;
@@ -8412,6 +8658,7 @@ export class SiteSettingSsrProxyOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._disabled = undefined;
       this._url = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -8421,8 +8668,25 @@ export class SiteSettingSsrProxyOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._disabled = value.disabled;
       this._url = value.url;
     }
+  }
+
+  // disabled - computed: true, optional: true, required: false
+  private _disabled?: boolean | cdktf.IResolvable; 
+  public get disabled() {
+    return this.getBooleanAttribute('disabled');
+  }
+  public set disabled(value: boolean | cdktf.IResolvable) {
+    this._disabled = value;
+  }
+  public resetDisabled() {
+    this._disabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disabledInput() {
+    return this._disabled;
   }
 
   // url - computed: false, optional: true, required: false
@@ -8445,31 +8709,31 @@ export interface SiteSettingSsr {
   /**
   * auto_upgrade device first time it is onboarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#auto_upgrade SiteSetting#auto_upgrade}
   */
   readonly autoUpgrade?: SiteSettingSsrAutoUpgrade;
   /**
   * List of Conductor IP Addresses or Hosts to be used by the SSR Devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#conductor_hosts SiteSetting#conductor_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#conductor_hosts SiteSetting#conductor_hosts}
   */
   readonly conductorHosts?: string[];
   /**
   * Token to be used by the SSR Devices to connect to the Conductor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#conductor_token SiteSetting#conductor_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#conductor_token SiteSetting#conductor_token}
   */
   readonly conductorToken?: string;
   /**
   * Disable stats collection on SSR devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_stats SiteSetting#disable_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_stats SiteSetting#disable_stats}
   */
   readonly disableStats?: boolean | cdktf.IResolvable;
   /**
-  * Proxy Configuration to talk to Mist
+  * SSR proxy configuration to talk to Mist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#proxy SiteSetting#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#proxy SiteSetting#proxy}
   */
   readonly proxy?: SiteSettingSsrProxy;
 }
@@ -8681,37 +8945,37 @@ export interface SiteSettingSyntheticTestCustomProbes {
   /**
   * enum: `auto`, `high`, `low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#aggressiveness SiteSetting#aggressiveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#aggressiveness SiteSetting#aggressiveness}
   */
   readonly aggressiveness?: string;
   /**
   * If `type`==`icmp` or `type`==`tcp`, Host to be used for the custom probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#host SiteSetting#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#host SiteSetting#host}
   */
   readonly host?: string;
   /**
   * If `type`==`tcp`, Port to be used for the custom probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#port SiteSetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#port SiteSetting#port}
   */
   readonly port?: number;
   /**
   * In milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#threshold SiteSetting#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#threshold SiteSetting#threshold}
   */
   readonly threshold?: number;
   /**
   * enum: `curl`, `icmp`, `tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#type SiteSetting#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#type SiteSetting#type}
   */
   readonly type?: string;
   /**
   * If `type`==`curl`, URL to be used for the custom probe, can be url or IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#url SiteSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#url SiteSetting#url}
   */
   readonly url?: string;
 }
@@ -8972,13 +9236,13 @@ export interface SiteSettingSyntheticTestLanNetworks {
   /**
   * List of networks to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#networks SiteSetting#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#networks SiteSetting#networks}
   */
   readonly networks?: string[];
   /**
   * app name comes from `custom_probes` above or /const/synthetic_test_probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#probes SiteSetting#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#probes SiteSetting#probes}
   */
   readonly probes?: string[];
 }
@@ -9123,23 +9387,23 @@ export class SiteSettingSyntheticTestLanNetworksList extends cdktf.ComplexList {
 }
 export interface SiteSettingSyntheticTestVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_test_urls SiteSetting#custom_test_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_test_urls SiteSetting#custom_test_urls}
   */
   readonly customTestUrls?: string[];
   /**
   * For some vlans where we don't want this to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disabled SiteSetting#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disabled SiteSetting#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * app name comes from `custom_probes` above or /const/synthetic_test_probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#probes SiteSetting#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#probes SiteSetting#probes}
   */
   readonly probes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vlan_ids SiteSetting#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vlan_ids SiteSetting#vlan_ids}
   */
   readonly vlanIds?: string[];
 }
@@ -9342,13 +9606,13 @@ export class SiteSettingSyntheticTestVlansList extends cdktf.ComplexList {
 }
 export interface SiteSettingSyntheticTestWanSpeedtest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * `any` / HH:MM (24-hour format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#time_of_day SiteSetting#time_of_day}
   */
   readonly timeOfDay?: string;
 }
@@ -9473,31 +9737,31 @@ export interface SiteSettingSyntheticTest {
   /**
   * enum: `auto`, `high`, `low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#aggressiveness SiteSetting#aggressiveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#aggressiveness SiteSetting#aggressiveness}
   */
   readonly aggressiveness?: string;
   /**
   * Custom probes to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#custom_probes SiteSetting#custom_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#custom_probes SiteSetting#custom_probes}
   */
   readonly customProbes?: { [key: string]: SiteSettingSyntheticTestCustomProbes } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disabled SiteSetting#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disabled SiteSetting#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of networks to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#lan_networks SiteSetting#lan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#lan_networks SiteSetting#lan_networks}
   */
   readonly lanNetworks?: SiteSettingSyntheticTestLanNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#vlans SiteSetting#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#vlans SiteSetting#vlans}
   */
   readonly vlans?: SiteSettingSyntheticTestVlans[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#wan_speedtest SiteSetting#wan_speedtest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#wan_speedtest SiteSetting#wan_speedtest}
   */
   readonly wanSpeedtest?: SiteSettingSyntheticTestWanSpeedtest;
 }
@@ -9738,13 +10002,13 @@ export interface SiteSettingUplinkPortConfig {
   /**
   * Whether to do 802.1x against uplink switch. When enabled, AP cert will be used to do EAP-TLS and the Org's CA Cert has to be provisioned at the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#dot1x SiteSetting#dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#dot1x SiteSetting#dot1x}
   */
   readonly dot1X?: boolean | cdktf.IResolvable;
   /**
   * By default, WLANs are disabled when uplink is down. In some scenario, like SiteSurvey, one would want the AP to keep sending beacons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#keep_wlans_up_if_down SiteSetting#keep_wlans_up_if_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#keep_wlans_up_if_down SiteSetting#keep_wlans_up_if_down}
   */
   readonly keepWlansUpIfDown?: boolean | cdktf.IResolvable;
 }
@@ -9869,7 +10133,7 @@ export interface SiteSettingVna {
   /**
   * Enable Virtual Network Assistant (using SUB-VNA license). This applied to AP / Switch / Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9963,7 +10227,7 @@ export class SiteSettingVnaOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingVsInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#networks SiteSetting#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#networks SiteSetting#networks}
   */
   readonly networks?: string[];
 }
@@ -10077,7 +10341,7 @@ export class SiteSettingVsInstanceMap extends cdktf.ComplexMap {
 }
 export interface SiteSettingWanVna {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -10173,13 +10437,13 @@ export interface SiteSettingWidsRepeatedAuthFailures {
   /**
   * Window where a trigger will be detected and action to be taken (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#duration SiteSetting#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#duration SiteSetting#duration}
   */
   readonly duration?: number;
   /**
   * Count of events to trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#threshold SiteSetting#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#threshold SiteSetting#threshold}
   */
   readonly threshold?: number;
 }
@@ -10302,7 +10566,7 @@ export class SiteSettingWidsRepeatedAuthFailuresOutputReference extends cdktf.Co
 }
 export interface SiteSettingWids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#repeated_auth_failures SiteSetting#repeated_auth_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#repeated_auth_failures SiteSetting#repeated_auth_failures}
   */
   readonly repeatedAuthFailures?: SiteSettingWidsRepeatedAuthFailures;
 }
@@ -10396,81 +10660,81 @@ export class SiteSettingWidsOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingWifi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#cisco_enabled SiteSetting#cisco_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#cisco_enabled SiteSetting#cisco_enabled}
   */
   readonly ciscoEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable 11k
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_11k SiteSetting#disable_11k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_11k SiteSetting#disable_11k}
   */
   readonly disable11K?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#disable_radios_when_power_constrained SiteSetting#disable_radios_when_power_constrained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#disable_radios_when_power_constrained SiteSetting#disable_radios_when_power_constrained}
   */
   readonly disableRadiosWhenPowerConstrained?: boolean | cdktf.IResolvable;
   /**
   * When proxy_arp is enabled, check for arp spoofing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enable_arp_spoof_check SiteSetting#enable_arp_spoof_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enable_arp_spoof_check SiteSetting#enable_arp_spoof_check}
   */
   readonly enableArpSpoofCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enable_shared_radio_scanning SiteSetting#enable_shared_radio_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enable_shared_radio_scanning SiteSetting#enable_shared_radio_scanning}
   */
   readonly enableSharedRadioScanning?: boolean | cdktf.IResolvable;
   /**
   * Enable Wi-Fi feature (using SUB-MAN license)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to locate connected clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#locate_connected SiteSetting#locate_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#locate_connected SiteSetting#locate_connected}
   */
   readonly locateConnected?: boolean | cdktf.IResolvable;
   /**
   * Whether to locate unconnected clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#locate_unconnected SiteSetting#locate_unconnected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#locate_unconnected SiteSetting#locate_unconnected}
   */
   readonly locateUnconnected?: boolean | cdktf.IResolvable;
   /**
   * Whether to allow Mesh to use DFS channels. For DFS channels, Remote Mesh AP would have to do CAC when scanning for new Base AP, which is slow and will disrupt the connection. If roaming is desired, keep it disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mesh_allow_dfs SiteSetting#mesh_allow_dfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mesh_allow_dfs SiteSetting#mesh_allow_dfs}
   */
   readonly meshAllowDfs?: boolean | cdktf.IResolvable;
   /**
   * Used to enable/disable CRM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mesh_enable_crm SiteSetting#mesh_enable_crm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mesh_enable_crm SiteSetting#mesh_enable_crm}
   */
   readonly meshEnableCrm?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable Mesh feature for the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mesh_enabled SiteSetting#mesh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mesh_enabled SiteSetting#mesh_enabled}
   */
   readonly meshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional passphrase of mesh networking, default is generated randomly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mesh_psk SiteSetting#mesh_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mesh_psk SiteSetting#mesh_psk}
   */
   readonly meshPsk?: string;
   /**
   * Optional ssid of mesh networking, default is based on site_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#mesh_ssid SiteSetting#mesh_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#mesh_ssid SiteSetting#mesh_ssid}
   */
   readonly meshSsid?: string;
   /**
   * enum: `default`, `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#proxy_arp SiteSetting#proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#proxy_arp SiteSetting#proxy_arp}
   */
   readonly proxyArp?: string;
 }
@@ -10941,7 +11205,7 @@ export class SiteSettingWifiOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteSettingWiredVna {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -11037,19 +11301,19 @@ export interface SiteSettingZoneOccupancyAlert {
   /**
   * List of email addresses to send email notifications when the alert threshold is reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#email_notifiers SiteSetting#email_notifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#email_notifiers SiteSetting#email_notifiers}
   */
   readonly emailNotifiers?: string[];
   /**
   * Indicate whether zone occupancy alert is enabled for the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#enabled SiteSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#enabled SiteSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sending zone-occupancy-alert webhook message only if a zone stays non-compliant (i.e. actual occupancy > occupancy_limit) for a minimum duration specified in the threshold, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#threshold SiteSetting#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#threshold SiteSetting#threshold}
   */
   readonly threshold?: number;
 }
@@ -11201,7 +11465,7 @@ export class SiteSettingZoneOccupancyAlertOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting mist_site_setting}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting mist_site_setting}
 */
 export class SiteSetting extends cdktf.TerraformResource {
 
@@ -11217,7 +11481,7 @@ export class SiteSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteSetting to import
-  * @param importFromId The id of the existing SiteSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11229,7 +11493,7 @@ export class SiteSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/site_setting mist_site_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_setting mist_site_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11240,8 +11504,8 @@ export class SiteSetting extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_setting',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

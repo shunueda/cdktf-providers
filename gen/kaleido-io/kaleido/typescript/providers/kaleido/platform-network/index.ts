@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#config_json PlatformNetwork#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#config_json PlatformNetwork#config_json}
   */
   readonly configJson: string;
   /**
   * Credentials such as usernames and passwords, or API Keys, required to integrate with external systems are also stored and encrypted separately to the main configuration of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#cred_sets PlatformNetwork#cred_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#cred_sets PlatformNetwork#cred_sets}
   */
   readonly credSets?: { [key: string]: PlatformNetworkCredSets } | cdktf.IResolvable;
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#environment PlatformNetwork#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#environment PlatformNetwork#environment}
   */
   readonly environment: string;
   /**
   * Some services require binary files as part of their configuration, such as x509 certificates, or large JSON/YAML configuration files to be passed directly down to the service for verification. The files are individually encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#file_sets PlatformNetwork#file_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#file_sets PlatformNetwork#file_sets}
   */
   readonly fileSets?: { [key: string]: PlatformNetworkFileSets } | cdktf.IResolvable;
   /**
   * Set to `true` when you plan to delete a protected network. You must apply the value before you can successfully `terraform destroy` the protected network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#force_delete PlatformNetwork#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#force_delete PlatformNetwork#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#init_files PlatformNetwork#init_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#init_files PlatformNetwork#init_files}
   */
   readonly initFiles?: string;
   /**
   * Options are `automated`(default) or `manual`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#init_mode PlatformNetwork#init_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#init_mode PlatformNetwork#init_mode}
   */
   readonly initMode?: string;
   /**
   * Network Display Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#name PlatformNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#name PlatformNetwork#name}
   */
   readonly name: string;
   /**
   * Network Type. Options are `Besu` and `IPFS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#type PlatformNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#type PlatformNetwork#type}
   */
   readonly type: string;
 }
 export interface PlatformNetworkCredSetsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#password PlatformNetwork#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#password PlatformNetwork#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#username PlatformNetwork#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#username PlatformNetwork#username}
   */
   readonly username: string;
 }
@@ -181,7 +181,7 @@ export class PlatformNetworkCredSetsBasicAuthOutputReference extends cdktf.Compl
 }
 export interface PlatformNetworkCredSetsKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#value PlatformNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#value PlatformNetwork#value}
   */
   readonly value: string;
 }
@@ -272,15 +272,15 @@ export class PlatformNetworkCredSetsKeyOutputReference extends cdktf.ComplexObje
 }
 export interface PlatformNetworkCredSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#basic_auth PlatformNetwork#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#basic_auth PlatformNetwork#basic_auth}
   */
   readonly basicAuth?: PlatformNetworkCredSetsBasicAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#key PlatformNetwork#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#key PlatformNetwork#key}
   */
   readonly key?: PlatformNetworkCredSetsKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#type PlatformNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#type PlatformNetwork#type}
   */
   readonly type: string;
 }
@@ -449,15 +449,15 @@ export class PlatformNetworkCredSetsMap extends cdktf.ComplexMap {
 }
 export interface PlatformNetworkFileSetsFilesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#base64 PlatformNetwork#base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#base64 PlatformNetwork#base64}
   */
   readonly base64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#hex PlatformNetwork#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#hex PlatformNetwork#hex}
   */
   readonly hex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#text PlatformNetwork#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#text PlatformNetwork#text}
   */
   readonly text?: string;
 }
@@ -609,11 +609,11 @@ export class PlatformNetworkFileSetsFilesDataOutputReference extends cdktf.Compl
 }
 export interface PlatformNetworkFileSetsFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#data PlatformNetwork#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#data PlatformNetwork#data}
   */
   readonly data: PlatformNetworkFileSetsFilesData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#type PlatformNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#type PlatformNetwork#type}
   */
   readonly type: string;
 }
@@ -750,7 +750,7 @@ export class PlatformNetworkFileSetsFilesMap extends cdktf.ComplexMap {
 }
 export interface PlatformNetworkFileSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#files PlatformNetwork#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#files PlatformNetwork#files}
   */
   readonly files: { [key: string]: PlatformNetworkFileSetsFiles } | cdktf.IResolvable;
 }
@@ -861,7 +861,7 @@ export class PlatformNetworkFileSetsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network kaleido_platform_network}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network kaleido_platform_network}
 */
 export class PlatformNetwork extends cdktf.TerraformResource {
 
@@ -877,7 +877,7 @@ export class PlatformNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformNetwork to import
-  * @param importFromId The id of the existing PlatformNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -889,7 +889,7 @@ export class PlatformNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/resources/platform_network kaleido_platform_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/resources/platform_network kaleido_platform_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -900,8 +900,8 @@ export class PlatformNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_network',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

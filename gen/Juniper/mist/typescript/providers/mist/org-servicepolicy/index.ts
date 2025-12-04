@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface OrgServicepolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * For SRX Only
+  * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#aamw OrgServicepolicy#aamw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#aamw OrgServicepolicy#aamw}
   */
   readonly aamw?: OrgServicepolicyAamw;
   /**
   * enum: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#action OrgServicepolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#action OrgServicepolicy#action}
   */
   readonly action?: string;
   /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#antivirus OrgServicepolicy#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#antivirus OrgServicepolicy#antivirus}
   */
   readonly antivirus?: OrgServicepolicyAntivirus;
   /**
-  * For SRX Only
+  * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#appqoe OrgServicepolicy#appqoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#appqoe OrgServicepolicy#appqoe}
   */
   readonly appqoe?: OrgServicepolicyAppqoe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#ewf OrgServicepolicy#ewf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#ewf OrgServicepolicy#ewf}
   */
   readonly ewf?: OrgServicepolicyEwf[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#idp OrgServicepolicy#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#idp OrgServicepolicy#idp}
   */
   readonly idp?: OrgServicepolicyIdp;
   /**
   * access within the same VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#local_routing OrgServicepolicy#local_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#local_routing OrgServicepolicy#local_routing}
   */
   readonly localRouting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#name OrgServicepolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#name OrgServicepolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#org_id OrgServicepolicy#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#org_id OrgServicepolicy#org_id}
   */
   readonly orgId: string;
   /**
   * By default, we derive all paths available and use them, optionally, you can customize by using `path_preference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#path_preference OrgServicepolicy#path_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#path_preference OrgServicepolicy#path_preference}
   */
   readonly pathPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#services OrgServicepolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#services OrgServicepolicy#services}
   */
   readonly services?: string[];
   /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#ssl_proxy OrgServicepolicy#ssl_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#ssl_proxy OrgServicepolicy#ssl_proxy}
   */
   readonly sslProxy?: OrgServicepolicySslProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#tenants OrgServicepolicy#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#tenants OrgServicepolicy#tenants}
   */
   readonly tenants?: string[];
 }
@@ -78,17 +78,17 @@ export interface OrgServicepolicyAamw {
   /**
   * org-level Advanced Advance Anti Malware Profile (SkyAtp) Profile can be used, this takes precedence over 'profile'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#aamwprofile_id OrgServicepolicy#aamwprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#aamwprofile_id OrgServicepolicy#aamwprofile_id}
   */
   readonly aamwprofileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `docsonly`, `executables`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
   */
   readonly profile?: string;
 }
@@ -242,17 +242,17 @@ export interface OrgServicepolicyAntivirus {
   /**
   * org-level AV Profile can be used, this takes precedence over 'profile'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#avprofile_id OrgServicepolicy#avprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#avprofile_id OrgServicepolicy#avprofile_id}
   */
   readonly avprofileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Default / noftp / httponly / or keys from av_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
   */
   readonly profile?: string;
 }
@@ -404,7 +404,7 @@ export class OrgServicepolicyAntivirusOutputReference extends cdktf.ComplexObjec
 }
 export interface OrgServicepolicyAppqoe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -498,21 +498,21 @@ export class OrgServicepolicyAppqoeOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgServicepolicyEwf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#alert_only OrgServicepolicy#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#alert_only OrgServicepolicy#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#block_message OrgServicepolicy#block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#block_message OrgServicepolicy#block_message}
   */
   readonly blockMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `critical`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
   */
   readonly profile?: string;
 }
@@ -715,23 +715,23 @@ export class OrgServicepolicyEwfList extends cdktf.ComplexList {
 }
 export interface OrgServicepolicyIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#alert_only OrgServicepolicy#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#alert_only OrgServicepolicy#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * org_level IDP Profile can be used, this takes precedence over `profile`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#idpprofile_id OrgServicepolicy#idpprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#idpprofile_id OrgServicepolicy#idpprofile_id}
   */
   readonly idpprofileId?: string;
   /**
   * enum: `Custom`, `strict` (default), `standard` or keys from idp_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#profile OrgServicepolicy#profile}
   */
   readonly profile?: string;
 }
@@ -914,11 +914,11 @@ export interface OrgServicepolicySslProxy {
   /**
   * enum: `medium`, `strong`, `weak`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#ciphers_category OrgServicepolicy#ciphers_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#ciphers_category OrgServicepolicy#ciphers_category}
   */
   readonly ciphersCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#enabled OrgServicepolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1041,7 +1041,7 @@ export class OrgServicepolicySslProxyOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy mist_org_servicepolicy}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy mist_org_servicepolicy}
 */
 export class OrgServicepolicy extends cdktf.TerraformResource {
 
@@ -1057,7 +1057,7 @@ export class OrgServicepolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgServicepolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgServicepolicy to import
-  * @param importFromId The id of the existing OrgServicepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgServicepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgServicepolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1069,7 +1069,7 @@ export class OrgServicepolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_servicepolicy mist_org_servicepolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_servicepolicy mist_org_servicepolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1080,8 +1080,8 @@ export class OrgServicepolicy extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_servicepolicy',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler
+// https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface MetricsAutoscalerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#app_name MetricsAutoscaler#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#app_name MetricsAutoscaler#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#id MetricsAutoscaler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#id MetricsAutoscaler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#max_instances MetricsAutoscaler#max_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#max_instances MetricsAutoscaler#max_instances}
   */
   readonly maxInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#metrics_instance_id MetricsAutoscaler#metrics_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#metrics_instance_id MetricsAutoscaler#metrics_instance_id}
   */
   readonly metricsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#min_instances MetricsAutoscaler#min_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#min_instances MetricsAutoscaler#min_instances}
   */
   readonly minInstances?: number;
   /**
   * threshold_cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#threshold_cpu MetricsAutoscaler#threshold_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#threshold_cpu MetricsAutoscaler#threshold_cpu}
   */
   readonly thresholdCpu: MetricsAutoscalerThresholdCpu;
   /**
   * threshold_http_latency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#threshold_http_latency MetricsAutoscaler#threshold_http_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#threshold_http_latency MetricsAutoscaler#threshold_http_latency}
   */
   readonly thresholdHttpLatency: MetricsAutoscalerThresholdHttpLatency;
   /**
   * threshold_http_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#threshold_http_rate MetricsAutoscaler#threshold_http_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#threshold_http_rate MetricsAutoscaler#threshold_http_rate}
   */
   readonly thresholdHttpRate: MetricsAutoscalerThresholdHttpRate;
   /**
   * threshold_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#threshold_memory MetricsAutoscaler#threshold_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#threshold_memory MetricsAutoscaler#threshold_memory}
   */
   readonly thresholdMemory: MetricsAutoscalerThresholdMemory;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#timeouts MetricsAutoscaler#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#timeouts MetricsAutoscaler#timeouts}
   */
   readonly timeouts?: MetricsAutoscalerTimeouts;
 }
 export interface MetricsAutoscalerThresholdCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
   */
   readonly min?: number;
 }
@@ -217,15 +217,15 @@ export class MetricsAutoscalerThresholdCpuOutputReference extends cdktf.ComplexO
 }
 export interface MetricsAutoscalerThresholdHttpLatency {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
   */
   readonly min?: number;
 }
@@ -364,15 +364,15 @@ export class MetricsAutoscalerThresholdHttpLatencyOutputReference extends cdktf.
 }
 export interface MetricsAutoscalerThresholdHttpRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
   */
   readonly min?: number;
 }
@@ -511,15 +511,15 @@ export class MetricsAutoscalerThresholdHttpRateOutputReference extends cdktf.Com
 }
 export interface MetricsAutoscalerThresholdMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#enabled MetricsAutoscaler#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#max MetricsAutoscaler#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#min MetricsAutoscaler#min}
   */
   readonly min?: number;
 }
@@ -658,15 +658,15 @@ export class MetricsAutoscalerThresholdMemoryOutputReference extends cdktf.Compl
 }
 export interface MetricsAutoscalerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#create MetricsAutoscaler#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#create MetricsAutoscaler#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#delete MetricsAutoscaler#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#delete MetricsAutoscaler#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#update MetricsAutoscaler#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#update MetricsAutoscaler#update}
   */
   readonly update?: string;
 }
@@ -818,7 +818,7 @@ export class MetricsAutoscalerTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler hsdp_metrics_autoscaler}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler hsdp_metrics_autoscaler}
 */
 export class MetricsAutoscaler extends cdktf.TerraformResource {
 
@@ -834,7 +834,7 @@ export class MetricsAutoscaler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricsAutoscaler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricsAutoscaler to import
-  * @param importFromId The id of the existing MetricsAutoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricsAutoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricsAutoscaler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -846,7 +846,7 @@ export class MetricsAutoscaler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/metrics_autoscaler hsdp_metrics_autoscaler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/1.0.0/docs/resources/metrics_autoscaler hsdp_metrics_autoscaler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -857,8 +857,8 @@ export class MetricsAutoscaler extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_metrics_autoscaler',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

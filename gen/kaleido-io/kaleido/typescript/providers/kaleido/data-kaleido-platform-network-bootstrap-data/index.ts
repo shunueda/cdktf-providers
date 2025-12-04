@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data
+// https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataKaleidoPlatformNetworkBootstrapDataConfig extends cdktf.Ter
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#environment DataKaleidoPlatformNetworkBootstrapData#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#environment DataKaleidoPlatformNetworkBootstrapData#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#network DataKaleidoPlatformNetworkBootstrapData#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#network DataKaleidoPlatformNetworkBootstrapData#network}
   */
   readonly network: string;
 }
 export interface DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFilesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#text DataKaleidoPlatformNetworkBootstrapData#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#text DataKaleidoPlatformNetworkBootstrapData#text}
   */
   readonly text?: string;
 }
@@ -114,11 +114,11 @@ export class DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFilesDataOutpu
 }
 export interface DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#data DataKaleidoPlatformNetworkBootstrapData#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#data DataKaleidoPlatformNetworkBootstrapData#data}
   */
   readonly data?: DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFilesData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#type DataKaleidoPlatformNetworkBootstrapData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#type DataKaleidoPlatformNetworkBootstrapData#type}
   */
   readonly type?: string;
 }
@@ -251,11 +251,11 @@ export class DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFilesMap exten
 }
 export interface DataKaleidoPlatformNetworkBootstrapDataBootstrapFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#files DataKaleidoPlatformNetworkBootstrapData#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#files DataKaleidoPlatformNetworkBootstrapData#files}
   */
   readonly files: { [key: string]: DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesFiles } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#name DataKaleidoPlatformNetworkBootstrapData#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#name DataKaleidoPlatformNetworkBootstrapData#name}
   */
   readonly name: string;
 }
@@ -362,7 +362,7 @@ export class DataKaleidoPlatformNetworkBootstrapDataBootstrapFilesOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data kaleido_platform_network_bootstrap_data}
+* Represents a {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data kaleido_platform_network_bootstrap_data}
 */
 export class DataKaleidoPlatformNetworkBootstrapData extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataKaleidoPlatformNetworkBootstrapData extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataKaleidoPlatformNetworkBootstrapData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKaleidoPlatformNetworkBootstrapData to import
-  * @param importFromId The id of the existing DataKaleidoPlatformNetworkBootstrapData that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKaleidoPlatformNetworkBootstrapData that should be imported. Refer to the {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKaleidoPlatformNetworkBootstrapData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataKaleidoPlatformNetworkBootstrapData extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.1.2/docs/data-sources/platform_network_bootstrap_data kaleido_platform_network_bootstrap_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/kaleido-io/kaleido/1.2.0/docs/data-sources/platform_network_bootstrap_data kaleido_platform_network_bootstrap_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataKaleidoPlatformNetworkBootstrapData extends cdktf.TerraformData
       terraformResourceType: 'kaleido_platform_network_bootstrap_data',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2',
-        providerVersionConstraint: '1.1.2'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

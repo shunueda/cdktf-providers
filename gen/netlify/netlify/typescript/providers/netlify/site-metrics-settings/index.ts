@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings
+// https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SiteMetricsSettingsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable real user metrics. Warning: This might incur a cost on certain plans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings#real_user_metrics SiteMetricsSettings#real_user_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings#real_user_metrics SiteMetricsSettings#real_user_metrics}
   */
   readonly realUserMetrics?: boolean | cdktf.IResolvable;
   /**
   * Enable site analytics. Warning: This might incur a cost on certain plans. Note: You must wait 10 minutes before disabling after enabling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings#site_analytics SiteMetricsSettings#site_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings#site_analytics SiteMetricsSettings#site_analytics}
   */
   readonly siteAnalytics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings#site_id SiteMetricsSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings#site_id SiteMetricsSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings netlify_site_metrics_settings}
+* Represents a {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings netlify_site_metrics_settings}
 */
 export class SiteMetricsSettings extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class SiteMetricsSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteMetricsSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteMetricsSettings to import
-  * @param importFromId The id of the existing SiteMetricsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteMetricsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteMetricsSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class SiteMetricsSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.3.2/docs/resources/site_metrics_settings netlify_site_metrics_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netlify/netlify/0.4.0/docs/resources/site_metrics_settings netlify_site_metrics_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,8 @@ export class SiteMetricsSettings extends cdktf.TerraformResource {
       terraformResourceType: 'netlify_site_metrics_settings',
       terraformGeneratorMetadata: {
         providerName: 'netlify',
-        providerVersion: '0.3.2'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

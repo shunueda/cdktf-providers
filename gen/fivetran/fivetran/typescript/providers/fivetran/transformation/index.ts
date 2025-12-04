@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TransformationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The field indicating whether the transformation will be set into the paused state. By default, the value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#paused Transformation#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#paused Transformation#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Transformation type. The following values are supported: DBT_CORE, QUICKSTART.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#type Transformation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#type Transformation#type}
   */
   readonly type?: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#schedule Transformation#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#schedule Transformation#schedule}
   */
   readonly schedule?: TransformationSchedule;
   /**
   * transformation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#transformation_config Transformation#transformation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#transformation_config Transformation#transformation_config}
   */
   readonly transformationConfig?: TransformationTransformationConfig;
 }
@@ -36,43 +36,43 @@ export interface TransformationSchedule {
   /**
   * The list of the connection identifiers to be used for the integrated schedule. Not expected for QUICKSTART transformations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#connection_ids Transformation#connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#connection_ids Transformation#connection_ids}
   */
   readonly connectionIds?: string[];
   /**
   * Cron schedule: list of CRON strings. Used for for CRON schedule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#cron Transformation#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#cron Transformation#cron}
   */
   readonly cron?: string[];
   /**
   * The set of the days of the week the transformation should be launched on. The following values are supported: MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY. Used for for INTEGRATED schedule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#days_of_week Transformation#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#days_of_week Transformation#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * The time interval in minutes between subsequent transformation runs. Used for for INTERVAL schedule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#interval Transformation#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#interval Transformation#interval}
   */
   readonly interval?: number;
   /**
   * The type of the schedule to run the Transformation on. The following values are supported: INTEGRATED, TIME_OF_DAY, INTERVAL, CRON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#schedule_type Transformation#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#schedule_type Transformation#schedule_type}
   */
   readonly scheduleType?: string;
   /**
   * The boolean flag that enables the Smart Syncing schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#smart_syncing Transformation#smart_syncing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#smart_syncing Transformation#smart_syncing}
   */
   readonly smartSyncing?: boolean | cdktf.IResolvable;
   /**
   * The time of the day the transformation should be launched at. Supported values are: "00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00". Used for for TIME_OF_DAY schedule type 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#time_of_day Transformation#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#time_of_day Transformation#time_of_day}
   */
   readonly timeOfDay?: string;
 }
@@ -342,13 +342,13 @@ export interface TransformationTransformationConfigSteps {
   /**
   * The dbt command in the transformation step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#command Transformation#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#command Transformation#command}
   */
   readonly command?: string;
   /**
   * The step name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#name Transformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#name Transformation#name}
   */
   readonly name?: string;
 }
@@ -495,41 +495,41 @@ export interface TransformationTransformationConfig {
   /**
   * The list of the connection identifiers to be used for the integrated schedule. Also used to identify package_name automatically if package_name was not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#connection_ids Transformation#connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#connection_ids Transformation#connection_ids}
   */
   readonly connectionIds?: string[];
   /**
   * The list of excluded output model names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#excluded_models Transformation#excluded_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#excluded_models Transformation#excluded_models}
   */
   readonly excludedModels?: string[];
   /**
   * The transformation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#name Transformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#name Transformation#name}
   */
   readonly name?: string;
   /**
   * The Quickstart transformation package name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#package_name Transformation#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#package_name Transformation#package_name}
   */
   readonly packageName?: string;
   /**
   * The unique identifier for the dbt Core project within the Fivetran system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#project_id Transformation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#project_id Transformation#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#steps Transformation#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#steps Transformation#steps}
   */
   readonly steps?: TransformationTransformationConfigSteps[] | cdktf.IResolvable;
   /**
   * The boolean flag indicating that a newer version is available for the transformation package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#upgrade_available Transformation#upgrade_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#upgrade_available Transformation#upgrade_available}
   */
   readonly upgradeAvailable?: boolean | cdktf.IResolvable;
 }
@@ -797,7 +797,7 @@ export class TransformationTransformationConfigOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation fivetran_transformation}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation fivetran_transformation}
 */
 export class Transformation extends cdktf.TerraformResource {
 
@@ -813,7 +813,7 @@ export class Transformation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Transformation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Transformation to import
-  * @param importFromId The id of the existing Transformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Transformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Transformation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -825,7 +825,7 @@ export class Transformation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation fivetran_transformation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/transformation fivetran_transformation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -836,8 +836,8 @@ export class Transformation extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_transformation',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.16',
-        providerVersionConstraint: '1.9.16'
+        providerVersion: '1.9.17',
+        providerVersionConstraint: '1.9.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

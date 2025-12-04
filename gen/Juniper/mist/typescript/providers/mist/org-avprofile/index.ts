@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile
+// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface OrgAvprofileConfig extends cdktf.TerraformMetaArguments {
   /**
   * enum: `block`, `log-and-permit`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#fallback_action OrgAvprofile#fallback_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#fallback_action OrgAvprofile#fallback_action}
   */
   readonly fallbackAction?: string;
   /**
   * In KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#max_filesize OrgAvprofile#max_filesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#max_filesize OrgAvprofile#max_filesize}
   */
   readonly maxFilesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#mime_whitelist OrgAvprofile#mime_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#mime_whitelist OrgAvprofile#mime_whitelist}
   */
   readonly mimeWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#name OrgAvprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#name OrgAvprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#org_id OrgAvprofile#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#org_id OrgAvprofile#org_id}
   */
   readonly orgId: string;
   /**
   * List of protocols to monitor. enum: `ftp`, `http`, `imap`, `pop3`, `smtp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#protocols OrgAvprofile#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#protocols OrgAvprofile#protocols}
   */
   readonly protocols: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#url_whitelist OrgAvprofile#url_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#url_whitelist OrgAvprofile#url_whitelist}
   */
   readonly urlWhitelist?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile mist_org_avprofile}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile mist_org_avprofile}
 */
 export class OrgAvprofile extends cdktf.TerraformResource {
 
@@ -60,7 +60,7 @@ export class OrgAvprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgAvprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgAvprofile to import
-  * @param importFromId The id of the existing OrgAvprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgAvprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgAvprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class OrgAvprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.0/docs/resources/org_avprofile mist_org_avprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_avprofile mist_org_avprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,8 +83,8 @@ export class OrgAvprofile extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_avprofile',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0',
-        providerVersionConstraint: '0.6.0'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCplnImagesConfig extends cdktf.TerraformMetaArguments {
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#query DataCplnImages#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#query DataCplnImages#query}
   */
   readonly query?: DataCplnImagesQuery[] | cdktf.IResolvable;
 }
@@ -392,31 +392,31 @@ export interface DataCplnImagesQuerySpecTerms {
   /**
   * Type of query operation. Available values: `=`, `>`, `>=`, `<`, `<=`, `!=`, `exists`, `!exists`. Default: `=`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#op DataCplnImages#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#op DataCplnImages#op}
   */
   readonly op?: string;
   /**
   * Property to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#property DataCplnImages#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#property DataCplnImages#property}
   */
   readonly property?: string;
   /**
   * Relation to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#rel DataCplnImages#rel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#rel DataCplnImages#rel}
   */
   readonly rel?: string;
   /**
   * Tag key to use for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#tag DataCplnImages#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#tag DataCplnImages#tag}
   */
   readonly tag?: string;
   /**
   * Testing value for query evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#value DataCplnImages#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#value DataCplnImages#value}
   */
   readonly value?: string;
 }
@@ -650,13 +650,13 @@ export interface DataCplnImagesQuerySpec {
   /**
   * Type of match. Available values: `all`, `any`, `none`. Default: `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#match DataCplnImages#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#match DataCplnImages#match}
   */
   readonly match?: string;
   /**
   * terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#terms DataCplnImages#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#terms DataCplnImages#terms}
   */
   readonly terms?: DataCplnImagesQuerySpecTerms[] | cdktf.IResolvable;
 }
@@ -803,13 +803,13 @@ export interface DataCplnImagesQuery {
   /**
   * Type of fetch. Specify either: `links` or `items`. Default: `items`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#fetch DataCplnImages#fetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#fetch DataCplnImages#fetch}
   */
   readonly fetch?: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#spec DataCplnImages#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#spec DataCplnImages#spec}
   */
   readonly spec?: DataCplnImagesQuerySpec[] | cdktf.IResolvable;
 }
@@ -954,7 +954,7 @@ export class DataCplnImagesQueryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images cpln_images}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images cpln_images}
 */
 export class DataCplnImages extends cdktf.TerraformDataSource {
 
@@ -970,7 +970,7 @@ export class DataCplnImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCplnImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCplnImages to import
-  * @param importFromId The id of the existing DataCplnImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCplnImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCplnImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -982,7 +982,7 @@ export class DataCplnImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.17/docs/data-sources/images cpln_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/data-sources/images cpln_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -993,8 +993,8 @@ export class DataCplnImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'cpln_images',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.17',
-        providerVersionConstraint: '1.2.17'
+        providerVersion: '1.2.19',
+        providerVersionConstraint: '1.2.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
